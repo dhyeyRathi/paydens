@@ -1,0 +1,191 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 44px 100px;
+    gap: 10px;
+    bottom: 0;
+
+    width: 100%;
+
+    background: linear-gradient(180deg, #FFFFFF 33.75%, #C3FFD2 100%);
+    border-radius: 40px 40px 0px 0px;
+    flex: none;
+    overflow: hidden;
+
+}
+
+
+
+.footerCont {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 100%;
+    height: 100%;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.copyrightText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 100%;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.linkGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+
+    width: 100%;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+.linksBox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19px;
+
+    margin: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.contactBox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+
+    margin: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.Image {
+    height: 55px;
+    width: auto;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.contactDetailBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.contactDetails {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+    flex: none;
+
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.copyrightTextBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.textMain {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+@media (max-width: 1100px) {
+    .footer {
+        padding: 24px 20px;
+    }
+
+    .linkGrid {
+        gap: 16px;
+
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        position: static;
+        padding: 32px 24px;
+    }
+
+    .linkGrid {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .textMain {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        font-size: x-small;
+    }
+}

@@ -1,0 +1,20 @@
+.greenGradient {
+    position: absolute;
+    background: #37B43D;
+    opacity: 0.5;
+    filter: blur(100px);
+}
+
+.blueGradient {
+    position: absolute;
+    background: #4B5B98;
+    opacity: 0.5;
+    filter: blur(100px);
+}
+
+.cyanGradient {
+    position: absolute;
+    background: #00939E;
+    opacity: 0.5;
+    filter: blur(100px);
+}

@@ -1,0 +1,100 @@
+{
+    "nhsServices": {
+        "title": "NHS SERVICES",
+        "categories": [
+            {
+                "title": "NHS Pharmacy First",
+                "conditions": [
+                    "Acute Sore Throat",
+                    "Acute Sinusitis",
+                    "Acute Otitis Media"
+                ],
+                "viewAll": true
+            }
+        ]
+    },
+    "healthAndWellness": {
+        "title": "HEALTH & WELLNESS",
+        "categories": [
+            {
+                "title": "Skin & Scalp Conditions",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ]
+            },
+            {
+                "title": "Vaccinations",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ]
+            },
+            {
+                "title": "Bladder & Intimate Health",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ],
+                "viewAll": true
+            },
+            {
+                "title": "Pain, Sleep & General Wellness",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ]
+            }
+        ]
+    },
+    "privateServices": {
+        "title": "PRIVATE SERVICES",
+        "categories": [
+            {
+                "title": "Acne",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ]
+            },
+            {
+                "title": "Eczema & Dermatitis",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ]
+            },
+            {
+                "title": "Rosacea",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ],
+                "viewAll": true
+            },
+            {
+                "title": "Pain, Sleep & General Wellness",
+                "conditions": [
+                    "Colic",
+                    "Constipation",
+                    "Diarrhoea",
+                    "Skin & Scalp Conditions"
+                ]
+            }
+        ]
+    }
+}

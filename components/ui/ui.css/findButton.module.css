@@ -1,0 +1,83 @@
+.button {
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+    cursor: pointer;
+
+    margin: 0 auto;
+    border: 1px solid #37B43D;
+    border-radius: 8px;
+    flex: none;
+    font-family: var(--font-quicksand);
+    font-weight: 600;
+
+
+    flex-grow: 0;
+
+}
+
+.pharmacyCard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: fixed;
+    z-index: 5;
+    background: linear-gradient(180deg, #C3FFD2 0%, #FFFFFF 100%) !important;
+    border-radius: 16px;
+    right: 1%;
+    top: 11%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.pharmacyCardCont {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 28px;
+    gap: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    cursor: pointer;
+
+}
+
+.pharmacyCardCont2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 14px;
+    gap: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+
+.hr {
+    border: none
+}
+
+@media (max-width: 768px) {
+    .button {
+        display: none;
+    }
+}
