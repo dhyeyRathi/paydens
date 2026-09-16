@@ -4,12 +4,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 16px 24px;
     gap: 10px;
     font-family: var(--font-quicksand);
     color: #fff;
     border-radius: 12px;
     font-weight: 500;
+
 }
 
 .squareButton {
@@ -22,6 +23,23 @@
     border-radius: 8px;
 }
 
+.arrowButton {
+    display: flex;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    height: 50px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowButton:hover {
+    background: var(--color-button-hover);
+    transition: all;
+    transition-duration: 300ms;
+}
+
 @media (max-width: 1200px) {
     .squareButton {
         border-radius: 2px;
@@ -31,5 +49,9 @@
     .button {
         padding: 8px 16px;
         border-radius: 4px;
+    }
+
+    .arrowButton {
+        height: 30px;
     }
 }

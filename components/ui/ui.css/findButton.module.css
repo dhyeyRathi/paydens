@@ -56,6 +56,52 @@
 
 }
 
+.pharmacyCardVar2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: white;
+    border-radius: 16px;
+    right: 1%;
+    top: 11%;
+    flex: none;
+    flex-grow: 0;
+
+}
+
+.pharmacyCardVar2Cont2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px 20px 20px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+
+
+.pharmacyCardContVar2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 34px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    cursor: pointer;
+
+}
+
 .pharmacyCardCont2 {
 
     display: flex;
@@ -80,4 +126,18 @@
     .button {
         display: none;
     }
+
+    .pharmacyCardVar2Cont2 {
+
+        padding: 0px 10px 10px 10px;
+    }
+
+
+
+    .pharmacyCardContVar2 {
+        padding: 15px 17px;
+    }
+
+
+
 }

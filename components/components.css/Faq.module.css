@@ -1,0 +1,169 @@
+.questionCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    gap: 10px;
+}
+
+.question {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    background-color: rgba(51, 180, 61, 0.08);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.questionActive {
+    background-color: var(--color-primary-light) !important;
+}
+
+.question svg {
+    height: 50px;
+    width: 50px;
+    align-self: start;
+    animation: spinCrossInverse 0.2s ease-in-out forwards;
+}
+
+@keyframes spinCross {
+    from {
+        rotate: 0deg;
+        opacity: 0;
+    }
+
+    to {
+        rotate: 90deg;
+        opacity: 100;
+    }
+}
+
+@keyframes spinCrossInverse {
+
+    0% {
+        rotate: 0deg;
+        opacity: 0;
+    }
+
+    /* 
+    50% {
+        rotate: 90deg;
+        opacity: 50;
+    } */
+
+    to {
+        rotate: 90deg;
+        opacity: 100;
+    }
+}
+
+.questionActive svg {
+    animation: spinCross 0.2s ease-in-out;
+}
+
+.question button {
+    justify-self: end !important;
+    padding: 30px;
+    display: flex;
+    rotate: 0deg;
+}
+
+
+
+.question div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.question h1 {
+    width: 120px;
+    min-height: 120px;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: auto 15px;
+    display: flex;
+}
+
+
+.question p {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 20px;
+    display: flex;
+    align-items: start;
+    justify-items: start;
+    font-weight: 300;
+    transition: max-height 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+        opacity 0.3s ease,
+        padding 0.3s ease;
+    color: var(--color-text-ph);
+}
+
+.questionActive p {
+    max-height: 500px;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+
+.question h2 {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+}
+
+
+@media (max-width: 768px) {
+    .question h1 {
+        font-size: 18px;
+        padding: auto 2px;
+        flex: 1;
+
+    }
+
+    .question button {
+        justify-self: end !important;
+        padding: 10px;
+        padding-top: 30px;
+        display: flex;
+        rotate: 0deg;
+    }
+
+
+    .question svg {
+        height: 30px;
+        width: 30px;
+        align-self: start;
+        animation: spinCrossInverse 0.2s ease-in-out forwards;
+    }
+
+    .question div {
+        display: flex;
+        flex-direction: column;
+        flex: 4;
+    }
+
+
+    .question p {
+        font-size: 14px;
+        padding-bottom: 20px;
+
+    }
+
+    .question h2 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        align-items: center;
+
+    }
+
+
+}

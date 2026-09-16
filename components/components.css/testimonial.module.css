@@ -1,0 +1,61 @@
+.testimonialSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratingText {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratingText svg {
+    height: 18px;
+    width: auto;
+    padding-bottom: 2px;
+}
+
+.rating p {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.rating em {
+    font-weight: 600;
+}
+
+.rating div h3 {
+    font-size: 24px;
+    font-weight: 600
+}
+
+@media (max-width: 768px) {
+    .rating div h3 {
+        font-size: 12px;
+        font-weight: 600
+    }
+
+    .rating p {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .googleImage {
+        height: 20px;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 1440px) {}

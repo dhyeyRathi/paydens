@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './components.css/Footer.module.css'
-import TextLogo from "@/assets/images/logo/text-logo.png"
+import TextLogo from "@/public/assets/images/logo/text-logo.png"
 import Image from 'next/image'
 import WhiteGradient from './ui/WhiteGradient'
 

@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
 import styles from './ui.css/ServicesDropdown.module.css'
-import services from '@/assets/data/services.json'
+import services from "@/public/assets/data/services.json"
+import Link from 'next/link'
 
 interface ServiceCategory {
     title: string;
@@ -44,7 +45,8 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave }: ServicesDropdownProps)
                                                     {cond}
                                                 </div>
                                             ))}
-                                            {condition?.viewAll && <h1 className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></h1>}
+                                            {condition?.viewAll &&
+                                                <Link href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
                                         </div>
                                     ))}
 

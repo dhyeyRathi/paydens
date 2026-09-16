@@ -1,0 +1,99 @@
+.GITsection {
+    width: 100%;
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textCardCont {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.textCard {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(55, 180, 61, 0.44) 0%, rgba(255, 255, 255, 0.44) 100%), rgba(55, 180, 61, 0.32);
+    padding: 120px 48px 48px 48px;
+    gap: 40px;
+    border-radius: 24px;
+    overflow: hidden;
+    min-width: 500px;
+    position: relative;
+}
+
+.textCard h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.textCard h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.textCard div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textCard div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.textCard p {
+    font-size: 20px;
+    color: var(--color-text-secondary);
+    font-weight: 300;
+}
+
+.form {
+    justify-self: normal;
+    width: 50%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input {
+    border: 1px solid rgba(95, 117, 118, 0.42);
+    font: rgba(95, 117, 118, 0.42);
+    padding: 12px 15px;
+    font-family: var(--font-quicksand);
+    font-size: large;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.form textarea {
+    resize: none;
+    border: 1px solid rgba(95, 117, 118, 0.42);
+    font: rgba(95, 117, 118, 0.42);
+    padding: 15px 15px;
+    font-family: var(--font-quicksand);
+    font-size: large;
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .textCard {
+        min-width: 350px;
+    }
+
+    .textCardCont {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1440px) {}

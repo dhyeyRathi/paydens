@@ -1,0 +1,37 @@
+.Text {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 768px) {
+    .Text {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Text br {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1440px) {
+    .Text svg {
+        display: none;
+    }
+}

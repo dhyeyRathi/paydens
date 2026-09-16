@@ -1,15 +1,15 @@
 import React from 'react'
 import styles from './homepage.css/hero.module.css'
 import Image from 'next/image'
-import heroBan from '@/assets/images/homepage/herobg.png'
+import heroBan from '@/public/assets/images/homepage/herobg.png'
 import ColorGradient, { BlueGradient, CyanGradient, GreenGradient } from '../ui/ColorGradient'
 import { Button } from '../ui/Button'
-import lungs from "@/assets/images/homepage/icons/lungs.png";
-import waist from "@/assets/images/homepage/icons/waist.png";
-import acne from "@/assets/images/homepage/icons/acne.png";
-import diabetes from "@/assets/images/homepage/icons/diabetes.png";
-import nhs from "@/assets/images/ui/nhs.png"
-import gphc from "@/assets/images/ui/gphc.png"
+import lungs from "@/public/assets/images/homepage/icons/lungs.png";
+import waist from "@/public/assets/images/homepage/icons/waist.png";
+import acne from "@/public/assets/images/homepage/icons/acne.png";
+import diabetes from "@/public/assets/images/homepage/icons/diabetes.png";
+import nhs from "@/public/assets/images/ui/nhs.png"
+import gphc from "@/public/assets/images/ui/gphc.png"
 
 const Hero = () => {
     const cardItems = [
@@ -44,7 +44,7 @@ const Hero = () => {
                     <div className={`${styles.textCont}`}>
                         <h1 className='text-3xl sm:text-5xl lg:text-7xl font-bold'><em className='text-link font-bold'>Healthcare</em> at your fingertips.</h1>
                         <p className='text-lg'>From common ailments to daily medications, our pharmacists provide professional guidance and prescriptions delivered safely to you.</p>
-                        <Button className='w-[60%] h-12 md:w-[40%] md:h-auto paydens-shadow'>Book Appointment</Button>
+                        <Button className=' paydens-shadow'>Book Appointment</Button>
                     </div>
                     <div className={`${styles.cardsCont}`}>
                         {

@@ -1,0 +1,222 @@
+.bannerCont {
+    width: 100%;
+    max-height: screen;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 35px;
+}
+
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imageCont {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.images {
+    aspect-ratio: initial;
+    height: 30px;
+    width: auto;
+
+}
+
+.textCont {
+    display: flex;
+    gap: 20px;
+    padding: 50px 40px;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+/* .cyanGrad {
+    transform: rotate(-78deg);
+    width: 25rem;
+    height: 800px;
+    right: 40%;
+    top: 40%;
+
+} */
+
+
+.greenGrad {
+    /* filter: blur(10px) !important; */
+    background-color: var(--color-primary-soft) !important;
+    width: 1000px;
+    height: 1000px;
+    right: 70%;
+    bottom: 20%;
+    transform: rotate(283deg);
+    z-index: -5 !important;
+}
+
+.greenGrad2 {
+    /* transform: rotate(-78deg);    */
+    filter: blur(130px) !important;
+    width: 800px;
+    height: 200px;
+    right: 25%;
+    top: 40%;
+    background-color: var(--color-primary-light) !important;
+    z-index: -5 !important;
+}
+
+.blueGrad {
+    filter: blur(200px) !important;
+    width: 600px;
+    height: 1000px;
+    bottom: -30%;
+    right: -10%;
+    z-index: -5 !important;
+}
+
+.textCont h1 {
+    font-size: 36px;
+}
+
+.textCont h1 em {
+    font-weight: 600;
+}
+
+.phone {
+    position: absolute;
+    transform: scale(1);
+    opacity: 1;
+    right: 0;
+    top: -60%;
+    z-index: 10;
+    object-fit: cover;
+    max-width: 37.5rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 1440px) {
+
+    .textCont h1 {
+        font-size: 24px;
+    }
+
+    .textCont {
+        max-width: 100%;
+    }
+
+    .greenGrad {
+        filter: blur(50px) !important;
+        background-color: var(--color-primary-soft) !important;
+        width: 400px;
+        height: 400px;
+        right: 50%;
+        bottom: 20%;
+        transform: rotate(283deg);
+        z-index: -5 !important;
+    }
+
+    .greenGrad2 {
+        /* transform: rotate(-78deg);    */
+        filter: blur(50px) !important;
+        width: 400px;
+        height: 400px;
+        right: -55%;
+        top: -30%;
+        background-color: var(--color-primary-light) !important;
+        z-index: -5 !important;
+    }
+
+    .blueGrad {
+        filter: blur(60px) !important;
+        width: 800px;
+        height: 150px;
+        bottom: -30%;
+        right: -10%;
+        z-index: -5 !important;
+    }
+
+    .phone {
+        opacity: 0.5;
+        z-index: -10;
+        top: -50%;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannerCont {
+    }
+
+    .imageCont h2 {
+        font-size: 14px;
+    }
+
+    .imageCont {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+
+    .textCont {
+        padding: 20px 16px;
+        justify-content: center;
+    }
+
+
+    .textCont h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .greenGrad {
+        filter: blur(10px) !important;
+        background-color: var(--color-primary-soft) !important;
+        width: 200px;
+        height: 200px;
+        right: 50%;
+        bottom: 20%;
+        transform: rotate(283deg);
+        z-index: -5 !important;
+    }
+
+    .greenGrad2 {
+        /* transform: rotate(-78deg);    */
+        filter: blur(70px) !important;
+        width: 300px;
+        height: 200px;
+        right: -5%;
+        top: -30%;
+        background-color: var(--color-primary-light) !important;
+        z-index: -5 !important;
+    }
+
+    .blueGrad {
+        filter: blur(60px) !important;
+        width: 700px;
+        height: 100px;
+        bottom: -30%;
+        right: -10%;
+        z-index: -5 !important;
+    }
+
+    .phone {
+        transform: scale(0.7);
+        opacity: 0.3;
+        top: -120%;
+        right: -30%;
+    }
+}

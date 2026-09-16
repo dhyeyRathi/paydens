@@ -1,0 +1,82 @@
+.Hero {
+    min-height: screen;
+    position: relative;
+}
+
+.Cont {
+    border-radius: 32px;
+    display: flex;
+    width: 100%;
+    padding: 60px 100px;
+    background-color: rgba(256, 256, 256, 0.3);
+    gap: 80px;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 40px;
+
+}
+
+.Icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Icon p {
+    font-family: var(--font-quicksand);
+    font-weight: 300;
+}
+
+.Text ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: large;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+@media (max-width: 1440px) {
+    .Cont {
+        padding: 20px 12px;
+        gap: 24px;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Text ul {
+        font-size: small;
+        gap: 4px;
+    }
+
+    .Hero {
+        min-height: screen;
+        position: relative;
+
+    }
+
+    .Text {
+        gap: 16px;
+        align-items: center;
+    }
+
+    .Icon {
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .Icon {
+        display: none;
+    }
+}

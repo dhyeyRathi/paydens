@@ -1,0 +1,67 @@
+.HeroCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
+    position: relative;
+}
+
+.blue {
+    position: absolute;
+    right: 4%;
+    top: 0%;
+}
+
+.green {
+    position: absolute;
+    top: 0%;
+    left: 12%;
+}
+
+.orange {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+}
+
+.purple {
+    position: absolute;
+    left: 8%;
+    bottom: 0%;
+}
+
+.violet {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+}
+
+.red {
+    position: absolute;
+    right: 18%;
+    top: 15%;
+}
+
+@media (max-width: 1440px) {
+    .red {
+        display: none;
+    }
+
+    .green {
+        display: none;
+    }
+
+    .violet {
+        top: 0%;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+
+    .orange {
+        right: 0%;
+    }
+}

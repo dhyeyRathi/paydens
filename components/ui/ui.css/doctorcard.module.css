@@ -1,0 +1,36 @@
+.Image {
+    max-height: 500px;
+    width: auto;
+}
+
+.ImageCenter {
+    max-height: 550px !important;
+    width: auto;
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .Image {
+        max-height: 400px;
+        width: auto;
+    }
+
+    .ImageCenter {
+        max-height: 440px !important;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .Image {
+        max-height: 300px;
+        width: auto;
+    }
+
+    .ImageCenter {
+        max-height: 330px !important;
+        width: auto;
+    }
+}

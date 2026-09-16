@@ -10,6 +10,24 @@
     outline: none;
 }
 
+.inputBarVar2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 2px 12px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    flex-grow: 0;
+    outline: none;
+}
+
+.inputContVar2 {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 2px;
+}
+
 .gradientBorder {
     border: 1px solid transparent;
     border-radius: 8px;
@@ -23,6 +41,11 @@
 
 @media (max-width: 768px) {
     .inputBar {
+        padding: 6px 1px 6px 8px;
+        font-size: x-small;
+    }
+
+    .inputBarVar2 {
         padding: 6px 1px 6px 8px;
         font-size: x-small;
     }
