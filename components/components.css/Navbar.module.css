@@ -26,6 +26,21 @@
 
 }
 
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 80px;
+    gap: 32px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+
+}
+
 .logoSearchCont {
     display: flex;
     flex-direction: row;
@@ -36,8 +51,9 @@
     margin: 0 auto;
 }
 
-
-
+.mobileContainer {
+    display: none;
+}
 
 .LogoText {
     height: 71px;
@@ -59,6 +75,15 @@
         gap: 16px;
     }
 
+    .container2 {
+        padding: 12px 24px;
+        gap: 16px;
+    }
+
+    .mobileContainer {
+        display: none;
+    }
+
     .navItemsCont {
         font-size: 10px;
         width: 80%;
@@ -75,10 +100,70 @@
     .container {
         padding: 8px 16px;
         gap: 16px;
+
     }
 
+    .mobileContainer {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+
+    }
+
+    .mobileContainer>div {
+        max-height: 0;
+        transition: max-height 0.4s cubic-bezier(0.2, 1, 0.2, 1),
+            opacity 0.3s ease,
+            padding 0.3s ease;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+    .mobileContainerActive>div {
+        max-height: 1000px !important;
+        opacity: 1;
+        overflow: hidden;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mobileContainer .Input {
+        display: flex;
+    }
+
+    .mobileContainer .navItemsCont {
+        display: flex;
+        padding: 20px 30px;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: auto;
+        font-size: 16px;
+
+    }
+
+    .Input {
+        display: none;
+
+    }
+
+    .container2 {
+        padding: 0;
+        gap: 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+
+
+
     .LogoText {
-        height: 40px;
+        height: 60px;
         width: auto;
     }
 

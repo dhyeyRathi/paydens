@@ -3,7 +3,12 @@ import React, { useState } from 'react'
 import styles from './ui.css/findButton.module.css'
 import { useRouter } from 'next/navigation'
 
-const FindPharmacyButton = () => {
+interface findPharmacyProps {
+    className?: string
+    card?: boolean
+}
+
+const FindPharmacyButton = ({ className, card = false }: findPharmacyProps) => {
 
     const router = useRouter();
     const [drop, setDrop] = useState<boolean>(false);
@@ -21,7 +26,7 @@ const FindPharmacyButton = () => {
 
     return (
         <>
-            <button className={`paydence-shadow ${styles.button} relative text-primary font-[600] `} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
+            <button className={`paydence-shadow ${styles.button} relative text-primary font-[600] ${className} `} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_2016_2062)">
                         <path d="M10 0C6.48574 0 3.55469 2.83086 3.55469 6.44531C3.55469 7.82039 3.96789 9.04656 4.7609 10.1955L9.50676 17.601C9.73699 17.961 10.2635 17.9603 10.4932 17.601L15.2597 10.1704C16.0356 9.07344 16.4453 7.78543 16.4453 6.44531C16.4453 2.89137 13.5539 0 10 0ZM10 9.375C8.38465 9.375 7.07031 8.06066 7.07031 6.44531C7.07031 4.82996 8.38465 3.51562 10 3.51562C11.6154 3.51562 12.9297 4.82996 12.9297 6.44531C12.9297 8.06066 11.6154 9.375 10 9.375Z" fill="#37B43D" />
@@ -38,7 +43,7 @@ const FindPharmacyButton = () => {
                 {drop && <div className='absolute h-30 w-50 z-2 inset-0' onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}></div>}
 
             </button>
-            {drop && <FindPharmacyCard onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)} />}
+            {drop && card && <FindPharmacyCard onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)} />}
         </>
     )
 }

@@ -13,9 +13,9 @@ const InputBar = ({
 }: inputProps) => {
     return (
         <>
-            <div className={`${styles.gradientBorder} w-full`}>
-                <div className='w-full h-6 md:h-12 bg-white rounded-[8px] flex '>
-                    <input className={`${styles.inputBar} ${className} text-text font-[500] font-quicksand w-full bg-white`}
+            <div className={`${styles.gradientBorder} ${className} w-full`}>
+                <div className='w-full h-10 md:h-12 bg-white rounded-[8px] flex '>
+                    <input className={`${styles.inputBar}  text-text font-[500] font-quicksand w-full bg-white`}
                         id='search' placeholder={placeholder} />
                     {children}
                 </div>

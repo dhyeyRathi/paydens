@@ -16,15 +16,16 @@ interface ServiceSection {
 interface ServicesDropdownProps {
     onMouseEnter?: () => void;
     onMouseLeave?: () => void;
+    className?: string;
 }
 
 
 
-const ServicesDropdown = ({ onMouseEnter, onMouseLeave }: ServicesDropdownProps) => {
+const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className }: ServicesDropdownProps) => {
     const serviceSections = Object.values(services) as ServiceSection[];
 
     return (
-        <div className={`${styles.dropdownContainer} paydens-shadow`} onMouseEnter={onMouseEnter}
+        <div className={`${styles.dropdownContainer} ${className} paydens-shadow`} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-8 lg:gap-11 justify-between`}>
                 {
