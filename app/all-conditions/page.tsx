@@ -9,7 +9,14 @@ import { ColorGradientBg } from '@/components/ui/ColorGradient'
 const page = () => {
     return (
         <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-8 lg:gap-24 w-full'>
-            <PageNameDisp PageName={["Home", "All Conditions"]} />
+            <PageNameDisp PageName={[{
+                label: "Home",
+
+            },
+            {
+                label: "All Conditions",
+                href: "/all-conditions"
+            }]} />
 
             <ColorGradientBg />
             <ConditionsHero />

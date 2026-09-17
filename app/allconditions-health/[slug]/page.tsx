@@ -12,7 +12,20 @@ const page = () => {
     const params = useParams<{ slug: string }>();
     return (
         <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-8 lg:gap-16 w-full '>
-            <PageNameDisp PageName={["Home", "All Conditions", "Sore Throat"]} />
+            <PageNameDisp PageName={[
+                {
+                    label: "Home",
+                    href: "/"
+                },
+                {
+                    label: "All Conditions",
+                    href: "/allconditions-health"
+                },
+                {
+                    label: "Sore Throat",
+
+                }
+            ]} />
             <ColorGradientBg />
             <SlugHero />
             <Banner />
