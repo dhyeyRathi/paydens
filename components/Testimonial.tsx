@@ -110,7 +110,7 @@ const Testimonial = () => {
                 <Image src={google} alt='google ratings logo' className={`${styles.googleImage}`} />
 
             </div>
-            <div className={`h-fit w-full flex gap-10 flex-nowrap overflow-x-auto bg-transparent z-[-10] pt-12 pb-15 xl:pb-20 px-[0vw] md:px-[5vw] xl:pl-[30vw] xl:pr-[40vw]`}
+            <div className={`h-fit w-[2000px] flex gap-10 flex-nowrap overflow-x-auto bg-transparent z-[-10] ${activeIndex !== 0 && 'xl:!-ml-0'} xl:ml-40 pt-12 pb-15 xl:pb-20 px-[0vw] md:px-[5vw] xl:pr-[40vw]`}
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
                 {testimonial.map((customer, index: number) => {
                     return (<TestimonialCard key={index} id={`${index}`} className={`transition-all duration-300 ease-in-out opacity-50 
