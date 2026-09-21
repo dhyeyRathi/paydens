@@ -158,13 +158,18 @@
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1440px) {
     .footer {
-        padding: 24px 20px;
+        padding: 16px 20px;
     }
 
     .linkGrid {
-        gap: 16px;
+        gap: 14px;
+
+    }
+
+    .contactBox {
+        max-width: 250px;
 
     }
 
