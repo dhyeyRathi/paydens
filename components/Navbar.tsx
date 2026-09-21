@@ -20,7 +20,7 @@ const Navbar = () => {
     }
 
     return (<>
-        <header className={`${styles.header} rounded-xl md:rounded-3xl paydens-shadow`}>
+        <header className={`${styles.header} rounded-xl md:rounded-3xl paydens-shadow !overflow-hidden`}>
             <div className={`${styles.container} bg-primary/10  w-full rounded-t-xl md:rounded-t-3xl`}>
                 <div className={`${styles.logoSearchCont} flex-1`}>
                     <a href='/'> <Image className={styles.LogoText} src={TextLogo} alt="logo" /></a>
