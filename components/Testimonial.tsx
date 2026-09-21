@@ -17,8 +17,14 @@ const Testimonial = () => {
     const router = useRouter();
     const next = activeIndex + 1;
     const previous = activeIndex - 1;
+    const isFirstRender = useRef(true);
 
     useEffect(() => {
+        if (isFirstRender.current) {
+            isFirstRender.current = false;
+            return;
+        }
+
         const section = document.getElementById(`${activeIndex}`);
         if (section) {
             section.scrollIntoView({
@@ -26,7 +32,6 @@ const Testimonial = () => {
                 block: "nearest",
                 inline: "center",
             });
-
         }
     }, [activeIndex]);
 
