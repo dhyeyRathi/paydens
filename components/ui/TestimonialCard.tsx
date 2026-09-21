@@ -3,11 +3,12 @@ import React from 'react'
 interface cardProp {
     className?: string;
     children?: React.ReactNode
+    id?: string
 }
 
-const TestimonialCard = ({ className, children }: cardProp) => {
+const TestimonialCard = ({ className, children, id }: cardProp) => {
     return (
-        <div className='bg-white max-h-120  max-w-100 sm:max-h-140 sm:w-170 sm:max-w-170 shrink-0 flex flex-col rounded-xl py-4 sm:py-8 px-8 sm:px-14 gap-6 sm:gap-8 paydens-shadow  overflow-visible'>
+        <section id={id} className={`bg-white max-h-120  max-w-100 sm:max-h-140 sm:w-170 sm:max-w-170 shrink-0 flex flex-col rounded-xl py-4 sm:py-8 px-8 sm:px-14 gap-6 sm:gap-8 paydens-shadow  overflow-visible ${className}`}>
             <h1 className='font-quicksand sm:text-2xl'>
                 I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!
             </h1>
@@ -72,7 +73,7 @@ const TestimonialCard = ({ className, children }: cardProp) => {
                 {children}
                 <h1 className='font-[600] text-2xl'>Marina Lewis</h1>
             </div>
-        </div>
+        </section>
     )
 }
 

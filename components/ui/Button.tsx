@@ -12,6 +12,8 @@ interface ButtonProps {
 interface arrButtonProps {
     className?: string
     onClick?: () => void
+    onClickLeft?: () => void
+    onClickRight: () => void
 }
 
 const Button = ({ children, className, type, onClick }: ButtonProps) => {
@@ -47,10 +49,10 @@ const ButtonVar2 = ({
     );
 };
 
-const ArrowButton = ({ className }: arrButtonProps) => {
+const ArrowButton = ({ className, onClickLeft, onClickRight }: arrButtonProps) => {
     return (
         <div className={`${className} flex gap-4 items-center`}>
-            <button className={`${styles.arrowButton} group`}>
+            <button className={`${styles.arrowButton} group`} onClick={onClickLeft}>
                 <svg
                     width="10"
                     height="15"
@@ -65,7 +67,7 @@ const ArrowButton = ({ className }: arrButtonProps) => {
                     />
                 </svg>
             </button>
-            <button className={`${styles.arrowButton} group`}>
+            <button className={`${styles.arrowButton} group`} onClick={onClickRight}>
                 <svg
                     width="10"
                     height="15"
