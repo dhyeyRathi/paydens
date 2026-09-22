@@ -13,7 +13,7 @@ interface arrButtonProps {
     className?: string
     onClick?: () => void
     onClickLeft?: () => void
-    onClickRight: () => void
+    onClickRight?: () => void
 }
 
 const Button = ({ children, className, type, onClick }: ButtonProps) => {
