@@ -13,7 +13,7 @@ import Link from 'next/link'
 const Features = () => {
     return (
         <section className={`${styles.sectionCont}`}>
-            <h1 className='w-full text-center px-4 pt-10 md:pt-20 text-2xl md:text-3xl lg:text-5xl font-bold'>
+            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-5xl font-bold'>
                 <em className='text-button-hover'>Expert</em>, Friendly <em className='text-button-hover'>Care</em> on Your High Street and Online
             </h1>
             <div className={`${styles.cardCont}`}>

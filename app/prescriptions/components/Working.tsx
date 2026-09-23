@@ -4,7 +4,7 @@ const Working = () => {
 
     return (
         <section className='flex flex-col gap-20'>
-            <h1 className='w-full text-center px-4 pt-10 md:pt-10 text-2xl md:text-3xl lg:text-5xl font-bold'>
+            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-5xl font-bold'>
                 How does Our Online <em className='text-button-hover'>NHS Prescriptions</em> <br />Service Work
             </h1>
             <div className='flex w-full justify-center md:justify-evenly items-center gap-10 md:gap-0 flex-col md:flex-row'>

@@ -30,7 +30,7 @@ const ProducstsSection = ({ condition }: sectionProps) => {
     ]
     return (
         <section className='flex flex-col gap-10 items-center'>
-            <h1 className='w-full text-center  px-4 pt-10 md:pt-20 text-xl md:text-3xl lg:text-5xl font-bold'>
+            <h1 className='w-full text-center  px-4 text-xl md:text-3xl lg:text-5xl font-bold'>
                 <em className='text-button-hover'>{condition} </em>Relief Products
             </h1>
             <div className='flex  gap-10 flex-wrap lg:flex-nowrap items-center justify-center'>

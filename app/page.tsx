@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="!overflow-visible px-4 md:px-8 lg:px-15 pt-15 xl:pt-0 flex flex-col gap-8 lg:gap-12">
+    <div className="!overflow-visible px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px]">
       <Hero />
       <Features />
       <Treatments />

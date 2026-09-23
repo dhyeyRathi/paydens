@@ -8,7 +8,7 @@ const Hero = () => {
 
 
             <div className={`${styles.Text}`}>
-                <h1 className='w-full text-center px-4 lg:max-w-[50%] md:text-start md:pt-10 text-3xl leading-snug lg:text-6xl font-bold'>
+                <h1 className='w-full text-center px-4 lg:max-w-[50%] md:text-start text-3xl leading-snug lg:text-6xl font-bold'>
                     Your <em className='text-button-hover'>Trusted <br /></em> Healthcare Partner<br /> Since 1969.
                 </h1>
                 <svg className="absolute bottom-5 scale-140 left-90 hidden lg:block" width="153" height="153" viewBox="0 0 153 153" fill="none" xmlns="http://www.w3.org/2000/svg">

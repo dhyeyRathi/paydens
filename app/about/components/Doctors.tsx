@@ -35,8 +35,8 @@ const Doctors = () => {
 
 
     return (
-        <section className='flex flex-col gap-5 lg:gap-10 pt-10 w-full relative'>
-            <h1 className='w-full text-center px-4 pt-4 md:pt-10 text-3xl lg:text-5xl font-bold'>
+        <section className='flex flex-col gap-5 lg:gap-10 w-full relative'>
+            <h1 className='w-full text-center px-4 text-3xl lg:text-5xl font-bold'>
                 Your health, In <em className='text-button-hover'>Expert </em> Hands
             </h1>
             <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-200 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>

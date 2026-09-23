@@ -198,7 +198,7 @@
         flex: 0 1 auto;
         flex-direction: row;
         width: 100%;
-        max-width: 790px;
+        max-width: 670px;
         justify-content: center;
         gap: 40px;
         align-self: center;
@@ -208,7 +208,7 @@
         flex: 0 1 auto;
         flex-direction: row;
         width: 100%;
-        max-width: 790px;
+        max-width: 670px;
         justify-content: center;
         gap: 40px;
         align-self: center;
@@ -237,6 +237,12 @@
     .weightLoss {
         flex: 1 1 auto;
     }
+
+    .NHSpres,
+    .fluJab {
+        max-width: none;
+    }
+
 }
 
 
@@ -272,6 +278,11 @@
         justify-content: center;
         width: 100%;
 
+    }
+
+    .NHSpres,
+    .fluJab {
+        max-width: none;
     }
 
     .weightLoss {

@@ -38,7 +38,7 @@ const FaqSection = () => {
     };
     return (
         <section className='flex flex-col gap-8 items-center'>
-            <h1 className='w-full text-center px-4 pt-10 md:pt-10 text-2xl md:text-3xl lg:text-5xl font-bold'>
+            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-5xl font-bold'>
                 Got Questions? We've Got<em className='text-button-hover'> Answers</em>
             </h1>
             <div className={`${styles.questionCont}`}>

@@ -3,7 +3,7 @@ import styles from "./components.css/Letsconnect.module.css"
 
 const LetsConnectSection = () => {
     return (
-        <section className={`${styles.connectSection}`}>
+        <section className={`${styles.connectSection} !pb-20`}>
             <div className={`${styles.textCont}`}>
                 <h1>Let's Get In Touch</h1>
                 <p>Stay connected with us online to keep up with our latest services, health tips, and offers. Follow us on social media and never miss an update from your local pharmacy.</p>

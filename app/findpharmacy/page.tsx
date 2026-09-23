@@ -42,7 +42,7 @@ const page = () => {
 
     const pagination = [1, 2, 3, 4, "...", 10, "Next"]
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-8 md:gap-12 lg:gap-16 w-full'>
+        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
             <PageNameDisp PageName={[{
                 label: "Home",
 
@@ -51,7 +51,7 @@ const page = () => {
                 label: "Find Pharmacy",
                 href: "/findpharmacy"
             }]} />
-            <h1 className='w-full text-center px-4 pt-10 md:pt-10 text-2xl md:text-3xl lg:text-5xl font-bold'>
+            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-5xl font-bold'>
                 Find Your Nearest <em className='text-button-hover'> Paydens </em> Pharmacy
             </h1>
             <InputBarVar2 placeholder='Enter postcode or place name' divClassName='!self-center !h-10 lg:!h-auto !w-[70%] lg:!w-[40%]'><Button className='!rounded-md text-sm ld:text-base'>Find</Button></InputBarVar2>

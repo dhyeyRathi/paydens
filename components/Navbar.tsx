@@ -16,21 +16,16 @@ const Navbar = () => {
     const [hamburger, setHamburger] = useState<boolean>(false);
 
     function handleRouting(e: string) {
+        setHamburger(false)
         router.push(e);
     }
 
     return (<>
         <header className={`${styles.header} rounded-xl md:rounded-3xl paydens-shadow`}>
-            <div className={`${styles.container} bg-primary/10  w-full rounded-xl md:rounded-t-3xl`}>
+            <div className={`${styles.container} bg-primary/10  w-full rounded-3xl md:rounded-t-3xl`}>
                 <div className={`${styles.logoSearchCont} flex-1`}>
-                    <a href='/'> <Image className={styles.LogoText} src={TextLogo} alt="logo" /></a>
-                    <button onClick={() => setHamburger(!hamburger)}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                            className="lucide lucide-menu h-8 w-8 min-[769px]:hidden">
-                            <path d="M4 5h16" />
-                            <path d="M4 12h16" />
-                            <path d="M4 19h16" />
-                        </svg></button>
+                    <a href='/' onClick={() => setHamburger(false)}> <Image className={styles.LogoText} src={TextLogo} alt="logo" /></a>
+
                     <InputBar placeholder='What condition are you looking for?' className={`${styles.Input}`} >
                         <SquareButton className={`${styles.searchButton} group`} size="clamp(24px, 5vw, 48px)">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" className='scale-60 md:scale-100' xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +36,16 @@ const Navbar = () => {
                         </SquareButton>
                     </InputBar>
                 </div>
-                <FindPharmacyButton className='!hidden md:!flex ' card={true} />
+                <FindPharmacyButton className=' !hidden min-[769px]:flex ' card={true} />
+                <FindPharmacyButton className=' flex min-[769px]:hidden ' card={false} />
+
+                <button onClick={() => setHamburger(!hamburger)}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                        className="lucide lucide-menu h-10 w-10 min-[769px]:hidden mr-5 min-[769px]:mr-0 ">
+                        <path d="M4 5h16" />
+                        <path d="M4 12h16" />
+                        <path d="M4 19h16" />
+                    </svg></button>
             </div>
 
 
@@ -70,12 +74,12 @@ const Navbar = () => {
                                 </svg>
 
                             </SquareButton></InputBar>
-                        <NavItemsVar2 />
+                        <NavItemsVar2 onClick={() => setHamburger(false)} />
 
 
-                        <div className="flex gap-2 justify-center w-full flex">
-                            <FindPharmacyButton className='!w-auto ' />
-                            <SquareButton size="100%" onclick={() => handleRouting('/account')}>
+                        <div className="flex gap-2 px-6 w-full flex">
+
+                            <SquareButton size="48px" onclick={() => handleRouting('/account')}>
                                 <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M8.03991 0C5.27849 0 3.03992 2.23858 3.03992 5C3.03992 7.76142 5.27849 10 8.03991 10C10.8013 10 13.0399 7.76142 13.0399 5C13.0399 2.23858 10.8013 0 8.03991 0Z" className='fill-primary group-hover:fill-white transition-all duration-300 ease-in-out' />
                                     <path fillRule="evenodd" clipRule="evenodd" d="M5.03995 11C3.3772 11 1.77819 11.7585 0.841105 12.9004C0.365505 13.48 0.0311652 14.1971 0.00205524 14.9919C-0.0276748 15.8036 0.265315 16.5958 0.869535 17.2871C2.3421 18.9716 4.69323 20 8.03995 20C11.3866 20 13.7378 18.9716 15.2103 17.2871C15.8146 16.5958 16.1075 15.8036 16.0778 14.9919C16.0487 14.1971 15.7144 13.48 15.2388 12.9004C14.3017 11.7585 12.7027 11 11.0399 11H5.03995Z" className='fill-primary group-hover:fill-white transition-all duration-300 ease-in-out' />
