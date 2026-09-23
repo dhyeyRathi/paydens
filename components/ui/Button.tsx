@@ -7,6 +7,7 @@ interface ButtonProps {
     className?: string
     onClick?: () => void
     type?: any
+
 }
 
 interface arrButtonProps {
@@ -34,12 +35,12 @@ const ButtonVar2 = ({
 
     return (
         <div
-            className="relative flex w-full items-center justify-center"
+            className={`relative flex w-full items-center ${className}`}
         >
             <button
                 type="button"
-                className={`paydence-shadow relative text-button-hover font-[400] border-1 border-button-hover rounded-lg py-2 px-4 self-center
-                    hover:bg-button-hover hover:text-white hover:border-button-hover transition-all duration-300 ease-in-out ${className}`}
+                className={`paydence-shadow relative text-button-hover font-[400] border-1 border-button-hover rounded-lg py-2 px-4 
+                    hover:bg-button-hover hover:text-white hover:border-button-hover transition-all duration-300 ease-in-out `}
                 onClick={onClick}
             >
                 {children}

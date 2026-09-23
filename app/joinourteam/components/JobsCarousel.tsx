@@ -191,7 +191,7 @@ const JobsCarousel = () => {
                 })}
 
             </div>
-            <ButtonVar2 className='!self-center my-4  mt-8'>Load More</ButtonVar2>
+            <ButtonVar2 className='!justify-center my-4  mt-8'>Load More</ButtonVar2>
         </section>
     )
 }

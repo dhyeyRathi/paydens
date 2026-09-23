@@ -51,7 +51,7 @@ const Features = () => {
 
                     <div className={`${styles.weightLoss} paydens-shadow`}>
                         <h1>Begin Your <em>Weight Loss</em> <br /> plan</h1>
-                        <ButtonVar2 className='scale-120 ml-4'>Start Now</ButtonVar2>
+                        <ButtonVar2 className='scale-120 ml-15'>Start Now</ButtonVar2>
                         <Image src={meter} alt='icons' className='absolute scale-70 bottom-[-15%] right-[-20%]' />
                     </div>
                 </div>
