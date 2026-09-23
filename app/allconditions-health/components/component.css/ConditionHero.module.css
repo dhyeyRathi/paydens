@@ -22,52 +22,51 @@
     padding: 20px;
     border-radius: 16px;
     gap: 8px;
-    height: 250px;
+    width: auto;
+    height: 0px;
     overflow: hidden;
     border: 1px solid white;
 }
 
 
 .card h1 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
-
-
 .card p {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 
 .card svg {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
 }
 
 @media (min-width: 1440px) {
     .card p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .card svg {
-        width: 143px;
-        height: 141px;
+        width: 130px;
+        height: 130px;
     }
 
     .card h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .card {
         padding: 32px;
-        gap: 10px;
-        height: 350px;
+        gap: 5px;
+        height: 300px;
     }
 
     .cardCont {
         grid-template-columns: repeat(4, 1fr);
-        gap: 50px;
+        gap: 30px;
     }
 }

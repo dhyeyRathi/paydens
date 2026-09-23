@@ -59,7 +59,7 @@ const Features = () => {
 
 
 
-                <div className={`${styles.container}`}>
+                <div className={`${styles.container3}`}>
                     <div className={`${styles.NHSservices} paydens-shadow`}>
                         <h1>Access Free NHS Pharmacy Services</h1>
                         <ButtonVar2 className='scale-120 ml-4'>Get Help Now</ButtonVar2>

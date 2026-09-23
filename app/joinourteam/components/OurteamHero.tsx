@@ -18,7 +18,7 @@ const OurteamHero = () => {
             <img src={`/assets/images/Avatars/OurTeamPageFloaters/orange.png`} alt="" className={`absolute ${styles.orange} h-25 w-auto`} />
             <img src={`/assets/images/Avatars/OurTeamPageFloaters/purple.png`} alt="" className={`absolute ${styles.purple} h-20 md:h-35 `} />
             <img src={`/assets/images/Avatars/OurTeamPageFloaters/violet.png`} alt="" className={`absolute ${styles.violet} h-25`} />
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/red.png`} alt="" className={`absolute hidden lg:block ${styles.red} h-45 w-auto`} />
+            <img src={`/assets/images/Avatars/OurTeamPageFloaters/red.png`} alt="" className={`absolute hidden lg:block ${styles.red} h-40 w-auto`} />
 
         </section >
     )

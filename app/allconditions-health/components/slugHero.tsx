@@ -9,7 +9,7 @@ const SlugHero = () => {
                 Sore Throat
                 <img src='/assets/images/ui/nhs.png' className='h-10' />
             </h1>
-            <div className='flex flex-col md:flex-row relative bg-white/30 w-full justify-between px-6 md:px-10 xl:px-20 py-10  gap-10 md:gap-8 rounded-xl'>
+            <div className='flex flex-col md:flex-row relative bg-white/30 w-full justify-between px-6 md:px-10 py-10  gap-10 md:gap-8 rounded-xl'>
                 <svg width="511" height="241" viewBox="0 0 511 241" fill="none" xmlns="http://www.w3.org/2000/svg"
                     className='hidden md:block absolute  !bottom-0 !right-[35%] z-[-5]'>
                     <g opacity="0.05">

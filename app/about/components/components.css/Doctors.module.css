@@ -1,10 +1,8 @@
 .CardContainer {
-    width: 100%;
+    width: 95%;
     display: flex;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    gap: 40px;
+    padding: 100px 60px;
 }
 
 .arrowButton {
@@ -13,9 +11,11 @@
     padding: 10px;
     border: 1px solid var(--color-border);
     height: 50px;
+    width: 50px;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
+
 }
 
 .arrowButton:hover {
@@ -30,8 +30,6 @@
         width: 100%;
         display: flex;
         gap: 30px;
-        align-items: center;
-        justify-content: center;
     }
 
     .arrowButton {
@@ -45,12 +43,11 @@
         width: 100%;
         display: flex;
         gap: 30px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        padding: 30px 60px;
     }
 
     .arrowButton {
-        display: none;
+
+        height: 50px;
     }
 }

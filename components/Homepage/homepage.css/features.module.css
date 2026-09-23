@@ -10,9 +10,9 @@
 .cardCont {
     display: flex;
     width: 100%;
-    gap: 40px;
+    gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
+
 }
 
 .container {
@@ -20,8 +20,20 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 40px;
-    flex: 0 0 375px;
+    gap: 20px;
+    flex: 0 0 325px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    flex: 0 0 325px;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
@@ -30,10 +42,10 @@
 .container2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
     padding: 0px;
-    gap: 40px;
-    flex: 0 0 790px;
+    gap: 20px;
+    flex: 0 0 670px;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
@@ -52,8 +64,8 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    max-width: 375px;
-    height: 325px;
+    /* max-width: 350px; */
+    height: 300px;
     position: relative;
     overflow: hidden;
 }
@@ -68,14 +80,13 @@
     flex: none;
     gap: 120px;
     order: 0;
-    align-self: stretch;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 325px;
+    height: 325px;
     width: 100%;
-    max-width: 375px;
-    height: 375px;
     position: relative;
     overflow: hidden;
     background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #E44747 100%)
@@ -87,13 +98,12 @@
     flex: none;
     gap: 20px;
     order: 0;
-    align-self: stretch;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 375px;
-    height: 375px;
+    max-width: 325px;
+    height: 325px;
     position: relative;
     overflow: hidden;
     background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #37B43D 100%)
@@ -110,8 +120,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 375px;
-    height: 500px;
+    /* max-width: 325px; */
+    height: 450px;
     position: relative;
     overflow: hidden;
     background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #56C6EA 100%)
@@ -128,7 +138,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 790px;
+    /* max-width: 720px; */
     height: auto;
     position: relative;
     overflow: hidden;
@@ -146,8 +156,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 375px;
-    height: 175px;
+    /* max-width: 350px; */
+    height: 150px;
     position: relative;
     overflow: hidden;
     background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #F9B0E9 100%)
@@ -169,8 +179,10 @@
 
 .twinRow {
     display: flex;
-    gap: 40px;
-    max-width: 790px;
+    gap: 20px;
+    max-width: 720px;
+    align-items: center;
+    justify-items: center;
 
 }
 
@@ -179,6 +191,7 @@
         flex-direction: column;
         align-items: center;
         gap: 40px;
+        justify-content: center;
     }
 
     .container {
@@ -191,10 +204,20 @@
         align-self: center;
     }
 
+    .container3 {
+        flex: 0 1 auto;
+        flex-direction: row;
+        width: 100%;
+        max-width: 790px;
+        justify-content: center;
+        gap: 40px;
+        align-self: center;
+    }
+
     .container2 {
         flex: 0 1 auto;
         width: 100%;
-        max-width: 790px;
+        max-width: 670px;
         align-items: center;
         gap: 40px;
         align-self: center;
@@ -202,7 +225,8 @@
 
     .twinRow {
         width: 100%;
-        max-width: 790px;
+        align-items: center;
+        justify-items: center;
     }
 
     .boxes,
@@ -231,15 +255,23 @@
         width: 100%;
     }
 
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
     .container2 {
         align-self: center;
-        max-width: 790px;
+        max-width: none;
     }
 
     .twinRow {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 100%;
+
     }
 
     .weightLoss {

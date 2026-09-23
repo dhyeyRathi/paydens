@@ -42,7 +42,7 @@ const Hero = () => {
                 </div>
                 <div className={`${styles.contenCont}`}>
                     <div className={`${styles.textCont}`}>
-                        <h1 className='text-3xl sm:text-5xl lg:text-7xl font-bold'><em className='text-link font-bold'>Healthcare</em> at your fingertips.</h1>
+                        <h1 className='text-3xl sm:text-5xl lg:text-5xl font-bold'><em className='text-link font-bold'>Healthcare</em> at your fingertips.</h1>
                         <p className='text-lg'>From common ailments to daily medications, our pharmacists provide professional guidance and prescriptions delivered safely to you.</p>
                         <Button className=' paydens-shadow'>Book Appointment</Button>
                     </div>

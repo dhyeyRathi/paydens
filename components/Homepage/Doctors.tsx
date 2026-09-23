@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./homepage.css/doctorsection.module.css"
 import { ArrowButton, Button } from '../ui/Button'
 import DoctorCard from '../ui/DoctorCard'
+import Link from 'next/link'
 
 
 const Doctors = () => {
@@ -40,7 +41,9 @@ const Doctors = () => {
 
                 </div>
 
-                <Button className='!self-center lg:!self-start lg:text-2xl'>Meet Our Team</Button>
+                <Link href={'/joinourteam'} className=''>
+                    <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>View All Treatments</Button>
+                </Link>
             </div>
             <div className='flex justify-center flex-col items-center gap-4'>
                 <div className={`${styles.imgCont}`}>

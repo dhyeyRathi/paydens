@@ -94,7 +94,7 @@
     transform: scale(1);
     opacity: 1;
     right: 0;
-    top: -60%;
+    top: -50%;
     z-index: 10;
     object-fit: cover;
     max-width: 37.5rem;
@@ -158,8 +158,7 @@
         align-items: center;
     }
 
-    .bannerCont {
-    }
+    .bannerCont {}
 
     .imageCont h2 {
         font-size: 14px;

@@ -8,6 +8,7 @@ interface doctorcardprops {
     name?: string
     image: string
     center?: boolean
+    id?: string
 }
 
 const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = false }: doctorcardprops) => {
@@ -25,9 +26,9 @@ export default DoctorCard
 
 
 
-const DoctorCardVar2 = ({ className, name = 'Sarah Thompson', image = "", center = false }: doctorcardprops) => {
+const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", center = false, id }: doctorcardprops) => {
     return (
-        <div className={`${className} relative overflow-hidden rounded-2xl paydens-shadow`}>
+        <div id={id} className={`${className} min-w-[350px] h-[700px] relative overflow-hidden rounded-2xl paydens-shadow`}>
             <div className='relative bg-white overflow-hidden'>
                 <GreenGradient className='h-50 w-100 !left-[-30%] top-[-10%] ' />
                 <BlueGradient className='h-50 w-100 !right-[-30%] top-[-10%] ' />

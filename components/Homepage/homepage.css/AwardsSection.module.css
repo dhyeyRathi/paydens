@@ -16,9 +16,8 @@
 }
 
 .card {
-    max-width: 400px;
-    min-width: 400px;
-    min-height: 550px;
+    width: 350px;
+    min-height: 500px;
     height: auto;
     border-radius: 25px;
     overflow: hidden;

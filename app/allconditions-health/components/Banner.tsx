@@ -41,8 +41,10 @@ const Banner = () => {
                 </div>
 
             </div>
-            <div className='relative w-[90%] h-120 md:h-150 bg-white flex items-center justify-end  paydens-shadow overflow-hidden rounded-xl'>
-                <div className='absolute z-2 inset-0 !top-[70%] '>
+
+
+            <div className='relative w-full h-120 md:h-130 bg-white flex items-center justify-end  paydens-shadow overflow-hidden rounded-xl'>
+                <div className='absolute z-2 inset-0 !top-[100%] '>
                     <ColorGradientBg />
                 </div>
                 <img src="/assets/images/ui/throatpain.png" className='h-full w-auto absolute opacity-20 xl:opacity-100 z-[1] xl:z-4 !left-[12%] inset-0' />
@@ -57,10 +59,10 @@ const Banner = () => {
                     </defs>
                 </svg>
 
-                <div className='flex  sticky z-2 flex-col gap-4 md:gap-6 xl:gap-8 w-full xl:items-end px-6 md:px-12 xl:px-20 xl:ml-60'>
-                    <div className='flex flex-col gap-2 md:gap-6 xl:gap-8 xl:w-[50%]'>
-                        <h1 className='text-xl lg:text-4xl'>Signs you may need support</h1>
-                        <ul className='lg:!self-start list-disc list-inside text-sm md:text-base xl:text-xl'>
+                <div className='flex  sticky z-2 flex-col gap-4 md:gap-6 w-full xl:items-end px-6 md:px-12 xl:px-20 xl:ml-60'>
+                    <div className='flex flex-col gap-2 md:gap-6 xl:w-[50%]'>
+                        <h1 className='text-xl lg:text-3xl'>Signs you may need support</h1>
+                        <ul className='lg:!self-start list-disc list-inside text-sm md:text-base'>
                             <li>Pain or a scratchy feeling in the throat.</li>
                             <li>Pain that feels worse when swallowing or talking.</li>
                             <li>Trouble swallowing.</li>
@@ -70,9 +72,9 @@ const Banner = () => {
                         </ul>
                     </div>
 
-                    <div className='flex flex-col gap-2 md:gap-6 xl:gap-8 xl:w-[50%]'>
-                        <h1 className='text-xl lg:text-4xl'>How to Treat a Sore Throat</h1>
-                        <ul className='lg:!self-start list-disc list-inside text-sm md:text-base xl:text-xl '>
+                    <div className='flex flex-col gap-2 md:gap-6  xl:w-[50%]'>
+                        <h1 className='text-xl lg:text-3xl'>How to Treat a Sore Throat</h1>
+                        <ul className='lg:!self-start list-disc list-inside text-sm md:text-base '>
                             <li>Gargle with warm, salty water (children should not try this)</li>
                             <li>Drink plenty of water</li>
                             <li>Eat cool or soft foods</li>

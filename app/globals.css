@@ -73,6 +73,11 @@
   --color-nhs-blue: var(--color-nhs-blue);
 
   --font-quicksand: var(--font-quicksand);
+
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 1400px;
+
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -91,4 +96,17 @@ body {
 
 em {
   font-style: normal;
+}
+
+.hide-scrollbar {
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  scrollbar-width: none;
+
+
+  -ms-overflow-style: none;
 }

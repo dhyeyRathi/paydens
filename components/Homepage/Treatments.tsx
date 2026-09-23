@@ -75,8 +75,10 @@ const Treatments = () => {
                         </div>))
                 }
             </div>
+            <Link href={'/all-conditions'} className='self-center'>
+                <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>View All Treatments</Button>
+            </Link>
 
-            <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>View All Treatments</Button>
 
         </section>
     )
