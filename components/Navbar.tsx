@@ -36,8 +36,8 @@ const Navbar = () => {
                         </SquareButton>
                     </InputBar>
                 </div>
-                <FindPharmacyButton className=' !hidden min-[769px]:flex ' card={true} />
-                <FindPharmacyButton className=' flex min-[769px]:hidden ' card={false} />
+                <FindPharmacyButton className=' !hidden min-[769px]:!flex ' card={true} />
+                <FindPharmacyButton className=' !flex min-[769px]:!hidden ' card={false} />
 
                 <button onClick={() => setHamburger(!hamburger)}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
