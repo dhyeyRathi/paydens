@@ -67,8 +67,8 @@ const ConditionsCarousel = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${styles.carousel}`}>
-                <div className='w-full flex flex-col gap-2 lg:gap-10 max-h-screen overflow-auto hidden-scrollbar'>
+            <div className={`${styles.carousel} `}>
+                <div className='w-full flex flex-col gap-2 lg:gap-10 max-h-screen overflow-auto hide-scrollbar'>
                     {activeAlphabets.slice(0, loaded).map((alphabet: string) => {
                         return (
                             <section key={alphabet} className='flex flex-col gap-4 lg:gap-10 justify-center' id={alphabet}>

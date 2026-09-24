@@ -22,7 +22,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={` h-full antialiased ${proximaNova.variable} ${quicksand.variable}`}
     >
-      <body className="min-h-full  overflow-x-hidden flex flex-col items-center justify-center  pt-[120px] md:pt-[140px] lg:pt-[200px]  bg-white ">
+      <body className="min-h-full  overflow-x-hidden flex flex-col items-center justify-center  pt-[80px] sm:pt-[140px] min-[480]:pt-[120px] md:pt-[180px] lg:pt-[200px]  bg-white ">
         <Navbar />
         <div className="w-full !overflow-visible xl:max-w-[1440px]">
           {children}

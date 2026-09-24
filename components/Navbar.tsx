@@ -21,8 +21,8 @@ const Navbar = () => {
     }
 
     return (<>
-        <header className={`${styles.header} rounded-xl md:rounded-3xl paydens-shadow`}>
-            <div className={`${styles.container} bg-primary/10  w-full rounded-3xl md:rounded-t-3xl`}>
+        <header className={`${styles.header} rounded-3xl paydens-shadow`}>
+            <div className={`${styles.container} bg-primary/10  w-full rounded-3xl md:rounded-t-3xl min-[769px]:rounded-b-none`}>
                 <div className={`${styles.logoSearchCont} flex-1`}>
                     <a href='/' onClick={() => setHamburger(false)}> <Image className={styles.LogoText} src={TextLogo} alt="logo" /></a>
 
@@ -37,11 +37,11 @@ const Navbar = () => {
                     </InputBar>
                 </div>
                 <FindPharmacyButton className=' !hidden min-[769px]:!flex ' card={true} />
-                <FindPharmacyButton className=' !flex min-[769px]:!hidden ' card={false} />
+                <FindPharmacyButton className=' !flex min-[769px]:!hidden !w-40 text-xs ' card={false} />
 
                 <button onClick={() => setHamburger(!hamburger)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                        className="lucide lucide-menu h-10 w-10 min-[769px]:hidden mr-5 min-[769px]:mr-0 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                        className={`lucide lucide-menu h-10 w-10 min-[769px]:hidden mr-2 min-[769px]:mr-0 stroke-black transition-all duration-300 ${hamburger && "!stroke-primary !fill-primary"}`}>
                         <path d="M4 5h16" />
                         <path d="M4 12h16" />
                         <path d="M4 19h16" />

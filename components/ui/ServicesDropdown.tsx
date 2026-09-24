@@ -17,26 +17,27 @@ interface ServicesDropdownProps {
     onMouseEnter?: () => void;
     onMouseLeave?: () => void;
     className?: string;
+    onClick?: () => void;
 }
 
 
 
-const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className }: ServicesDropdownProps) => {
+const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: ServicesDropdownProps) => {
     const serviceSections = Object.values(services) as ServiceSection[];
 
     return (
-        <div className={`${styles.dropdownContainer} ${className} paydens-shadow`} onMouseEnter={onMouseEnter}
+        <div className={`${styles.dropdownContainer} ${className} paydens-shadow`} onClick={onClick} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
-            <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-8 lg:gap-11 justify-between`}>
+            <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-2 md:gap-8 lg:gap-11 justify-between`}>
                 {
                     serviceSections.map((service: ServiceSection, index: number) => (
                         <div className={`${styles.dropdownTitle} `} key={index}>
-                            <p className='mb-4'>{service.title}</p>
+                            <p className='mb-2 lg:mb-4'>{service.title}</p>
 
 
 
-                            <div className='flex gap-11'>
-                                <div className={`${service.categories.length > 1 ? "grid grid-cols-1 sm:grid-cols-2" : "grid grid-cols-1"} gap-10`}>
+                            <div className='flex gap-11 flex-wrap'>
+                                <div className={`${service.categories.length > 1 ? "grid grid-cols-2 sm:grid-cols-2" : "grid grid-cols-1"} gap-4 md:gap-6 lg:gap-10`}>
                                     {service.categories.map((condition) => (
                                         <div key={condition.title} className={`${styles.dropdownTitleBold} flex gap-3 flex-col`} >
                                             {condition.title}

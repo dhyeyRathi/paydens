@@ -3,7 +3,7 @@ import styles from './components.css/CoveredIssies.module.css'
 
 const CoveredIssues = () => {
     return (
-        <section className={` w-screen  px-6 md:px-16  bg-blue-100/90 !self-center  flex justify-center flex-col lg:flex-row gap-10 lg:gap-20 ${styles.cont}`}>
+        <section className={` w-screen  px-6 md:px-16  py-10 bg-blue-100/90 !self-center  flex justify-center flex-col lg:flex-row gap-5 sm:gap-10 lg:gap-20 ${styles.cont}`}>
             <div className='flex flex-col gap-10  max-w-100 md:max-w-160 lg:max-w-160 !self-center'>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold '><em className='text-primary'>Responsible</em> Healthcare, Beyond <br /> the Pharmacy</h1>
                 <p className='text-sm md:text-base lg:text-lg text-text-secondary/90 text-justify' >At Paydens, we embrace the evolving role of pharmacy with a strong commitment to providing high-quality, local healthcare services. As a family-run business, we combine the personal care of an independent pharmacy with the strength and resources of the Paydens Group. From small village pharmacies to large high-street branches, our network offers a wide range of pharmacy services.</p>
