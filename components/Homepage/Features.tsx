@@ -38,7 +38,7 @@ const Features = () => {
                         <div className={`${styles.fluJab} paydens-shadow`}>
                             <h1>get your <em>Flu Jab</em></h1>
                             <ButtonVar2 className='scale-120 ml-4'>Book Now</ButtonVar2>
-                            <Image src={hand} alt='icons' className='absolute  right-[-20%] ' />
+                            <Image src={hand} alt='icons' className='absolute scale-90 right-[-35%] ' />
                         </div>
                         <div className={`${styles.NHSpres} paydens-shadow`}>
                             <h1>Manage my NHS <br />Prescriptions</h1>

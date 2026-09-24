@@ -36,7 +36,7 @@ const Navbar = () => {
                         </SquareButton>
                     </InputBar>
                 </div>
-                <FindPharmacyButton className=' !hidden min-[769px]:!flex ' card={true} />
+                <FindPharmacyButton className=' !hidden min-[769px]:!flex !self-end' card={true} />
                 <FindPharmacyButton className=' !flex min-[769px]:!hidden !w-40 text-xs ' card={false} />
 
                 <button onClick={() => setHamburger(!hamburger)}>

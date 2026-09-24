@@ -18,7 +18,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 80px;
+    padding: 12px 30px;
     gap: 32px;
     flex: none;
     order: 0;
@@ -33,7 +33,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 80px;
+    padding: 12px 60px;
     gap: 32px;
     flex: none;
     order: 0;
@@ -66,7 +66,6 @@
     width: 55%;
     justify-content: space-between;
     font-size: medium;
-
 }
 
 @media (max-width: 1440px) {
@@ -85,7 +84,7 @@
     }
 
     .navItemsCont {
-        font-size: 10px;
+        font-size: 12px;
         width: 80%;
     }
 
@@ -93,6 +92,7 @@
         height: auto;
         width: 200px;
     }
+
 
 }
 
