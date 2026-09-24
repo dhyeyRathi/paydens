@@ -72,7 +72,7 @@ const Doctors = () => {
 
 
 
-            <div ref={containerRef} className={`${styles.CardContainer} hide-scrollbar relative overflow-x-auto !self-center`}>
+            <div ref={containerRef} className={`${styles.CardContainer} hide-scrollbar relative overflow-x-auto  !self-center`}>
 
                 {doctor.map((doc, index) => (
                     <DoctorCardVar2 key={index} name='Sarah Thompson' image={doc} id={`doc-${index}`} className={`transition-all duration-300 opacity-70 ${activeDocIndex === index && 'scale-105 opacity-100'}`} />

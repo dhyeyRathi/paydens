@@ -8,11 +8,11 @@ interface cardProp {
 
 const TestimonialCard = ({ className, children, id }: cardProp) => {
     return (
-        <section id={id} className={`bg-white max-h-120  max-w-100 sm:max-h-140 sm:w-160 sm:max-w-160 shrink-0 flex flex-col rounded-xl py-4 sm:py-8 px-8 sm:px-14 gap-6 sm:gap-8 paydens-shadow  overflow-visible ${className}`}>
-            <h1 className='font-quicksand sm:text-xl'>
+        <section id={id} className={`bg-white max-h-72 max-w-72 sm:max-h-140 sm:w-160 sm:max-w-160 shrink-0 flex flex-col rounded-xl py-3 sm:py-8 px-5 sm:px-14 gap-3 sm:gap-8 paydens-shadow overflow-visible ${className}`}>
+            <h1 className='font-quicksand text-xs sm:text-xl'>
                 I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!
             </h1>
-            <div className='flex gap-2  h-4 sm:h-6'>
+            <div className='flex gap-2 h-3 sm:h-6'>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='h-full w-auto'>
                     <g clipPath="url(#clip0_2169_6615)">
                         <path d="M19.9479 7.67246C19.8169 7.26748 19.4577 6.97984 19.0328 6.94154L13.2602 6.41739L10.9776 1.07469C10.8093 0.683143 10.426 0.429688 10.0001 0.429688C9.57422 0.429688 9.19091 0.683142 9.0226 1.07561L6.73998 6.41739L0.966514 6.94154C0.542309 6.98076 0.184023 7.26748 0.0523365 7.67246C-0.0793503 8.07744 0.0422654 8.52163 0.363166 8.80164L4.72653 12.6283L3.43988 18.2961C3.34573 18.7128 3.50747 19.1435 3.85325 19.3935C4.0391 19.5278 4.25655 19.5961 4.47582 19.5961C4.66488 19.5961 4.85242 19.5452 5.02073 19.4445L10.0001 16.4685L14.9776 19.4445C15.3419 19.6636 15.801 19.6436 16.146 19.3935C16.492 19.1428 16.6536 18.7119 16.5594 18.2961L15.2728 12.6283L19.6361 8.8024C19.957 8.52163 20.0796 8.0782 19.9479 7.67246Z" fill="#FFD203" />
@@ -69,9 +69,9 @@ const TestimonialCard = ({ className, children, id }: cardProp) => {
 
 
             </div>
-            <div className='h-12 sm:h-15 flex gap-4 sm:gap-6 w-full items-center'>
+            <div className='h-8 sm:h-15 flex gap-3 sm:gap-6 w-full items-center'>
                 {children}
-                <h1 className='font-[600] text-2xl'>Marina Lewis</h1>
+                <h1 className='font-[600] text-base sm:text-2xl'>Marina Lewis</h1>
             </div>
         </section>
     )
