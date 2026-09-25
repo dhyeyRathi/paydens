@@ -42,15 +42,15 @@ const Hero = () => {
                 </div>
                 <div className={`${styles.contenCont}`}>
                     <div className={`${styles.textCont}`}>
-                        <h1 className='text-3xl sm:text-5xl lg:text-5xl font-bold'><em className='text-link font-bold'>Healthcare</em> at your fingertips.</h1>
-                        <p className='text-lg'>From common ailments to daily medications, our pharmacists provide professional guidance and prescriptions delivered safely to you.</p>
+                        <h1 className='text-3xl sm:text-5xl lg:text-[64px] font-bold'><em className='text-link font-bold'>Healthcare</em> at<br /> your fingertips.</h1>
+                        <p className='text-[16px] font-quicksand font-[300]'>From common ailments to daily medications, our pharmacists provide professional guidance and prescriptions delivered safely to you.</p>
                         <Button className=' paydens-shadow'>Book Appointment</Button>
                     </div>
                     <div className={`${styles.cardsCont}`}>
                         {
                             cardItems.map((item: any, index: number) => (
                                 <button key={index} className={`${styles.card}`} aria-label={item.label} role='button'>
-                                    <div className='flex gap-4 items-center '>
+                                    <div className='flex gap-4 items-center w-auto '>
                                         <Image src={item.icon} height="60" width="60" alt={item.label} />
                                         <h1 className='text-xl font-[300] font-quicksand'> {item.label}</h1>
                                     </div>

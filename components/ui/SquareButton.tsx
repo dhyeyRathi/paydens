@@ -13,7 +13,6 @@ const SquareButton = ({ children, className = '', size, onclick }: ButtonProps) 
         <button
             className={`${styles.squareButton} ${className} group bg-primary/10
                     hover:bg-primary-dark transition-all duration-300 ease-in-out`}
-            style={size ? { width: size } : undefined}
             onClick={onclick}
         >
             {children}

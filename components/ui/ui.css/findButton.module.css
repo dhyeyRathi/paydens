@@ -9,8 +9,8 @@
     padding: 12px 20px;
     gap: 10px;
     cursor: pointer;
-
-    margin: 0 auto;
+    max-height: 44px;
+    font-size: 16px !important;
     border: 1px solid #37B43D;
     border-radius: 8px;
     flex: none;

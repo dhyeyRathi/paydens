@@ -14,7 +14,7 @@ const InputBar = ({
     return (
         <>
             <div className={`${styles.gradientBorder} ${className} w-full`}>
-                <div className='w-full h-10 md:h-12 bg-white rounded-[8px] flex '>
+                <div className='w-full h-auto flex items-center bg-white rounded-[8px] flex '>
                     <input className={`${styles.inputBar}  text-text font-[500] font-quicksand w-full bg-white`}
                         id='search' placeholder={placeholder} />
                     {children}

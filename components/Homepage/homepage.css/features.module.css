@@ -167,14 +167,16 @@
     background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #92FFAD 100%);
 }
 
-.cardCont h1 {
+.cardCont h2 {
     font-weight: 500;
-    font-size: x-large;
+    font-size: 20px;
 }
+
+
 
 .cardCont em {
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 24px;
 }
 
 .twinRow {
