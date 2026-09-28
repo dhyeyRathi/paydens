@@ -68,7 +68,7 @@
 
 .navItemsCont {
     display: flex;
-    width: 55%;
+    min-width: 45%;
     justify-content: space-between;
     font-size: medium;
 }
@@ -84,7 +84,7 @@
 
     .container2 {
         padding: 12px 24px;
-        gap: 16px;
+        gap: none;
     }
 
     .mobileContainer {
@@ -93,7 +93,8 @@
 
     .navItemsCont {
         font-size: 12px;
-        width: 80%;
+        width: 100%;
+        gap: 10px;
     }
 
     .LogoText {
