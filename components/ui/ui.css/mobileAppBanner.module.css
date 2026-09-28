@@ -27,7 +27,7 @@
 
 .images {
     aspect-ratio: initial;
-    height: 30px;
+    height: 20px;
     width: auto;
 
 }
@@ -37,7 +37,7 @@
     gap: 20px;
     padding: 50px 40px;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 /* .cyanGrad {
@@ -82,7 +82,7 @@
 }
 
 .textCont h1 {
-    font-size: 36px;
+    font-size: 31px;
 }
 
 .textCont h1 em {
@@ -97,7 +97,7 @@
     top: -50%;
     z-index: 10;
     object-fit: cover;
-    max-width: 37.5rem;
+    max-width: 480px;
     padding-right: 1rem;
 }
 

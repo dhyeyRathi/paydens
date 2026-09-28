@@ -16,8 +16,8 @@ const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = f
         <div className={`${className} relative`}>
             {image && <img src={image} alt={name} className={`${styles.Image} ${center && styles.ImageCenter}`} />}
             <WhiteGradient className="!bottom-[-2]" />
-            <h1 className=' absolute text-[10px] lg:text-3xl font-[600] bottom-[2%] left-[6%]'>{name}</h1>
-            <h1 className=' absolute text-[8px] lg:text-2xl font[300] left-[6%]'>Online Doctor</h1>
+            <h1 className=' absolute text-[10px] lg:text-16 font-[600] bottom-[1%] left-[6%]'>{name}</h1>
+            <h1 className=' absolute text-[8px] lg:text-16 font[300] left-[6%]'>Online Doctor</h1>
         </div>
     )
 }
