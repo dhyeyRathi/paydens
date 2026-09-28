@@ -41,7 +41,7 @@ const Treatments = () => {
     return (
         <section className={`${styles.treatmentSection}`}>
             <div className='flex w-full justify-between items-baseline gap-[20px]'>
-                <h1 className='w-full text-center md:text-start px-4 text-xl md:text-3xl lg:text-5xl font-bold'>
+                <h1 className='w-full text-center md:text-start px-4 text-xl md:text-3xl lg:text-heading font-bold'>
                     Care and <em className='text-button-hover'>Treatments </em>You Can Trust
                 </h1>
                 <ArrowButton className='hidden md:flex' />
@@ -50,7 +50,7 @@ const Treatments = () => {
                 {
                     cardItem.map((item) => (
                         <div key={item.title} className={`${styles.card}`}>
-                            <h1>{item.title}</h1>
+                            <h4>{item.title}</h4>
                             {
                                 item.items.map((e, index: number) => (
                                     <button className={`${styles.cardItem}`} key={index}>

@@ -94,7 +94,7 @@
 .cardsCont {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     width: 360px;
     max-height: 285px;
 }
@@ -128,9 +128,9 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    justify-content: space-between;
     place-items: center;
-    padding: 6px 0px;
+    padding: 20px 40px;
     overflow: hidden;
 }
 
@@ -138,6 +138,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 10px;
     font-size: large;
     font-family: var(--font-quicksand);
@@ -148,11 +149,6 @@
     font-size: 36px;
     font-weight: 600;
 }
-
-
-
-
-
 
 
 @media (max-width: 1024px) {

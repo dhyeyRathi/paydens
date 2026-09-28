@@ -51,7 +51,7 @@ const page = () => {
                 label: "Find Pharmacy",
                 href: "/findpharmacy"
             }]} />
-            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-5xl font-bold'>
+            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 Find Your Nearest <em className='text-button-hover'> Paydens </em> Pharmacy
             </h1>
             <div className='flex flex-col gap-4 md:gap-6 lg:gap-8'>

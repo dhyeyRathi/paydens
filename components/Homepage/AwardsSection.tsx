@@ -16,7 +16,7 @@ const AwardsSection = () => {
     return (
         <section className={`${styles.awardSection}`}>
             <div>
-                <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-5xl font-bold'>
+                <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                     Latest <em className='text-button-hover'>News</em> From Paydens
                 </h1>
             </div>

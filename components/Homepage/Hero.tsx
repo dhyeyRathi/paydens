@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-full'>
-                <hr className='w-full h-[1px] bg-text-secondary/60 border-none my-2' />
+                <hr className='w-full h-[1px] bg-text-secondary/60 border-none text-16' />
                 <div className={`${styles.statsSection}`}>
                     <h1>
                         <em>55+ </em>
@@ -85,7 +85,7 @@ const Hero = () => {
                         GPhC Registered
                     </h1>
                 </div>
-                <hr className='w-full h-[1px] bg-text-secondary/60 border-none my-2' />
+                <hr className='w-full h-[1px] bg-text-secondary/60 border-none ' />
             </div>
         </section>
     )

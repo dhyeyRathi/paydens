@@ -13,7 +13,7 @@ const PresHero = () => {
 
             <div className={`${styles.Cont}`}>
                 <div className={`${styles.Text}`}>
-                    <h1 className='w-full text-2xl lg:text-6xl font-bold text-center lg:text-start' >
+                    <h1 className='w-full text-2xl lg:text-heading font-bold text-center lg:text-start' >
                         <em className='text-button-hover'>Free</em> NHS Prescriptions<br /> <em className='text-button-hover'>Delivered </em> to your Door.
                     </h1>
 

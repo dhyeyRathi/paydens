@@ -39,7 +39,25 @@
 
   --color-nhs-blue: #005eb8;
 
+  /* Font Sizes */
+  --font-size-16: 16px;
+  --font-size-24: 24px;
+  --font-size-25: 25px;
+  --font-size-30: 30px;
+  --font-size-32: 32px;
+  --font-size-heading: 39px;
 
+  /* Border Radius */
+  --border-radius-4: 4px;
+  --border-radius-8: 8px;
+  --border-radius-10: 10px;
+  --border-radius-12: 12px;
+  --border-radius-16: 16px;
+  --border-radius-20: 20px;
+  --border-radius-24: 24px;
+  --border-radius-25: 25px;
+  --border-radius-32: 32px;
+  --border-radius-35: 35px;
 }
 
 
@@ -74,6 +92,23 @@
 
   --font-quicksand: var(--font-quicksand);
 
+  --text-16: var(--font-size-16);
+  --text-24: var(--font-size-24);
+  --text-25: var(--font-size-25);
+  --text-30: var(--font-size-30);
+  --text-32: var(--font-size-32);
+  --text-heading: var(--font-size-heading);
+
+  --radius-4: var(--border-radius-4);
+  --radius-8: var(--border-radius-8);
+  --radius-10: var(--border-radius-10);
+  --radius-12: var(--border-radius-12);
+  --radius-16: var(--border-radius-16);
+  --radius-20: var(--border-radius-20);
+  --radius-24: var(--border-radius-24);
+  --radius-25: var(--border-radius-25);
+  --radius-32: var(--border-radius-32);
+  --radius-35: var(--border-radius-35);
 
   --breakpoint-xs: 30rem;
   --breakpoint-3xl: 1400px;
