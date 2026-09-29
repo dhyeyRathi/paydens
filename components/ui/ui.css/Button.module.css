@@ -60,3 +60,20 @@
         height: 30px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .squareButton {
+        border-radius: 10px;
+    }
+
+    .button {
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: var(--font-size-16);
+    }
+
+    .arrowButton {
+        height: 30px;
+    }
+}

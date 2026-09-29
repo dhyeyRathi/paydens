@@ -140,13 +140,14 @@
     align-items: center;
     text-align: center;
     gap: 10px;
+    font-size: var(--font-size-16);
     font-size: large;
     font-family: var(--font-quicksand);
     font-weight: 500;
 }
 
 .statsSection em {
-    font-size: 36px;
+    font-size: 31px;
     font-weight: 600;
 }
 

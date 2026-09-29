@@ -10,7 +10,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    justify-content: center;
     gap: 16px;
 }
 
@@ -48,7 +47,7 @@
 
 @media (min-width: 1440px) {
     .card p {
-        font-size: 16px;
+        font-size: var(--font-size-16);
     }
 
     .card svg {
@@ -57,17 +56,18 @@
     }
 
     .card h1 {
-        font-size: 28px;
+        font-size: var(--font-size-25);
     }
 
     .card {
         padding: 32px;
         gap: 10px;
-        height: 350px;
+        height: 308px;
+        width: 305px;
     }
 
     .cardCont {
         grid-template-columns: repeat(4, 1fr);
-        gap: 50px;
+        gap: 20px;
     }
 }

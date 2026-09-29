@@ -40,6 +40,8 @@
   --color-nhs-blue: #005eb8;
 
   /* Font Sizes */
+  --font-size-8: 8px;
+  --font-size-12: 12px;
   --font-size-16: 16px;
   --font-size-24: 24px;
   --font-size-25: 25px;

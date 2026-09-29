@@ -4,7 +4,7 @@ import styles from "./component.css/ConditionHero.module.css"
 const ConditionsHero = () => {
     return (
         <section className={`${styles.HeroCont}`}>
-            <h1 className='w-full  px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
+            <h1 className='w-full text-2xl md:text-3xl lg:text-heading font-bold'>
                 Trusted <em className='text-button-hover'> Treatments</em> for Common Conditions
             </h1>
             <div className={`${styles.cardCont}`}>
