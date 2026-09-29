@@ -16,6 +16,10 @@
 
 }
 
+.buttonVar2 {
+    padding: 8px 16px;
+}
+
 .squareButton {
     display: flex;
     flex-direction: row;

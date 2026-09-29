@@ -83,7 +83,7 @@ const ProductCards = ({ name, description, price, img }: ProductCardProps) => {
                     </h2>
                 </div>
 
-                <Button className='!py-2 mt-4'>Add to Cart</Button>
+                <Button className='mt-4'>Add to Cart</Button>
             </div>
         </div>
     )

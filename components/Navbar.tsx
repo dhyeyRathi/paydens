@@ -59,7 +59,7 @@ const Navbar = () => {
                             <path fillRule="evenodd" clipRule="evenodd" d="M5.03995 11C3.3772 11 1.77819 11.7585 0.841105 12.9004C0.365505 13.48 0.0311652 14.1971 0.00205524 14.9919C-0.0276748 15.8036 0.265315 16.5958 0.869535 17.2871C2.3421 18.9716 4.69323 20 8.03995 20C11.3866 20 13.7378 18.9716 15.2103 17.2871C15.8146 16.5958 16.1075 15.8036 16.0778 14.9919C16.0487 14.1971 15.7144 13.48 15.2388 12.9004C14.3017 11.7585 12.7027 11 11.0399 11H5.03995Z" className='fill-primary group-hover:fill-white transition-all duration-300 ease-in-out' />
                         </svg>
                     </SquareButton>
-                    <Button className='text-xs md:text-2xl lg:text-lg !py-2 '>Order Prescription</Button>
+                    <Button className='text-xs md:text-2xl lg:text-lg'>Order Prescription</Button>
                 </div>
 
 
@@ -85,7 +85,7 @@ const Navbar = () => {
                                     <path fillRule="evenodd" clipRule="evenodd" d="M5.03995 11C3.3772 11 1.77819 11.7585 0.841105 12.9004C0.365505 13.48 0.0311652 14.1971 0.00205524 14.9919C-0.0276748 15.8036 0.265315 16.5958 0.869535 17.2871C2.3421 18.9716 4.69323 20 8.03995 20C11.3866 20 13.7378 18.9716 15.2103 17.2871C15.8146 16.5958 16.1075 15.8036 16.0778 14.9919C16.0487 14.1971 15.7144 13.48 15.2388 12.9004C14.3017 11.7585 12.7027 11 11.0399 11H5.03995Z" className='fill-primary group-hover:fill-white transition-all duration-300 ease-in-out' />
                                 </svg>
                             </SquareButton>
-                            <Button className='text-xs md:text-2xl lg:text-lg !py-2 '>Order Prescription</Button>
+                            <Button className='text-xs md:text-2xl lg:text-lg'>Order Prescription</Button>
                         </div>
 
 

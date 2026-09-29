@@ -15,7 +15,7 @@ const JobsCarousel = () => {
 
                     <div className='!self-end flex gap-1 sm:gap-2 md:gap-4'>
                         <button className='px-2 sm:px-4 rounded-xl hover:bg-gray-100 transition-all duration-300'>Clear</button>
-                        <Button className='!px-2 sm:!px-8'>Search</Button>
+                        <Button className=''>Search</Button>
                     </div>
                 </div>
 
@@ -185,7 +185,7 @@ const JobsCarousel = () => {
                                 <p className='px-2 py-1 text-xs text-info bg-info/20 rounded-md font-semibold '>Maternity Cover</p>
 
                             </div>
-                            <Button className='!self-start !py-2 !px-4 !text-base mt-4 md:mt-0 lg:mt-4'>Apply now</Button>
+                            <Button className='!self-start !text-base mt-4 md:mt-0 lg:mt-4'>Apply now</Button>
                         </div>
                     )
                 })}

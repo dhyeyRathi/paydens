@@ -39,7 +39,7 @@ const ButtonVar2 = ({
         >
             <button
                 type="button"
-                className={`paydence-shadow relative text-button-hover font-[400] border-1 border-button-hover rounded-lg py-2 px-4 
+                className={`paydence-shadow relative text-button-hover font-[400] border-1 border-button-hover rounded-lg ${styles.buttonVar2} 
                     hover:bg-button-hover hover:text-white hover:border-button-hover transition-all duration-300 ease-in-out `}
                 onClick={onClick}
             >
