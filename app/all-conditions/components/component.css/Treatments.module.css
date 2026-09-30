@@ -18,9 +18,7 @@
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(146, 255, 173, 0.5) 2.92%, rgba(255, 255, 255, 0.5) 100%);
     flex: 1;
-    position:
-
-        relative;
+    position: relative;
 }
 
 .card h1 {

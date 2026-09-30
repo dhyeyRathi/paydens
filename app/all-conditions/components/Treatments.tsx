@@ -87,7 +87,7 @@ const Treatments = () => {
     return (
         <section className={`${styles.TreatmentsSection}`}>
             <h1 className='font-quicksand text-center'>What do you need help with?</h1>
-            <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center !h-[52px] lg:!h-auto !w-[90%] lg:!w-[40%]'>
+            <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center  !w-[90%] lg:!w-[40%]'>
                 <Button className='!rounded-md'>Search</Button>
             </InputBarVar2>
 

@@ -29,14 +29,14 @@ const InputBarVar2 = ({
     placeholder, children, className, divClassName
 }: inputProps) => {
     return (
-        <>
 
-            <div className={`w-[50%] h-6 md:h-12 bg-white rounded-[8px] flex items-center ${styles.inputContVar2} ${divClassName}`}>
-                <input className={`${styles.inputBarVar2} ${className} text-text font-[500] font-quicksand w-full bg-white`}
-                    id='search' placeholder={placeholder} />
-                {children}
-            </div>
-        </>
+
+        <div className={`w-[50%] bg-white rounded-[8px] flex items-center ${styles.inputContVar2} ${divClassName}`}>
+            <input className={`${styles.inputBarVar2} ${className} text-text text-16 font-[500] font-quicksand w-full bg-white`}
+                id='search' placeholder={placeholder} />
+            {children}
+        </div>
+
     )
 }
 

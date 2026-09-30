@@ -15,7 +15,7 @@ const PageNameDisp = ({ PageName }: PageNameProps) => {
         <div className='flex gap-2 sm:gap-4 !self-start mb-[-25px] lg:mb-[-50px]'>
             {
                 PageName.map((e, index) => (
-                    <a href={`${index === 0 ? '/' : e.href} `} key={index} className={`flex gap-2 sm:gap-4 items-center text-sm sm:text-xl ${index !== (PageName.length - 1) && "text-gray-400"}`}> {index !== 0 &&
+                    <a href={`${index === 0 ? '/' : e.href} `} key={index} className={`flex gap-2 sm:gap-4 items-center text-[16px] ${index !== (PageName.length - 1) && "text-gray-400"}`}> {index !== 0 &&
                         <svg
                             width="10"
                             height="15"

@@ -42,7 +42,7 @@ const page = () => {
 
     const pagination = [1, 2, 3, 4, "...", 10, "Next"]
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
+        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[30px] w-full'>
             <PageNameDisp PageName={[{
                 label: "Home",
 
@@ -51,11 +51,11 @@ const page = () => {
                 label: "Find Pharmacy",
                 href: "/findpharmacy"
             }]} />
-            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
+            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold mt-10'>
                 Find Your Nearest <em className='text-button-hover'> Paydens </em> Pharmacy
             </h1>
             <div className='flex flex-col gap-4 md:gap-6 lg:gap-8'>
-                <InputBarVar2 placeholder='Enter postcode or place name' divClassName='!self-center !h-10 lg:!h-auto !w-[70%] lg:!w-[40%]'><Button className='!rounded-md text-sm ld:text-base'>Find</Button></InputBarVar2>
+                <InputBarVar2 placeholder='Enter postcode or place name' divClassName='!self-center  !w-[70%] lg:!w-[40%]'><Button className='!rounded-md text-sm ld:text-base'>Find</Button></InputBarVar2>
                 <button className='flex gap-4 self-center text-lg items-center'><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd" d="M12.75 2C12.75 1.58579 12.4142 1.25 12 1.25C11.5858 1.25 11.25 1.58579 11.25 2V3.78363C7.29215 4.14029 4.14029 7.29215 3.78363 11.25H2C1.58579 11.25 1.25 11.5858 1.25 12C1.25 12.4142 1.58579 12.75 2 12.75H3.78363C4.14029 16.7079 7.29215 19.8597 11.25 20.2164V22C11.25 22.4142 11.5858 22.75 12 22.75C12.4142 22.75 12.75 22.4142 12.75 22V20.2164C16.7079 19.8597 19.8597 16.7079 20.2164 12.75H22C22.4142 12.75 22.75 12.4142 22.75 12C22.75 11.5858 22.4142 11.25 22 11.25H20.2164C19.8597 7.29215 16.7079 4.14029 12.75 3.78363V2ZM8.25 12C8.25 9.92893 9.92893 8.25 12 8.25C14.0711 8.25 15.75 9.92893 15.75 12C15.75 14.0711 14.0711 15.75 12 15.75C9.92893 15.75 8.25 14.0711 8.25 12Z" fill="#444444" />
                 </svg><em className='hover:underline hover:text-primary transition-all duration-300 cursor-pointer'>Use my location</em></button>

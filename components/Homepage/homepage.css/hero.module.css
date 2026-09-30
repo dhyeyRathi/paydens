@@ -138,10 +138,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 44px;
     text-align: center;
     gap: 10px;
     font-size: var(--font-size-16);
-    font-size: large;
     font-family: var(--font-quicksand);
     font-weight: 500;
 }

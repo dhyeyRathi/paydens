@@ -14,7 +14,7 @@
     max-height: 1000px;
     overflow-y: auto;
     overflow-x: visible;
-    padding: 0px 20px;
+    padding: 30px 20px;
 
     &::-webkit-scrollbar {
         display: none;
@@ -37,7 +37,7 @@
 }
 
 .pagination button {
-    padding: 24px 12px;
+    padding: 7px 15px;
     height: 30px;
     aspect-ratio: 1/1;
     /* color: var(--color-border); */
@@ -47,7 +47,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: var(--font-size-16);
     border: 1px solid var(--color-border);
     border-radius: 4px;
 }

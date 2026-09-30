@@ -58,7 +58,7 @@ const ConditionsCarousel = () => {
                     What do you need help with?
                 </h1>
                 <div className='flex flex-col gap-2 md:gap-0 md:flex-row justify-between w-full items-center'>
-                    <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!h-10 lg:!h-15 !w-[80%] md:!w-[50%]'>
+                    <InputBarVar2 placeholder='what condition are you looking for?' divClassName=' !w-[80%] md:!w-[50%]'>
                         <Button className='!rounded-md !m-[2px] text-sm md:text-lg'>Search</Button></InputBarVar2>
                     <div className='paydens-shadow rounded-4xl flex max-w-[80%] lg:max-w-[30%] gap-2 items-center p-2 font-[300] cursor-pointer'>
                         {filter.map((opt) => (
@@ -82,38 +82,38 @@ const ConditionsCarousel = () => {
                                     {conditions.map((cond) => {
                                         if (selected === "NHS Services") {
                                             return cond.title.charAt(0).toUpperCase() === alphabet && cond.nhs && (
-                                                <button onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 px-8 
+                                                <button onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <h1 className='text-lg md:text-xl lg:text-xl max-w-[70%] !self-start'>{cond.title}</h1>
+                                                        <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
                                                         {cond.nhs && <img src='/assets/images/ui/nhs-leaf.png' className='h-6 lg:h-8' />}
                                                     </div>
-                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300]'>{cond.description}</p>
+                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
                                                 </button>
                                             )
 
                                         }
                                         else if (selected === "Private Services") {
                                             return cond.title.charAt(0).toUpperCase() === alphabet && !cond.nhs && (
-                                                <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 px-8 
+                                                <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
-                                                    <div className='flex justify-between items-center'>
-                                                        <h1 className='text-lg md:text-xl lg:text-xl max-w-[70%] !self-start'>{cond.title}</h1>
+                                                    <div className='flex justify-between'>
+                                                        <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
                                                         {cond.nhs && <img src='/assets/images/ui/nhs-leaf.png' className='h-6 lg:h-8' />}
                                                     </div>
-                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300]'>{cond.description}</p>
+                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
                                                 </button>
                                             )
                                         }
                                         else {
                                             return cond.title.charAt(0).toUpperCase() === alphabet && (
-                                                <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 px-8 
+                                                <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <h1 className='text-lg md:text-xl lg:text-xl max-w-[70%] !self-start'>{cond.title}</h1>
+                                                        <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
                                                         {cond.nhs && <img src='/assets/images/ui/nhs-leaf.png' className='h-6 lg:h-8' />}
                                                     </div>
-                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300]'>{cond.description}</p>
+                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
                                                 </button>
                                             )
                                         }
@@ -127,7 +127,7 @@ const ConditionsCarousel = () => {
 
                 <div className='flex flex-col gap-1 '>
                     {[...alphabets].map((alphabet, index) => (
-                        <button key={alphabet} onClick={() => handleRouting(alphabet, index)} className={`bg-primary text-background rounded-sm flex w-8 h-8 items-center justify-center text-sm !self-center 
+                        <button key={alphabet} onClick={() => handleRouting(alphabet, index)} className={`bg-primary text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 !self-center 
                         ${!activeAlphabets.includes(alphabet) && '!bg-border'}`}>
                             {alphabet}
                         </button>

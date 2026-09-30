@@ -20,12 +20,13 @@
     gap: 40px;
     border-radius: 24px;
     overflow: hidden;
-    min-width: 500px;
+    width: 453px;
+    height: 715px;
     position: relative;
 }
 
 .textCard h1 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .textCard p {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--color-text-secondary);
     font-weight: 300;
 }
@@ -55,10 +56,16 @@
 .form {
     justify-self: normal;
     width: 50%;
-    font-size: x-large;
+
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 558px;
+    max-height: 715px;
+}
+
+.form label {
+    font-size: var(--text-size-16);
 }
 
 .form input {
@@ -69,6 +76,8 @@
     font-size: large;
     border-radius: 10px;
     width: 100%;
+    font-size: var(--text-size-16);
+    max-height: 52px;
 }
 
 .form textarea {

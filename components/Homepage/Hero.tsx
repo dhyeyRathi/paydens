@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-full'>
-                <hr className='w-full h-[1px] bg-text-secondary/60 border-none text-16' />
+                <hr className='w-full h-[1px] bg-text-secondary/60 border-none' />
                 <div className={`${styles.statsSection}`}>
                     <h1>
                         <em>55+ </em>

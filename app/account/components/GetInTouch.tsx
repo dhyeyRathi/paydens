@@ -12,7 +12,7 @@ const GetInTouch = () => {
     const [formType, setFormType] = useState<string>("message");
     return (
         <section className={`${styles.GITsection}`}>
-            <h1 className='text-4xl lg:text-5xl font-bold w-full'>Get In Touch Today</h1>
+            <h1 className='text-4xl lg:text-heading font-bold w-full'>Get In Touch Today</h1>
 
             <div className={`${styles.textCardCont}`}>
                 <div className={`${styles.textCard}`}>
@@ -85,14 +85,14 @@ const GetInTouch = () => {
                 </div>
                 <form className={`${styles.form}`}>
                     <div className='flex'>
-                        <button type='button' className={` py-4 px-4 relative text-xl ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                        <button type='button' className={` p-5 relative text-16 ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("message")}>Send us a message
                             {formType === "message" && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>
-                        <button type='button' className={` py-4 px-4 relative text-xl ${formType === "complaint" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                        <button type='button' className={`  p-5 relative text-16 ${formType === "complaint" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("complaint")}>Complaint form
                             {formType === "complaint" && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>
                     </div>
-                    <div className='flex w-full justify-between gap-4 md:gap-10 '>
+                    <div className='flex w-full justify-between gap-4 md:gap-5 '>
                         <div className='flex flex-col gap-1 w-full'>
 
                             <label>First Name</label>
