@@ -43,9 +43,9 @@ const Testimonial = () => {
     // ]
     return (
         <section className={`${styles.testimonialSection}`}>
-            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
+            <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 Hear From Our <em className='text-button-hover'>Patients</em>
-            </h1>
+            </h2>
             <div className={`${styles.rating}`}>
                 <div className={`${styles.ratingText}`}>
                     <h3>4.9</h3>

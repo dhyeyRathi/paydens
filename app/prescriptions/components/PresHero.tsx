@@ -4,7 +4,7 @@ import styles from './presHero.module.css'
 import { Button, ButtonVar2 } from '@/components/ui/Button'
 import Image from 'next/image'
 import avatars from '@/public/assets/images/Avatars/multiple.png'
-import NHS from '@/public/assets/images/ui/nhs.png'
+import NHS from '@/components/Icon/Logo/NHS'
 import IconPresHero1 from '@/components/Icon/IconPresHero1'
 import IconPresHero3 from '@/components/Icon/IconPresHero3'
 import IconPresHero2 from '@/components/Icon/IconPresHero2'
@@ -58,7 +58,7 @@ const PresHero = () => {
 
                     </div>
                     <div className='absolute top-[2%] right-0 md:right-[10%] paydens-shadow bg-white rounded-2xl py-3 md:py-4 px-3 md:px-4 gap-2 w-auto flex-col items-end flex scale-75 md:scale-100 origin-top-right'>
-                        <Image src={NHS} alt='multipleAvatars' className='h-6 w-auto' />
+                        <NHS className='h-6 w-auto' />
                         <p className='!font-bold'>Providing NHS services</p>
                     </div>
                 </div>

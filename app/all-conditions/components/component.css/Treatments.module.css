@@ -5,7 +5,7 @@
     gap: 60px;
 }
 
-.TreatmentsSection h1 {
+.TreatmentsSection h2 {
     font-size: 42px;
 }
 
@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.card h1 {
+.card h2 {
     font-size: var(--font-size-25);
     font-weight: 600;
 }
@@ -64,7 +64,7 @@
 
     }
 
-    .card h1 {
+    .card h2 {
         font-size: large;
         font-weight: 600;
     }
@@ -101,7 +101,7 @@
         gap: 15px;
     }
 
-    .TreatmentsSection h1 {
+    .TreatmentsSection h2 {
         font-size: 24px;
     }
 

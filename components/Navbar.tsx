@@ -83,9 +83,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* <div className={`${styles.mobileContainer}`}>
-                <h1>hi</h1>
-            </div> */}
+
 
         </header>
 

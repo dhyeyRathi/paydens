@@ -102,7 +102,7 @@ const Treatments = () => {
     const filteredTreatments = treatments.filter((treat) => treat.category === formType)
     return (
         <section className={`${styles.TreatmentsSection}`}>
-            <h1 className='font-quicksand text-center'>What do you need help with?</h1>
+            <h2 className='font-quicksand text-center'>What do you need help with?</h2>
             <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center  !w-[90%] lg:!w-[40%]'>
                 <Button className='!rounded-md'>Search</Button>
             </InputBarVar2>
@@ -121,14 +121,14 @@ const Treatments = () => {
                     formType === "All Treatments" && treatments.map((item, index) => {
                         return (
                             <div key={index} className={`${styles.card}`}>
-                                <div className=' flex h-10 md:h-15 justify-between w-full items-center '> <h1>{item.title} </h1>
+                                <div className=' flex h-10 md:h-15 justify-between w-full items-center '> <h2>{item.title} </h2>
                                     {item.icon}
                                 </div>
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
                                             <button className={`${styles.cardItem}`} key={e}>
-                                                <h2> {e}</h2>
+                                                <h3> {e}</h3>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
                                         ))
@@ -144,14 +144,14 @@ const Treatments = () => {
                     formType !== "All Treatments" && filteredTreatments.map((item, index) => {
                         return (
                             <div key={index} className={`${styles.card}`}>
-                                <div className=' flex h-10 md:h-15 justify-between w-full items-center '> <h1>{item.title} </h1>
+                                <div className=' flex h-10 md:h-15 justify-between w-full items-center '> <h2>{item.title} </h2>
                                     {item.icon}
                                 </div>
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
                                             <button className={`${styles.cardItem}`} key={e}>
-                                                <h2> {e}</h2>
+                                                <h3> {e}</h3>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
                                         ))

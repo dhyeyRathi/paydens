@@ -53,8 +53,8 @@ const FindPharmacyCard = ({ onMouseEnter, onMouseLeave }: FindPharmacyCardProps)
         <div className={`${styles.pharmacyCard} w-[90%] md:w-[30%] lg:w-[25%] xl:w-[20%] min-w-[280px] max-w-[360px] paydens-shadow`} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.pharmacyCardCont} flex flex-col justify-start items-start`}>
-                <h1 className='flex justify-between items-center w-full text-xl font-bold'>A A Beggs <em ><IconChevronRight className="text-[#444444]" />
-                </em></h1>
+                <h3 className='flex justify-between items-center w-full text-xl font-bold'>A A Beggs <em ><IconChevronRight className="text-[#444444]" />
+                </em></h3>
                 <p className='text-sm font-[500]'>32 Pencester Road, Dover, Kent, CT16 1B</p>
                 <div className='flex gap-4 text-sm underline text-link'>
                     <p>01622 754977</p>
@@ -67,9 +67,9 @@ const FindPharmacyCard = ({ onMouseEnter, onMouseLeave }: FindPharmacyCardProps)
             </div>
             <hr className={`h-[1px] w-full bg-text-ph/60 ${styles.hr} `} />
             <div className={`${styles.pharmacyCardCont2} `}>
-                <h1 className='flex justify-between items-center w-full group hover:text-primary transition-all duration-200 ease-in-out '>choose another pharmacy <em className={`${styles.hr} `}>
+                <h3 className='flex justify-between items-center w-full group hover:text-primary transition-all duration-200 ease-in-out '>choose another pharmacy <em className={`${styles.hr} `}>
                     <IconChevronRight className="group-hover:text-primary text-text-secondary" />
-                </em></h1>
+                </em></h3>
             </div>
         </div>
     )
@@ -92,9 +92,9 @@ const FindPharmacyCardVar2 = ({ onMouseEnter, onMouseLeave, name, distance, addr
         <div className={`${styles.pharmacyCardVar2} ${className} shadow-lg`} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.pharmacyCardContVar2} flex flex-col justify-start sm:text-lg items-start`}>
-                <h1 className='flex justify-between items-center w-full text-2xl sm:text-25 font-bold pb-4'>{name} <em className='text-12 font-normal' >
+                <h3 className='flex justify-between items-center w-full text-2xl sm:text-25 font-bold pb-4'>{name} <em className='text-12 font-normal' >
                     {distance}
-                </em></h1>
+                </em></h3>
 
                 <div className='flex flex-col gap-4 font-[300]  '>
                     <p className=' flex gap-4 items-center text-16'> <IconMapPin className="text-[#444444]" />
@@ -110,9 +110,9 @@ const FindPharmacyCardVar2 = ({ onMouseEnter, onMouseLeave, name, distance, addr
             </div>
             {/* <hr className={`h-[1px] w-full bg-text-ph/60 ${styles.hr} `} /> */}
             <div className={`${styles.pharmacyCardVar2Cont2} `}>
-                <h1 className='flex gap-4 hover:gap-6 justify-center items-center w-full text-primary transition-all duration-200 ease-in-out pb-2'>View Pharmacy Details <em className={`${styles.hr} `}>
+                <h3 className='flex gap-4 hover:gap-6 justify-center items-center w-full text-primary transition-all duration-200 ease-in-out pb-2'>View Pharmacy Details <em className={`${styles.hr} `}>
                     <IconChevronRight className="text-primary" />
-                </em></h1>
+                </em></h3>
             </div>
         </div>
     )

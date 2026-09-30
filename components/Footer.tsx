@@ -51,12 +51,12 @@ const Footer = () => {
 
 
                         <div className={`${styles.contactDetailBox}`}>
-                            <p className={`${styles.contactDetails}`}><IconEmail />
-                                contact@yourpharmacy.co.uk</p>
-                            <p className={`${styles.contactDetails}`}><IconPhone />
-                                01622 754977</p>
-                            <p className={`${styles.contactDetails}`}><IconLocation />
-                                Parkwood Sutton Road Maidstone <br />Kent ME15 9NE</p>
+                            <a className={`${styles.contactDetails}`} href="mailto:contact@yourpharmacy.co.uk"><IconEmail />
+                                contact@yourpharmacy.co.uk</a>
+                            <a className={`${styles.contactDetails}`}><IconPhone />
+                                01622 754977</a>
+                            <a className={`${styles.contactDetails}`} href='https://www.google.com/maps/place/Park+Wood+Hand+Car+Wash/@51.2427677,0.5563211,17z/data=!3m1!4b1!4m6!3m5!1s0x47df31e045bb788b:0x4fb7954a969cd2f5!8m2!3d51.2427677!4d0.558896!16s%2Fg%2F11f4lf5hw2?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D'><IconLocation />
+                                Parkwood Sutton Road Maidstone <br />Kent ME15 9NE</a>
                         </div>
                     </div>
 

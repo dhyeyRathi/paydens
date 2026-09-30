@@ -17,16 +17,16 @@ const AwardsSection = () => {
     return (
         <section className={`${styles.awardSection}`}>
             <div>
-                <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
+                <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                     Latest <em className='text-button-hover'>News</em> From Paydens
-                </h1>
+                </h2>
             </div>
             <div className={`${styles.cardSection} lg:!py-12`}>
                 <div className={`${styles.card} paydens-shadow lg:!scale-110`} onMouseEnter={() => setHover(1)} onMouseLeave={() => setHover(null)}>
                     <Image src={relay} alt='relay' className={`${styles.images} ${hover === 1 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={blue} alt='relay' className={`${styles.images} ${hover === 1 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent    ' />
-                    <h2>Strategic partnership: Lagardère Travel Retail UK & Ireland and Paydens Group</h2>
+                    <h3>Strategic partnership: Lagardère Travel Retail UK & Ireland and Paydens Group</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
@@ -35,7 +35,7 @@ const AwardsSection = () => {
                     <Image src={award} alt='relay' className={`${styles.images} ${hover === 2 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={pink} alt='relay' className={`${styles.images} ${hover === 2 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
-                    <h2>Congratulations to Our IPA Award Winners</h2>
+                    <h3>Congratulations to Our IPA Award Winners</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
@@ -44,7 +44,7 @@ const AwardsSection = () => {
                     <Image src={cafe} alt='relay' className={`${styles.images} ${hover === 3 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={green} alt='relay' className={`${styles.images} ${hover === 3 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
-                    <h2>PAYDENS WALKS FOR PARKINSON'S UK 2024</h2>
+                    <h3>PAYDENS WALKS FOR PARKINSON'S UK 2024</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>

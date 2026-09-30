@@ -42,9 +42,9 @@ const Treatments = () => {
     return (
         <section className={`${styles.treatmentSection}`}>
             <div className='flex w-full justify-between items-baseline gap-[20px]'>
-                <h1 className='w-full text-center md:text-start px-4 text-xl md:text-3xl lg:text-heading font-bold'>
+                <h2 className='w-full text-center md:text-start px-4 text-xl md:text-3xl lg:text-heading font-bold'>
                     Care and <em className='text-button-hover'>Treatments </em>You Can Trust
-                </h1>
+                </h2>
                 <ArrowButton className='hidden md:flex' />
             </div>
             <div className={`${styles.cardsContainer}`}>

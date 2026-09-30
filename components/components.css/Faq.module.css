@@ -78,7 +78,7 @@
 
 }
 
-.question h1 {
+.question h3 {
     width: 120px;
     min-height: 120px;
     font-size: var(--font-size-32);
@@ -122,7 +122,7 @@
 
 
 @media (max-width: 768px) {
-    .question h1 {
+    .question h3 {
         font-size: 18px;
         padding: auto 2px;
         flex: 1;

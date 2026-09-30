@@ -75,7 +75,7 @@
     animation: fadeOut 0.5s ease-out forwards;
 }
 
-.card h2 {
+.card h3 {
     font-size: 24px;
     z-index: 10 !important;
     max-width: 80%;
@@ -134,7 +134,7 @@
         min-height: 320px;
     }
 
-    .card h2 {
+    .card h3 {
         font-size: 12px;
     }
 
@@ -146,7 +146,7 @@
 }
 
 @media (max-width: 1440px) {
-    .card h2 {
+    .card h3 {
         font-size: 20px;
 
     }

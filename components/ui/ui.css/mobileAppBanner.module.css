@@ -75,11 +75,11 @@
     z-index: -5 !important;
 }
 
-.textCont h1 {
+.textCont h3 {
     font-size: 31px;
 }
 
-.textCont h1 em {
+.textCont h3 em {
     font-weight: 600;
 }
 
@@ -97,7 +97,7 @@
 
 @media (max-width: 1440px) {
 
-    .textCont h1 {
+    .textCont h3 {
         font-size: 24px;
     }
 
@@ -170,7 +170,7 @@
     }
 
 
-    .textCont h1 {
+    .textCont h3 {
         font-size: 18px;
         text-align: center;
     }

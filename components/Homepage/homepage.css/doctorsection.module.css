@@ -30,13 +30,13 @@
     color: var(--color-text-secondary);
 }
 
-.textCont h1 {
+.textCont h2 {
     font-size: var(--font-size-heading);
     font-weight: 700;
     line-height: 1.25;
 }
 
-.textCont h1 em {
+.textCont h2 em {
     color: var(--color-button-hover);
 }
 
@@ -76,7 +76,7 @@
     }
 
 
-    .textCont h1 {
+    .textCont h2 {
         font-size: 40px;
         font-weight: 700;
         line-height: 1.25;
@@ -116,7 +116,7 @@
     }
 
 
-    .textCont h1 {
+    .textCont h2 {
         font-size: 32px;
         font-weight: 700;
         line-height: 1.25;

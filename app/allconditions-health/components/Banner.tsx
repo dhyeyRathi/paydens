@@ -7,8 +7,8 @@ const Banner = () => {
         <section className='w-full flex justify-center gap-10 lg:gap-20 items-center flex-col'>
             <div className='flex w-full py-10 items-center justify-between flex-wrap md:flex-nowrap gap-10 md:gap-0'>
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
-                    <h1 className='text-4xl text-gray-600'>01
-                    </h1>
+                    <h2 className='text-4xl text-gray-600'>01
+                    </h2>
                     <h2 className='text-2xl'>
                         Answer a few Questions
                     </h2>
@@ -20,8 +20,8 @@ const Banner = () => {
 
 
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
-                    <h1 className='text-4xl text-gray-600'>02
-                    </h1>
+                    <h2 className='text-4xl text-gray-600'>02
+                    </h2>
                     <h2 className='text-2xl'>
                         Schedule Appointment
                     </h2>
@@ -33,8 +33,8 @@ const Banner = () => {
 
 
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
-                    <h1 className='text-4xl text-gray-600'>03
-                    </h1>
+                    <h2 className='text-4xl text-gray-600'>03
+                    </h2>
                     <h2 className='text-2xl'>
                         Recieve Expert Care
                     </h2>
@@ -53,7 +53,7 @@ const Banner = () => {
 
                 <div className='flex  sticky z-2 flex-col gap-4 md:gap-6 w-full xl:items-end px-6 md:px-12 xl:px-20 xl:ml-60'>
                     <div className='flex flex-col gap-2 md:gap-6 xl:w-[50%]'>
-                        <h1 className='text-xl lg:text-3xl'>Signs you may need support</h1>
+                        <h2 className='text-xl lg:text-3xl'>Signs you may need support</h2>
                         <ul className='lg:!self-start list-disc list-inside text-sm md:text-base'>
                             <li>Pain or a scratchy feeling in the throat.</li>
                             <li>Pain that feels worse when swallowing or talking.</li>
@@ -65,7 +65,7 @@ const Banner = () => {
                     </div>
 
                     <div className='flex flex-col gap-2 md:gap-6  xl:w-[50%]'>
-                        <h1 className='text-xl lg:text-3xl'>How to Treat a Sore Throat</h1>
+                        <h2 className='text-xl lg:text-3xl'>How to Treat a Sore Throat</h2>
                         <ul className='lg:!self-start list-disc list-inside text-sm md:text-base '>
                             <li>Gargle with warm, salty water (children should not try this)</li>
                             <li>Drink plenty of water</li>

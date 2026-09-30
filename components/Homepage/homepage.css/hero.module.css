@@ -134,7 +134,7 @@
     overflow: hidden;
 }
 
-.statsSection h1 {
+.statsSection h4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +191,7 @@
 
 
 
-    .statsSection h1 {
+    .statsSection h4 {
         font-size: medium;
         gap: 0;
         flex-direction: column;

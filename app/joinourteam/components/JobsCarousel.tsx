@@ -114,7 +114,7 @@ const JobsCarousel = () => {
                 {[...jobs].map((job) => {
                     return (
                         <div key={job} className='flex flex-col border-border border-1 p-6 rounded-xl gap-4 font-quicksand'>
-                            <h1 className='font-semibold lg:text-2xl'>Pharmacy Accuracy Checker Technician</h1>
+                            <h3 className='font-semibold lg:text-2xl'>Pharmacy Accuracy Checker Technician</h3>
                             <div className='flex gap-1 lg:gap-4  item-center justify-center  font-[300]'>
                                 <IconMapPinSolid className="h-8 text-[#5E5E5E]" />
                                 South East - Courts/Kennington Pharmacy (Ashford TN24 9JZ)

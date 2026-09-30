@@ -10,26 +10,26 @@ const Doctors = () => {
     return (
         <section className={`${styles.doctorSection}`}>
             <div className={`${styles.textCont}`}>
-                <h1>Your Health, In <em>Expert </em> Hands</h1>
+                <h2>Your Health, In <em>Expert </em> Hands</h2>
                 <p>Paydens Group is an independent family owned company established in 1969. We operate over 100 pharmacies across the South-East of England, with our Head Office based in Maidstone, Kent.
                 </p>
                 <div className={`${styles.badges}`}>
                     <div className='flex gap-2 items-center'>
                         <IconShieldCheck className='w-10 h-10 text-primary' />
 
-                        <h2 className='font-[300] text-text-secondary'>GPhC Registered Professionals</h2>
+                        <h3 className='font-[300] text-text-secondary'>GPhC Registered Professionals</h3>
 
                     </div>
                     <div className='flex gap-2 items-center'>
                         <IconShieldCheck className='w-10 h-10 text-primary' />
 
-                        <h2 className=' font-[300] text-text-secondary'>NHS Approved Provider</h2>
+                        <h3 className=' font-[300] text-text-secondary'>NHS Approved Provider</h3>
 
                     </div>
                     <div className='flex gap-2 items-center'>
                         <IconShieldCheck className='w-10 h-10 text-primary' />
 
-                        <h2 className=' font-[300] text-text-secondary'>Trusted Since 1969</h2>
+                        <h3 className=' font-[300] text-text-secondary'>Trusted Since 1969</h3>
 
                     </div>
 

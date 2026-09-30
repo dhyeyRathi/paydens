@@ -40,13 +40,13 @@ const FaqSection = () => {
     };
     return (
         <section className='flex flex-col gap-8 items-center'>
-            <h1 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
+            <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 Got Questions? We've Got<em className='text-button-hover'> Answers</em>
-            </h1>
+            </h2>
             <div className={`${styles.questionCont}`}>
                 {faqs.map((que) => (
                     <div key={que.id} className={`${styles.question} ${queActive === que.id && styles.questionActive}`}>
-                        <h1>{que.id}</h1>
+                        <h3>{que.id}</h3>
                         <div tabIndex={0}>
                             <h2>{que.question}</h2>
                             <p>{que.answer}</p>

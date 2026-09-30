@@ -19,12 +19,12 @@ const GetInTouch = () => {
                 <div className={`${styles.textCard}`}>
                     <Logo className='absolute top-[0] right-[0] h-40 w-auto' />
                     <div>
-                        <h1>Email Address:</h1>
+                        <h3>Email Address:</h3>
                         <p>contact@paydens.com</p>
                     </div>
 
                     <div>
-                        <h1>Paydens Head Office:</h1>
+                        <h3>Paydens Head Office:</h3>
                         <p>Paydens Ltd. <br />
                             Parkwood<br />
                             Sutton Road<br />
@@ -32,7 +32,7 @@ const GetInTouch = () => {
                             Kent ME15 9NE</p>
                     </div>
                     <div>
-                        <h1>Telephone Number:</h1>
+                        <h3>Telephone Number:</h3>
                         <p>01622 754977</p>
                     </div>
                     <div>

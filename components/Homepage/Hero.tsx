@@ -74,22 +74,22 @@ const Hero = () => {
             <div className='w-full'>
                 <hr className='w-full h-[1px] bg-text-secondary/60 border-none' />
                 <div className={`${styles.statsSection}`}>
-                    <h1>
+                    <h4>
                         <em>55+ </em>
                         Years of care
-                    </h1>
-                    <h1>
+                    </h4>
+                    <h4>
                         <NHS />
                         NHS Prescriptions
-                    </h1>
-                    <h1>
+                    </h4>
+                    <h4>
                         <em>100+ </em>
                         Pharmacies Served
-                    </h1>
-                    <h1>
+                    </h4>
+                    <h4>
                         <GPHC />
                         GPhC Registered
-                    </h1>
+                    </h4>
                 </div>
                 <hr className='w-full h-[1px] bg-text-secondary/60 border-none ' />
             </div>

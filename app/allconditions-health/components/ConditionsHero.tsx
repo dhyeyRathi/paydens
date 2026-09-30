@@ -11,12 +11,12 @@ const ConditionsHero = () => {
             </h1>
             <div className={`${styles.cardCont}`}>
                 <div className={`${styles.card}`}>
-                    <h2>
+                    <h3>
                         STEP 1
-                    </h2>
-                    <h1>
+                    </h3>
+                    <h2>
                         Pick Your Condition
-                    </h1>
+                    </h2>
                     <p>
                         Choose from a wide range of health conditions that match your needs.
                     </p>
@@ -24,12 +24,12 @@ const ConditionsHero = () => {
 
                 </div>
                 <div className={`${styles.card}`}>
-                    <h2>
+                    <h3>
                         STEP 2
-                    </h2>
-                    <h1>
+                    </h3>
+                    <h2>
                         Answer a Few Questions
-                    </h1>
+                    </h2>
                     <p>
                         Fill out a short online questionnaire so our doctors understand your health.
                     </p>
@@ -38,24 +38,24 @@ const ConditionsHero = () => {
 
                 </div>
                 <div className={`${styles.card}`}>
-                    <h2>
+                    <h3>
                         STEP 3
-                    </h2>
-                    <h1>
+                    </h3>
+                    <h2>
                         Schedule Appointment
-                    </h1>
+                    </h2>
                     <p>
                         Book a convenient time to consult with our healthcare experts.
                     </p>
                     <IconStep3 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
                 </div>
                 <div className={`${styles.card}`}>
-                    <h2>
+                    <h3>
                         STEP 4
-                    </h2>
-                    <h1>
+                    </h3>
+                    <h2>
                         Recieve Expert Care
-                    </h1>
+                    </h2>
                     <p>
                         Once approved, your treatment will be safely delivered to your home.
                     </p>

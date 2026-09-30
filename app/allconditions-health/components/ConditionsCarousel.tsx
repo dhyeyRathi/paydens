@@ -54,9 +54,9 @@ const ConditionsCarousel = () => {
     return (
         <section className={`${styles.carouselSection}`}>
             <div className='flex flex-col gap-10'>
-                <h1 className='font-quicksand text-xl md:text-5xl text-center md:text-start'>
+                <h2 className='font-quicksand text-xl md:text-5xl text-center md:text-start'>
                     What do you need help with?
-                </h1>
+                </h2>
                 <div className='flex flex-col gap-2 md:gap-0 md:flex-row justify-between w-full items-center'>
                     <InputBarVar2 placeholder='what condition are you looking for?' divClassName=' !w-[80%] md:!w-[50%]'>
                         <Button className='!rounded-md !m-[2px] text-sm md:text-lg'>Search</Button></InputBarVar2>
@@ -85,7 +85,7 @@ const ConditionsCarousel = () => {
                                                 <button onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
+                                                        <h3 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h3>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
@@ -98,7 +98,7 @@ const ConditionsCarousel = () => {
                                                 <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between'>
-                                                        <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
+                                                        <h3 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h3>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
@@ -110,7 +110,7 @@ const ConditionsCarousel = () => {
                                                 <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
+                                                        <h3 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h3>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
