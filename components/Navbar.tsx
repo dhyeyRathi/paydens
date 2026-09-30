@@ -1,5 +1,5 @@
 "use client"
-import React, { use, useState } from 'react'
+import React, { use, useState, useEffect } from 'react'
 import Image from 'next/image'
 import { LogoText } from './Icon/Logo/Logo'
 import InputBar from './ui/InputBar'
@@ -17,15 +17,32 @@ const Navbar = () => {
 
     const router = useRouter();
     const [hamburger, setHamburger] = useState<boolean>(false);
+    const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
     function handleRouting(e: string) {
         setHamburger(false)
         router.push(e);
     }
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         if (window.scrollY > 50) {
+    //             setIsScrolled(true);
+    //         } else {
+    //             setIsScrolled(false);
+    //         }
+    //     };
+
+    //     window.addEventListener('scroll', handleScroll);
+
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
+
 
     return (<>
         <header className={`${styles.header} paydens-shadow`}>
-            <div className={`${styles.container} bg-primary/10  w-full min-[769px]:rounded-b-none`}>
+            <div className={`${styles.container} bg-primary/10  w-full min-[769px]:rounded-b-none `}>
                 <div className={`${styles.logoSearchCont} flex-1`}>
                     <a href='/' onClick={() => setHamburger(false)}>  <LogoText className={`${styles.LogoText}`} /></a>
 

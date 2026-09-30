@@ -13,7 +13,7 @@ import { renderToString } from "react-dom/server";
 import MapMarker from "./Icon/MapMarker";
 
 const pharmacyIcon = L.divIcon({
-    html: renderToString(<MapMarker />),
+    html: renderToString(<MapMarker className="transition-all duration-300 hover:scale-120" />),
     className: "bg-transparent",
     iconSize: [80, 100],
     iconAnchor: [40, 100],
