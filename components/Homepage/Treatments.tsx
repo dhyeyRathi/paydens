@@ -61,11 +61,11 @@ const Treatments = () => {
                                 ))
                             }
 
-                            <Link href='/all-conditions'>See More</Link>
+                            <Link scroll={false} href='/all-conditions'>See More</Link>
                         </div>))
                 }
             </div>
-            <Link href={'/all-conditions'} className='self-center'>
+            <Link scroll={false} href={'/all-conditions'} className='self-center'>
                 <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>View All Treatments</Button>
             </Link>
 

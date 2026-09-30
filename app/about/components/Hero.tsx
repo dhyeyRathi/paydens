@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './components.css/Hero.module.css'
 import IconHealthcarePartner from '@/components/Icon/IconHealthcarePartner'
 import GPHC from '@/components/Icon/Logo/GPHC'
-import MHRA from '@/components/Icon/Logo/MHRA'
+import MHRALogo from '@/components/Icon/Logo/MHRA'
 import RegisteredPharmacy from '@/components/Icon/Logo/RegisteredPharmacy'
 
 
@@ -40,7 +40,7 @@ const Hero = () => {
                             <h2 className='text-lg md:text-2xl font-bold'>MHRA Compliant</h2>
                             <p className='text-sm md:text-base'>Paydens follows MHRA guidelines for the safe supply of medicines and healthcare products in the UK.</p>
                         </div>
-                        <MHRA className=' ' />
+                        <MHRALogo className=' ' />
                     </div>
                 </div>
             </div>

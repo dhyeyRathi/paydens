@@ -35,7 +35,7 @@ const Doctors = () => {
 
                 </div>
 
-                <Link href={'/joinourteam'} className=''>
+                <Link scroll={false} href={'/joinourteam'} className=''>
                     <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>Meet Our Team</Button>
                 </Link>
             </div>

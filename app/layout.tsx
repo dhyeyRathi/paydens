@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Quicksand } from "next/font/google";
 import Footer from "@/components/Footer";
+import SmoothScrollToTop from "@/components/ScrollToTop";
 
 
 const quicksand = Quicksand({
@@ -14,6 +15,9 @@ const quicksand = Quicksand({
 export const metadata: Metadata = {
   title: "Paydens",
   description: "pharmacy",
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -24,6 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full  overflow-x-hidden flex flex-col items-center justify-center  pt-[80px] sm:pt-[140px] min-[480]:pt-[120px] md:pt-[180px] lg:pt-[200px] xl:pt-[240px]  bg-white ">
         <Navbar />
+        <SmoothScrollToTop />
         <div className="w-full !overflow-visible xl:max-w-[1440px]">
           {children}
         </div>

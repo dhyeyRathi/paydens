@@ -48,7 +48,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
                                                 </div>
                                             ))}
                                             {condition?.viewAll &&
-                                                <Link href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
+                                                <Link scroll={false} href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
                                         </div>
                                     ))}
 

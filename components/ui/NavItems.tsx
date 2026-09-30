@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import styles from "../components.css/Navbar.module.css"
 import ServicesDropdown from './ServicesDropdown'
-import Link from 'next/link';
+
 import { useRouter } from 'next/navigation';
 import { on } from 'events';
 import IconChevronDown from '../Icon/IconChevronDown';

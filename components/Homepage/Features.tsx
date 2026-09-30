@@ -43,7 +43,7 @@ const Features = () => {
                         </div>
                         <div className={`${styles.NHSpres} paydens-shadow`}>
                             <h2>Manage my NHS <br />Prescriptions</h2>
-                            <Link href='/prescriptions'><ButtonVar2 className='scale-120 ml-4'>Manage Prescriptions</ButtonVar2></Link>
+                            <Link scroll={false} href='/prescriptions'><ButtonVar2 className='scale-120 ml-4'>Manage Prescriptions</ButtonVar2></Link>
                             <Image src={papers} alt='icons' className='absolute  top-[44%] rotate-[-10deg] right-[-30%] ' />
                         </div>
 
