@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from 'react'
 import styles from './components.css/Faq.module.css'
+import IconPlus from './Icon/IconPlus'
+import IconClose from './Icon/IconClose'
 
 const FaqSection = () => {
     const faqs = [
@@ -49,14 +51,8 @@ const FaqSection = () => {
                             <h2>{que.question}</h2>
                             <p>{que.answer}</p>
                         </div>
-                        <button onClick={() => handleActive(que.id)}>{queActive !== que.id ? <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" >
-                            <rect width="40" height="40" rx="20" fill="white" />
-                            <path fillRule="evenodd" clipRule="evenodd" d="M21 12.999H19V18.999H13V20.999H19V26.999H21V20.999H27V18.999H21V12.999Z" fill="#00180C" />
-                        </svg> :
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="40" height="40" rx="20" fill="#37B43D" />
-                                <path fillRule="evenodd" clipRule="evenodd" d="M25.6569 15.7574L24.2426 14.3432L20 18.5859L15.7574 14.3432L14.3431 15.7574L18.5858 20.0001L14.3431 24.2427L15.7574 25.6569L20 21.4143L24.2426 25.6569L25.6569 24.2427L21.4142 20.0001L25.6569 15.7574Z" fill="white" />
-                            </svg>}
+                        <button onClick={() => handleActive(que.id)}>{queActive !== que.id ? <IconPlus /> :
+                            <IconClose />}
 
                         </button>
                     </div>

@@ -18,19 +18,13 @@
 .imageCont {
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 30px;
     justify-content: start;
     align-items: center;
     width: 100%;
     padding: 0px 15px;
 }
 
-.images {
-    aspect-ratio: initial;
-    height: 20px;
-    width: auto;
-
-}
 
 .textCont {
     display: flex;

@@ -1,5 +1,6 @@
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import React from 'react'
+import IconBannerBg1 from '@/components/Icon/IconBannerBg1'
 
 const Banner = () => {
     return (
@@ -48,16 +49,7 @@ const Banner = () => {
                     <ColorGradientBg />
                 </div>
                 <img src="/assets/images/ui/throatpain.png" className='h-full w-auto absolute opacity-20 xl:opacity-100 z-[1] xl:z-4 !left-[12%] inset-0' />
-                <svg width="251" height="251" viewBox="0 0 251 251" fill="none" xmlns="http://www.w3.org/2000/svg" className=' absolute opacity-40 xl:opacity-100 z-3 bottom-[0%] left-[0] ' >
-                    <g clipPath="url(#clip0_8_6638)">
-                        <path opacity="0.34" d="M76.4381 250.873C27.2057 250.876 4.03194 185.315 42.375 154.926L131.97 83.8812C174.547 50.1373 121.321 -16.945 78.8894 16.6817L56.0387 34.8293C32.3163 53.6305 -3.23868 33.5699 0.236803 3.67845C0.78737 -1.04328 8.09132 -0.194633 7.54174 4.52759C4.80607 28.0451 32.7129 43.9326 51.4684 29.0682L74.3191 10.9206C124.131 -28.5598 186.535 50.0197 136.539 89.6443L46.9438 160.689C1.10702 197.016 58.0909 269.615 104.151 233.112L170.128 180.823C186.233 168.059 207.389 166.34 225.337 176.338C243.328 186.359 253.025 205.304 250.644 225.78C250.094 230.503 242.789 229.653 243.339 224.931C245.37 207.466 237.101 191.308 221.759 182.762C206.459 174.24 188.425 175.705 174.695 186.587L108.719 238.875C98.6916 246.822 87.6274 250.872 76.4381 250.873Z" fill="white" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_8_6638">
-                            <rect width="251" height="251" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
+                <IconBannerBg1 className=" absolute opacity-40 xl:opacity-100 z-3 bottom-[0%] left-[0] " />
 
                 <div className='flex  sticky z-2 flex-col gap-4 md:gap-6 w-full xl:items-end px-6 md:px-12 xl:px-20 xl:ml-60'>
                     <div className='flex flex-col gap-2 md:gap-6 xl:w-[50%]'>

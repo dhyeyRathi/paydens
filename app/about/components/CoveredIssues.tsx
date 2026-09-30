@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './components.css/CoveredIssies.module.css'
+import IconArrowTopRightGreen from '@/components/Icon/IconArrowTopRightGreen'
 
 const CoveredIssues = () => {
     return (
@@ -14,31 +15,19 @@ const CoveredIssues = () => {
             <div className='grid grid-cols-2 max-w-200 gap-5 lg:gap-x-10 !self-center'>
                 <div className=' flex bg-white p-6 h-full w-full  rounded-2xl relative lg:w-60'>
                     <h1 className='text-base sm:text-xl lg:text-2xl'>Foundation <br /> Training</h1>
-                    <svg width="50" height="50" className="absolute right-[10%] bottom-[10%]  h-10 w-10 lg:h-15 lg:w-15" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="25" fill="#37B43D" />
-                        <path d="M32.4223 17.2521C32.3741 16.7019 31.8891 16.2949 31.3389 16.3431L22.3732 17.1275C21.823 17.1756 21.416 17.6606 21.4641 18.2108C21.5123 18.761 21.9973 19.168 22.5475 19.1199L30.517 18.4226L31.2143 26.3922C31.2624 26.9424 31.7474 27.3493 32.2976 27.3012C32.8478 27.2531 33.2548 26.768 33.2067 26.2179L32.4223 17.2521ZM18.5703 32.6602L19.3364 33.3029L32.1921 17.9821L31.4261 17.3393L30.66 16.6965L17.8043 32.0174L18.5703 32.6602Z" fill="white" />
-                    </svg>
+                    <IconArrowTopRightGreen className="absolute right-[10%] bottom-[10%] h-10 w-10 lg:h-15 lg:w-15" />
                 </div>
                 <div className=' flex bg-white p-6 h-full w-full rounded-2xl relative lg:w-60'>
                     <h1 className='text-base sm:text-xl lg:text-2xl'>Enviormental <br />Issues</h1>
-                    <svg width="50" height="50" className="absolute right-[10%] bottom-[10%]  h-10 w-10 lg:h-15 lg:w-15" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="25" fill="#37B43D" />
-                        <path d="M32.4223 17.2521C32.3741 16.7019 31.8891 16.2949 31.3389 16.3431L22.3732 17.1275C21.823 17.1756 21.416 17.6606 21.4641 18.2108C21.5123 18.761 21.9973 19.168 22.5475 19.1199L30.517 18.4226L31.2143 26.3922C31.2624 26.9424 31.7474 27.3493 32.2976 27.3012C32.8478 27.2531 33.2548 26.768 33.2067 26.2179L32.4223 17.2521ZM18.5703 32.6602L19.3364 33.3029L32.1921 17.9821L31.4261 17.3393L30.66 16.6965L17.8043 32.0174L18.5703 32.6602Z" fill="white" />
-                    </svg>
+                    <IconArrowTopRightGreen className="absolute right-[10%] bottom-[10%] h-10 w-10 lg:h-15 lg:w-15" />
                 </div>
                 <div className=' flex bg-white p-6  h-full w-full rounded-2xl relative lg:w-60'>
                     <h1 className='text-base sm:text-xl lg:text-2xl'>Gender Pay <br />Gap</h1>
-                    <svg width="50" height="50" className="absolute right-[10%] bottom-[10%]  h-10 w-10 lg:h-15 lg:w-15" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="25" fill="#37B43D" />
-                        <path d="M32.4223 17.2521C32.3741 16.7019 31.8891 16.2949 31.3389 16.3431L22.3732 17.1275C21.823 17.1756 21.416 17.6606 21.4641 18.2108C21.5123 18.761 21.9973 19.168 22.5475 19.1199L30.517 18.4226L31.2143 26.3922C31.2624 26.9424 31.7474 27.3493 32.2976 27.3012C32.8478 27.2531 33.2548 26.768 33.2067 26.2179L32.4223 17.2521ZM18.5703 32.6602L19.3364 33.3029L32.1921 17.9821L31.4261 17.3393L30.66 16.6965L17.8043 32.0174L18.5703 32.6602Z" fill="white" />
-                    </svg>
+                    <IconArrowTopRightGreen className="absolute right-[10%] bottom-[10%] h-10 w-10 lg:h-15 lg:w-15" />
                 </div>
                 <div className=' flex bg-white p-6 h-full w-full rounded-2xl relative lg:w-60'>
                     <h1 className='text-base sm:text-xl lg:text-2xl'>Modern<br /> Slavery Act</h1>
-                    <svg width="50" height="50" className="absolute right-[10%] bottom-[10%]  h-10 w-10 lg:h-15 lg:w-15" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="25" fill="#37B43D" />
-                        <path d="M32.4223 17.2521C32.3741 16.7019 31.8891 16.2949 31.3389 16.3431L22.3732 17.1275C21.823 17.1756 21.416 17.6606 21.4641 18.2108C21.5123 18.761 21.9973 19.168 22.5475 19.1199L30.517 18.4226L31.2143 26.3922C31.2624 26.9424 31.7474 27.3493 32.2976 27.3012C32.8478 27.2531 33.2548 26.768 33.2067 26.2179L32.4223 17.2521ZM18.5703 32.6602L19.3364 33.3029L32.1921 17.9821L31.4261 17.3393L30.66 16.6965L17.8043 32.0174L18.5703 32.6602Z" fill="white" />
-                    </svg>
+                    <IconArrowTopRightGreen className="absolute right-[10%] bottom-[10%] h-10 w-10 lg:h-15 lg:w-15" />
                 </div>
 
 

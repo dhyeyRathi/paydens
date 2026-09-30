@@ -4,6 +4,22 @@ import styles from "./component.css/Treatments.module.css"
 import { InputBarVar2 } from '@/components/ui/InputBar'
 import Image from 'next/image'
 import { Button } from '@/components/ui/Button'
+import IconChevronRight from '@/components/Icon/IconChevronRight'
+import {
+    Acne,
+    Asthama,
+    Diabetes,
+    Follicus,
+    Gender,
+    Headache,
+    Lungs,
+    Organ,
+    Semen,
+    Throat,
+    Waist,
+    Weightloss,
+} from "@/components/Icon/diseases/diseases"
+import { icon } from 'leaflet'
 
 
 const Treatments = () => {
@@ -12,73 +28,73 @@ const Treatments = () => {
         {
             title: "Weight Loss",
             diseases: ["Azelaic Acid", "Azelex", "Doxycycline", "Differin"],
-            icon: "/diseases/weightloss.png",
+            icon: <Weightloss className='h-full' />,
             category: "Weight Management"
         },
         {
             title: "Acne",
             diseases: ["Azelaic Acid", "Azelex", "Doxycycline", "Differin"],
-            icon: "/diseases/acne.png",
+            icon: <Acne className='h-full' />,
             category: "Skin"
         },
         {
             title: "Anaphylaxis",
             diseases: ["Epinephrine", "Famotidine", "Diphenhydramine", "Levalbuterol"],
-            icon: "/diseases/headache.png",
+            icon: <Headache className='h-full' />,
             category: "All Treatments"
         },
         {
             title: "Asthma",
             diseases: ["Advair", "Xopenex", "Fluticasone + Salmeterol", "Levalbuterol"],
-            icon: "/diseases/asthama.png",
+            icon: <Asthama className='h-full' />,
             category: "All Treatments"
         },
         {
             title: "BPH",
             diseases: ["Tamsulosin", "Dutasteride", "Finasteride", "Doxazosin"],
-            icon: "/diseases/organ.png",
+            icon: <Organ className='h-full' />,
             category: "Men's Health"
         },
         {
             title: "Cold Sores",
             diseases: ["Azelaic Acid", "Azelex", "Doxycycline", "Levalbuterol"],
-            icon: "/diseases/throat.png",
+            icon: <Throat className='h-full' />,
             category: "Skin"
         },
         {
             title: "COPD",
             diseases: ["Combivent", "Spiriva", "Serevent", "Stiolto Respimat"],
-            icon: "/diseases/lungs.png",
+            icon: <Lungs className='h-full' />,
             category: "All Treatments"
         },
         {
             title: "Chlamydia",
             diseases: ["Levofloxacin", "Azithromycin", "Doxycycline", "Zithromax"],
-            icon: "/diseases/gender.png",
+            icon: <Gender className='h-full' />,
             category: "Sexual Health"
         },
         {
             title: "Diabetes",
             diseases: ["Farxiga", "Januvia", "Glipizide", "Rybelsus"],
-            icon: "/diseases/diabetes.png",
+            icon: <Diabetes className='h-full' />,
             category: "All Treatments"
         },
         {
             title: "Erectile Dysfunction",
             diseases: ["Viagra", "Cialis", "Sildenafil", "Tadalafil"],
-            icon: "/diseases/semen.png",
+            icon: <Semen className='h-full' />,
             category: "Sexual Health"
         },
         {
             title: "Folliculitis",
             diseases: ["Ziana gel", "Clindacin", "Doxycycline", "Onexton"],
-            icon: "/diseases/follicus.png",
+            icon: <Follicus className='h-full' />,
             category: "Skin"
         },
         {
             title: "Weight Loss",
             diseases: ["Azelaic Acid", "Azelex", "Doxycycline", "Differin"],
-            icon: "/diseases/waist.png",
+            icon: <Waist className='h-full' />,
             category: "Weight Management"
         }
     ];
@@ -106,25 +122,14 @@ const Treatments = () => {
                         return (
                             <div key={index} className={`${styles.card}`}>
                                 <div className=' flex h-10 md:h-15 justify-between w-full items-center '> <h1>{item.title} </h1>
-                                    <img src={item.icon} alt={item.title} className='h-full' />
+                                    {item.icon}
                                 </div>
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
                                             <button className={`${styles.cardItem}`} key={e}>
                                                 <h2> {e}</h2>
-                                                {e && <svg
-                                                    width="10"
-                                                    height="15"
-                                                    viewBox="0 0 6 11"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M-0.000134468 9.925L0.884032 10.8083L5.69987 5.99417C5.77749 5.91703 5.8391 5.8253 5.88114 5.72425C5.92318 5.62321 5.94482 5.51485 5.94482 5.40542C5.94482 5.29598 5.92318 5.18762 5.88114 5.08658C5.8391 4.98554 5.77749 4.89381 5.69987 4.81667L0.884032 0L0.000698566 0.883333L4.5207 5.40417L-0.000134468 9.925Z"
-                                                        fill="#444444"
-                                                    />
-                                                </svg>}
+                                                {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
                                         ))
                                     }
@@ -140,25 +145,14 @@ const Treatments = () => {
                         return (
                             <div key={index} className={`${styles.card}`}>
                                 <div className=' flex h-10 md:h-15 justify-between w-full items-center '> <h1>{item.title} </h1>
-                                    <img src={item.icon} alt={item.title} className='h-full' />
+                                    {item.icon}
                                 </div>
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
                                             <button className={`${styles.cardItem}`} key={e}>
                                                 <h2> {e}</h2>
-                                                {e && <svg
-                                                    width="10"
-                                                    height="15"
-                                                    viewBox="0 0 6 11"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M-0.000134468 9.925L0.884032 10.8083L5.69987 5.99417C5.77749 5.91703 5.8391 5.8253 5.88114 5.72425C5.92318 5.62321 5.94482 5.51485 5.94482 5.40542C5.94482 5.29598 5.92318 5.18762 5.88114 5.08658C5.8391 4.98554 5.77749 4.89381 5.69987 4.81667L0.884032 0L0.000698566 0.883333L4.5207 5.40417L-0.000134468 9.925Z"
-                                                        fill="#444444"
-                                                    />
-                                                </svg>}
+                                                {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
                                         ))
                                     }

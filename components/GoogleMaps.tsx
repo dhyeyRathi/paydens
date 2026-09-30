@@ -9,9 +9,12 @@ import {
     TileLayer,
     Marker,
 } from "react-leaflet";
+import { renderToString } from "react-dom/server";
+import MapMarker from "./Icon/MapMarker";
 
-const pharmacyIcon = L.icon({
-    iconUrl: "/map-marker.png",
+const pharmacyIcon = L.divIcon({
+    html: renderToString(<MapMarker />),
+    className: "bg-transparent",
     iconSize: [80, 100],
     iconAnchor: [40, 100],
 });

@@ -5,7 +5,7 @@ import { InputBarVar2 } from '@/components/ui/InputBar'
 import { Button } from '@/components/ui/Button'
 import conditions from '@/public/assets/data/conditions.json'
 import { useRouter } from 'next/navigation'
-
+import { NHSLeaf } from '@/components/Icon/Logo/NHS'
 const ConditionsCarousel = () => {
     const filter = ["All", "NHS Services", "Private Services"]
     const [selected, setSelected] = useState<string | null>("All")
@@ -86,7 +86,7 @@ const ConditionsCarousel = () => {
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
                                                         <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
-                                                        {cond.nhs && <img src='/assets/images/ui/nhs-leaf.png' className='h-6 lg:h-8' />}
+                                                        {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
                                                 </button>
@@ -99,7 +99,7 @@ const ConditionsCarousel = () => {
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between'>
                                                         <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
-                                                        {cond.nhs && <img src='/assets/images/ui/nhs-leaf.png' className='h-6 lg:h-8' />}
+                                                        {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
                                                 </button>
@@ -111,7 +111,7 @@ const ConditionsCarousel = () => {
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
                                                         <h1 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h1>
-                                                        {cond.nhs && <img src='/assets/images/ui/nhs-leaf.png' className='h-6 lg:h-8' />}
+                                                        {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
                                                 </button>
