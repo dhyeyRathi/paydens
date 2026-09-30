@@ -27,8 +27,8 @@ const PresHero = () => {
                         <li> Reliable service with free home delivery.</li>
                     </ul>
 
-                    <div className='flex gap-4 w-full justify-center lg:justify-start'>
-                        <Button className=' '>Register For Free</Button>
+                    <div className='flex gap-4 w-full !justify-center md:!justify-start'>
+                        <Button className='!w-[250px] '>Register For Free</Button>
                         <ButtonVar2 className='h-full'>Login & Reorder</ButtonVar2>
                     </div>
 

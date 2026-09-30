@@ -1,6 +1,6 @@
 .Hero {
-    min-height: screen;
     position: relative;
+    margin-top: 80px;
 }
 
 .Cont {
