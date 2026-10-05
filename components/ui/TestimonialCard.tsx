@@ -26,7 +26,7 @@ const TestimonialCard = ({ className, children, id }: cardProp) => {
             </div>
             <div className='h-8 sm:h-12 flex gap-3 sm:gap-6 w-full items-center'>
                 {children}
-                <h4 className='font-[600] text-base sm:text-2xl'>Marina Lewis</h4>
+                <h3 className='font-[600] text-base sm:text-2xl'>Marina Lewis</h3>
             </div>
         </section>
     )

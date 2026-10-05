@@ -85,10 +85,10 @@ const ConditionsCarousel = () => {
                                                 <button onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <h3 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h3>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</span>
                                                 </button>
                                             )
 
@@ -98,10 +98,10 @@ const ConditionsCarousel = () => {
                                                 <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between'>
-                                                        <h3 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h3>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</span>
                                                 </button>
                                             )
                                         }
@@ -110,10 +110,10 @@ const ConditionsCarousel = () => {
                                                 <button key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <h3 className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</h3>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <p className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</p>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</span>
                                                 </button>
                                             )
                                         }

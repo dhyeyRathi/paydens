@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.card h4 {
+.card h3 {
     font-size: var(--font-size-25);
     font-weight: 600;
 }
@@ -85,7 +85,7 @@
         gap: 25px;
     }
 
-    .card h1 {
+    .card h3 {
         font-size: large;
         font-weight: 600;
     }

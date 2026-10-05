@@ -37,12 +37,12 @@
 }
 
 
-.card h2 {
+.card h3 {
     font-size: var(--font-size-25);
     font-weight: 600;
 }
 
-.card h3 {
+.card h2 {
     font-size: var(--font-size-12);
 
 }
@@ -68,7 +68,7 @@
         height: 120px;
     }
 
-    .card h2 {
+    .card h3 {
         font-size: 20px;
     }
 
@@ -95,7 +95,7 @@
         height: 80px;
     }
 
-    .card h2 {
+    .card h3 {
         font-size: 15px;
     }
 

@@ -15,9 +15,6 @@ const Testimonial = () => {
     const testimonial = [avatarmale, avatarmale, female, avatarmale, female, avatarmale, female, avatarmale]
 
     const [activeIndex, setActiveIndex] = useState<number>(0);
-    const router = useRouter();
-    const next = activeIndex + 1;
-    const previous = activeIndex - 1;
     const isFirstRender = useRef(true);
 
     useEffect(() => {

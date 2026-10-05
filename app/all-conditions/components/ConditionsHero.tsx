@@ -10,12 +10,12 @@ const ConditionsHero = () => {
             </h1>
             <div className={`${styles.cardCont}`}>
                 <div className={`${styles.card}`}>
-                    <h3>
-                        STEP 1
-                    </h3>
                     <h2>
-                        Find Your Condition
+                        STEP 1
                     </h2>
+                    <h3>
+                        Find Your Condition
+                    </h3>
                     <p>
                         Explore our list of health conditions to find the one that fits your needs.
                     </p>
@@ -23,12 +23,12 @@ const ConditionsHero = () => {
 
                 </div>
                 <div className={`${styles.card}`}>
-                    <h3>
-                        STEP 2
-                    </h3>
                     <h2>
-                        Choose Your Product
+                        STEP 2
                     </h2>
+                    <h3>
+                        Choose Your Product
+                    </h3>
                     <p>
                         Browse treatments and select the options that are suitable for you.
                     </p>
@@ -37,12 +37,12 @@ const ConditionsHero = () => {
 
                 </div>
                 <div className={`${styles.card}`}>
-                    <h3>
-                        STEP 3
-                    </h3>
                     <h2>
-                        Fill Mandatory Questionaire
+                        STEP 3
                     </h2>
+                    <h3>
+                        Fill Mandatory Questionaire
+                    </h3>
                     <p>
                         Fill out a short online questionnaire so our doctors understand your health.
                     </p>
@@ -52,12 +52,12 @@ const ConditionsHero = () => {
 
                 </div>
                 <div className={`${styles.card}`}>
-                    <h3>
-                        STEP 4
-                    </h3>
                     <h2>
-                        Recieve it next day
+                        STEP 4
                     </h2>
+                    <h3>
+                        Recieve it next day
+                    </h3>
                     <p>
                         Once approved, your treatment will be safely delivered to your home.
                     </p>

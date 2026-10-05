@@ -128,7 +128,7 @@ const Treatments = () => {
                                     {
                                         item.diseases.map((e, index: number) => (
                                             <button className={`${styles.cardItem}`} key={e}>
-                                                <h3> {e}</h3>
+                                                <span> {e}</span>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
                                         ))
@@ -151,7 +151,7 @@ const Treatments = () => {
                                     {
                                         item.diseases.map((e, index: number) => (
                                             <button className={`${styles.cardItem}`} key={e}>
-                                                <h3> {e}</h3>
+                                                <span> {e}</span>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
                                         ))

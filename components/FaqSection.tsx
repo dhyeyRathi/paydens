@@ -46,9 +46,9 @@ const FaqSection = () => {
             <div className={`${styles.questionCont}`}>
                 {faqs.map((que) => (
                     <div key={que.id} className={`${styles.question} ${queActive === que.id && styles.questionActive}`}>
-                        <h3>{que.id}</h3>
+                        <h2>{que.id}</h2>
                         <div tabIndex={0}>
-                            <h2>{que.question}</h2>
+                            <h3>{que.question}</h3>
                             <p>{que.answer}</p>
                         </div>
                         <button onClick={() => handleActive(que.id)}>{queActive !== que.id ? <IconPlus /> :

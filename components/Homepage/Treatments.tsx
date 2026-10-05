@@ -51,11 +51,11 @@ const Treatments = () => {
                 {
                     cardItem.map((item) => (
                         <div key={item.title} className={`${styles.card}`}>
-                            <h4>{item.title}</h4>
+                            <h3>{item.title}</h3>
                             {
                                 item.items.map((e, index: number) => (
                                     <button className={`${styles.cardItem}`} key={index}>
-                                        <h2> {e}</h2>
+                                        <span> {e}</span>
                                         {e && <IconChevronRight className="text-[#444444]" />}
                                     </button>
                                 ))
