@@ -30,6 +30,12 @@ const AwardsSection = () => {
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
+                    <div className='absolute max-w-[60px] rounded-b-[10px] px-[5px] py-[15px]  text-center bg-white left-5 border-t-[2px] border-primary'>
+
+                        <h4 className='text-25 font-bold'>24</h4>
+                        <h4 className='text-16 font-[300]'>May 2025</h4>
+
+                    </div>
                 </div>
                 <div className={`${styles.card} paydens-shadow lg:!scale-110 `} onMouseEnter={() => setHover(2)} onMouseLeave={() => setHover(null)}>
                     <Image src={award} alt='relay' className={`${styles.images} ${hover === 2 ? styles.fadeOut : styles.fadeIn} `} />
@@ -39,6 +45,12 @@ const AwardsSection = () => {
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
+                    <div className='absolute max-w-[60px] rounded-b-[10px] px-[5px] py-[15px]  text-center bg-white left-5 border-t-[2px] border-primary'>
+
+                        <h4 className='text-25 font-bold'>14</h4>
+                        <h4 className='text-16 font-[300]'>May 2025</h4>
+
+                    </div>
                 </div>
                 <div className={`${styles.card} paydens-shadow lg:!scale-110`} onMouseEnter={() => setHover(3)} onMouseLeave={() => setHover(null)}>
                     <Image src={cafe} alt='relay' className={`${styles.images} ${hover === 3 ? styles.fadeOut : styles.fadeIn} `} />
@@ -48,6 +60,12 @@ const AwardsSection = () => {
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
+                    <div className='absolute max-w-[60px] rounded-b-[10px] px-[5px] py-[15px]  text-center bg-white left-5 border-t-[2px] border-primary'>
+
+                        <h4 className='text-25 font-bold'>13</h4>
+                        <h4 className='text-16 font-[300]'>May 2025</h4>
+
+                    </div>
                 </div>
 
             </div>

@@ -14,10 +14,10 @@ const Footer = () => {
             title: "Quick Links",
             links: [
                 { label: "Pharmacy Services", href: "/" },
-                { label: "Find a Pharmacy", href: "/" },
+                { label: "Find a Pharmacy", href: "/findpharmacy" },
                 { label: "Shop Online", href: "/" },
-                { label: "Join Our Team", href: "/" },
-                { label: "Contact Us", href: "/" },
+                { label: "Join Our Team", href: "/joinourteam" },
+                { label: "Contact Us", href: "/account" },
                 { label: "Site Map", href: "/" },
             ],
         },

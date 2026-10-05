@@ -16,10 +16,9 @@
 }
 
 .card {
-    width: 350px;
-    min-height: 500px;
-    height: auto;
-    border-radius: 25px;
+    width: 360px;
+    height: 539px;
+    border-radius: 20px;
     overflow: hidden;
     padding-bottom: 20px;
     position: relative;
@@ -76,7 +75,7 @@
 }
 
 .card h3 {
-    font-size: 24px;
+    font-size: var(--font-size-20);
     z-index: 10 !important;
     max-width: 80%;
     bottom: 12%;
@@ -88,11 +87,11 @@
 
 .card p {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     color: var(--color-primary);
     align-items: center;
     position: absolute;
-    font-size: 18px;
+    font-size: var(--font-size-16);
     z-index: 10 !important;
     max-width: 80%;
     bottom: 5%;
@@ -103,13 +102,13 @@
 
 .card p:hover {
     cursor: pointer;
-    gap: 30px
+    gap: 15px
 }
 
 
 .card p svg {
-    width: 14px;
-    height: 14px;
+    width: 10 px;
+    height: 10px;
 }
 
 @media (max-width: 768px) {
