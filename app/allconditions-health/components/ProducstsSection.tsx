@@ -29,7 +29,7 @@ const ProducstsSection = ({ condition }: sectionProps) => {
         }
     ]
     return (
-        <section className='flex flex-col gap-10 items-center'>
+        <section className='flex flex-col gap-10 items-center animationPopUp'>
             <h2 className='w-full text-center  px-4 text-xl md:text-3xl lg:text-heading font-bold'>
                 <em className='text-button-hover'>{condition} </em>Relief Products
             </h2>

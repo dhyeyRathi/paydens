@@ -37,7 +37,7 @@ const Hero = () => {
         }
     ]
     return (
-        <section className={`${styles.heroCont}`}>
+        <section className={`${styles.heroCont} animationPopUp`}>
             <div className={`${styles.heroBan}`}>
                 <div className={`${styles.bgWrapper}`}>
                     <Image src={heroBan} alt="hero banner background" fill className='opacity-40 object-cover ' />

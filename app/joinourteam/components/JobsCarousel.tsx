@@ -8,7 +8,7 @@ import IconMapPinSolid from '@/components/Icon/IconMapPinSolid'
 const JobsCarousel = () => {
     const jobs = "123456789"
     return (
-        <section className={`${styles.CarouselSection}`}>
+        <section className={`${styles.CarouselSection} animationPopUp`}>
             <div className='w-full bg-background paydens-shadow rounded-xl flex flex-col'>
                 <div className=' flex w-full items-center py-2 px-4 '>
                     <IconSearch className='w-4 h-4 mr-2' />

@@ -39,7 +39,7 @@ const pharmacies = [
 export default function Map() {
     const zoom = typeof window !== "undefined" && window.innerWidth < 640 ? 14 : 15;
     return (
-        <div className="sticky inset-0 z-0 h-[600px] sm:h-[1100px] w-full overflow-hidden rounded-[16px]">
+        <div className="sticky inset-0 z-0 h-[600px] sm:h-[1100px] w-full overflow-hidden rounded-[16px] animationPopUp">
             <MapContainer
                 center={[51.5014, -0.1350]}
                 zoom={zoom}

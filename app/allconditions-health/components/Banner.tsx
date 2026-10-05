@@ -4,7 +4,7 @@ import IconBannerBg1 from '@/components/Icon/IconBannerBg1'
 
 const Banner = () => {
     return (
-        <section className='w-full flex justify-center gap-10 lg:gap-20 items-center flex-col'>
+        <section className='w-full flex justify-center gap-10 lg:gap-20 items-center flex-col animationPopUp'>
             <div className='flex w-full py-10 items-center justify-between flex-wrap md:flex-nowrap gap-10 md:gap-0'>
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
                     <h2 className='text-4xl text-gray-600'>01

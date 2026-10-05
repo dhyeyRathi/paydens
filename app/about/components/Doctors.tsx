@@ -36,21 +36,21 @@ const Doctors = () => {
 
 
     return (
-        <section className='flex flex-col gap-5 lg:gap-10 w-full relative'>
+        <section className='flex flex-col gap-5 lg:gap-10 w-full relative animationPopUp'>
             <h2 className='w-full text-center px-4 text-3xl lg:text-heading font-bold'>
                 Your health, In <em className='text-button-hover'>Expert </em> Hands
             </h2>
-            <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-200 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>
+            <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white scale-x-[-1]' />
             </button>
-            <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute right-0 !top-[50%] !z-200 `} onClick={() => setActiveDocIndex(prev => prev < doctor.length - 1 ? prev + 1 : 0)}>
+            <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute right-0 !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev < doctor.length - 1 ? prev + 1 : 0)}>
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white' />
             </button>
 
 
 
 
-            <div ref={containerRef} className={`${styles.CardContainer} hide-scrollbar relative overflow-x-auto  !self-center`}>
+            <div ref={containerRef} className={`${styles.CardContainer} hide-scrollbar relative overflow-x-auto  lg:justify-center !self-center`}>
 
                 {doctor.map((doc, index) => (
                     <DoctorCardVar2 key={index} name='Sarah Thompson' image={doc} id={`doc-${index}`} className={`transition-all duration-300 opacity-70 ${activeDocIndex === index && 'scale-105 opacity-100'}`} />

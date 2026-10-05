@@ -12,7 +12,7 @@ import IconGetInTouchScribble from '@/components/Icon/IconGetInTouchScribble'
 const GetInTouch = () => {
     const [formType, setFormType] = useState<string>("message");
     return (
-        <section className={`${styles.GITsection}`}>
+        <section className={`${styles.GITsection} animationPopUp`}>
             <h1 className='text-4xl lg:text-heading font-bold w-full'>Get In Touch Today</h1>
 
             <div className={`${styles.textCardCont}`}>

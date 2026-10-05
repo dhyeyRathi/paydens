@@ -52,7 +52,7 @@ const ConditionsCarousel = () => {
 
 
     return (
-        <section className={`${styles.carouselSection}`}>
+        <section className={`${styles.carouselSection} animationPopUp`}>
             <div className='flex flex-col gap-10'>
                 <h2 className='font-quicksand text-xl md:text-5xl text-center md:text-start'>
                     What do you need help with?

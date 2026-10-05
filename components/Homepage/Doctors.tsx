@@ -8,7 +8,7 @@ import IconShieldCheck from '../Icon/IconShieldCheck'
 const Doctors = () => {
     const doctor = ["/doctors/left.png", "/doctors/center.png", "/doctors/right.png"]
     return (
-        <section className={`${styles.doctorSection}`}>
+        <section className={`${styles.doctorSection} animationPopUp`}>
             <div className={`${styles.textCont}`}>
                 <h2>Your Health, In <em>Expert </em> Hands</h2>
                 <p>Paydens Group is an independent family owned company established in 1969. We operate over 100 pharmacies across the South-East of England, with our Head Office based in Maidstone, Kent.

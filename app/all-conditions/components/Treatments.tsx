@@ -101,7 +101,7 @@ const Treatments = () => {
     const categories = ["All Treatments", "Men's Health", "Women's Health", "Skin", "Weight Management", 'Sexual Health', "All Treatments", "All Treatments"]
     const filteredTreatments = treatments.filter((treat) => treat.category === formType)
     return (
-        <section className={`${styles.TreatmentsSection}`}>
+        <section className={`${styles.TreatmentsSection} animationPopUp`}>
             <h2 className='font-quicksand text-center'>What do you need help with?</h2>
             <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center  !w-[90%] lg:!w-[40%]'>
                 <Button className='!rounded-md'>Search</Button>

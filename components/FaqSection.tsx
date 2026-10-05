@@ -39,7 +39,7 @@ const FaqSection = () => {
         setQueActive(prev => prev === id ? null : id);
     };
     return (
-        <section className='flex flex-col gap-8 items-center'>
+        <section className='flex flex-col gap-8 items-center animationPopUp'>
             <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 Got Questions? We've Got<em className='text-button-hover'> Answers</em>
             </h2>

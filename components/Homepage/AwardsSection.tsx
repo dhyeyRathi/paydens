@@ -15,7 +15,7 @@ import IconChevronRight from '../Icon/IconChevronRight'
 const AwardsSection = () => {
     const [hover, setHover] = useState<number | null>(null);
     return (
-        <section className={`${styles.awardSection}`}>
+        <section className={`${styles.awardSection} animationPopUp`}>
             <div>
                 <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                     Latest <em className='text-button-hover'>News</em> From Paydens

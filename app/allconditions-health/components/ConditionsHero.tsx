@@ -5,7 +5,7 @@ import { IconStep1, IconStep2, IconStep3, IconStep4 } from '@/components/Icon/Al
 
 const ConditionsHero = () => {
     return (
-        <section className={`${styles.HeroCont}`}>
+        <section className={`${styles.HeroCont} animationPopUp`}>
             <h1 className='w-full  px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 <em className='text-button-hover'> Professional </em> Care for Over 90 Health Conditions
             </h1>

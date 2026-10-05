@@ -13,7 +13,7 @@ import IconPresHero6 from '@/components/Icon/IconPresHero6'
 
 const PresHero = () => {
     return (
-        <section className={`${styles.Hero} `}>
+        <section className={`${styles.Hero} animationPopUp`}>
 
             <div className={`${styles.Cont}`}>
                 <div className={`${styles.Text}`}>

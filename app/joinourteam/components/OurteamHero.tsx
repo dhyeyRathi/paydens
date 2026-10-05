@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/Button'
 
 const OurteamHero = () => {
     return (
-        <section className={`${styles.HeroCont}`}>
+        <section className={`${styles.HeroCont} animationPopUp`}>
             <div className='flex flex-col gap-10 max-w-210 text-center pt-20'>
                 <h1 className='w-full text-4xl lg:text-[61px] font-bold text-center ' >
                     Join the <em className='text-button-hover'>Paydens<br /></em>  Family

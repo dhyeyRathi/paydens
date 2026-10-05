@@ -40,7 +40,7 @@ const Treatments = () => {
         },
     ];
     return (
-        <section className={`${styles.treatmentSection}`}>
+        <section className={`${styles.treatmentSection} animationPopUp`}>
             <div className='flex w-full justify-between items-baseline gap-[20px]'>
                 <h2 className='w-full text-center md:text-start px-4 text-xl md:text-3xl lg:text-heading font-bold'>
                     Care and <em className='text-button-hover'>Treatments </em>You Can Trust

@@ -13,7 +13,7 @@ import IconArrowTopRightCircle from '../Icon/IconArrowTopRightCircle'
 
 const Features = () => {
     return (
-        <section className={`${styles.sectionCont}`}>
+        <section className={`${styles.sectionCont} animationPopUp`}>
             <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 <em className='text-button-hover'>Expert</em>, Friendly <em className='text-button-hover'>Care</em> on Your High Street and Online
             </h2>

@@ -10,7 +10,7 @@ import IconStarAppRating from '../Icon/IconStarAppRating'
 
 const MobileAppBanner = () => {
     return (
-        <section className={`${styles.bannerCont}`}>
+        <section className={`${styles.bannerCont} animationPopUp`}>
             <GreenGradient className={`${styles.greenGrad}`} />
             <GreenGradient className={`${styles.greenGrad2}`} />
             <BlueGradient className={`${styles.blueGrad}`} />

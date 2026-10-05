@@ -11,7 +11,7 @@ const Hero = () => {
         <section className='w-full'>
 
 
-            <div className={`${styles.Text}`}>
+            <div className={`${styles.Text} animationPopUp`}>
                 <h1 className='w-full text-center px-4 lg:max-w-[50%] md:text-start text-3xl leading-snug lg:text-6xl font-bold'>
                     Your <em className='text-button-hover'>Trusted <br /></em> Healthcare Partner<br /> Since 1969.
                 </h1>

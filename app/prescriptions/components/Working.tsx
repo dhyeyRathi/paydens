@@ -7,7 +7,7 @@ import IconWorkingStep2 from '@/components/Icon/IconWorkingStep2'
 const Working = () => {
 
     return (
-        <section className='flex flex-col gap-20'>
+        <section className='flex flex-col gap-20 animationPopUp' >
             <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 How does Our Online <em className='text-button-hover'>NHS Prescriptions</em> <br />Service Work
             </h2>

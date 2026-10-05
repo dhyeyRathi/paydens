@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stats = () => {
     return (
-        <section className='w-full md:px-20 grid grid-cols-2 gap-y-4 md:grid-cols-4 justify-between'>
+        <section className='w-full md:px-20 grid grid-cols-2 gap-y-4 md:grid-cols-4 justify-between animationPopUp'>
             <div className='flex flex-col lg:gap-2  items-center justify-center '>
                 <h2 className='text-xl md:text-2xl lg:text-heading font-bold'>100+</h2>
                 <h3 className='text-xl md:text-2xl lg:text-4xl'>Branches</h3>

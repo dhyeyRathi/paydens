@@ -44,7 +44,7 @@ const page = () => {
 
     const pagination = [1, 2, 3, 4, "...", 10, "Next"]
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[30px] w-full'>
+        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[30px] w-full animationPopUp'>
             <PageNameDisp PageName={[{
                 label: "Home",
 

@@ -42,7 +42,7 @@ const Testimonial = () => {
     //     next
     // ]
     return (
-        <section className={`${styles.testimonialSection}`}>
+        <section className={`${styles.testimonialSection} animationPopUp`}>
             <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
                 Hear From Our <em className='text-button-hover'>Patients</em>
             </h2>

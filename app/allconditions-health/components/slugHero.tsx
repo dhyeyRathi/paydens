@@ -6,7 +6,7 @@ import IconSlugHeroBg from '@/components/Icon/IconSlugHeroBg'
 
 const SlugHero = () => {
     return (
-        <section className='w-full '>
+        <section className='w-full animationPopUp'>
             <h1 className='w-full flex gap-8 items-center pb-4 xl:pb-8 px-4 text-3xl lg:text-5xl font-bold'>
                 Sore Throat
                 <NHS className='h-10' />
