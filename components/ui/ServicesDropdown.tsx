@@ -26,7 +26,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
     const serviceSections = Object.values(services) as ServiceSection[];
 
     return (
-        <div className={`${styles.dropdownContainer} ${className} paydens-shadow`} onClick={onClick} onMouseEnter={onMouseEnter}
+        <button className={`${styles.dropdownContainer} ${className} paydens-shadow text-start`} onClick={onClick} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-2 md:gap-8 lg:gap-11 justify-between`}>
                 {
@@ -62,7 +62,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
                 }
 
             </div>
-        </div>
+        </button>
     )
 }
 

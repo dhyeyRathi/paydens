@@ -30,7 +30,7 @@ export default DoctorCard
 
 const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", center = false, id }: doctorcardprops) => {
     return (
-        <div id={id} className={`${className} min-w-[220px] sm:w-[320px] h-[520px] xl:h-[600px] relative overflow-hidden rounded-2xl paydens-shadow`}>
+        <div id={id} className={`${className} min-w-[220px] sm:w-[320px]  relative overflow-hidden rounded-2xl paydens-shadow`}>
             <div className='relative bg-white overflow-hidden w-[220px] lg:h-[320px] lg:w-[320px] '>
                 <GreenGradient className='h-50 w-100 !left-[-30%] top-[-10%] ' />
                 <BlueGradient className='h-50 w-100 !right-[-30%] top-[-10%] ' />

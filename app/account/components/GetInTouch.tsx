@@ -19,12 +19,12 @@ const GetInTouch = () => {
                 <div className={`${styles.textCard}`}>
                     <Logo className='absolute top-[0] right-[0] h-40 w-auto' />
                     <div>
-                        <h3>Email Address:</h3>
+                        <h2>Email Address:</h2>
                         <p>contact@paydens.com</p>
                     </div>
 
                     <div>
-                        <h3>Paydens Head Office:</h3>
+                        <h2>Paydens Head Office:</h2>
                         <p>Paydens Ltd. <br />
                             Parkwood<br />
                             Sutton Road<br />
@@ -32,11 +32,11 @@ const GetInTouch = () => {
                             Kent ME15 9NE</p>
                     </div>
                     <div>
-                        <h3>Telephone Number:</h3>
+                        <h2>Telephone Number:</h2>
                         <p>01622 754977</p>
                     </div>
                     <div>
-                        <h2>Get In Touch.</h2>
+                        <h3>Get In Touch.</h3>
                         <IconGetInTouchScribble className="w-[237px] h-[42px]" />
 
                     </div>
@@ -53,34 +53,34 @@ const GetInTouch = () => {
                     <div className='flex w-full justify-between gap-4 md:gap-5 '>
                         <div className='flex flex-col gap-1 w-full'>
 
-                            <label>First Name</label>
-                            <input placeholder='Enter your first name' />
+                            <label htmlFor='first name'>First Name</label>
+                            <input name='first name' placeholder='Enter your first name' />
                         </div>
                         <div className='flex flex-col gap-1 w-full'>
 
-                            <label>Last Name</label>
-                            <input placeholder='Enter your last name' />
+                            <label htmlFor='last name'>Last Name</label>
+                            <input name="last name" placeholder='Enter your last name' />
                         </div>
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
-                        <label>Email</label>
-                        <input placeholder='Enter your email' />
+                        <label htmlFor='email'>Email</label>
+                        <input name="email" placeholder='Enter your email' />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
-                        <label>Phone Number</label>
-                        <input placeholder='Enter your phone number' type='number' />
+                        <label htmlFor='phno'>Phone Number</label>
+                        <input name='phno' placeholder='Enter your phone number' type='number' />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
-                        <label>Subject</label>
-                        <input placeholder='Select subject' />
+                        <label htmlFor='subject'>Subject</label>
+                        <input name="subject" placeholder='Select subject' />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
-                        <label>Subject</label>
-                        <textarea placeholder='Your message' className='!pb-20' />
+                        <label htmlFor='textarea'>Subject</label>
+                        <textarea name="textarea" placeholder='Your message' className='!pb-20' />
                     </div>
                     <Button type="submit" className='!self-start !text-base'>Send Message</Button>
                 </form>

@@ -47,9 +47,6 @@ const Doctors = () => {
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white' />
             </button>
 
-
-
-
             <div ref={containerRef} className={`${styles.CardContainer} hide-scrollbar relative overflow-x-auto  lg:justify-center !self-center`}>
 
                 {doctor.map((doc, index) => (

@@ -7,8 +7,8 @@ const Banner = () => {
         <section className='w-full flex justify-center gap-10 lg:gap-20 items-center flex-col animationPopUp'>
             <div className='flex w-full py-10 items-center justify-between flex-wrap md:flex-nowrap gap-10 md:gap-0'>
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
-                    <h2 className='text-4xl text-gray-600'>01
-                    </h2>
+                    <span className='text-4xl text-gray-600'>01
+                    </span>
                     <h2 className='text-2xl'>
                         Answer a few Questions
                     </h2>
@@ -20,8 +20,8 @@ const Banner = () => {
 
 
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
-                    <h2 className='text-4xl text-gray-600'>02
-                    </h2>
+                    <span className='text-4xl text-gray-600'>02
+                    </span>
                     <h2 className='text-2xl'>
                         Schedule Appointment
                     </h2>
@@ -33,8 +33,8 @@ const Banner = () => {
 
 
                 <div className='flex w-full flex-col justify-center px-10 xl:px-20 gap-2 xl:gap-6'>
-                    <h2 className='text-4xl text-gray-600'>03
-                    </h2>
+                    <span className='text-4xl text-gray-600'>03
+                    </span>
                     <h2 className='text-2xl'>
                         Recieve Expert Care
                     </h2>
@@ -48,7 +48,7 @@ const Banner = () => {
                 <div className='absolute z-2 inset-0 !top-[100%] '>
                     <ColorGradientBg />
                 </div>
-                <img src="/assets/images/ui/throatpain.png" className='h-full w-auto absolute opacity-20 xl:opacity-100 z-[1] xl:z-4 !left-[12%] inset-0' />
+                <img src="/assets/images/ui/throatpain.png" alt='throat-pain' className='h-full w-auto absolute opacity-20 xl:opacity-100 z-[1] xl:z-4 !left-[12%] inset-0' />
                 <IconBannerBg1 className=" absolute opacity-40 xl:opacity-100 z-3 bottom-[0%] left-[0] " />
 
                 <div className='flex  sticky z-2 flex-col gap-4 md:gap-6 w-full xl:items-end px-6 md:px-12 xl:px-20 xl:ml-60'>

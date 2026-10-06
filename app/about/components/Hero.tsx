@@ -44,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <img src="/assets/images/ui/pharmacyphoto.png" className='w-full' />
+            <img src="/assets/images/ui/pharmacyphoto.png" className='w-full' alt='pharmacy photo' />
         </section>
     )
 }

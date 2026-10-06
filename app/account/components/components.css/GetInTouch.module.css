@@ -25,12 +25,12 @@
     position: relative;
 }
 
-.textCard h3 {
+.textCard h2 {
     font-size: 24px;
     font-weight: 600;
 }
 
-.textCard h2 {
+.textCard h3 {
     font-size: 36px;
     font-weight: 700;
 }
@@ -93,7 +93,7 @@
 
 @media (max-width: 768px) {
     .textCard {
-        min-width: 350px;
+        width: 100%;
     }
 
     .textCardCont {

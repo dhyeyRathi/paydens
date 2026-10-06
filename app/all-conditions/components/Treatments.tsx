@@ -101,7 +101,7 @@ const Treatments = () => {
     const categories = ["All Treatments", "Men's Health", "Women's Health", "Skin", "Weight Management", 'Sexual Health', "All Treatments", "All Treatments"]
     const filteredTreatments = treatments.filter((treat) => treat.category === formType)
     return (
-        <section className={`${styles.TreatmentsSection} animationPopUp`}>
+        <section className={`${styles.TreatmentsSection} animationPopUp10`}>
             <h2 className='font-quicksand text-center'>What do you need help with?</h2>
             <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center  !w-[90%] lg:!w-[40%]'>
                 <Button className='!rounded-md'>Search</Button>
@@ -110,7 +110,8 @@ const Treatments = () => {
             <div className='flex w-full justify-center md:gap-[10px] flex-wrap'>
 
                 {categories.map((cat, index) => (
-                    <button type='button' key={index} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60 ${formType === cat && '!text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                    <button type='button' key={index} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60
+                         ${formType === cat && '!text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                         onClick={() => setFormType(cat)}>
                         {cat}
                         {formType === cat && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>))}

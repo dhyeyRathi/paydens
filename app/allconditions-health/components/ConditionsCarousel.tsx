@@ -62,7 +62,7 @@ const ConditionsCarousel = () => {
                         <Button className='!rounded-md !m-[2px] text-sm md:text-lg'>Search</Button></InputBarVar2>
                     <div className='paydens-shadow rounded-4xl flex max-w-[80%] lg:max-w-[30%] gap-2 items-center p-2 font-[300] cursor-pointer'>
                         {filter.map((opt) => (
-                            <p key={opt} onClick={() => setSelected(opt)} className={`${selected === opt && 'bg-primary-light  font-semibold'} text-xs md:text-base  px-2 py-1 lg:px-2 text-center lg:py-2 rounded-4xl`}>{opt}</p>
+                            <button key={opt} onClick={() => setSelected(opt)} className={`${selected === opt && 'bg-primary-light  font-semibold'} text-xs md:text-base  px-2 py-1 lg:px-2 text-center lg:py-2 rounded-4xl`}>{opt}</button>
                         ))}
                     </div>
                 </div>

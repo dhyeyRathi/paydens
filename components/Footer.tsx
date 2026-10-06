@@ -43,7 +43,7 @@ const Footer = () => {
         },
     ];
     return (
-        <div className={`${styles.footer} paydens-shadow`}>
+        <footer className={`${styles.footer} paydens-shadow`}>
             <div className={`${styles.footerCont}`}>
                 <div className={`${styles.linkGrid}`}>
                     <div className={`${styles.contactBox}`}>
@@ -62,8 +62,8 @@ const Footer = () => {
 
                     {footerLinks.map((section) => (
                         <div key={section.title} className={`${styles.linksBox}`}>
-                            <h6 className='font-semibold  text-sm sm:text-base md:text-[20px]'>
-                                {section.title}</h6>
+                            <h4 className='font-semibold  text-sm sm:text-base md:text-[20px]'>
+                                {section.title}</h4>
                             <ul className='gap-[6.5px] flex flex-col '>
                                 {section.links.map((link) => (
                                     <li key={link.label}>
@@ -91,7 +91,7 @@ const Footer = () => {
                     <p>Powered by healthya | ConX</p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 
