@@ -13,7 +13,7 @@ const ProductCards = ({ name, description, price, img }: ProductCardProps) => {
     return (
         <div className='flex gap-5 md:h-165 xl:h-auto  rounded-xl flex p-6 border-border border-1 paydens-shadow  md:flex-col xl:flex-row'>
             <div className='h-80 bg-gray-100 rounded-xl py-10'>
-                <img aria-label="img" src={img} alt={name} className='w-80' />
+                <img aria-label="Image" src={img} alt={name} className='w-80' />
             </div>
             <div className='flex flex-col justify-between '>
                 <div className='flex flex-col gap-4 min-h-[80%]'>

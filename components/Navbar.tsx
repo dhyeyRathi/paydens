@@ -44,7 +44,7 @@ const Navbar = () => {
         <header className={`${styles.header} paydens-shadow`}>
             <div className={`${styles.container} bg-primary/10  w-full min-[769px]:rounded-b-none `}>
                 <div className={`${styles.logoSearchCont} flex-1`}>
-                    <a aria-label="a" href='/' onClick={() => setHamburger(false)}>  <p className='hidden'>link</p><LogoText className={`${styles.LogoText}`} /></a>
+                    <a aria-label="Link" href='/' onClick={() => setHamburger(false)}>  <p className='hidden'>link</p><LogoText className={`${styles.LogoText}`} /></a>
 
                     <InputBar placeholder='What condition are you looking for?' className={`${styles.Input}`} >
                         <SquareButton className={`${styles.searchButton} group`} size="clamp(24px, 5vw, 48px)">

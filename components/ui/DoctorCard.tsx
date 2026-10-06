@@ -16,7 +16,7 @@ interface doctorcardprops {
 const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = false, id }: doctorcardprops) => {
     return (
         <div className={`${className} relative`}>
-            {image && <img aria-label="img" src={image} alt={id} className={`${styles.Image} ${center && styles.ImageCenter}`} />}
+            {image && <img aria-label="Image" src={image} alt={id} className={`${styles.Image} ${center && styles.ImageCenter}`} />}
             <WhiteGradient className="!bottom-[-2]" />
             <h3 className=' absolute text-[10px] lg:text-16 font-[600] bottom-[1%] left-[6%]'>{name}</h3>
             <h3 className=' absolute text-[8px] lg:text-16 font[300] left-[6%]'>Online Doctor</h3>
@@ -34,7 +34,7 @@ const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", c
             <div className='relative bg-white overflow-hidden w-[220px] lg:h-[320px] lg:w-[320px] '>
                 <GreenGradient className='h-50 w-100 !left-[-30%] top-[-10%] ' />
                 <BlueGradient className='h-50 w-100 !right-[-30%] top-[-10%] ' />
-                {image && <img aria-label="img" src={image} alt={name} className={`!object-fill scale-140 md:scale-100 w-[180px] md:w-[220px] lg:w-[320px] sticky z-20`} />}
+                {image && <img aria-label="Image" src={image} alt={name} className={`!object-fill scale-140 md:scale-100 w-[180px] md:w-[220px] lg:w-[320px] sticky z-20`} />}
             </div>
             <div className='h-full w-full bg-background p-3 sm:p-[24px] flex flex-col gap-1 sm:gap-2 md:gap-[12px] lg:gap-[16px] items-start justify-start'>
                 <h3 className='text-sm sm:text-lg lg:text-25 font-[600] flex items-center  gap-1 md:gap-2 '>{name} <IconVerifiedTick /></h3>

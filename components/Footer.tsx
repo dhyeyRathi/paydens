@@ -51,11 +51,11 @@ const Footer = () => {
 
 
                         <div className={`${styles.contactDetailBox}`}>
-                            <a aria-label="a" className={`${styles.contactDetails}`} href="mailto:contact@yourpharmacy.co.uk"><IconEmail />
+                            <a aria-label="Link" className={`${styles.contactDetails}`} href="mailto:contact@yourpharmacy.co.uk"><IconEmail />
                                 contact@yourpharmacy.co.uk</a>
-                            <a aria-label="a" className={`${styles.contactDetails}`}><IconPhone />
+                            <a aria-label="Link" className={`${styles.contactDetails}`}><IconPhone />
                                 01622 754977</a>
-                            <a aria-label="a" className={`${styles.contactDetails}`} href='https://www.google.com/maps/place/Park+Wood+Hand+Car+Wash/@51.2427677,0.5563211,17z/data=!3m1!4b1!4m6!3m5!1s0x47df31e045bb788b:0x4fb7954a969cd2f5!8m2!3d51.2427677!4d0.558896!16s%2Fg%2F11f4lf5hw2?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D'><IconLocation />
+                            <a aria-label="Link" className={`${styles.contactDetails}`} href='https://www.google.com/maps/place/Park+Wood+Hand+Car+Wash/@51.2427677,0.5563211,17z/data=!3m1!4b1!4m6!3m5!1s0x47df31e045bb788b:0x4fb7954a969cd2f5!8m2!3d51.2427677!4d0.558896!16s%2Fg%2F11f4lf5hw2?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D'><IconLocation />
                                 Parkwood Sutton Road Maidstone <br />Kent ME15 9NE</a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                             <ul className='gap-[6.5px] flex flex-col '>
                                 {section.links.map((link, index) => (
                                     <li key={link.label}>
-                                        <a aria-label="a" href={`${link.href ? link.href : '/' + index}`} className='flex gap-4 pb-[7.5px] items-center text-[14px] font-[300]'>
+                                        <a aria-label="Link" href={`${link.href ? link.href : '/' + index}`} className='flex gap-4 pb-[7.5px] items-center text-[14px] font-[300]'>
                                             <IconChevronRight />
                                             {link.label}</a>
                                     </li>

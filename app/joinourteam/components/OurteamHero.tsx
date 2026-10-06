@@ -13,12 +13,12 @@ const OurteamHero = () => {
                 <Button className='!self-center'>View Job Openings</Button>
             </div>
 
-            <img aria-label="img" src={`/assets/images/Avatars/OurTeamPageFloaters/blue.png`} alt="blue circle" className={`absolute ${styles.blue} h-20 md:h-[71px] w-auto`} />
-            <img aria-label="img" src={`/assets/images/Avatars/OurTeamPageFloaters/green.png`} alt="green circle" className={`absolute  ${styles.green} h-[136px]`} />
-            <img aria-label="img" src={`/assets/images/Avatars/OurTeamPageFloaters/orange.png`} alt="orange circle" className={`absolute ${styles.orange} h-[76px] w-auto`} />
-            <img aria-label="img" src={`/assets/images/Avatars/OurTeamPageFloaters/purple.png`} alt="purple circle" className={`absolute ${styles.purple} h-20 md:h-[118px] `} />
-            <img aria-label="img" src={`/assets/images/Avatars/OurTeamPageFloaters/violet.png`} alt="violet circle" className={`absolute ${styles.violet} h-[60px]`} />
-            <img aria-label="img" src={`/assets/images/Avatars/OurTeamPageFloaters/red.png`} alt="red circle" className={`absolute hidden lg:block ${styles.red} h-[111px] w-auto`} />
+            <img aria-label="Image" src={`/assets/images/Avatars/OurTeamPageFloaters/blue.png`} alt="blue circle" className={`absolute ${styles.blue} h-20 md:h-[71px] w-auto`} />
+            <img aria-label="Image" src={`/assets/images/Avatars/OurTeamPageFloaters/green.png`} alt="green circle" className={`absolute  ${styles.green} h-[136px]`} />
+            <img aria-label="Image" src={`/assets/images/Avatars/OurTeamPageFloaters/orange.png`} alt="orange circle" className={`absolute ${styles.orange} h-[76px] w-auto`} />
+            <img aria-label="Image" src={`/assets/images/Avatars/OurTeamPageFloaters/purple.png`} alt="purple circle" className={`absolute ${styles.purple} h-20 md:h-[118px] `} />
+            <img aria-label="Image" src={`/assets/images/Avatars/OurTeamPageFloaters/violet.png`} alt="violet circle" className={`absolute ${styles.violet} h-[60px]`} />
+            <img aria-label="Image" src={`/assets/images/Avatars/OurTeamPageFloaters/red.png`} alt="red circle" className={`absolute hidden lg:block ${styles.red} h-[111px] w-auto`} />
 
         </section >
     )
