@@ -2,7 +2,7 @@ import React from 'react'
 
 const IconStep1 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <path d="M58.4813 82.4996L53.7316 85.2418L52.5803 85.9062C47.3191 88.9438 44.0496 94.6057 44.0496 100.682H35.6016C35.6016 92.7477 39.3299 85.2857 45.5156 80.4975C46.4121 79.8031 47.3596 79.165 48.3563 78.5902L53.7316 75.4859L54.2572 75.1836L54.7828 76.0941L58.4813 82.4996Z" fill="#92FFAD" />
             <path d="M58.4824 82.4996L52.5814 85.9062C47.3203 88.9438 44.0508 94.6057 44.0508 100.682H38.7773C38.7773 94.6057 42.0469 88.9438 47.308 85.9062L53.209 82.4996L50.3033 77.467L54.2584 75.1836L58.4824 82.4996Z" fill="#92FFAD" />
             <path d="M58.4813 82.498L53.7316 85.2402C51.4113 83.899 48.1225 82.0006 45.5156 80.4959C46.4121 79.8016 47.3596 79.1635 48.3563 78.5887L53.7316 75.4844C54.085 75.6883 54.4365 75.8922 54.7828 76.0926L58.4813 82.498Z" fill="white" />
@@ -31,7 +31,7 @@ const IconStep1 = ({ className = "" }: { className?: string }) => {
 
 const IconStep2 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg width="143" height="141" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" width="143" height="141" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <path fillRule="evenodd" clipRule="evenodd" d="M40.4888 20.1191H35.5262C34.5147 20.1191 33.6875 20.9464 33.6875 21.9578V94.4674C33.6875 95.4789 34.5146 96.311 35.5262 96.311H86.9074C86.4788 93.6303 85.6268 91.1638 84.0722 89.5095L40.4888 20.1191Z" fill="#92FFAD" />
             <path fillRule="evenodd" clipRule="evenodd" d="M98.8861 76.4005V15.157C98.8861 14.1456 98.0591 13.3184 97.0474 13.3184H42.323C41.3116 13.3184 40.4844 14.1456 40.4844 15.157V20.1199V87.6666C40.4844 88.6832 41.3114 89.5102 42.323 89.5102H84.0678C90.3359 89.2859 98.8961 83.8548 98.8861 76.4005Z" fill="white" />
             <path fillRule="evenodd" clipRule="evenodd" d="M98.8865 78.1595V15.157C98.8865 14.1456 98.0595 13.3184 97.0478 13.3184H92.0453C91.0338 13.3184 93.8839 14.1456 93.8839 15.157V78.1196C94.6613 77.9651 95.4386 77.8855 96.2955 77.8855C97.1524 77.8855 98.0545 77.98 98.8865 78.1595Z" fill="white" />
@@ -64,7 +64,7 @@ const IconStep2 = ({ className = "" }: { className?: string }) => {
 
 const IconStep3 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <ellipse opacity="0.1" cx="71.2003" cy="70.5" rx="71.2003" ry="70.5" fill="#00939E" />
             <path fillRule="evenodd" clipRule="evenodd" d="M39.7545 20.1191H34.7918C33.7804 20.1191 32.9531 20.9464 32.9531 21.9578V94.4674C32.9531 95.4789 33.7802 96.311 34.7918 96.311H86.173C85.7445 93.6303 84.8924 91.1638 83.3378 89.5095L39.7545 20.1191Z" fill="#92FFAD" />
             <path fillRule="evenodd" clipRule="evenodd" d="M98.1595 76.4005V15.157C98.1595 14.1456 97.3325 13.3184 96.3209 13.3184H41.5965C40.585 13.3184 39.7578 14.1456 39.7578 15.157V20.1199V87.6666C39.7578 88.6832 40.5849 89.5102 41.5965 89.5102H83.3412C89.6094 89.2859 98.1696 83.8548 98.1595 76.4005Z" fill="white" />
@@ -132,7 +132,7 @@ const IconStep3 = ({ className = "" }: { className?: string }) => {
 
 const IconStep4 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg width="143" height="141" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={`${className}`}>
+        <svg aria-label="svg" width="143" height="141" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={`${className}`}>
             <g clipPath="url(#clip0_2384_4134)">
                 <path fillRule="evenodd" clipRule="evenodd" d="M25.6034 40.9259C26.6816 42.4 28.4964 43.3708 30.9042 43.0832C34.5159 39.4157 33.4378 35.4786 30.6527 32.8359H29.5745C24.2917 32.8539 23.3753 37.9056 25.6034 40.9259Z" fill="white" />
                 <path fillRule="evenodd" clipRule="evenodd" d="M62.2066 32.8906C58.9184 35.0659 58.7027 40.0098 61.9551 43.0839C61.9551 43.1019 61.9551 43.1199 61.9371 43.1379C64.3449 43.4255 66.1598 42.4367 67.2379 40.9806C69.466 37.9603 68.5676 32.9086 63.2668 32.9086C63.2848 32.8906 62.2066 32.8906 62.2066 32.8906Z" fill="white" />

@@ -30,9 +30,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
        pt-[100px] min-[480px]:!pt-[100px] min-[769px]:!pt-[180px] lg:!pt-[200px] xl:!pt-[240px]  bg-white ">
         <Navbar />
         <SmoothScrollToTop />
-        <main className="w-full !overflow-visible xl:max-w-[1440px]">
+        <div className="w-full !overflow-visible xl:max-w-[1440px]">
           {children}
-        </main>
+        </div>
 
         <Footer /></body>
     </html>

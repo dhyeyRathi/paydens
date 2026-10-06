@@ -44,7 +44,7 @@ const page = () => {
 
     const pagination = [1, 2, 3, 4, "...", 10, "Next"]
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[30px] w-full animationPopUp'>
+        <main aria-label='find pahrmacy page' className='px-4 md:px-8 lg:px-15 flex flex-col gap-[30px] w-full animationPopUp'>
             <PageNameDisp PageName={[{
                 label: "Home",
 
@@ -58,7 +58,7 @@ const page = () => {
             </h1>
             <div className='flex flex-col gap-4 md:gap-6 lg:gap-8'>
                 <InputBarVar2 placeholder='Enter postcode or place name' divClassName='!self-center  !w-[70%] lg:!w-[40%]'><Button className='!rounded-md text-sm ld:text-base'>Find</Button></InputBarVar2>
-                <button className='flex gap-4 self-center text-lg items-center'>
+                <button aria-label="button" className='flex gap-4 self-center text-lg items-center'>
                     <IconSailorLocation className="w-6 h-6 fill-[#444444]" />
                     <em className='hover:underline hover:text-primary transition-all duration-300 cursor-pointer'>Use my location</em>
                 </button>
@@ -75,7 +75,7 @@ const page = () => {
                         <div className={`${styles.pagination}`}>
                             {
                                 pagination.map((n: string | number, index: number) => (
-                                    <button key={index} className={`${index === 0 && styles.active}`}>
+                                    <button aria-label="button" key={index} className={`${index === 0 && styles.active}`}>
                                         {n}
                                         {n == "Next" && <IconChevronRight className="fill-text-secondary group-hover:fill-white" />}
 

@@ -26,7 +26,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
     const serviceSections = Object.values(services) as ServiceSection[];
 
     return (
-        <button className={`${styles.dropdownContainer} ${className} paydens-shadow text-start`} onClick={onClick} onMouseEnter={onMouseEnter}
+        <button aria-label="button" className={`${styles.dropdownContainer} ${className} paydens-shadow text-start`} onClick={onClick} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-2 md:gap-8 lg:gap-11 justify-between`}>
                 {
@@ -48,7 +48,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
                                                 </div>
                                             ))}
                                             {condition?.viewAll &&
-                                                <Link scroll={false} href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
+                                                <Link aria-label="link" scroll={false} href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
                                         </div>
                                     ))}
 

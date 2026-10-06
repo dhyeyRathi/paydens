@@ -110,7 +110,7 @@ const Treatments = () => {
             <div className='flex w-full justify-center md:gap-[10px] flex-wrap'>
 
                 {categories.map((cat, index) => (
-                    <button type='button' key={index} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60
+                    <button aria-label="button" type='button' key={index} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60
                          ${formType === cat && '!text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                         onClick={() => setFormType(cat)}>
                         {cat}
@@ -128,7 +128,7 @@ const Treatments = () => {
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
-                                            <button className={`${styles.cardItem}`} key={e}>
+                                            <button aria-label="button" className={`${styles.cardItem}`} key={e}>
                                                 <span> {e}</span>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
@@ -151,7 +151,7 @@ const Treatments = () => {
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
-                                            <button className={`${styles.cardItem}`} key={e}>
+                                            <button aria-label="button" className={`${styles.cardItem}`} key={e}>
                                                 <span> {e}</span>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>

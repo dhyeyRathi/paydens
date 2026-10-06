@@ -44,7 +44,7 @@ const Navbar = () => {
         <header className={`${styles.header} paydens-shadow`}>
             <div className={`${styles.container} bg-primary/10  w-full min-[769px]:rounded-b-none `}>
                 <div className={`${styles.logoSearchCont} flex-1`}>
-                    <a href='/' onClick={() => setHamburger(false)}>  <LogoText className={`${styles.LogoText}`} /></a>
+                    <a aria-label="a" href='/' onClick={() => setHamburger(false)}>  <p className='hidden'>link</p><LogoText className={`${styles.LogoText}`} /></a>
 
                     <InputBar placeholder='What condition are you looking for?' className={`${styles.Input}`} >
                         <SquareButton className={`${styles.searchButton} group`} size="clamp(24px, 5vw, 48px)">
@@ -56,7 +56,8 @@ const Navbar = () => {
                 <FindPharmacyButton className=' !hidden min-[769px]:!flex' card={true} />
                 <FindPharmacyButton className=' !flex min-[769px]:!hidden !text-12 max-w-40 scale-90' card={false} />
 
-                <button onClick={() => setHamburger(!hamburger)}>
+                <button aria-label="button" onClick={() => setHamburger(!hamburger)}>
+                    <p className='hidden'>button</p>
                     <IconMenu className={`lucide lucide-menu h-10 w-10 min-[769px]:hidden mr-2 min-[769px]:mr-0 stroke-black transition-all duration-300 ${hamburger && "!stroke-primary !fill-primary"}`} />
                 </button>
             </div>

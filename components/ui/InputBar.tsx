@@ -16,6 +16,7 @@ const InputBar = ({
             <div className={`${styles.gradientBorder} ${className} w-full`}>
                 <div className='w-full h-auto flex items-center bg-white rounded-[8px] flex '>
                     <input className={`${styles.inputBar}  text-text font-[500] font-quicksand w-full bg-white`}
+                        aria-label={placeholder}
                         id='search' placeholder={placeholder} />
                     {children}
                 </div>
@@ -32,7 +33,7 @@ const InputBarVar2 = ({
 
 
         <div className={`w-[50%] bg-white rounded-[8px] flex items-center ${styles.inputContVar2} ${divClassName}`}>
-            <input className={`${styles.inputBarVar2} ${className} text-text text-16 font-[500] font-quicksand w-full bg-white`}
+            <input aria-label="input" className={`${styles.inputBarVar2} ${className} text-text text-16 font-[500] font-quicksand w-full bg-white`}
                 id='search' placeholder={placeholder} />
             {children}
         </div>

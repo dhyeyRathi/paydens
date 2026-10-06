@@ -2,7 +2,7 @@ import React from 'react';
 
 const IconWorkingStep1 = ({ className }: { className?: string }) => {
     return (
-        <svg className={className} width="56" height="56" viewBox="0 0 56 56" fill="none" >
+        <svg aria-label="svg" className={className} width="56" height="56" viewBox="0 0 56 56" fill="none" >
                         <g clipPath="url(#clip0_3_18493)">
                             <path d="M5.33594 5.04645V40.7653C5.33594 43.0993 7.22812 44.9914 9.56208 44.9914H28.9481C31.2822 44.9914 33.1743 43.0993 33.1743 40.7653V5.04645C33.1743 2.71239 31.2822 0.820312 28.9481 0.820312H9.56219C7.22812 0.820312 5.33594 2.71239 5.33594 5.04645Z" fill="#92FFAD" />
                             <path d="M28.9489 0.820312H26.9336C28.7824 0.820312 30.2811 2.71239 30.2811 5.04645V40.7653C30.2811 43.0993 28.7824 44.9914 26.9336 44.9914H28.9488C31.2829 44.9914 33.175 43.0993 33.175 40.7653V5.04645C33.1751 2.71239 31.2829 0.820312 28.9489 0.820312Z" fill="white" />

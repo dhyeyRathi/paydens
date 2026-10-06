@@ -1,6 +1,6 @@
 const Logo = ({ className = "" }: { className?: string }) => {
     return (
-        <svg width="143" height="138" viewBox="0 0 143 138" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" width="143" height="138" viewBox="0 0 143 138" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <path d="M84.8825 50.9062H0V24.4449H84.8825V50.9062Z" fill="#37B43D" />
             <path d="M167.002 79.7031H87.1406V53.242H167.002V79.7031Z" fill="#37B43D" />
             <path d="M167 50.9082H115.816V24.4467H167V50.9082Z" fill="#37B43D" />
@@ -17,7 +17,7 @@ const Logo = ({ className = "" }: { className?: string }) => {
 
 const LogoText = ({ className = "" }: { className?: string }) => {
     return (
-        <svg width="262" height="71" viewBox="0 0 262 71" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" width="262" height="71" viewBox="0 0 262 71" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <path d="M227.719 34.7048H192.281V23.6788H227.719V34.7048Z" fill="#37B43D" />
             <path d="M262.001 46.7029H228.66V35.6772H262.001V46.7029Z" fill="#37B43D" />
             <path d="M262.001 34.7048H240.633V23.6788H262.001V34.7048Z" fill="#37B43D" />

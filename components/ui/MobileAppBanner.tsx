@@ -29,7 +29,7 @@ const MobileAppBanner = () => {
                     <h3 className=''>Become part of <em>50,000+ </em> patients who trust our app for their prescription needs</h3>
                     <Button className='!self-center sm:!self-start md:text-2xl'>Get the App</Button>
                 </div>
-                <Image src={phones} alt='phones' className={`${styles.phone}`} />
+                <Image aria-label="image" src={phones} alt='phones' className={`${styles.phone}`} />
             </div>
         </section>
     )

@@ -11,7 +11,7 @@ import SlugHero from '../components/slugHero';
 const page = () => {
     const params = useParams<{ slug: string }>();
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
+        <main aria-label={params.slug} className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
             <PageNameDisp PageName={[
                 {
                     label: "Home",

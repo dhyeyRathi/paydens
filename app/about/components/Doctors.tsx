@@ -40,10 +40,10 @@ const Doctors = () => {
             <h2 className='w-full text-center px-4 text-3xl lg:text-heading font-bold'>
                 Your health, In <em className='text-button-hover'>Expert </em> Hands
             </h2>
-            <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>
+            <button aria-label="button" className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white scale-x-[-1]' />
             </button>
-            <button className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute right-0 !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev < doctor.length - 1 ? prev + 1 : 0)}>
+            <button aria-label="button" className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute right-0 !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev < doctor.length - 1 ? prev + 1 : 0)}>
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white' />
             </button>
 

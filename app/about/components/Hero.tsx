@@ -24,7 +24,7 @@ const Hero = () => {
                             <h2 className='text-lg md:text-2xl font-bold'>UK Registered Pharmacy</h2>
                             <p className='text-sm md:text-base'>Paydens pharmacies are registered and operate in line with UK pharmacy regulations.</p>
                         </div>
-                        <RegisteredPharmacy className='h-8 md:h-15 w-auto ' />
+                        <RegisteredPharmacy className='h-15  md:h-10 w-auto ' />
                     </div>
 
                     <div className='flex font-quicksand bg-background px-2 py-3 md:px-8 md:py-6  w-full  rounded-2xl justify-between gap-2 md:items-center paydens-shadow' >
@@ -32,7 +32,7 @@ const Hero = () => {
                             <h2 className='text-lg md:text-2xl font-bold'>GPhC Regulated Pharmacy</h2>
                             <p className='text-sm md:text-base'>All Paydens pharmacies are regulated by the General Pharmaceutical Council (GPhC) in Great Britain.</p>
                         </div>
-                        <GPHC className='h-10 md:h-15 w-auto ' />
+                        <GPHC className='h-20 md:h-15 w-auto ' />
                     </div>
 
                     <div className='flex font-quicksand bg-background px-2 py-3 md:px-8 md:py-6  w-full  rounded-2xl justify-between gap-2 md:items-center paydens-shadow'>
@@ -40,11 +40,11 @@ const Hero = () => {
                             <h2 className='text-lg md:text-2xl font-bold'>MHRA Compliant</h2>
                             <p className='text-sm md:text-base'>Paydens follows MHRA guidelines for the safe supply of medicines and healthcare products in the UK.</p>
                         </div>
-                        <MHRALogo className=' ' />
+                        <MHRALogo className='h-24 md:h-15 w-auto ' />
                     </div>
                 </div>
             </div>
-            <img src="/assets/images/ui/pharmacyphoto.png" className='w-full' alt='pharmacy photo' />
+            <img aria-label="img" src="/assets/images/ui/pharmacyphoto.png" className='w-full' alt='pharmacy photo' />
         </section>
     )
 }

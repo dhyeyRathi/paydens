@@ -35,7 +35,7 @@ const Doctors = () => {
 
                 </div>
 
-                <Link scroll={false} href={'/joinourteam'} className=''>
+                <Link aria-label="link" scroll={false} href={'/joinourteam'} className=''>
                     <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>Meet Our Team</Button>
                 </Link>
             </div>
@@ -43,8 +43,8 @@ const Doctors = () => {
                 <div className={`${styles.imgCont}`}>
                     {
                         doctor.map((doc, index: number) => {
-                            if (index === 1) { return (<DoctorCard image={doc} center={true} key={doc} />); }
-                            return (<DoctorCard image={doc} key={doc} />)
+                            if (index === 1) { return (<DoctorCard image={doc} center={true} id={`doc-${index}`} key={doc} />); }
+                            return (<DoctorCard image={doc} id={`doc-${index}`} key={doc} />)
                         })
                     }
                 </div>

@@ -12,10 +12,11 @@ const JobsCarousel = () => {
             <div className='w-full bg-background paydens-shadow rounded-xl flex flex-col'>
                 <div className=' flex w-full items-center py-2 px-4 '>
                     <IconSearch className='w-4 h-4 mr-2' />
-                    <input className='outline-none font-quicksand px-4 text-lg w-[90%] font-semibold' placeholder='Job title or keywords' />
+                    {/* <label htmlFor='job-search' className='hidden'>search jobs</label> */}
+                    <input id="job-search" className='outline-none font-quicksand px-4 text-lg w-[90%] font-semibold' placeholder='Job title or keywords' aria-label='search jobs' />
 
                     <div className='!self-end flex gap-1 sm:gap-2 md:gap-4'>
-                        <button className='px-2 sm:px-4 rounded-xl hover:bg-gray-100 transition-all duration-300'>Clear</button>
+                        <button aria-label="button" className='px-2 sm:px-4 rounded-xl hover:bg-gray-100 transition-all duration-300'>Clear</button>
                         <Button className=''>Search</Button>
                     </div>
                 </div>
@@ -24,12 +25,12 @@ const JobsCarousel = () => {
 
                 <div className='py-6 px-6 gap-5 grid gri-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand">
+                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Roles'>
                             Role
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select
+                            <select aria-label="select" id='Roles'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>All roles</option>
@@ -44,12 +45,12 @@ const JobsCarousel = () => {
                     </div>
 
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand">
+                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Region'>
                             Region
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select
+                            <select aria-label="select" id='Region'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>South East</option>
@@ -64,12 +65,12 @@ const JobsCarousel = () => {
                     </div>
 
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand">
+                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Mode'>
                             Mode
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select
+                            <select aria-label="select" id='Mode'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>Online</option>
@@ -84,12 +85,12 @@ const JobsCarousel = () => {
                     </div>
 
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand">
+                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Type'>
                             Work Type
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select
+                            <select aria-label="select" id='Type'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>Full Time</option>

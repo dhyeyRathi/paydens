@@ -10,7 +10,7 @@ import PresHero from './components/PresHero'
 
 const page = () => {
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
+        <main aria-label='prescriptions page' className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
             <div className='flex flex-col gap-6 md:gap-8'>
                 <PageNameDisp PageName={[
                     {

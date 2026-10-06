@@ -75,7 +75,7 @@ const NavItems = () => {
         <div className={`${styles.navItemsCont} h-full`}>
             {
                 navItems.map((item) => (
-                    <button key={item.title} onClick={() => handleClick(item.dropdown, item.href)} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}
+                    <button aria-label="button" key={item.title} onClick={() => handleClick(item.dropdown, item.href)} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}
                         onMouseEnter={() => handleHover(item.dropdown)} onMouseLeave={() => handleHover(false)}>
                         {item.title}
                         {item.dropdown && <div>
@@ -152,7 +152,7 @@ const NavItemsVar2 = ({ onClick }: NavItem2) => {
                         }
                     }
                     return (
-                        <button key={item.title} onClick={() => {
+                        <button aria-label="button" key={item.title} onClick={() => {
                             handleClick(item.dropdown, item.href)
 
                         }} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}

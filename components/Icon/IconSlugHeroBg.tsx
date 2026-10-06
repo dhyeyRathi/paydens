@@ -2,7 +2,7 @@ import React from 'react'
 
 const IconSlugHeroBg = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 511 241" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 511 241" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <g opacity="0.05">
                 <circle cx="255.5" cy="313.578" r="253.5" fill="#00939E" />
                 <circle cx="255.5" cy="313.578" r="254.5" stroke="white" strokeOpacity="0.5" strokeWidth="2" />

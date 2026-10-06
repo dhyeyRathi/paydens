@@ -49,23 +49,24 @@ const Treatments = () => {
             </div>
             <div className={`${styles.cardsContainer}`}>
                 {
-                    cardItem.map((item) => (
+                    cardItem.map((item, ind) => (
                         <div key={item.title} className={`${styles.card}`}>
                             <h3>{item.title}</h3>
                             {
                                 item.items.map((e, index: number) => (
-                                    <button className={`${styles.cardItem}`} key={index}>
+                                    <button aria-label="button" className={`${styles.cardItem}`} key={index}>
                                         <span> {e}</span>
                                         {e && <IconChevronRight className="text-[#444444]" />}
+                                        {index === item.items.length - 1 && <p className='hidden'>button</p>}
                                     </button>
                                 ))
                             }
 
-                            <Link scroll={false} href='/all-conditions'>See More</Link>
+                            <Link aria-label="link" scroll={false} href={`/${ind}`}>See More</Link>
                         </div>))
                 }
             </div>
-            <Link scroll={false} href={'/all-conditions'} className='self-center'>
+            <Link aria-label="link" scroll={false} href={'/all-conditions'} className='self-center'>
                 <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>View All Treatments</Button>
             </Link>
 

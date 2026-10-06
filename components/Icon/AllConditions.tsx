@@ -2,7 +2,7 @@ import React from 'react'
 
 const IconStep1 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <path d="M58.4813 82.4996L53.7316 85.2418L52.5803 85.9062C47.3191 88.9438 44.0496 94.6057 44.0496 100.682H35.6016C35.6016 92.7477 39.3299 85.2857 45.5156 80.4975C46.4121 79.8031 47.3596 79.165 48.3563 78.5902L53.7316 75.4859L54.2572 75.1836L54.7828 76.0941L58.4813 82.4996Z" fill="#92FFAD" />
             <path d="M58.4824 82.4996L52.5814 85.9062C47.3203 88.9438 44.0508 94.6057 44.0508 100.682H38.7773C38.7773 94.6057 42.0469 88.9438 47.308 85.9062L53.209 82.4996L50.3033 77.467L54.2584 75.1836L58.4824 82.4996Z" fill="#92FFAD" />
             <path d="M58.4813 82.498L53.7316 85.2402C51.4113 83.899 48.1225 82.0006 45.5156 80.4959C46.4121 79.8016 47.3596 79.1635 48.3563 78.5887L53.7316 75.4844C54.085 75.6883 54.4365 75.8922 54.7828 76.0926L58.4813 82.498Z" fill="white" />
@@ -31,7 +31,7 @@ const IconStep1 = ({ className = "" }: { className?: string }) => {
 
 const IconStep2 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <ellipse opacity="0.1" cx="71.2003" cy="70.5" rx="71.2003" ry="70.5" fill="#00939E" />
             <path fillRule="evenodd" clipRule="evenodd" d="M70.9935 49.8602L81.3061 52.7203L102.201 58.5153L107.849 38.24C110.751 27.8258 104.583 16.9334 94.1457 14.0383C83.7034 11.1431 72.7914 17.2922 69.8851 27.7112L66.5391 39.7349C66.5389 47.0799 68.4865 49.1676 70.9935 49.8602Z" fill="white" />
             <path fillRule="evenodd" clipRule="evenodd" d="M98.981 35.7781L93.3328 56.0532L102.202 58.5147L107.85 38.2393C110.752 27.8252 104.584 16.9327 94.1469 14.0376C92.6188 13.6141 91.0856 13.3849 89.5625 13.3301C97.3231 17.6453 101.458 26.8835 98.981 35.7781Z" fill="#92FFAD" />
@@ -55,7 +55,7 @@ const IconStep2 = ({ className = "" }: { className?: string }) => {
 
 const IconStep3 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <ellipse opacity="0.1" cx="71.2003" cy="70.5" rx="71.2003" ry="70.5" fill="#00939E" />
             <path fillRule="evenodd" clipRule="evenodd" d="M39.7545 20.1191H34.7918C33.7804 20.1191 32.9531 20.9464 32.9531 21.9578V94.4674C32.9531 95.4789 33.7802 96.311 34.7918 96.311H86.173C85.7445 93.6303 84.8924 91.1638 83.3378 89.5095L39.7545 20.1191Z" fill="#92FFAD" />
             <path fillRule="evenodd" clipRule="evenodd" d="M98.1595 76.4005V15.157C98.1595 14.1456 97.3325 13.3184 96.3209 13.3184H41.5965C40.585 13.3184 39.7578 14.1456 39.7578 15.157V20.1199V87.6666C39.7578 88.6832 40.5849 89.5102 41.5965 89.5102H83.3412C89.6094 89.2859 98.1696 83.8548 98.1595 76.4005Z" fill="white" />
@@ -123,7 +123,7 @@ const IconStep3 = ({ className = "" }: { className?: string }) => {
 
 const IconStep4 = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 143 141" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <ellipse opacity="0.1" cx="71.2003" cy="70.5" rx="71.2003" ry="70.5" fill="#00939E" />
             <g clipPath="url(#clip0_2335_4133)">
                 <path d="M101.414 73.2609L79.1874 90.633C77.6489 91.8373 75.7521 92.4896 73.8004 92.4896H43.0703V74.8626C44.2025 74.0767 45.9537 73.0588 48.3306 72.2359C50.7057 71.4149 53.7068 70.7891 57.3357 70.7891C59.354 70.7891 61.3565 71.1635 63.2395 71.8914L67.429 73.5107H75.7203C77.6595 73.5107 79.2312 75.0808 79.2312 77.0198C79.2312 77.0198 79.1925 77.535 79.1187 77.8866C79.1187 77.8866 79.1169 77.8884 79.1169 77.8901C79.1063 77.9481 79.0923 78.0026 79.0782 78.0483H79.08L85.7433 74.2015L97.9025 67.1796C99.2931 66.3761 101.006 66.6345 102.103 67.7034C102.125 67.7245 102.145 67.7456 102.164 67.7649C102.366 67.9706 102.546 68.2044 102.697 68.4665C103.622 70.0629 103.01 72.0104 101.414 73.2609Z" fill="white" />

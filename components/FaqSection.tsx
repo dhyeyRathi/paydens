@@ -51,7 +51,7 @@ const FaqSection = () => {
                             <h3>{que.question}</h3>
                             <p>{que.answer}</p>
                         </div>
-                        <button onClick={() => handleActive(que.id)}>{queActive !== que.id ? <IconPlus /> :
+                        <button aria-label="button" onClick={() => handleActive(que.id)}>{queActive !== que.id ? <IconPlus /> :
                             <IconClose />}
 
                         </button>

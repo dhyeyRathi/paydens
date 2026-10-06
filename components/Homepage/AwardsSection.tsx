@@ -23,8 +23,8 @@ const AwardsSection = () => {
             </div>
             <div className={`${styles.cardSection} lg:!py-12`}>
                 <div className={`${styles.card} paydens-shadow lg:!scale-110`} onMouseEnter={() => setHover(1)} onMouseLeave={() => setHover(null)}>
-                    <Image src={relay} alt='relay' className={`${styles.images} ${hover === 1 ? styles.fadeOut : styles.fadeIn} `} />
-                    <Image src={blue} alt='relay' className={`${styles.images} ${hover === 1 ? styles.fadeIn : styles.fadeOut} `} />
+                    <Image aria-label="image" src={relay} alt='relay-1' className={`${styles.images} ${hover === 1 ? styles.fadeOut : styles.fadeIn} `} />
+                    <Image aria-label="image" src={blue} alt='relay-2' className={`${styles.images} ${hover === 1 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent    ' />
                     <h3>Strategic partnership: Lagardère Travel Retail UK & Ireland and Paydens Group</h3>
                     <p>Read More
@@ -38,8 +38,8 @@ const AwardsSection = () => {
                     </div>
                 </div>
                 <div className={`${styles.card} paydens-shadow lg:!scale-110 `} onMouseEnter={() => setHover(2)} onMouseLeave={() => setHover(null)}>
-                    <Image src={award} alt='relay' className={`${styles.images} ${hover === 2 ? styles.fadeOut : styles.fadeIn} `} />
-                    <Image src={pink} alt='relay' className={`${styles.images} ${hover === 2 ? styles.fadeIn : styles.fadeOut} `} />
+                    <Image aria-label="image" src={award} alt='award-1' className={`${styles.images} ${hover === 2 ? styles.fadeOut : styles.fadeIn} `} />
+                    <Image aria-label="image" src={pink} alt='award-2' className={`${styles.images} ${hover === 2 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
                     <h3>Congratulations to Our IPA Award Winners</h3>
                     <p>Read More
@@ -53,8 +53,8 @@ const AwardsSection = () => {
                     </div>
                 </div>
                 <div className={`${styles.card} paydens-shadow lg:!scale-110`} onMouseEnter={() => setHover(3)} onMouseLeave={() => setHover(null)}>
-                    <Image src={cafe} alt='relay' className={`${styles.images} ${hover === 3 ? styles.fadeOut : styles.fadeIn} `} />
-                    <Image src={green} alt='relay' className={`${styles.images} ${hover === 3 ? styles.fadeIn : styles.fadeOut} `} />
+                    <Image aria-label="image" src={cafe} alt='cafe-1' className={`${styles.images} ${hover === 3 ? styles.fadeOut : styles.fadeIn} `} />
+                    <Image aria-label="image" src={green} alt='cafe-2' className={`${styles.images} ${hover === 3 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
                     <h3>PAYDENS WALKS FOR PARKINSON'S UK 2024</h3>
                     <p>Read More

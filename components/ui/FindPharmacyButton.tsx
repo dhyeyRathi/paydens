@@ -29,7 +29,7 @@ const FindPharmacyButton = ({ className, card = false }: findPharmacyProps) => {
 
     return (
         <>
-            <button className={`paydence-shadow ${styles.button} relative text-primary font-[600] ${className} `} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
+            <button aria-label="button" className={`paydence-shadow ${styles.button} relative text-primary font-[600] ${className} `} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
                 <IconMapPin />
 
                 Find Pharmacy
@@ -110,9 +110,10 @@ const FindPharmacyCardVar2 = ({ onMouseEnter, onMouseLeave, name, distance, addr
             </div>
             {/* <hr className={`h-[1px] w-full bg-text-ph/60 ${styles.hr} `} /> */}
             <div className={`${styles.pharmacyCardVar2Cont2} `}>
-                <h3 className='flex gap-4 hover:gap-6 justify-center items-center w-full text-primary transition-all duration-200 ease-in-out pb-2'>View Pharmacy Details <em className={`${styles.hr} `}>
-                    <IconChevronRight className="text-primary" />
-                </em></h3>
+                <button aria-label='Button' className='flex gap-4 hover:gap-6 justify-center items-center w-full text-primary transition-all duration-200 ease-in-out pb-2'>
+                    View Pharmacy Details <em className={`${styles.hr} `}>
+                        <IconChevronRight className="text-primary" />
+                    </em></button>
             </div>
         </div>
     )

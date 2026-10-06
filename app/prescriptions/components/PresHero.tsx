@@ -28,7 +28,7 @@ const PresHero = () => {
                     </ul>
 
                     <div className='flex gap-4 w-full !justify-center md:!justify-start'>
-                        <Button className='!w-[250px] '>Register For Free</Button>
+                        <Button className='!w-[270px] ml-8 md:ml-0'>Register For Free</Button>
                         <ButtonVar2 className='h-full'>Login & Reorder</ButtonVar2>
                     </div>
 
@@ -43,7 +43,7 @@ const PresHero = () => {
 
                     </div>
                     <div className='absolute bottom-[2%] left-0 md:left-[-10%] paydens-shadow bg-white rounded-2xl h-16 md:h-20 p-3 md:p-4 px-4 md:px-6 w-auto flex gap-1 md:gap-4 scale-75 md:scale-100 origin-bottom-left'>
-                        <Image src={avatars} alt='multipleAvatars' className='h-full w-auto' />
+                        <Image aria-label="image" src={avatars} alt='multipleAvatars' className='h-full w-auto' />
                         <div className='flex flex-col gap-2 scale-75 '>
                             <div className='flex gap-2 h-6'>
                                 <IconPresHero3 className="h-full w-auto" />

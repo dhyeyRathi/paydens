@@ -2,7 +2,8 @@ import React from 'react'
 
 const MHRALogo = ({ className }: { className?: string }) => {
     return (
-        <svg width="100" height="50" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className={className}>
+        <svg aria-label="svg" width="100" height="50" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+            className={className}>
             <rect width="100" height="50" fill="url(#pattern0_3_17912)" />
             <defs>
                 <pattern id="pattern0_3_17912" patternContentUnits="objectBoundingBox" width="1" height="1">

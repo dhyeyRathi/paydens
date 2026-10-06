@@ -40,7 +40,7 @@ const Hero = () => {
         <section className={`${styles.heroCont} animationPopUp`}>
             <div className={`${styles.heroBan}`}>
                 <div className={`${styles.bgWrapper}`}>
-                    <Image src={heroBan} alt="hero banner background" fill className='opacity-40 object-cover ' />
+                    <Image aria-label="image" src={heroBan} alt="hero banner background" fill className='opacity-40 object-cover ' />
                     <div className={`${styles.whiteOL}`}> </div>
                     <GreenGradient className={`${styles.greenGrad}`} />
                     <BlueGradient className={`${styles.blueGrad}`} />

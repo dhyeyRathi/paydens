@@ -2,7 +2,7 @@ import React from 'react'
 
 const RegisteredPharmacy = ({ className }: { className?: string }) => {
     return (
-        <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg aria-label="svg" width="72" className={className} height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="72" height="30" fill="url(#pattern0_3_12763)" />
             <defs>
                 <pattern id="pattern0_3_12763" patternContentUnits="objectBoundingBox" width="1" height="1">

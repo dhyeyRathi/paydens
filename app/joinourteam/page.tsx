@@ -8,7 +8,7 @@ import JobsCarousel from './components/JobsCarousel'
 
 const page = () => {
     return (
-        <main className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
+        <main aria-label='join our team page' className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
             <PageNameDisp PageName={[{
                 label: "Home",
 

@@ -41,12 +41,12 @@ const GetInTouch = () => {
 
                     </div>
                 </div>
-                <form className={`${styles.form}`}>
+                <form aria-label="form" className={`${styles.form}`}>
                     <div className='flex'>
-                        <button type='button' className={` p-5 relative text-16 ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                        <button aria-label="button" type='button' className={` p-5 relative text-16 ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("message")}>Send us a message
                             {formType === "message" && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>
-                        <button type='button' className={`  p-5 relative text-16 ${formType === "complaint" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                        <button aria-label="button" type='button' className={`  p-5 relative text-16 ${formType === "complaint" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("complaint")}>Complaint form
                             {formType === "complaint" && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>
                     </div>
@@ -54,33 +54,33 @@ const GetInTouch = () => {
                         <div className='flex flex-col gap-1 w-full'>
 
                             <label htmlFor='first name'>First Name</label>
-                            <input name='first name' placeholder='Enter your first name' />
+                            <input aria-label="input" name='first name' placeholder='Enter your first name' />
                         </div>
                         <div className='flex flex-col gap-1 w-full'>
 
                             <label htmlFor='last name'>Last Name</label>
-                            <input name="last name" placeholder='Enter your last name' />
+                            <input aria-label="input" name="last name" placeholder='Enter your last name' />
                         </div>
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='email'>Email</label>
-                        <input name="email" placeholder='Enter your email' />
+                        <input aria-label="input" name="email" placeholder='Enter your email' />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='phno'>Phone Number</label>
-                        <input name='phno' placeholder='Enter your phone number' type='number' />
+                        <input aria-label="input" name='phno' placeholder='Enter your phone number' type='number' />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='subject'>Subject</label>
-                        <input name="subject" placeholder='Select subject' />
+                        <input aria-label="input" name="subject" placeholder='Select subject' />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='textarea'>Subject</label>
-                        <textarea name="textarea" placeholder='Your message' className='!pb-20' />
+                        <textarea aria-label="textarea" name="textarea" placeholder='Your message' className='!pb-20' />
                     </div>
                     <Button type="submit" className='!self-start !text-base'>Send Message</Button>
                 </form>

@@ -14,10 +14,13 @@ const LetsConnectSection = () => {
             </div>
 
             <div className={`${styles.socialCont}`}>
-                <IconFacebook className='group' />
-                <IconInstagram className='group' />
-                <IconTwitter className='group' />
-                <IconLinkedIn className='group' />
+                <button aria-label="button"><IconFacebook className='group' /><p className='hidden'>facebook</p></button>
+                <button aria-label="button"><IconInstagram className='group' /> <p className='hidden'>instagram</p></button>
+                <button aria-label="button"><IconTwitter className='group' /><p className='hidden'>twitter</p></button>
+                <button aria-label="button"><IconLinkedIn className='group' /><p className='hidden'>linkedIn</p></button>
+
+
+
             </div>
         </section>
     )

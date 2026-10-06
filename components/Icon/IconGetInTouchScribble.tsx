@@ -2,7 +2,7 @@ import React from 'react'
 
 const IconGetInTouchScribble = ({ className = "" }: { className?: string }) => {
     return (
-        <svg viewBox="0 0 237 42" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg aria-label="svg" viewBox="0 0 237 42" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
             <rect width="42" height="42" rx="21" fill="#37B43D" fillOpacity="0.2" />
             <g clipPath="url(#clip0_3_16917)">
                 <path d="M28 18.2308H23.3333V14.5385C23.3333 13.5194 24.1696 13.6154 25.2 13.6154H27.0667V9H23.3333C20.2403 9 17.7333 11.4794 17.7333 14.5385V18.2308H14V22.8462H17.7333V33H23.3333V22.8462H26.1333L28 18.2308Z" fill="#2D6D1F" />

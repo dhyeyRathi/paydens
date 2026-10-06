@@ -31,9 +31,9 @@
 }
 
 @media (max-width: 1440px) {
-    .Text svg {
+    /* .Text svg {
         display: none;
-    }
+    } */
 
     .Text {
         padding-bottom: 30px;

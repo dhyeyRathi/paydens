@@ -2,7 +2,7 @@ import React from 'react'
 
 const GPHC = ({ className }: { className?: string }) => {
     return (
-        <svg width="72" height="36" viewBox="0 0 72 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className={className}>
+        <svg aria-label="svg" width="72" height="36" viewBox="0 0 72 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className={className}>
             <rect width="72" height="36" fill="url(#pattern0_3_12653)" />
             <defs>
                 <pattern id="pattern0_3_12653" patternContentUnits="objectBoundingBox" width="1" height="1">

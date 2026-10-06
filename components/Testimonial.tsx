@@ -53,7 +53,7 @@ const Testimonial = () => {
                         <IconStarGray />
                         <IconStarGray />
                     </div>
-                    <p>Based on<em>&nbsp;2159&nbsp;</em>Reviews on </p>
+                    <h4>Based on<em>&nbsp;2159&nbsp;</em>Reviews on </h4>
                 </div>
                 <GoogleReviews className={`${styles.googleImage}`} />
 
@@ -64,7 +64,7 @@ const Testimonial = () => {
                     return (<TestimonialCard key={index} id={`${index}`} className={`transition-all duration-300 ease-in-out opacity-50 
                      ${index === activeIndex && `!scale-105 opacity-100`}`} >
 
-                        <Image src={customer} alt='avatar' className='h-full w-auto' /></TestimonialCard>)
+                        <Image aria-label="image" src={customer} alt={`avatar-${index}`} className='h-full w-auto' /></TestimonialCard>)
                 })}
             </div >
             <ArrowButton className='!m-0 !p-0'
