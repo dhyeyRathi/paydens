@@ -92,9 +92,9 @@ const FindPharmacyCardVar2 = ({ onMouseEnter, onMouseLeave, name, distance, addr
         <div className={`${styles.pharmacyCardVar2} ${className} shadow-lg`} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.pharmacyCardContVar2} flex flex-col justify-start sm:text-lg items-start`}>
-                <h3 className='flex justify-between items-center w-full text-2xl sm:text-25 font-bold pb-4'>{name} <em className='text-12 font-normal' >
+                <h2 className='flex justify-between items-center w-full text-2xl sm:text-25 font-bold pb-4'>{name} <em className='text-12 font-normal' >
                     {distance}
-                </em></h3>
+                </em></h2>
 
                 <div className='flex flex-col gap-4 font-[300]  '>
                     <p className=' flex gap-4 items-center text-16'> <IconMapPin className="text-[#444444]" />

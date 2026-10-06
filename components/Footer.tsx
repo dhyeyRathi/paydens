@@ -62,8 +62,8 @@ const Footer = () => {
 
                     {footerLinks.map((section) => (
                         <div key={section.title} className={`${styles.linksBox}`}>
-                            <h4 className='font-semibold  text-sm sm:text-base md:text-[20px]'>
-                                {section.title}</h4>
+                            <h3 className='font-semibold  text-sm sm:text-base md:text-[20px]'>
+                                {section.title}</h3>
                             <ul className='gap-[6.5px] flex flex-col '>
                                 {section.links.map((link) => (
                                     <li key={link.label}>

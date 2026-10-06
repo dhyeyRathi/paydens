@@ -60,7 +60,7 @@ const Hero = () => {
                                         <div className='h-[44px]'>
                                             {item.icon}
                                         </div>
-                                        <h1 className='text-xl font-[300] font-quicksand'> {item.label}</h1>
+                                        <h2 className='text-xl font-[300] font-quicksand'> {item.label}</h2>
                                     </div>
 
                                     <IconHeroChevronRight className="text-[#666666]" />
@@ -74,22 +74,22 @@ const Hero = () => {
             <div className='w-full'>
                 <hr className='w-full h-[1px] bg-text-secondary/60 border-none' />
                 <div className={`${styles.statsSection}`}>
-                    <h4>
+                    <h3>
                         <em>55+ </em>
                         Years of care
-                    </h4>
-                    <h4>
+                    </h3>
+                    <h3>
                         <NHS />
                         NHS Prescriptions
-                    </h4>
-                    <h4>
+                    </h3>
+                    <h3>
                         <em>100+ </em>
                         Pharmacies Served
-                    </h4>
-                    <h4>
+                    </h3>
+                    <h3>
                         <GPHC />
                         GPhC Registered
-                    </h4>
+                    </h3>
                 </div>
                 <hr className='w-full h-[1px] bg-text-secondary/60 border-none ' />
             </div>
