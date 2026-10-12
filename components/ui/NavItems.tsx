@@ -6,10 +6,11 @@ import ServicesDropdown from './ServicesDropdown'
 import { useRouter } from 'next/navigation';
 import { on } from 'events';
 import IconChevronDown from '../Icon/IconChevronDown';
+import { Url } from 'next/dist/shared/lib/router/router';
 
 interface NavItem {
     title?: string;
-    href?: string;
+    href: string;
     dropdown: boolean
 
 }
@@ -25,7 +26,7 @@ const NavItems = () => {
     const [drop, setDrop] = useState<boolean>(false);
     const router = useRouter();
 
-    function handleClick(drop: boolean, route: any) {
+    function handleClick(drop: boolean, route: string) {
         if (drop) {
             handleHover(true);
         } else {
@@ -75,7 +76,7 @@ const NavItems = () => {
         <div className={`${styles.navItemsCont} h-full`}>
             {
                 navItems.map((item) => (
-                    <button aria-label="button" key={item.title} onClick={() => handleClick(item.dropdown, item.href)} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}
+                    <button aria-label="dropdown" key={item.title} onClick={() => handleClick(item.dropdown, item.href)} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}
                         onMouseEnter={() => handleHover(item.dropdown)} onMouseLeave={() => handleHover(false)}>
                         {item.title}
                         {item.dropdown && <div>
@@ -143,7 +144,7 @@ const NavItemsVar2 = ({ onClick }: NavItem2) => {
             {
                 navItems.map((item) => {
 
-                    function handleClick(dropdown: boolean, route: any,) {
+                    function handleClick(dropdown: boolean, route: string) {
                         if (!item.dropdown && onClick) onClick();
                         if (dropdown) {
                             handleHover(!drop);
@@ -152,7 +153,7 @@ const NavItemsVar2 = ({ onClick }: NavItem2) => {
                         }
                     }
                     return (
-                        <button aria-label="button" key={item.title} onClick={() => {
+                        <button aria-label="dropdown" key={item.title} onClick={() => {
                             handleClick(item.dropdown, item.href)
 
                         }} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}

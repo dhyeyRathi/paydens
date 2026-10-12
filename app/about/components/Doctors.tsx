@@ -5,6 +5,7 @@ import { DoctorCardVar2 } from '@/components/ui/DoctorCard'
 import { ArrowButton } from '@/components/ui/Button'
 import { useRouter } from 'next/navigation'
 import IconChevronRight from '@/components/Icon/IconChevronRight'
+import Heading, { HeadingHighlight } from '@/components/ui/Heading'
 
 const Doctors = () => {
     const doctor = ["/doctors/left.png", "/doctors/right.png", "/doctors/center.png"]
@@ -37,13 +38,16 @@ const Doctors = () => {
 
     return (
         <section className='flex flex-col gap-5 lg:gap-10 w-full relative animationPopUp'>
-            <h2 className='w-full text-center px-4 text-3xl lg:text-heading font-bold'>
-                Your health, In <em className='text-button-hover'>Expert </em> Hands
-            </h2>
-            <button aria-label="button" className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>
+            <Heading>
+                Your health, In
+                <HeadingHighlight> Expert </HeadingHighlight>
+                Hands
+            </Heading>
+
+            <button aria-label="arrow-button-left" className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute left-0  !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev <= 0 ? 0 : prev - 1)}>
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white scale-x-[-1]' />
             </button>
-            <button aria-label="button" className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute right-0 !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev < doctor.length - 1 ? prev + 1 : 0)}>
+            <button aria-label="arrow-button-right" className={`${styles.arrowButton} bg-white/70 xl:bg-transparent group absolute right-0 !top-[50%] !z-20 `} onClick={() => setActiveDocIndex(prev => prev < doctor.length - 1 ? prev + 1 : 0)}>
                 <IconChevronRight className='fill-text-secondary group-hover:fill-white' />
             </button>
 

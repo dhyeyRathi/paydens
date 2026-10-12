@@ -44,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <img aria-label="Image" src="/assets/images/ui/pharmacyphoto.png" className='w-full' alt='pharmacy photo' />
+            <img src="/assets/images/ui/pharmacyphoto.png" className='w-full' alt='pharmacy photo' />
         </section>
     )
 }

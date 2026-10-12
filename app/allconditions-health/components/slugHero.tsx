@@ -25,14 +25,14 @@ const SlugHero = () => {
                         <li>Evidence-backed care</li>
                     </ul>
                 </div>
-                <form aria-label="form" className='bg-white xl:w-[30%] rounded-xl p-8 flex flex-col gap-10 paydens-shadow'>
+                <form aria-label="Eligibility check form" className='bg-white xl:w-[30%] rounded-xl p-8 flex flex-col gap-10 paydens-shadow'>
                     <h3 className='max-w-[80%] text-3xl '>Am I eligible for NHS Services?</h3>
 
 
                     <div className='flex flex-col gap-2'>
                         <label className='text-lg font-quicksand font-[400]'>Gender at Birth</label>
                         <div className='flex gap-2 font-quicksand font-[300] items-center'>
-                            <input aria-label="input"
+                            <input aria-label="gende-male"
                                 type="radio"
                                 id="option-1"
                                 name="framework"
@@ -41,7 +41,7 @@ const SlugHero = () => {
                             />
                             <label htmlFor='option-1'>Male</label>
 
-                            <input aria-label="input"
+                            <input aria-label="gender-female"
                                 type="radio"
                                 id="option-2"
                                 name="framework"

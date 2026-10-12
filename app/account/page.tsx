@@ -3,6 +3,12 @@ import React from 'react'
 import GetInTouch from './components/GetInTouch'
 import LetsConnectSection from '@/components/LetsConnectSection'
 import FaqSection from '../../components/FaqSection'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Paydens | Account',
+    description: 'Get in touch and view your account details',
+}
 
 const page = () => {
     return (

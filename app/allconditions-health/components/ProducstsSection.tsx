@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductCards from './ProductCards';
 import { ArrowButton } from '@/components/ui/Button';
+import Heading, { HeadingHighlight } from '@/components/ui/Heading';
 
 
 interface sectionProps {
@@ -30,9 +31,9 @@ const ProducstsSection = ({ condition }: sectionProps) => {
     ]
     return (
         <section className='flex flex-col gap-10 items-center animationPopUp'>
-            <h2 className='w-full text-center  px-4 text-xl md:text-3xl lg:text-heading font-bold'>
-                <em className='text-button-hover'>{condition} </em>Relief Products
-            </h2>
+            <Heading>
+                <HeadingHighlight>{condition}</HeadingHighlight> Relief Products
+            </Heading>
             <div className='flex  gap-10 flex-wrap lg:flex-nowrap items-center justify-center'>
                 {products.map((product) => (
                     <ProductCards

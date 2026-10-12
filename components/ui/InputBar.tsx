@@ -4,12 +4,13 @@ import styles from "./ui.css/Input.module.css"
 interface inputProps {
     placeholder?: string;
     children?: React.ReactNode;
+    name?: string;
     className?: string;
     divClassName?: string;
 
 }
 const InputBar = ({
-    placeholder, children, className
+    placeholder, children, className, name
 }: inputProps) => {
     return (
         <>
@@ -17,7 +18,7 @@ const InputBar = ({
                 <div className='w-full h-auto flex items-center bg-white rounded-[8px] flex '>
                     <input className={`${styles.inputBar}  text-text font-[500] font-quicksand w-full bg-white`}
                         aria-label={placeholder}
-                        id='search' placeholder={placeholder} />
+                        id={name + 'search'} placeholder={placeholder} />
                     {children}
                 </div>
             </div></>
@@ -33,7 +34,7 @@ const InputBarVar2 = ({
 
 
         <div className={`w-[50%] bg-white rounded-[8px] flex items-center ${styles.inputContVar2} ${divClassName}`}>
-            <input aria-label="input" className={`${styles.inputBarVar2} ${className} text-text text-16 font-[500] font-quicksand w-full bg-white`}
+            <input aria-label={placeholder} className={`${styles.inputBarVar2} ${className} text-text text-16 font-[500] font-quicksand w-full bg-white`}
                 id='search' placeholder={placeholder} />
             {children}
         </div>

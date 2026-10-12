@@ -20,6 +20,7 @@ import {
     Weightloss,
 } from "@/components/Icon/diseases/diseases"
 import { icon } from 'leaflet'
+import Heading from '@/components/ui/Heading'
 
 
 const Treatments = () => {
@@ -102,7 +103,7 @@ const Treatments = () => {
     const filteredTreatments = treatments.filter((treat) => treat.category === formType)
     return (
         <section className={`${styles.TreatmentsSection} animationPopUp10`}>
-            <h2 className='font-quicksand text-center'>What do you need help with?</h2>
+            <Heading font='quicksand' bold={false}>What do you need help with?</Heading>
             <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center  !w-[90%] lg:!w-[40%]'>
                 <Button className='!rounded-md'>Search</Button>
             </InputBarVar2>
@@ -110,7 +111,7 @@ const Treatments = () => {
             <div className='flex w-full justify-center md:gap-[10px] flex-wrap'>
 
                 {categories.map((cat, index) => (
-                    <button aria-label="button" type='button' key={index} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60
+                    <button aria-label={cat} type='button' key={index} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60
                          ${formType === cat && '!text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                         onClick={() => setFormType(cat)}>
                         {cat}
@@ -128,7 +129,7 @@ const Treatments = () => {
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
-                                            <button aria-label="button" className={`${styles.cardItem}`} key={e}>
+                                            <button aria-label={e + index} className={`${styles.cardItem}`} key={e}>
                                                 <span> {e}</span>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>
@@ -151,7 +152,7 @@ const Treatments = () => {
                                 <div className='flex flex-col gap-1'>
                                     {
                                         item.diseases.map((e, index: number) => (
-                                            <button aria-label="button" className={`${styles.cardItem}`} key={e}>
+                                            <button aria-label={e + index} className={`${styles.cardItem}`} key={e}>
                                                 <span> {e}</span>
                                                 {e && <IconChevronRight className="fill-[#444444] w-2 h-auto" />}
                                             </button>

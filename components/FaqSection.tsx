@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import styles from './components.css/Faq.module.css'
 import IconPlus from './Icon/IconPlus'
 import IconClose from './Icon/IconClose'
+import Heading, { HeadingHighlight } from './ui/Heading'
 
 const FaqSection = () => {
     const faqs = [
@@ -40,18 +41,20 @@ const FaqSection = () => {
     };
     return (
         <section className='flex flex-col gap-8 items-center animationPopUp'>
-            <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
-                Got Questions? We've Got<em className='text-button-hover'> Answers</em>
-            </h2>
+            <Heading>
+                Got Questions? We&apos;ve Got<HeadingHighlight> Answers </HeadingHighlight>
+            </Heading>
+
             <div className={`${styles.questionCont}`}>
                 {faqs.map((que) => (
-                    <div key={que.id} className={`${styles.question} ${queActive === que.id && styles.questionActive}`}>
-                        <h2>{que.id}</h2>
-                        <div tabIndex={0}>
+                    <div key={que.id} aria-expanded={queActive == que.id ? true : false}
+                        aria-controls={"faq-que-" + que.id} className={`${styles.question} ${queActive === que.id && styles.questionActive}`}>
+                        <span>{que.id}</span>
+                        <div>
                             <h3>{que.question}</h3>
                             <p>{que.answer}</p>
                         </div>
-                        <button aria-label="button" onClick={() => handleActive(que.id)}>{queActive !== que.id ? <IconPlus /> :
+                        <button aria-label="Toggle answer" onClick={() => handleActive(que.id)}>{queActive !== que.id ? <IconPlus /> :
                             <IconClose />}
 
                         </button>

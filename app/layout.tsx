@@ -13,8 +13,8 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Paydens",
-  description: "pharmacy",
+  title: "Paydens | Home",
+  description: "Homepage for the official website of Paydens",
   icons: {
     icon: '/favicon.ico'
   }

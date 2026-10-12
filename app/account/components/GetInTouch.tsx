@@ -11,6 +11,7 @@ import IconGetInTouchScribble from '@/components/Icon/IconGetInTouchScribble'
 
 const GetInTouch = () => {
     const [formType, setFormType] = useState<string>("message");
+    const [sent, setSent] = useState<boolean>(false);
     return (
         <section className={`${styles.GITsection} animationPopUp`}>
             <h1 className='text-4xl lg:text-heading font-bold w-full'>Get In Touch Today</h1>
@@ -41,12 +42,12 @@ const GetInTouch = () => {
 
                     </div>
                 </div>
-                <form aria-label="form" className={`${styles.form}`}>
+                <form aria-label="contact us form" className={`${styles.form}`} onSubmit={() => setSent(true)}>
                     <div className='flex'>
-                        <button aria-label="button" type='button' className={` p-5 relative text-16 ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                        <button aria-label="set form type to message" type='button' className={` p-5 relative text-16 ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("message")}>Send us a message
                             {formType === "message" && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>
-                        <button aria-label="button" type='button' className={`  p-5 relative text-16 ${formType === "complaint" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
+                        <button aria-label="set form type to complaint" type='button' className={`  p-5 relative text-16 ${formType === "complaint" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("complaint")}>Complaint form
                             {formType === "complaint" && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>
                     </div>
@@ -54,33 +55,33 @@ const GetInTouch = () => {
                         <div className='flex flex-col gap-1 w-full'>
 
                             <label htmlFor='first name'>First Name</label>
-                            <input aria-label="input" name='first name' placeholder='Enter your first name' />
+                            <input aria-label="first name input" id='first name' placeholder='Enter your first name' required />
                         </div>
                         <div className='flex flex-col gap-1 w-full'>
 
                             <label htmlFor='last name'>Last Name</label>
-                            <input aria-label="input" name="last name" placeholder='Enter your last name' />
+                            <input aria-label="last name input" id="last name" placeholder='Enter your last name' required />
                         </div>
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='email'>Email</label>
-                        <input aria-label="input" name="email" placeholder='Enter your email' />
+                        <input aria-label="email input" id="email" placeholder='Enter your email' required />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='phno'>Phone Number</label>
-                        <input aria-label="input" name='phno' placeholder='Enter your phone number' type='number' />
+                        <input aria-label="phone number input" id='phno' placeholder='Enter your phone number' type='tel' required />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
                         <label htmlFor='subject'>Subject</label>
-                        <input aria-label="input" name="subject" placeholder='Select subject' />
+                        <input aria-label="subject input" id="subject" placeholder='Select subject' required />
                     </div>
                     <div className='flex flex-col gap-1 w-full'>
 
-                        <label htmlFor='textarea'>Subject</label>
-                        <textarea aria-label="textarea" name="textarea" placeholder='Your message' className='!pb-20' />
+                        <label htmlFor='Message'>Message</label>
+                        <textarea aria-label="description input" id="Message" placeholder='Your message' className='!pb-20' required />
                     </div>
                     <Button type="submit" className='!self-start !text-base'>Send Message</Button>
                 </form>

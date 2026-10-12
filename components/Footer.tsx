@@ -7,38 +7,39 @@ import IconEmail from './Icon/IconEmail'
 import IconPhone from './Icon/IconPhone'
 import IconLocation from './Icon/IconLocation'
 import IconChevronRight from './Icon/IconChevronRight'
+import Link from 'next/link'
 
 const Footer = () => {
     const footerLinks = [
         {
             title: "Quick Links",
             links: [
-                { label: "Pharmacy Services", href: "" },
+                { label: "Pharmacy Services", href: "#" },
                 { label: "Find a Pharmacy", href: "/findpharmacy" },
-                { label: "Shop Online", href: "" },
+                { label: "Shop Online", href: "#" },
                 { label: "Join Our Team", href: "/joinourteam" },
                 { label: "Contact Us", href: "/account" },
-                { label: "Site Map", href: "" },
+                { label: "Site Map", href: "#" },
             ],
         },
         {
             title: "About Paydens",
             links: [
-                { label: "Who are Paydens", href: "" },
-                { label: "Pharmaceutical Wholesaler", href: "" },
-                { label: "Training", href: "" },
-                { label: "Environmental Issues", href: "" },
-                { label: "Gender Pay Gap", href: "" },
-                { label: "Modern Slavery Act", href: "" },
+                { label: "Who are Paydens", href: "#" },
+                { label: "Pharmaceutical Wholesaler", href: "#" },
+                { label: "Training", href: "#" },
+                { label: "Environmental Issues", href: "#" },
+                { label: "Gender Pay Gap", href: "#" },
+                { label: "Modern Slavery Act", href: "#" },
             ],
         },
         {
             title: "Legal & Safety",
             links: [
-                { label: "Complaints Procedure", href: "" },
-                { label: "Privacy Policy", href: "" },
-                { label: "Cookie Policy", href: "" },
-                { label: "Terms & Conditions", href: "" },
+                { label: "Complaints Procedure", href: "#" },
+                { label: "Privacy Policy", href: "#" },
+                { label: "Cookie Policy", href: "#" },
+                { label: "Terms & Conditions", href: "#" },
             ],
         },
     ];
@@ -51,12 +52,12 @@ const Footer = () => {
 
 
                         <div className={`${styles.contactDetailBox}`}>
-                            <a aria-label="Link" className={`${styles.contactDetails}`} href="mailto:contact@yourpharmacy.co.uk"><IconEmail />
-                                contact@yourpharmacy.co.uk</a>
-                            <a aria-label="Link" className={`${styles.contactDetails}`}><IconPhone />
-                                01622 754977</a>
-                            <a aria-label="Link" className={`${styles.contactDetails}`} href='https://www.google.com/maps/place/Park+Wood+Hand+Car+Wash/@51.2427677,0.5563211,17z/data=!3m1!4b1!4m6!3m5!1s0x47df31e045bb788b:0x4fb7954a969cd2f5!8m2!3d51.2427677!4d0.558896!16s%2Fg%2F11f4lf5hw2?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D'><IconLocation />
-                                Parkwood Sutton Road Maidstone <br />Kent ME15 9NE</a>
+                            <Link aria-label="Email us at contact@yourpharmacy.co.uk" className={`${styles.contactDetails}`} href="mailto:contact@yourpharmacy.co.uk"><IconEmail />
+                                contact@yourpharmacy.co.uk</Link>
+                            <Link aria-label="Call us at 01622 754977" href="tel:+441622754977" className={`${styles.contactDetails}`}><IconPhone />
+                                01622 754977</Link>
+                            <Link aria-label="View our location on Google Maps: Parkwood Sutton Road Maidstone Kent ME15 9NE" className={`${styles.contactDetails}`} href='https://www.google.com/maps/place/Park+Wood+Hand+Car+Wash/@51.2427677,0.5563211,17z/data=!3m1!4b1!4m6!3m5!1s0x47df31e045bb788b:0x4fb7954a969cd2f5!8m2!3d51.2427677!4d0.558896!16s%2Fg%2F11f4lf5hw2?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D'><IconLocation />
+                                Parkwood Sutton Road Maidstone <br />Kent ME15 9NE</Link>
                         </div>
                     </div>
 
@@ -67,9 +68,9 @@ const Footer = () => {
                             <ul className='gap-[6.5px] flex flex-col '>
                                 {section.links.map((link, index) => (
                                     <li key={link.label}>
-                                        <a aria-label="Link" href={`${link.href ? link.href : '/' + index}`} className='flex gap-4 pb-[7.5px] items-center text-[14px] font-[300]'>
+                                        <Link aria-label={link.label} href={link.href} className='flex gap-4 pb-[7.5px] items-center text-[14px] font-[300]'>
                                             <IconChevronRight />
-                                            {link.label}</a>
+                                            {link.label}</Link>
                                     </li>
                                 ))}</ul>
                         </div>

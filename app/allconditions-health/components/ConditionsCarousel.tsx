@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button'
 import conditions from '@/public/assets/data/conditions.json'
 import { useRouter } from 'next/navigation'
 import { NHSLeaf } from '@/components/Icon/Logo/NHS'
+import Heading from '@/components/ui/Heading'
 const ConditionsCarousel = () => {
     const filter = ["All", "NHS Services", "Private Services"]
     const [selected, setSelected] = useState<string | null>("All")
@@ -54,15 +55,15 @@ const ConditionsCarousel = () => {
     return (
         <section className={`${styles.carouselSection} animationPopUp`}>
             <div className='flex flex-col gap-10'>
-                <h2 className='font-quicksand text-xl md:text-5xl text-center md:text-start'>
+                <Heading font='quicksand' bold={false}>
                     What do you need help with?
-                </h2>
+                </Heading>
                 <div className='flex flex-col gap-2 md:gap-0 md:flex-row justify-between w-full items-center'>
                     <InputBarVar2 placeholder='what condition are you looking for?' divClassName=' !w-[80%] md:!w-[50%]'>
                         <Button className='!rounded-md !m-[2px] text-sm md:text-lg'>Search</Button></InputBarVar2>
                     <div className='paydens-shadow rounded-4xl flex max-w-[80%] lg:max-w-[30%] gap-2 items-center p-2 font-[300] cursor-pointer'>
                         {filter.map((opt) => (
-                            <button aria-label="button" key={opt} onClick={() => setSelected(opt)} className={`${selected === opt && 'bg-primary-light  font-semibold'} text-xs md:text-base  px-2 py-1 lg:px-2 text-center lg:py-2 rounded-4xl`}>{opt}</button>
+                            <button aria-label={opt} key={opt} onClick={() => setSelected(opt)} className={`${selected === opt && 'bg-primary-light  font-semibold'} text-xs md:text-base  px-2 py-1 lg:px-2 text-center lg:py-2 rounded-4xl`}>{opt}</button>
                         ))}
                     </div>
                 </div>
@@ -82,7 +83,7 @@ const ConditionsCarousel = () => {
                                     {conditions.map((cond) => {
                                         if (selected === "NHS Services") {
                                             return cond.title.charAt(0).toUpperCase() === alphabet && cond.nhs && (
-                                                <button aria-label="button" onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
+                                                <button aria-label={cond.title} onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
                                                         <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
@@ -95,7 +96,7 @@ const ConditionsCarousel = () => {
                                         }
                                         else if (selected === "Private Services") {
                                             return cond.title.charAt(0).toUpperCase() === alphabet && !cond.nhs && (
-                                                <button aria-label="button" key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
+                                                <button aria-label={cond.title} key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between'>
                                                         <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
@@ -107,7 +108,7 @@ const ConditionsCarousel = () => {
                                         }
                                         else {
                                             return cond.title.charAt(0).toUpperCase() === alphabet && (
-                                                <button aria-label="button" key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
+                                                <button aria-label={cond.title} key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
                                                         <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
@@ -127,7 +128,7 @@ const ConditionsCarousel = () => {
 
                 <div className='flex flex-col gap-1 '>
                     {[...alphabets].map((alphabet, index) => (
-                        <button aria-label="button" key={alphabet} onClick={() => handleRouting(alphabet, index)} className={`bg-primary text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 !self-center 
+                        <button aria-label="alphabet filters" key={alphabet} onClick={() => handleRouting(alphabet, index)} className={`bg-primary text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 !self-center 
                         ${!activeAlphabets.includes(alphabet) && '!bg-border'}`}>
                             {alphabet}
                         </button>

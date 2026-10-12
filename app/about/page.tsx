@@ -7,6 +7,12 @@ import CoveredIssues from './components/CoveredIssues'
 import Doctors from './components/Doctors'
 import Stats from './components/Stats'
 import Hero from './components/Hero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Paydens | About Us',
+    description: 'Know everything there is to know about Paydens',
+}
 
 const page = () => {
     return (

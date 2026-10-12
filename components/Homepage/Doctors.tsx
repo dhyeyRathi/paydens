@@ -4,13 +4,14 @@ import { ArrowButton, Button } from '../ui/Button'
 import DoctorCard from '../ui/DoctorCard'
 import Link from 'next/link'
 import IconShieldCheck from '../Icon/IconShieldCheck'
+import Heading, { HeadingHighlight } from '../ui/Heading'
 
 const Doctors = () => {
     const doctor = ["/doctors/left.png", "/doctors/center.png", "/doctors/right.png"]
     return (
         <section className={`${styles.doctorSection} animationPopUp`}>
             <div className={`${styles.textCont}`}>
-                <h2>Your Health, In <em>Expert </em> Hands</h2>
+                <Heading center={false}>Your Health, In <HeadingHighlight>Expert </HeadingHighlight> Hands</Heading>
                 <p>Paydens Group is an independent family owned company established in 1969. We operate over 100 pharmacies across the South-East of England, with our Head Office based in Maidstone, Kent.
                 </p>
                 <div className={`${styles.badges}`}>
@@ -35,7 +36,7 @@ const Doctors = () => {
 
                 </div>
 
-                <Link aria-label="link" scroll={false} href={'/joinourteam'} className=''>
+                <Link aria-label="Meet our team button" scroll={false} href={'/joinourteam'} className=''>
                     <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>Meet Our Team</Button>
                 </Link>
             </div>

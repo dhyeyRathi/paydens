@@ -16,7 +16,7 @@ const JobsCarousel = () => {
                     <input id="job-search" className='outline-none font-quicksand px-4 text-lg w-[90%] font-semibold' placeholder='Job title or keywords' aria-label='search jobs' />
 
                     <div className='!self-end flex gap-1 sm:gap-2 md:gap-4'>
-                        <button aria-label="button" className='px-2 sm:px-4 rounded-xl hover:bg-gray-100 transition-all duration-300'>Clear</button>
+                        <button aria-label="search jobs button" className='px-2 sm:px-4 rounded-xl hover:bg-gray-100 transition-all duration-300'>Clear</button>
                         <Button className=''>Search</Button>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const JobsCarousel = () => {
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select aria-label="select" id='Roles'
+                            <select aria-label="select role" id='Roles'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>All roles</option>
@@ -50,7 +50,7 @@ const JobsCarousel = () => {
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select aria-label="select" id='Region'
+                            <select aria-label="select region" id='Region'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>South East</option>
@@ -70,7 +70,7 @@ const JobsCarousel = () => {
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select aria-label="select" id='Mode'
+                            <select aria-label="select mode" id='Mode'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>Online</option>
@@ -90,7 +90,7 @@ const JobsCarousel = () => {
                         </label>
 
                         <div className="relative rounded-b-xl ">
-                            <select aria-label="select" id='Type'
+                            <select aria-label="select type" id='Type'
                                 className=" w-full appearance-none rounded-sm bg-gray-200 px-3 py-3 pr-10 text-sm text-[#374151] outline-none cursor-pointer"
                             >
                                 <option>Full Time</option>

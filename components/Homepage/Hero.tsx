@@ -17,6 +17,11 @@ import NHS from '../Icon/Logo/NHS'
 import GPHC from '../Icon/Logo/GPHC'
 import IconHeroChevronRight from '../Icon/IconHeroChevronRight';
 
+interface carditemProps {
+    label: string
+    icon: React.ReactNode
+}
+
 const Hero = () => {
     const cardItems = [
         {
@@ -40,7 +45,7 @@ const Hero = () => {
         <section className={`${styles.heroCont} animationPopUp`}>
             <div className={`${styles.heroBan}`}>
                 <div className={`${styles.bgWrapper}`}>
-                    <Image aria-label="image" src={heroBan} alt="hero banner background" fill className='opacity-40 object-cover ' />
+                    <Image src={heroBan} alt="hero banner background" fill className='opacity-40 object-cover ' />
                     <div className={`${styles.whiteOL}`}> </div>
                     <GreenGradient className={`${styles.greenGrad}`} />
                     <BlueGradient className={`${styles.blueGrad}`} />
@@ -54,13 +59,13 @@ const Hero = () => {
                     </div>
                     <div className={`${styles.cardsCont}`}>
                         {
-                            cardItems.map((item: any, index: number) => (
-                                <button key={index} className={`${styles.card}`} aria-label={item.label} role='button'>
+                            cardItems.map((item: carditemProps, index: number) => (
+                                <button key={index} className={`${styles.card}`} aria-label={item.label} >
                                     <div className='flex gap-4 items-center w-auto '>
                                         <div className='h-[44px]'>
                                             {item.icon}
                                         </div>
-                                        <h2 className='text-xl font-[300] font-quicksand'> {item.label}</h2>
+                                        <span className='text-xl font-[300] font-quicksand'> {item.label}</span>
                                     </div>
 
                                     <IconHeroChevronRight className="text-[#666666]" />
@@ -72,26 +77,26 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-full'>
-                <hr className='w-full h-[1px] bg-text-secondary/60 border-none' />
-                <div className={`${styles.statsSection}`}>
-                    <h3>
+
+                <ul className={`${styles.statsSection}`}>
+                    <li>
                         <em>55+ </em>
                         Years of care
-                    </h3>
-                    <h3>
+                    </li>
+                    <li>
                         <NHS />
                         NHS Prescriptions
-                    </h3>
-                    <h3>
+                    </li>
+                    <li>
                         <em>100+ </em>
                         Pharmacies Served
-                    </h3>
-                    <h3>
+                    </li>
+                    <li>
                         <GPHC />
                         GPhC Registered
-                    </h3>
-                </div>
-                <hr className='w-full h-[1px] bg-text-secondary/60 border-none ' />
+                    </li>
+                </ul>
+
             </div>
         </section>
     )

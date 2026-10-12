@@ -8,26 +8,28 @@ import papers from "@/public/assets/images/homepage/ui/papers.png"
 import meter from "@/public/assets/images/homepage/ui/meter.png"
 import meds from "@/public/assets/images/homepage/ui/meds.png"
 import Image from 'next/image'
-import Link from 'next/link'
 import IconArrowTopRightCircle from '../Icon/IconArrowTopRightCircle'
+import Heading, { HeadingHighlight } from '../ui/Heading'
 
 const Features = () => {
     return (
         <section className={`${styles.sectionCont} animationPopUp`}>
-            <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
-                <em className='text-button-hover'>Expert</em>, Friendly <em className='text-button-hover'>Care</em> on Your High Street and Online
-            </h2>
+            <Heading>
+                <HeadingHighlight>Expert </HeadingHighlight>, Friendly
+                <HeadingHighlight> Care </HeadingHighlight> on Your High Street and Online
+            </Heading>
+
             <div className={`${styles.cardCont}`}>
                 <div className={`${styles.container}`}>
                     <div className={`${styles.docService} ${styles.boxes} paydens-shadow`}>
                         <h3>Explore Online doctor services</h3>
                         <ButtonVar2 className='scale-120 ml-4'>Start Consultation</ButtonVar2>
-                        <Image aria-label="image" src={scope} alt='icons-scope' className='absolute scale-60 top-[-2%] left-[60%]  bottom-5' />
+                        <Image src={scope} alt='sthethoschope image' className='absolute scale-60 top-[-2%] left-[60%]  bottom-5' />
                     </div>
                     <div className={`${styles.instantHelp} ${styles.boxes} paydens-shadow`}>
                         <h3>Get instant help for minor ailments (private)</h3>
                         <ButtonVar2 className='scale-120 ml-4'>Get Help Now</ButtonVar2>
-                        <Image aria-label="image" src={pills} alt='icons-pills' className='absolute scale-30 right-[-37%] bottom-5' />
+                        <Image src={pills} alt='bottle of pills image' className='absolute scale-30 right-[-37%] bottom-5' />
                     </div>
                 </div>
 
@@ -39,12 +41,13 @@ const Features = () => {
                         <div className={`${styles.fluJab} paydens-shadow`}>
                             <h3>get your <em>Flu Jab</em></h3>
                             <ButtonVar2 className='scale-120 ml-4'>Book Now</ButtonVar2>
-                            <Image aria-label="image" src={hand} alt='icons-hand' className='absolute scale-90 right-[-35%] ' />
+                            <Image src={hand} alt='hands image' className='absolute scale-90 right-[-35%] ' />
                         </div>
                         <div className={`${styles.NHSpres} paydens-shadow`}>
                             <h3>Manage my NHS <br />Prescriptions</h3>
-                            <Link aria-label="link" scroll={false} href='/prescriptions'><ButtonVar2 className='scale-120 ml-4'>Manage Prescriptions</ButtonVar2></Link>
-                            <Image aria-label="image" src={papers} alt='icons-papers' className='absolute  top-[44%] rotate-[-10deg] right-[-30%] ' />
+
+                            <ButtonVar2 className='scale-120 ml-4' href='/prescriptions' link={true} >Manage Prescriptions</ButtonVar2>
+                            <Image src={papers} alt='papers image' className='absolute  top-[44%] rotate-[-10deg] right-[-30%] ' />
                         </div>
 
                     </div>
@@ -53,7 +56,7 @@ const Features = () => {
                     <div className={`${styles.weightLoss} paydens-shadow`}>
                         <h3>Begin Your <em>Weight Loss</em> <br /> plan</h3>
                         <ButtonVar2 className='scale-120 ml-15'>Start Now</ButtonVar2>
-                        <Image aria-label="image" src={meter} alt='icons-meter' className='absolute scale-70 bottom-[-15%] right-[-20%]' />
+                        <Image src={meter} alt='weight scale image' className='absolute scale-70 bottom-[-15%] right-[-20%]' />
                     </div>
                 </div>
 
@@ -64,7 +67,7 @@ const Features = () => {
                     <div className={`${styles.NHSservices} paydens-shadow`}>
                         <h3>Access Free NHS Pharmacy Services</h3>
                         <ButtonVar2 className='scale-120 ml-4'>Get Help Now</ButtonVar2>
-                        <Image aria-label="image" src={meds} alt='icons-meds' className='absolute  scale-80 top-[30%] right-[-10%] ' />
+                        <Image src={meds} alt='medicines image' className='absolute  scale-80 top-[30%] right-[-10%] ' />
                     </div>
                     <div className={`${styles.shopHealth} paydens-shadow`}>
                         <h3>Shop Health and <br /> Wellness <br />Essentials Online</h3>

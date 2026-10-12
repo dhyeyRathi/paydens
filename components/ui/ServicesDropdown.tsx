@@ -26,7 +26,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
     const serviceSections = Object.values(services) as ServiceSection[];
 
     return (
-        <button aria-label="button" className={`${styles.dropdownContainer} ${className} paydens-shadow text-start`} onClick={onClick} onMouseEnter={onMouseEnter}
+        <button aria-label="service dropdown container" className={`${styles.dropdownContainer} ${className} paydens-shadow text-start`} onClick={onClick} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-2 md:gap-8 lg:gap-11 justify-between`}>
                 {
@@ -42,13 +42,13 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
                                         <div key={condition.title} className={`${styles.dropdownTitleBold} flex gap-3 flex-col`} >
                                             {condition.title}
 
-                                            {condition.conditions?.map((cond: any, index: number) => (
+                                            {condition.conditions?.map((cond: string, index: number) => (
                                                 <div key={index} className={`${styles.dropdownItems} `}>
                                                     {cond}
                                                 </div>
                                             ))}
                                             {condition?.viewAll &&
-                                                <Link aria-label="link" scroll={false} href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
+                                                <Link aria-label="view all conditions" scroll={false} href="/allconditions-health" className='mt-3 flex items-center gap-2 cursor-pointer hover:text-primary text-info transition-all duration-300 ease-in-out'>View all conditions <em>{">"}</em></Link>}
                                         </div>
                                     ))}
 

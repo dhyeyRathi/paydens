@@ -5,6 +5,12 @@ import React from 'react'
 import Treatments from './components/Treatments'
 import ConditionsHero from './components/ConditionsHero'
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Paydens | Conditions',
+    description: 'Find cure & medications for common conditions',
+}
 
 const page = () => {
     return (

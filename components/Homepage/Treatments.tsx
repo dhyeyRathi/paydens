@@ -4,6 +4,7 @@ import { ArrowButton, Button } from '../ui/Button'
 import WhiteGradient from '../ui/WhiteGradient';
 import Link from 'next/link';
 import IconChevronRight from '../Icon/IconChevronRight';
+import Heading, { HeadingHighlight } from '../ui/Heading';
 
 const Treatments = () => {
 
@@ -42,9 +43,9 @@ const Treatments = () => {
     return (
         <section className={`${styles.treatmentSection} animationPopUp`}>
             <div className='flex w-full justify-between items-baseline gap-[20px]'>
-                <h2 className='w-full text-center md:text-start px-4 text-xl md:text-3xl lg:text-heading font-bold'>
-                    Care and <em className='text-button-hover'>Treatments </em>You Can Trust
-                </h2>
+                <Heading>
+                    Care and <HeadingHighlight>Treatments </HeadingHighlight>You Can Trust
+                </Heading>
                 <ArrowButton className='hidden md:flex' />
             </div>
             <div className={`${styles.cardsContainer}`}>
@@ -54,21 +55,21 @@ const Treatments = () => {
                             <h3>{item.title}</h3>
                             {
                                 item.items.map((e, index: number) => (
-                                    <button aria-label="button" className={`${styles.cardItem}`} key={index}>
+                                    <button aria-label={e + index} className={`${styles.cardItem}`} key={index}>
                                         <span> {e}</span>
                                         {e && <IconChevronRight className="text-[#444444]" />}
-                                        {index === item.items.length - 1 && <p className='hidden'>button</p>}
+                                        {index === item.items.length - 1 && <span className="sr-only">blank button</span>}
                                     </button>
                                 ))
                             }
 
-                            <Link aria-label="link" scroll={false} href={`/${ind}`}>See More</Link>
+                            <Link aria-label="see more button" scroll={false} href={`/${ind}`}>See More</Link>
                         </div>))
                 }
             </div>
-            <Link aria-label="link" scroll={false} href={'/all-conditions'} className='self-center'>
-                <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>View All Treatments</Button>
-            </Link>
+
+            <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center' href={'/all-conditions'} link={true}>View All Treatments</Button>
+
 
 
         </section>

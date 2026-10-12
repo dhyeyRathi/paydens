@@ -5,6 +5,12 @@ import OurteamHero from './components/OurteamHero'
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import PageNameDisp from '@/components/ui/PageNameDisp'
 import JobsCarousel from './components/JobsCarousel'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Paydens | Join Our Team',
+    description: 'Apply to join the Paydens Team',
+}
 
 const page = () => {
     return (

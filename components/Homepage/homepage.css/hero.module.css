@@ -131,10 +131,14 @@
     justify-content: space-between;
     place-items: center;
     padding: 20px 40px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: var(--color-text-secondary);
     overflow: hidden;
 }
 
-.statsSection h3 {
+.statsSection li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,6 +153,7 @@
 .statsSection em {
     font-size: 31px;
     font-weight: 600;
+
 }
 
 
@@ -191,7 +196,7 @@
 
 
 
-    .statsSection h3 {
+    .statsSection li {
         font-size: medium;
         gap: 0;
         flex-direction: column;

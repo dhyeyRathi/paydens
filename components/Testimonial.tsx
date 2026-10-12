@@ -10,6 +10,7 @@ import { ArrowButton } from './ui/Button'
 import { useRouter } from 'next/navigation'
 import IconStarYellow from './Icon/IconStarYellow'
 import IconStarGray from './Icon/IconStarGray'
+import Heading, { HeadingHighlight } from './ui/Heading'
 
 const Testimonial = () => {
     const testimonial = [avatarmale, avatarmale, female, avatarmale, female, avatarmale, female, avatarmale]
@@ -40,9 +41,9 @@ const Testimonial = () => {
     // ]
     return (
         <section className={`${styles.testimonialSection} animationPopUp`}>
-            <h2 className='w-full text-center px-4 text-2xl md:text-3xl lg:text-heading font-bold'>
-                Hear From Our <em className='text-button-hover'>Patients</em>
-            </h2>
+            <Heading >
+                Hear From Our <HeadingHighlight >Patients</HeadingHighlight>
+            </Heading>
             <div className={`${styles.rating}`}>
                 <div className={`${styles.ratingText}`}>
                     <h3>4.9</h3>
@@ -64,7 +65,7 @@ const Testimonial = () => {
                     return (<TestimonialCard key={index} id={`${index}`} className={`transition-all duration-300 ease-in-out opacity-50 
                      ${index === activeIndex && `!scale-105 opacity-100`}`} >
 
-                        <Image aria-label="image" src={customer} alt={`avatar-${index}`} className='h-full w-auto' /></TestimonialCard>)
+                        <Image src={customer} alt={`avatar-${index}`} className='h-full w-auto' /></TestimonialCard>)
                 })}
             </div >
             <ArrowButton className='!m-0 !p-0'

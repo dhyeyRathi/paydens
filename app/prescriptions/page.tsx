@@ -6,6 +6,12 @@ import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import React from 'react'
 import Working from './components/Working'
 import PresHero from './components/PresHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Paydens | Prescriptions',
+    description: 'View your generate prescriptions',
+}
 
 
 const page = () => {
