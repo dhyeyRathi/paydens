@@ -69,7 +69,7 @@ const Treatments = () => {
                 }
             </div>
 
-            <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center' href={'/all-conditions'} link={true}>View All Treatments</Button>
+            <Button href={'/all-conditions'} link={true}>View All Treatments</Button>
 
 
 

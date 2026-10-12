@@ -29,7 +29,8 @@ const FindPharmacyButton = ({ className, card = false }: findPharmacyProps) => {
 
     return (
         <>
-            <button aria-label="find pharmacy button" className={`paydence-shadow ${styles.button} relative text-primary font-[600] ${className} `} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
+            <button aria-label="find pharmacy button" className={`${className} paydens-shadow border-1 border-primary py-2 px-4 rounded-lg md:py-3 md:px-6 flex gap-4 
+            items-center  relative text-primary font-[600] hover:bg-primary hover:text-white transition-all duration-200 cursor-pointer`} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
                 <IconMapPin />
 
                 Find Pharmacy

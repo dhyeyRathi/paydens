@@ -80,7 +80,10 @@ const GetInTouch = () => {
                         <label htmlFor='Message'>Message</label>
                         <textarea aria-label="description input" id="Message" placeholder='Your message' className='!pb-20' required />
                     </div>
-                    <Button type="submit" className='!self-start !text-base'>Send Message</Button>
+                    <div>
+                        <Button >Send Message</Button>
+                    </div>
+
                 </form>
             </div>
         </section>

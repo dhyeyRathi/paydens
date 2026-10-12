@@ -56,7 +56,7 @@ const SlugHero = () => {
                         <DOB />
                     </div>
 
-                    <Button className='!self-start mt-5'>Check Eligiblity</Button>
+                    <Button>Check Eligiblity</Button>
 
                 </form>
 

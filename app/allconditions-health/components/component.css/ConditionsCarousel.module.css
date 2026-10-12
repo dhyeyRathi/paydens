@@ -4,6 +4,7 @@
     width: 100%;
     gap: 30px;
     align-self: center;
+    align-items: center;
     padding-top: 60px;
     /* align-items: center; */
 }

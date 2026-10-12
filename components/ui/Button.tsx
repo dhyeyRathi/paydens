@@ -23,16 +23,22 @@ interface arrButtonProps {
 const Button = ({ children, className, onClick, link = false, href = "" }: ButtonProps) => {
     if (link) return (
         <>
-            <Link href={href} className={`${styles.button} ${className} group bg-primary paydens-shadow
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out`} onClick={onClick} >
+            <Link href={href} className={` ${className} group bg-primary paydens-shadow self-center
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center gap-[10px] px-6 py-3 max-w-[300px] h-[44px] rounded-lg font-quicksand text-base font-medium text-white 
+  max-[1440px]:rounded max-[1440px]:px-4 max-[1440px]:py-2
+  max-[768px]:px-2 max-[768px]:py-1
+  max-[768px]:text-16`} onClick={onClick} >
                 {children}
             </Link>
         </>
     )
     else return (
         <>
-            <button className={`${styles.button} ${className} group bg-primary paydens-shadow
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out`} onClick={onClick} >
+            <button className={` ${className} group bg-primary paydens-shadow
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center gap-[10px] px-6 py-3 max-w-[300px] h-[44px] rounded-lg font-quicksand text-base font-medium text-white 
+  max-[1440px]:rounded max-[1440px]:px-4 max-[1440px]:py-2
+  max-[768px]:px-2 max-[768px]:py-1
+  max-[768px]:text-16`} onClick={onClick} >
                 {children}
             </button>
         </>

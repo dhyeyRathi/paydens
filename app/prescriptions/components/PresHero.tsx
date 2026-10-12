@@ -27,7 +27,7 @@ const PresHero = () => {
                     </ul>
 
                     <div className='flex gap-4 w-full !justify-center md:!justify-start'>
-                        <Button className='!w-[270px] ml-8 md:ml-0'>Register For Free</Button>
+                        <Button >Register For Free</Button>
                         <ButtonVar2 className='h-full'>Login & Reorder</ButtonVar2>
                     </div>
 

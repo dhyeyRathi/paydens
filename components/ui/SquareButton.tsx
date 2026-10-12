@@ -15,8 +15,10 @@ interface ButtonProps {
 const SquareButton = ({ children, className = '', onclick, type = "Button", href = "" }: ButtonProps) => {
     if (type === "Link") return (
         <Link href={href}
-            className={`${styles.squareButton} ${className} group bg-primary/10
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out`}
+            className={` ${className} group bg-primary/10
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center aspect-square !w-[44px] !h-[44px] gap-[10px] rounded-lg p-0
+  max-[1440px]:rounded-[10px]
+  max-[768px]:rounded-[10px]`}
             onClick={onclick}
         >
             {children}
@@ -26,8 +28,10 @@ const SquareButton = ({ children, className = '', onclick, type = "Button", href
     )
     else return (
         <button
-            className={`${styles.squareButton} ${className} group bg-primary/10
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out`}
+            className={` ${className} group bg-primary/10
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center aspect-square !w-[44px] !h-[44px] gap-[10px] rounded-lg p-0
+  max-[1440px]:rounded-[10px]
+  max-[768px]:rounded-[10px]`}
             onClick={onclick}
         >
             {children}

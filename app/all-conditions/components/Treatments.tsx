@@ -117,7 +117,7 @@ const Treatments = () => {
         <section className={`${styles.TreatmentsSection} animationPopUp10`}>
             <Heading font='quicksand' bold={false}>What do you need help with?</Heading>
             <InputBarVar2 placeholder='what condition are you looking for?' divClassName='!self-center  !w-[90%] lg:!w-[40%]'>
-                <Button className='!rounded-md'>Search</Button>
+                <Button>Search</Button>
             </InputBarVar2>
 
             <div className='flex w-full justify-center md:gap-[10px] flex-wrap'>

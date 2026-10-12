@@ -5,12 +5,12 @@ import Image from 'next/image'
 const OurteamHero = () => {
     return (
         <section className={`${styles.HeroCont} animationPopUp`}>
-            <div className='flex flex-col gap-10 max-w-210 text-center pt-20'>
+            <div className='flex flex-col gap-10 max-w-210 text-center pt-20 items-center'>
                 <h1 className='w-full text-4xl lg:text-[61px] font-bold text-center ' >
                     Join the <em className='text-button-hover'>Paydens<br /></em>  Family
                 </h1 >
                 <p className='text-16 font-[300] font-quicksand'>At the Paydens Group, we believe in investing in our people. From your very first day, you’ll have access to structured training and ongoing opportunities to grow your knowledge, skills, and career.</p>
-                <Button className='!self-center'>View Job Openings</Button>
+                <Button >View Job Openings</Button>
             </div>
 
             <Image src={`/assets/images/Avatars/OurTeamPageFloaters/blue.png`} alt="blue circle" width={182} height={182} className={`absolute ${styles.blue} h-20 md:h-[71px] w-auto`} />

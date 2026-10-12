@@ -36,7 +36,7 @@ const Doctors = () => {
                 </div>
 
                 <Link aria-label="Meet our team button" scroll={false} href={'/joinourteam'} className=''>
-                    <Button className='text-sm sm:text-base md:text-lg lg:text-xl !self-center'>Meet Our Team</Button>
+                    <Button>Meet Our Team</Button>
                 </Link>
             </div>
             <div className='flex justify-center flex-col items-center gap-4'>

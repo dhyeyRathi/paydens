@@ -7,7 +7,7 @@
     gap: 10px;
     border-radius: 8px;
     max-height: 46px !important;
-    flex-grow: 0;
+
 
     outline: none;
 }
@@ -22,7 +22,7 @@
     height: 0px;
 
     border-radius: 8px;
-    flex-grow: 0;
+
 
     outline: none;
 }
@@ -31,7 +31,6 @@
     border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 2px;
-    height: 52px;
 }
 
 .gradientBorder {

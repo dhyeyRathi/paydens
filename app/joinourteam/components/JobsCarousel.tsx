@@ -16,7 +16,7 @@ const JobsCarousel = () => {
 
                     <div className='!self-end flex gap-1 sm:gap-2 md:gap-4'>
                         <button aria-label="search jobs button" className='px-2 sm:px-4 rounded-xl hover:bg-gray-100 transition-all duration-300'>Clear</button>
-                        <Button className=''>Search</Button>
+                        <Button >Search</Button>
                     </div>
                 </div>
 
@@ -110,13 +110,13 @@ const JobsCarousel = () => {
 
                 All links below will take you our Teamtailor.com portal, where you will find more information on the job vacancy and can apply directly.
             </div>
-            <div className='grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-10 md:mt-20'>
+            <div className='grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-10 md:mt-20 '>
                 {[...jobs].map((job) => {
                     return (
-                        <div key={job} className='flex flex-col border-border border-1 p-6 rounded-xl gap-4 font-quicksand'>
-                            <h2 className='font-semibold lg:text-2xl'>Pharmacy Accuracy Checker Technician</h2>
-                            <div className='flex gap-1 lg:gap-4  item-center justify-center  font-[300]'>
-                                <IconMapPinSolid className="h-8 text-[#5E5E5E]" />
+                        <div key={job} className='flex flex-col border-border border-1 p-6 rounded-xl gap-4 font-quicksand items-start'>
+                            <h2 className='font-semibold lg:text-20'>Pharmacy Accuracy Checker Technician</h2>
+                            <div className='flex gap-1 lg:gap-4  justify-center text-16 font-[300]'>
+                                <IconMapPinSolid className="h-[24px] w-[24px] text-[#5E5E5E]" />
                                 South East - Courts/Kennington Pharmacy (Ashford TN24 9JZ)
                             </div>
 
@@ -126,13 +126,17 @@ const JobsCarousel = () => {
                                 <p className='px-2 py-1 text-xs text-info bg-info/20 rounded-md font-semibold '>Maternity Cover</p>
 
                             </div>
-                            <Button className='!self-start !text-base mt-4 md:mt-0 lg:mt-4'>Apply now</Button>
+                            <Button >Apply now</Button>
                         </div>
                     )
                 })}
 
             </div>
-            <ButtonVar2 className='!justify-center my-4  mt-8'>Load More</ButtonVar2>
+            <div className='mt-10'>
+                <ButtonVar2 >Load More</ButtonVar2>
+
+            </div>
+
         </section>
     )
 }

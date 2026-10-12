@@ -53,14 +53,14 @@ const ConditionsCarousel = () => {
 
     return (
         <section className={`${styles.carouselSection} animationPopUp`}>
-            <div className='flex flex-col gap-10'>
+            <div className='flex flex-col gap-10 w-full'>
                 <Heading font='quicksand' bold={false}>
                     What do you need help with?
                 </Heading>
-                <div className='flex flex-col gap-2 md:gap-0 md:flex-row justify-between w-full items-center'>
-                    <InputBarVar2 placeholder='what condition are you looking for?' divClassName=' !w-[80%] md:!w-[50%]'>
-                        <Button className='!rounded-md !m-[2px] text-sm md:text-lg'>Search</Button></InputBarVar2>
-                    <div className='paydens-shadow rounded-4xl flex max-w-[80%] lg:max-w-[30%] gap-2 items-center p-2 font-[300] cursor-pointer'>
+                <div className='flex w-full flex-col gap-2 md:gap-0 md:flex-row justify-between items-center'>
+                    <InputBarVar2 placeholder='what condition are you looking for?' divClassName='w-[80%] h-[48px] lg:h-[52px] lg:w-[50%]'>
+                        <Button >Search</Button></InputBarVar2>
+                    <div className='paydens-shadow rounded-4xl flex  gap-2 items-center p-2 font-[300] cursor-pointer'>
                         {filter.map((opt) => (
                             <button aria-label={opt} key={opt} onClick={() => setSelected(opt)} className={`${selected === opt && 'bg-primary-light  font-semibold'} text-xs md:text-base  px-2 py-1 lg:px-2 text-center lg:py-2 rounded-4xl`}>{opt}</button>
                         ))}
@@ -85,10 +85,10 @@ const ConditionsCarousel = () => {
                                                 <button aria-label={cond.title} onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.title}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</span>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
                                                 </button>
                                             )
 
@@ -98,10 +98,10 @@ const ConditionsCarousel = () => {
                                                 <button aria-label={cond.title} key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between'>
-                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.title}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</span>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
                                                 </button>
                                             )
                                         }
@@ -110,10 +110,10 @@ const ConditionsCarousel = () => {
                                                 <button aria-label={cond.title} key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] !self-start'>{cond.title}</span>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.title}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] !text-start'>{cond.description}</span>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
                                                 </button>
                                             )
                                         }
@@ -127,15 +127,16 @@ const ConditionsCarousel = () => {
 
                 <div className='flex flex-col gap-1 '>
                     {[...alphabets].map((alphabet, index) => (
-                        <button aria-label="alphabet filters" key={alphabet} onClick={() => handleRouting(alphabet, index)} className={`bg-primary text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 !self-center 
-                        ${!activeAlphabets.includes(alphabet) && '!bg-border'}`}>
+                        <button aria-label="alphabet filters" key={alphabet} onClick={() => handleRouting(alphabet, index)}
+                            className={`bg-primary text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 self-center 
+                        ${!activeAlphabets.includes(alphabet) && 'bg-border'}`}>
                             {alphabet}
                         </button>
                     ))}
                 </div>
 
             </div>
-            <Button className='!self-center' onClick={() => setLoaded(prev => prev + 2)}>Load More</Button>
+            <Button onClick={() => setLoaded(prev => prev + 2)}>Load More</Button>
 
         </section>
     )

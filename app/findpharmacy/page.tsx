@@ -63,7 +63,8 @@ const page = () => {
                 Find Your Nearest <em className='text-button-hover'> Paydens </em> Pharmacy
             </h1>
             <div className='flex flex-col gap-4 md:gap-6 lg:gap-8'>
-                <InputBarVar2 placeholder='Enter postcode or place name' divClassName='!self-center  !w-[70%] lg:!w-[40%]'><Button className='!rounded-md text-sm ld:text-base'>Find</Button></InputBarVar2>
+                <InputBarVar2 placeholder='Enter postcode or place name' divClassName='!self-center  !w-[70%] lg:!w-[40%]'>
+                    <Button >Find</Button></InputBarVar2>
                 <button aria-label="use my location button" className='flex gap-4 self-center text-lg items-center'>
                     <IconSailorLocation className="w-6 h-6 fill-[#444444]" />
                     <em className='hover:underline hover:text-primary transition-all duration-300 cursor-pointer'>Use my location</em>

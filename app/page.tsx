@@ -9,7 +9,7 @@ import MobileAppBanner from "@/components/ui/MobileAppBanner";
 
 export default function Home() {
   return (
-    <div className="!overflow-visible px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px]">
+    <div className="overflow-visible px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px]">
       <Hero />
       <Features />
       <Treatments />

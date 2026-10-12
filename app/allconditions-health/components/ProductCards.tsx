@@ -40,7 +40,7 @@ const ProductCards = ({ name, description, img, width = 304, height = 270 }: Pro
                     </h4>
                 </div>
 
-                <Button className='mt-4'>Add to Cart</Button>
+                <Button>Add to Cart</Button>
             </div>
         </div>
     )

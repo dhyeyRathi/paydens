@@ -22,11 +22,11 @@ const AwardsSection = () => {
                     Latest <HeadingHighlight >News</HeadingHighlight> From Paydens
                 </Heading>
             </div>
-            <div className={`${styles.cardSection} lg:!py-12`}>
-                <div className={`${styles.card} paydens-shadow lg:!scale-110`} onMouseEnter={() => setHover(1)} onMouseLeave={() => setHover(null)}>
+            <div className={`${styles.cardSection} lg:py-12`}>
+                <div className={`${styles.card} paydens-shadow lg:scale-110`} onMouseEnter={() => setHover(1)} onMouseLeave={() => setHover(null)}>
                     <Image src={relay} alt='relay-1' className={`${styles.images} ${hover === 1 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={blue} alt='relay-2' className={`${styles.images} ${hover === 1 ? styles.fadeIn : styles.fadeOut} `} />
-                    <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent    ' />
+                    <WhiteGradient className='bg-gradient-to-t from-background via-background via-20% to-transparent    ' />
                     <h3>Strategic partnership: Lagardère Travel Retail UK & Ireland and Paydens Group</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
@@ -38,10 +38,10 @@ const AwardsSection = () => {
 
                     </div>
                 </div>
-                <div className={`${styles.card} paydens-shadow lg:!scale-110 `} onMouseEnter={() => setHover(2)} onMouseLeave={() => setHover(null)}>
+                <div className={`${styles.card} paydens-shadow lg:scale-110 `} onMouseEnter={() => setHover(2)} onMouseLeave={() => setHover(null)}>
                     <Image src={award} alt='award-1' className={`${styles.images} ${hover === 2 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={pink} alt='award-2' className={`${styles.images} ${hover === 2 ? styles.fadeIn : styles.fadeOut} `} />
-                    <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
+                    <WhiteGradient className='bg-gradient-to-t from-background via-background via-20% to-transparent   ' />
                     <h3>Congratulations to Our IPA Award Winners</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
@@ -53,10 +53,10 @@ const AwardsSection = () => {
 
                     </div>
                 </div>
-                <div className={`${styles.card} paydens-shadow lg:!scale-110`} onMouseEnter={() => setHover(3)} onMouseLeave={() => setHover(null)}>
+                <div className={`${styles.card} paydens-shadow lg:scale-110`} onMouseEnter={() => setHover(3)} onMouseLeave={() => setHover(null)}>
                     <Image src={cafe} alt='cafe-1' className={`${styles.images} ${hover === 3 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={green} alt='cafe-2' className={`${styles.images} ${hover === 3 ? styles.fadeIn : styles.fadeOut} `} />
-                    <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
+                    <WhiteGradient className='bg-gradient-to-t from-background via-background via-20% to-transparent   ' />
                     <h3>PAYDENS WALKS FOR PARKINSON&apos;S UK 2024</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
@@ -70,7 +70,7 @@ const AwardsSection = () => {
                 </div>
 
             </div>
-            <Button className='!self-center lg:text-lg'>View All News</Button>
+            <Button>View All News</Button>
 
         </section>
     )

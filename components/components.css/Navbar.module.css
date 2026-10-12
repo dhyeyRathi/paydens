@@ -4,7 +4,7 @@
     align-items: center;
     padding: 0px;
     background: #FFFFFF;
-    align-self: stretch;
+
     position: fixed;
     top: 5px;
     right: 5px;
@@ -23,9 +23,6 @@
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    ;
-    order: 0;
-    align-self: stretch;
     transition: padding 0.2s ease-in-out;
 
 }
@@ -44,11 +41,7 @@
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 16px 80px;
-
-    ;
-    order: 0;
-    align-self: stretch;
-
+    width: 100%;
 }
 
 .logoSearchCont {
