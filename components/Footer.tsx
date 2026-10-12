@@ -1,8 +1,5 @@
-import React from 'react'
 import styles from './components.css/Footer.module.css'
 import { LogoText } from './Icon/Logo/Logo'
-import Image from 'next/image'
-import WhiteGradient from './ui/WhiteGradient'
 import IconEmail from './Icon/IconEmail'
 import IconPhone from './Icon/IconPhone'
 import IconLocation from './Icon/IconLocation'
@@ -66,7 +63,7 @@ const Footer = () => {
                             <h3 className='font-semibold  text-sm sm:text-base md:text-[20px]'>
                                 {section.title}</h3>
                             <ul className='gap-[6.5px] flex flex-col '>
-                                {section.links.map((link, index) => (
+                                {section.links.map((link) => (
                                     <li key={link.label}>
                                         <Link aria-label={link.label} href={link.href} className='flex gap-4 pb-[7.5px] items-center text-[14px] font-[300]'>
                                             <IconChevronRight />

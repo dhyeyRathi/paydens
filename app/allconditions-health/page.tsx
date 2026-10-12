@@ -1,6 +1,5 @@
 import FaqSection from '@/components/FaqSection'
 import LetsConnectSection from '@/components/LetsConnectSection'
-import React from 'react'
 import ConditionsHero from './components/ConditionsHero'
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import PageNameDisp from '@/components/ui/PageNameDisp'

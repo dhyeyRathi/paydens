@@ -81,7 +81,7 @@ const page = () => {
                         <div className={`${styles.pagination}`}>
                             {
                                 pagination.map((n: string | number, index: number) => (
-                                    <button aria-label={`${n}`} key={index} className={`${index === 0 && styles.active}`}>
+                                    <button aria-label={`${n}`} key={`${n}`} className={`${index === 0 && styles.active}`}>
                                         {n}
                                         {n == "Next" && <IconChevronRight className="fill-text-secondary group-hover:fill-white" />}
 

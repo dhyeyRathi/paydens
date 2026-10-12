@@ -1,4 +1,3 @@
-import React from 'react'
 
 const IconHealthcarePartner = ({ className = "" }: { className?: string }) => {
     return (

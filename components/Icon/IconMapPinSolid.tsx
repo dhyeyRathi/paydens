@@ -1,4 +1,3 @@
-import React from 'react'
 
 const IconMapPinSolid = ({ className = "" }: { className?: string }) => {
     return (

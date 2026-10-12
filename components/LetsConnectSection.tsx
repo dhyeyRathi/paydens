@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./components.css/Letsconnect.module.css"
 import IconFacebook from './Icon/IconFacebook'
 import IconInstagram from './Icon/IconInstagram'
@@ -9,7 +8,7 @@ const LetsConnectSection = () => {
     return (
         <section className={`${styles.connectSection} !pb-20 animationPopUp`}>
             <div className={`${styles.textCont}`}>
-                <h2>Let's Get In Touch</h2>
+                <h2>Let&apos;s Get In Touch</h2>
                 <p>Stay connected with us online to keep up with our latest services, health tips, and offers. Follow us on social media and never miss an update from your local pharmacy.</p>
             </div>
 

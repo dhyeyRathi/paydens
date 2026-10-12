@@ -12,7 +12,7 @@ interface ButtonProps {
     href?: Url;
 }
 
-const SquareButton = ({ children, className = '', size, onclick, type = "Button", href = "" }: ButtonProps) => {
+const SquareButton = ({ children, className = '', onclick, type = "Button", href = "" }: ButtonProps) => {
     if (type === "Link") return (
         <Link href={href}
             className={`${styles.squareButton} ${className} group bg-primary/10

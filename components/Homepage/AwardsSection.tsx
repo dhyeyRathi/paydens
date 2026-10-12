@@ -57,7 +57,7 @@ const AwardsSection = () => {
                     <Image src={cafe} alt='cafe-1' className={`${styles.images} ${hover === 3 ? styles.fadeOut : styles.fadeIn} `} />
                     <Image src={green} alt='cafe-2' className={`${styles.images} ${hover === 3 ? styles.fadeIn : styles.fadeOut} `} />
                     <WhiteGradient className='!bg-gradient-to-t !from-background !via-background !via-20% !to-transparent   ' />
-                    <h3>PAYDENS WALKS FOR PARKINSON'S UK 2024</h3>
+                    <h3>PAYDENS WALKS FOR PARKINSON&apos;S UK 2024</h3>
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>

@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconBannerBg1 = ({ className }: { className?: string }) => {
     return (

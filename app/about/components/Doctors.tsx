@@ -1,9 +1,7 @@
 "use client"
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import styles from './components.css/Doctors.module.css'
 import { DoctorCardVar2 } from '@/components/ui/DoctorCard'
-import { ArrowButton } from '@/components/ui/Button'
-import { useRouter } from 'next/navigation'
 import IconChevronRight from '@/components/Icon/IconChevronRight'
 import Heading, { HeadingHighlight } from '@/components/ui/Heading'
 
@@ -11,8 +9,6 @@ const Doctors = () => {
     const doctor = ["/doctors/left.png", "/doctors/right.png", "/doctors/center.png"]
 
     const [activeDocIndex, setActiveDocIndex] = useState<number>(1);
-    const router = useRouter();
-    const isFirstRender = useRef(true);
     const containerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -54,7 +50,7 @@ const Doctors = () => {
             <div ref={containerRef} className={`${styles.CardContainer} hide-scrollbar relative overflow-x-auto  lg:justify-center !self-center`}>
 
                 {doctor.map((doc, index) => (
-                    <DoctorCardVar2 key={index} name='Sarah Thompson' image={doc} id={`doc-${index}`} className={`transition-all duration-300 opacity-70 ${activeDocIndex === index && 'scale-105 opacity-100'}`} />
+                    <DoctorCardVar2 key={doc} name='Sarah Thompson' image={doc} id={`doc-${index}`} className={`transition-all duration-300 opacity-70 ${activeDocIndex === index && 'scale-105 opacity-100'}`} />
                 ))}
 
 

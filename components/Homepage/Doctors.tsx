@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./homepage.css/doctorsection.module.css"
 import { ArrowButton, Button } from '../ui/Button'
 import DoctorCard from '../ui/DoctorCard'

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./ui.css/ColorGradient.module.css"
 
 interface gradProps {

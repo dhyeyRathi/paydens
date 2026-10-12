@@ -1,4 +1,3 @@
-import React from 'react'
 
 const MHRALogo = ({ className }: { className?: string }) => {
     return (

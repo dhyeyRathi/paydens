@@ -1,5 +1,4 @@
 
-import React from 'react'
 
 const IconVerifiedTick = ({ className }: { className?: string }) => {
     return (

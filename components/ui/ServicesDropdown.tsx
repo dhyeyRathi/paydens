@@ -1,5 +1,4 @@
 "use client"
-import React from 'react'
 import styles from './ui.css/ServicesDropdown.module.css'
 import services from "@/public/assets/data/services.json"
 import Link from 'next/link'
@@ -11,6 +10,7 @@ interface ServiceCategory {
 }
 interface ServiceSection {
     title: string;
+    id: number;
     categories: ServiceCategory[];
 }
 interface ServicesDropdownProps {
@@ -31,7 +31,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
             <div className={`${styles.dropdownGrid} flex flex-col lg:flex-row gap-2 md:gap-8 lg:gap-11 justify-between`}>
                 {
                     serviceSections.map((service: ServiceSection, index: number) => (
-                        <div className={`${styles.dropdownTitle} `} key={index}>
+                        <div className={`${styles.dropdownTitle} `} key={service.id}>
                             <p className='mb-2 lg:mb-4'>{service.title}</p>
 
 

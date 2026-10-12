@@ -1,5 +1,4 @@
-import React from 'react'
-import styles from './components.css/ourteamhero.module.css'
+import styles from './components.css/OurteamHero.module.css'
 import { Button } from '@/components/ui/Button'
 
 const OurteamHero = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./homepage.css/features.module.css"
 import { ButtonVar2 } from '../ui/Button'
 import scope from "@/public/assets/images/homepage/ui/scope.png"

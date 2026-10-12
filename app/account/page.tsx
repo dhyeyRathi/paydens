@@ -1,5 +1,4 @@
 import PageNameDisp from '@/components/ui/PageNameDisp'
-import React from 'react'
 import GetInTouch from './components/GetInTouch'
 import LetsConnectSection from '@/components/LetsConnectSection'
 import FaqSection from '../../components/FaqSection'

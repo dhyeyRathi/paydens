@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconPresHero6 = ({ className }: { className?: string }) => {
     return (

@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './components.css/Faq.module.css'
 import IconPlus from './Icon/IconPlus'
 import IconClose from './Icon/IconClose'

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './homepage.css/hero.module.css'
 import Image from 'next/image'
 import heroBan from '@/public/assets/images/homepage/herobg.png'
-import ColorGradient, { BlueGradient, CyanGradient, GreenGradient } from '../ui/ColorGradient'
+import { BlueGradient, CyanGradient, GreenGradient } from '../ui/ColorGradient'
 import { Button } from '../ui/Button'
 import {
     Acne,
@@ -20,23 +20,28 @@ import IconHeroChevronRight from '../Icon/IconHeroChevronRight';
 interface carditemProps {
     label: string
     icon: React.ReactNode
+    id: number
 }
 
 const Hero = () => {
     const cardItems = [
         {
+            id: 1,
             label: "COPD",
             icon: <Lungs />,
         },
         {
+            id: 2,
             label: "Weight Loss",
             icon: <Weightloss />,
         },
         {
+            id: 3,
             label: "Acne",
             icon: <Acne />
         },
         {
+            id: 4,
             label: "Diabetes",
             icon: <Diabetes />
         }
@@ -59,8 +64,8 @@ const Hero = () => {
                     </div>
                     <div className={`${styles.cardsCont}`}>
                         {
-                            cardItems.map((item: carditemProps, index: number) => (
-                                <button key={index} className={`${styles.card}`} aria-label={item.label} >
+                            cardItems.map((item: carditemProps) => (
+                                <button key={item.id} className={`${styles.card}`} aria-label={item.label} >
                                     <div className='flex gap-4 items-center w-auto '>
                                         <div className='h-[44px]'>
                                             {item.icon}

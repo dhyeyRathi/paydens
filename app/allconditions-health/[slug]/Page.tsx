@@ -1,13 +1,12 @@
 "use client"
-import React from 'react'
 import { useParams } from 'next/navigation'
 import LetsConnectSection from '@/components/LetsConnectSection';
 import FaqSection from '@/components/FaqSection';
-import ProducstsSection from '../components/ProducstsSection';
+import ProducstsSection from '../components/ProductsSection';
 import PageNameDisp from '@/components/ui/PageNameDisp';
 import { ColorGradientBg } from '@/components/ui/ColorGradient';
 import Banner from '../components/Banner';
-import SlugHero from '../components/slugHero';
+import SlugHero from '../components/Hero';
 const page = () => {
     const params = useParams<{ slug: string }>();
     return (

@@ -1,5 +1,4 @@
-import React from 'react'
-import styles from './components.css/CoveredIssies.module.css'
+import styles from './components.css/CoveredIssues.module.css'
 import IconArrowTopRightGreen from '@/components/Icon/IconArrowTopRightGreen'
 
 const CoveredIssues = () => {

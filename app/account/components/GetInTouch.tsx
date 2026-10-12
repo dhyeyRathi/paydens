@@ -1,7 +1,5 @@
 "use client"
-import React from 'react'
 import styles from "./components.css/GetInTouch.module.css"
-import Image from 'next/image'
 import { Logo } from '@/components/Icon/Logo/Logo'
 import { Button } from '@/components/ui/Button'
 import { useState } from 'react'
@@ -11,7 +9,6 @@ import IconGetInTouchScribble from '@/components/Icon/IconGetInTouchScribble'
 
 const GetInTouch = () => {
     const [formType, setFormType] = useState<string>("message");
-    const [sent, setSent] = useState<boolean>(false);
     return (
         <section className={`${styles.GITsection} animationPopUp`}>
             <h1 className='text-4xl lg:text-heading font-bold w-full'>Get In Touch Today</h1>
@@ -42,7 +39,7 @@ const GetInTouch = () => {
 
                     </div>
                 </div>
-                <form aria-label="contact us form" className={`${styles.form}`} onSubmit={() => setSent(true)}>
+                <form aria-label="contact us form" className={`${styles.form}`} onSubmit={(e) => e.preventDefault()}>
                     <div className='flex'>
                         <button aria-label="set form type to message" type='button' className={` p-5 relative text-16 ${formType === "message" && 'text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                             onClick={() => setFormType("message")}>Send us a message

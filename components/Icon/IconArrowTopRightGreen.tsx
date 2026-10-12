@@ -1,4 +1,3 @@
-import React from 'react'
 
 const IconArrowTopRightGreen = ({ className = "" }: { className?: string }) => {
     return (

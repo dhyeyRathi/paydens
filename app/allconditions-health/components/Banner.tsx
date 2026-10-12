@@ -1,5 +1,4 @@
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
-import React from 'react'
 import IconBannerBg1 from '@/components/Icon/IconBannerBg1'
 
 const Banner = () => {

@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconWorkingStep4 = ({ className }: { className?: string }) => {
     return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './components.css/JobsCarousel.module.css'
 import { Button, ButtonVar2 } from '@/components/ui/Button'
 import IconSearch from '@/components/Icon/IconSearch'

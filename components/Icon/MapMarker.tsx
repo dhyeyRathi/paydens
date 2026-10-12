@@ -1,4 +1,3 @@
-import React from 'react'
 
 const MapMarker = ({ className }: { className?: string }) => {
     return (

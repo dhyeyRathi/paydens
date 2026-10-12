@@ -1,7 +1,5 @@
-import React from 'react'
 import styles from "./homepage.css/treatments.module.css"
 import { ArrowButton, Button } from '../ui/Button'
-import WhiteGradient from '../ui/WhiteGradient';
 import Link from 'next/link';
 import IconChevronRight from '../Icon/IconChevronRight';
 import Heading, { HeadingHighlight } from '../ui/Heading';
@@ -10,6 +8,7 @@ const Treatments = () => {
 
     const cardItem = [
         {
+            id: 1,
             title: "Asthma",
             items: [
                 "Advair",
@@ -20,6 +19,7 @@ const Treatments = () => {
             ],
         },
         {
+            id: 2,
             title: "Stop Smoking",
             items: [
                 "Bupropion SR",
@@ -30,6 +30,7 @@ const Treatments = () => {
             ],
         },
         {
+            id: 3,
             title: "HRT",
             items: [
                 "Premetrium",
@@ -51,7 +52,7 @@ const Treatments = () => {
             <div className={`${styles.cardsContainer}`}>
                 {
                     cardItem.map((item, ind) => (
-                        <div key={item.title} className={`${styles.card}`}>
+                        <div key={item.id} className={`${styles.card}`}>
                             <h3>{item.title}</h3>
                             {
                                 item.items.map((e, index: number) => (

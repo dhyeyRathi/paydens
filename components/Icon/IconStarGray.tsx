@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconStarGray = ({ className }: { className?: string }) => {
     return (

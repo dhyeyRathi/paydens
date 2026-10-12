@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./ui.css/mobileAppBanner.module.css"
 import Image from 'next/image'
 import NHS from '../Icon/Logo/NHS'

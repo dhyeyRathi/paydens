@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconPlus = ({ className }: { className?: string }) => {
     return (

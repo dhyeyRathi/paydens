@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconStarAppRating = ({ className }: { className?: string }) => {
     return (

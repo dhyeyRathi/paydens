@@ -1,4 +1,3 @@
-import React from 'react'
 
 const IconGetInTouchScribble = ({ className = "" }: { className?: string }) => {
     return (

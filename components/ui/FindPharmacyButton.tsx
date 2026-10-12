@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './ui.css/findButton.module.css'
 import { useRouter } from 'next/navigation'
 import IconMapPin from '../Icon/IconMapPin'

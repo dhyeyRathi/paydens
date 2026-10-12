@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconChevronRight = ({ className }: { className?: string }) => {
     return (

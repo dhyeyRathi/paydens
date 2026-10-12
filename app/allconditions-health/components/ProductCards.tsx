@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button } from '@/components/ui/Button';
 import IconStarYellow from '@/components/Icon/IconStarYellow';
 import IconStarGray from '@/components/Icon/IconStarGray';
@@ -9,7 +8,7 @@ interface ProductCardProps {
     img?: string | Blob | undefined;
 }
 
-const ProductCards = ({ name, description, price, img }: ProductCardProps) => {
+const ProductCards = ({ name, description, img }: ProductCardProps) => {
     return (
         <div className='flex gap-5 md:h-165 xl:h-auto  rounded-xl flex p-6 border-border border-1 paydens-shadow  md:flex-col xl:flex-row'>
             <div className='h-80 bg-gray-100 rounded-xl py-10'>

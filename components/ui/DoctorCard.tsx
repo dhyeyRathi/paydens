@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./ui.css/doctorcard.module.css"
 import WhiteGradient from './WhiteGradient'
 import { BlueGradient, GreenGradient } from './ColorGradient'
@@ -13,7 +12,7 @@ interface doctorcardprops {
     id?: string
 }
 
-const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = false, id }: doctorcardprops) => {
+const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = false }: doctorcardprops) => {
     return (
         <div className={`${className} relative`}>
             {image && <img src={image} alt={name + " image"} className={`${styles.Image} ${center && styles.ImageCenter}`} />}
@@ -28,7 +27,7 @@ export default DoctorCard
 
 
 
-const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", center = false, id }: doctorcardprops) => {
+const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", id }: doctorcardprops) => {
     return (
         <div id={id} className={`${className} min-w-[220px] sm:w-[320px]  relative overflow-hidden rounded-2xl paydens-shadow`}>
             <div className='relative bg-white overflow-hidden w-[220px] lg:h-[320px] lg:w-[320px] '>
@@ -43,7 +42,7 @@ const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", c
                     <h2 className='text-[8px] lg:text-12 p-1 sm:p-2 py-0.5 sm:py-1 bg-primary/20 rounded-[4px] text-primary-dark font-semibold'>GPhC Registered</h2>
 
                 </div>
-                <p className='max-w-80 text-12 lg:text-16 font-[300]'>Pharmacist Craig doesn't prescribe for our USA practice, but helps review content across our site to ensure clinical accuracy.</p>
+                <p className='max-w-80 text-12 lg:text-16 font-[300]'>Pharmacist Craig doesn&apos;t prescribe for our USA practice, but helps review content across our site to ensure clinical accuracy.</p>
                 <button aria-label='view full profile button' className='flex group gap-4 hover:gap-6 justify-start items-center cursor-pointer text-12 lg:text-16 w-full text-link hover:text-primary font-bold transition-all duration-200 ease-in-out pb-2'>
                     View Full Profile <em className={`${styles.hr} `}>
                         <IconChevronRight className="text-link group-hover:text-primary" />

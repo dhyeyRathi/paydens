@@ -3,11 +3,9 @@ import Doctors from "@/components/Homepage/Doctors";
 import Features from "@/components/Homepage/Features";
 import Hero from "@/components/Homepage/Hero";
 import Treatments from "@/components/Homepage/Treatments";
-import MapMarker from "@/components/Icon/MapMarker";
 import LetsConnectSection from "@/components/LetsConnectSection";
 import Testimonial from "@/components/Testimonial";
 import MobileAppBanner from "@/components/ui/MobileAppBanner";
-import Image from "next/image";
 
 export default function Home() {
   return (

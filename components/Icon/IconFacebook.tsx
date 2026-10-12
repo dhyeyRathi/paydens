@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconFacebook = ({ className }: { className?: string }) => {
     return (

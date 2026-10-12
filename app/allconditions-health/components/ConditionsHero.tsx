@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./component.css/ConditionHero.module.css"
 import { IconStep1, IconStep2, IconStep3, IconStep4 } from '@/components/Icon/AllConditions-health'
 

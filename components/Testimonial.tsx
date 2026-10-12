@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import styles from "./components.css/testimonial.module.css"
 import Image from 'next/image'
 import GoogleReviews from './Icon/GoogleReviews'
@@ -7,7 +7,6 @@ import TestimonialCard from './ui/TestimonialCard'
 import avatarmale from '@/public/assets/images/Avatars/male.png'
 import female from '@/public/assets/images/Avatars/female.png'
 import { ArrowButton } from './ui/Button'
-import { useRouter } from 'next/navigation'
 import IconStarYellow from './Icon/IconStarYellow'
 import IconStarGray from './Icon/IconStarGray'
 import Heading, { HeadingHighlight } from './ui/Heading'
@@ -62,7 +61,7 @@ const Testimonial = () => {
             <div className={`h-fit w-screen hide-scrollbar flex gap-10 flex-nowrap overflow-x-auto bg-transparent z-[-10] ${activeIndex !== 0 && 'xl:!-ml-0'}  pt-12 pb-15 xl:pb-20  px-[5vw] `}
             >
                 {testimonial.map((customer, index: number) => {
-                    return (<TestimonialCard key={index} id={`${index}`} className={`transition-all duration-300 ease-in-out opacity-50 
+                    return (<TestimonialCard key={`${customer}-${index}`} id={`${index}`} className={`transition-all duration-300 ease-in-out opacity-50 
                      ${index === activeIndex && `!scale-105 opacity-100`}`} >
 
                         <Image src={customer} alt={`avatar-${index}`} className='h-full w-auto' /></TestimonialCard>)

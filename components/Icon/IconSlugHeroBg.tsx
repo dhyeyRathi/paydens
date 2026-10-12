@@ -1,4 +1,3 @@
-import React from 'react'
 
 const IconSlugHeroBg = ({ className = "" }: { className?: string }) => {
     return (

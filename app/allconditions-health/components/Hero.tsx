@@ -1,4 +1,3 @@
-import React from 'react'
 import DOB from './DOB'
 import { Button } from '@/components/ui/Button'
 import NHS from '@/components/Icon/Logo/NHS'

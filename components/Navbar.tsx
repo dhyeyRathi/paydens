@@ -1,11 +1,10 @@
 "use client"
-import React, { use, useState, useEffect } from 'react'
-import Image from 'next/image'
+import { useState } from 'react'
 import Link from 'next/link'
 import { LogoText } from './Icon/Logo/Logo'
 import InputBar from './ui/InputBar'
 import styles from "./components.css/Navbar.module.css"
-import FindPharmacyButton, { FindPharmacyCard } from './ui/FindPharmacyButton'
+import FindPharmacyButton from './ui/FindPharmacyButton'
 import { Button } from './ui/Button'
 import SquareButton from './ui/SquareButton'
 import NavItems, { NavItemsVar2 } from './ui/NavItems'
@@ -17,7 +16,7 @@ const Navbar = () => {
 
 
     const [hamburger, setHamburger] = useState<boolean>(false);
-    const [isScrolled, setIsScrolled] = useState<boolean>(false);
+
 
     function handleHam() {
         setHamburger(false)

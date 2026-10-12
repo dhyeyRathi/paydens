@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './components.css/Hero.module.css'
 import IconHealthcarePartner from '@/components/Icon/IconHealthcarePartner'
 import GPHC from '@/components/Icon/Logo/GPHC'

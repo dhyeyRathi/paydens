@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import styles from './component.css/ConditionsCarousel.module.css'
 import { InputBarVar2 } from '@/components/ui/InputBar'
 import { Button } from '@/components/ui/Button'
@@ -11,7 +11,6 @@ const ConditionsCarousel = () => {
     const filter = ["All", "NHS Services", "Private Services"]
     const [selected, setSelected] = useState<string | null>("All")
     const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    const [activeAlphabets, setActiveAlphabets] = useState<any>([]);
     const [loaded, setLoaded] = useState<number>(2);
     const [scrollTarget, setScrollTarget] = useState<string | null>(null);
     const router = useRouter();
@@ -20,16 +19,16 @@ const ConditionsCarousel = () => {
         router.push(`/allconditions-health/sore-throat`);
     }
 
-    useEffect(() => {
-        const active = [
+    const activeAlphabets = useMemo(() => {
+        return [
             ...new Set(
                 conditions.map((condition) =>
                     condition.title.charAt(0).toUpperCase()
                 )
             )
-        ];
-        setActiveAlphabets(active)
-    }, [])
+        ].sort();
+    }, []);
+
 
     useEffect(() => {
         if (!scrollTarget) return;

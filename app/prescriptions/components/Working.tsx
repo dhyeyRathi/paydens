@@ -1,4 +1,3 @@
-import React from 'react'
 import IconWorkingStep4 from '@/components/Icon/IconWorkingStep4'
 import IconWorkingStep1 from '@/components/Icon/IconWorkingStep1'
 import IconWorkingStep3 from '@/components/Icon/IconWorkingStep3'

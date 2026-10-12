@@ -1,4 +1,4 @@
-import React, { ReactHTMLElement } from 'react'
+import React from 'react'
 import styles from "./ui.css/Input.module.css"
 
 interface inputProps {

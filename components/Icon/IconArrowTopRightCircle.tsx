@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconArrowTopRightCircle = ({ className }: { className?: string }) => {
     return (

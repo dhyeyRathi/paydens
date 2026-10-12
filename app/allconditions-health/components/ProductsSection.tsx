@@ -1,4 +1,3 @@
-import React from 'react'
 import ProductCards from './ProductCards';
 import { ArrowButton } from '@/components/ui/Button';
 import Heading, { HeadingHighlight } from '@/components/ui/Heading';

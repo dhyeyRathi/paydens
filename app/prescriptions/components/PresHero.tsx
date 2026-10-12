@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './presHero.module.css'
 
 import { Button, ButtonVar2 } from '@/components/ui/Button'

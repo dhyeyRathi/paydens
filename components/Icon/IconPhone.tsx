@@ -1,4 +1,3 @@
-import React from 'react';
 
 const IconPhone = ({ className }: { className?: string }) => {
     return (

@@ -1,5 +1,4 @@
-"use client"
-import React, { Children } from 'react'
+import React from 'react'
 import styles from "./ui.css/Button.module.css"
 import IconChevronRight from '../Icon/IconChevronRight'
 import Link from 'next/link';
@@ -21,11 +20,11 @@ interface arrButtonProps {
     onClickRight?: () => void
 }
 
-const Button = ({ children, className, type, onClick, link = false, href = "" }: ButtonProps) => {
+const Button = ({ children, className, onClick, link = false, href = "" }: ButtonProps) => {
     if (link) return (
         <>
             <Link href={href} className={`${styles.button} ${className} group bg-primary paydens-shadow
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out`} onClick={onClick} type={type}>
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out`} onClick={onClick} >
                 {children}
             </Link>
         </>
@@ -33,7 +32,7 @@ const Button = ({ children, className, type, onClick, link = false, href = "" }:
     else return (
         <>
             <button className={`${styles.button} ${className} group bg-primary paydens-shadow
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out`} onClick={onClick} type={type}>
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out`} onClick={onClick} >
                 {children}
             </button>
         </>

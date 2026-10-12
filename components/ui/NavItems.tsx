@@ -1,12 +1,10 @@
 "use client"
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from "../components.css/Navbar.module.css"
 import ServicesDropdown from './ServicesDropdown'
 
 import { useRouter } from 'next/navigation';
-import { on } from 'events';
 import IconChevronDown from '../Icon/IconChevronDown';
-import { Url } from 'next/dist/shared/lib/router/router';
 
 interface NavItem {
     title?: string;
