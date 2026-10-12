@@ -3,6 +3,7 @@ import IconHealthcarePartner from '@/components/Icon/IconHealthcarePartner'
 import GPHC from '@/components/Icon/Logo/GPHC'
 import MHRALogo from '@/components/Icon/Logo/MHRA'
 import RegisteredPharmacy from '@/components/Icon/Logo/RegisteredPharmacy'
+import Image from 'next/image'
 
 
 const Hero = () => {
@@ -43,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <img src="/assets/images/ui/pharmacyphoto.png" className='w-full' alt='pharmacy photo' />
+            <Image src="/assets/images/ui/pharmacyphoto.png" width={2560} height={855} sizes="100vw" className='w-full h-auto' alt='pharmacy photo' />
         </section>
     )
 }

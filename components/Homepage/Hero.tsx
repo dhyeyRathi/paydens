@@ -50,7 +50,7 @@ const Hero = () => {
         <section className={`${styles.heroCont} animationPopUp`}>
             <div className={`${styles.heroBan}`}>
                 <div className={`${styles.bgWrapper}`}>
-                    <Image src={heroBan} alt="hero banner background" fill className='opacity-40 object-cover ' />
+                    <Image src={heroBan} alt="hero banner background" fill sizes="100vw" priority className='opacity-40 object-cover ' />
                     <div className={`${styles.whiteOL}`}> </div>
                     <GreenGradient className={`${styles.greenGrad}`} />
                     <BlueGradient className={`${styles.blueGrad}`} />
@@ -73,7 +73,7 @@ const Hero = () => {
                                         <span className='text-xl font-[300] font-quicksand'> {item.label}</span>
                                     </div>
 
-                                    <IconHeroChevronRight className="text-[#666666]" />
+                                    <IconHeroChevronRight className="text-text-muted" />
 
                                 </button>
                             ))

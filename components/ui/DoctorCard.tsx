@@ -3,6 +3,7 @@ import WhiteGradient from './WhiteGradient'
 import { BlueGradient, GreenGradient } from './ColorGradient'
 import IconChevronRight from '../Icon/IconChevronRight'
 import IconVerifiedTick from '../Icon/IconVerifiedTick'
+import Image from "next/image"
 
 interface doctorcardprops {
     className?: string
@@ -10,12 +11,22 @@ interface doctorcardprops {
     image: string
     center?: boolean
     id?: string
+    width?: number
+    height?: number
 }
 
-const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = false }: doctorcardprops) => {
+const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = false, width, height }: doctorcardprops) => {
     return (
         <div className={`${className} relative`}>
-            {image && <img src={image} alt={name + " image"} className={`${styles.Image} ${center && styles.ImageCenter}`} />}
+            {image && (
+                <Image
+                    src={image}
+                    alt={name + " image"}
+                    width={width ?? (center ? 588 : 500)}
+                    height={height ?? (center ? 722 : 650)}
+                    className={`${styles.Image} ${center && styles.ImageCenter}`}
+                />
+            )}
             <WhiteGradient className="!bottom-[-2]" />
             <h3 className=' absolute text-[10px] lg:text-16 font-[600] bottom-[1%] left-[6%]'>{name}</h3>
             <h3 className=' absolute text-[8px] lg:text-16 font[300] left-[6%]'>Online Doctor</h3>
@@ -27,13 +38,21 @@ export default DoctorCard
 
 
 
-const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", id }: doctorcardprops) => {
+const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", id, width, height }: doctorcardprops) => {
     return (
         <div id={id} className={`${className} min-w-[220px] sm:w-[320px]  relative overflow-hidden rounded-2xl paydens-shadow`}>
             <div className='relative bg-white overflow-hidden w-[220px] lg:h-[320px] lg:w-[320px] '>
                 <GreenGradient className='h-50 w-100 !left-[-30%] top-[-10%] ' />
                 <BlueGradient className='h-50 w-100 !right-[-30%] top-[-10%] ' />
-                {image && <img src={image} alt={name + ' image'} className={`!object-fill scale-140 md:scale-100 w-[180px] md:w-[220px] lg:w-[320px] sticky z-20`} />}
+                {image && (
+                    <Image
+                        src={image}
+                        alt={name + ' image'}
+                        width={width ?? 320}
+                        height={height ?? 320}
+                        className={`!object-fill scale-140 md:scale-100 w-[180px] md:w-[220px] lg:w-[320px] sticky z-20`}
+                    />
+                )}
             </div>
             <div className='h-full w-full bg-background p-3 sm:p-[24px] flex flex-col gap-1 sm:gap-2 md:gap-[12px] lg:gap-[16px] items-start justify-start'>
                 <h3 className='text-sm sm:text-lg lg:text-25 font-[600] flex items-center  gap-1 md:gap-2 '>{name} <IconVerifiedTick /></h3>

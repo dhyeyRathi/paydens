@@ -44,7 +44,7 @@ const Treatments = () => {
     return (
         <section className={`${styles.treatmentSection} animationPopUp`}>
             <div className='flex w-full justify-between items-baseline gap-[20px]'>
-                <Heading>
+                <Heading center={false}>
                     Care and <HeadingHighlight>Treatments </HeadingHighlight>You Can Trust
                 </Heading>
                 <ArrowButton className='hidden md:flex' />

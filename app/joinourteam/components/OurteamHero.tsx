@@ -1,5 +1,6 @@
 import styles from './components.css/OurteamHero.module.css'
 import { Button } from '@/components/ui/Button'
+import Image from 'next/image'
 
 const OurteamHero = () => {
     return (
@@ -12,12 +13,12 @@ const OurteamHero = () => {
                 <Button className='!self-center'>View Job Openings</Button>
             </div>
 
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/blue.png`} alt="blue circle" className={`absolute ${styles.blue} h-20 md:h-[71px] w-auto`} />
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/green.png`} alt="green circle" className={`absolute  ${styles.green} h-[136px]`} />
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/orange.png`} alt="orange circle" className={`absolute ${styles.orange} h-[76px] w-auto`} />
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/purple.png`} alt="purple circle" className={`absolute ${styles.purple} h-20 md:h-[118px] `} />
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/violet.png`} alt="violet circle" className={`absolute ${styles.violet} h-[60px]`} />
-            <img src={`/assets/images/Avatars/OurTeamPageFloaters/red.png`} alt="red circle" className={`absolute hidden lg:block ${styles.red} h-[111px] w-auto`} />
+            <Image src={`/assets/images/Avatars/OurTeamPageFloaters/blue.png`} alt="blue circle" width={182} height={182} className={`absolute ${styles.blue} h-20 md:h-[71px] w-auto`} />
+            <Image src={`/assets/images/Avatars/OurTeamPageFloaters/green.png`} alt="green circle" width={312} height={312} className={`absolute ${styles.green} h-[136px] w-auto`} />
+            <Image src={`/assets/images/Avatars/OurTeamPageFloaters/orange.png`} alt="orange circle" width={192} height={192} className={`absolute ${styles.orange} h-[76px] w-auto`} />
+            <Image src={`/assets/images/Avatars/OurTeamPageFloaters/purple.png`} alt="purple circle" width={214} height={214} className={`absolute ${styles.purple} h-20 md:h-[118px] w-auto`} />
+            <Image src={`/assets/images/Avatars/OurTeamPageFloaters/violet.png`} alt="violet circle" width={160} height={160} className={`absolute ${styles.violet} h-[60px] w-auto`} />
+            <Image src={`/assets/images/Avatars/OurTeamPageFloaters/red.png`} alt="red circle" width={262} height={262} className={`absolute hidden lg:block ${styles.red} h-[111px] w-auto`} />
 
         </section >
     )

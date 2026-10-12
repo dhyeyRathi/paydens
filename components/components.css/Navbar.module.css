@@ -23,7 +23,7 @@
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    flex: none;
+    ;
     order: 0;
     align-self: stretch;
     transition: padding 0.2s ease-in-out;
@@ -45,7 +45,7 @@
     border-bottom-left-radius: 20px;
     padding: 16px 80px;
 
-    flex: none;
+    ;
     order: 0;
     align-self: stretch;
 
