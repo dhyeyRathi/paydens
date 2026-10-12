@@ -17,7 +17,7 @@
 }
 
 .questionActive {
-    background-color: var(--color-primary-light) !important;
+    background-color: var(--color-primary-light);
 }
 
 .question svg {
@@ -63,7 +63,7 @@
 }
 
 .question button {
-    justify-self: end !important;
+    justify-self: end;
     padding: 30px;
     display: flex;
     rotate: 0deg;
@@ -130,7 +130,7 @@
     }
 
     .question button {
-        justify-self: end !important;
+        justify-self: end;
         padding: 10px;
         padding-top: 30px;
         display: flex;

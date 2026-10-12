@@ -27,7 +27,7 @@ const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = f
                     className={`${styles.Image} ${center && styles.ImageCenter}`}
                 />
             )}
-            <WhiteGradient className="!bottom-[-2]" />
+            <WhiteGradient className="bg-gradient-to-t from-background via-transparent  to-transparent" />
             <h3 className=' absolute text-[10px] lg:text-16 font-[600] bottom-[1%] left-[6%]'>{name}</h3>
             <h3 className=' absolute text-[8px] lg:text-16 font[300] left-[6%]'>Online Doctor</h3>
         </div>

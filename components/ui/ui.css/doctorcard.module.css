@@ -4,7 +4,7 @@
 }
 
 .ImageCenter {
-    max-height: 550px !important;
+    max-height: 550px;
     width: auto;
 }
 
@@ -18,7 +18,7 @@
     }
 
     .ImageCenter {
-        max-height: 440px !important;
+        max-height: 440px;
         width: auto;
     }
 }
@@ -30,7 +30,7 @@
     }
 
     .ImageCenter {
-        max-height: 330px !important;
+        max-height: 330px;
         width: auto;
     }
 }

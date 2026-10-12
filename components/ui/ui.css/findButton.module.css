@@ -10,7 +10,7 @@
     gap: 10px;
     cursor: pointer;
     max-height: 44px;
-    font-size: 16px !important;
+    font-size: 16px;
     border: 1px solid #37B43D;
     border-radius: 8px;
 
@@ -30,7 +30,7 @@
     padding: 0px;
     position: fixed;
     z-index: 5;
-    background: linear-gradient(180deg, #C3FFD2 0%, #FFFFFF 100%) !important;
+    background: linear-gradient(180deg, #C3FFD2 0%, #FFFFFF 100%);
     border-radius: 16px;
     right: 1%;
     top: 11%;

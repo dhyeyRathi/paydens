@@ -80,7 +80,7 @@
 
 .card h3 {
     font-size: var(--font-size-20);
-    z-index: 10 !important;
+    z-index: 10;
     max-width: 80%;
     bottom: 12%;
     left: 5%;
@@ -96,7 +96,7 @@
     align-items: center;
     position: absolute;
     font-size: var(--font-size-16);
-    z-index: 10 !important;
+    z-index: 10;
     max-width: 80%;
     bottom: 5%;
     left: 5%;

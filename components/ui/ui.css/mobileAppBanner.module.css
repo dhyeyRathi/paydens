@@ -34,45 +34,35 @@
     max-width: 60%;
 }
 
-/* .cyanGrad {
-    transform: rotate(-78deg);
-    width: 25rem;
-    height: 800px;
-    right: 40%;
-    top: 40%;
-
-} */
-
-
 .greenGrad {
-    /* filter: blur(10px) !important; */
-    background-color: var(--color-primary-soft) !important;
+
+    background-color: var(--color-primary-soft);
     width: 1000px;
     height: 1000px;
     right: 70%;
     bottom: 20%;
     transform: rotate(283deg);
-    z-index: -5 !important;
+    z-index: -5;
 }
 
 .greenGrad2 {
     /* transform: rotate(-78deg);    */
-    filter: blur(130px) !important;
+    filter: blur(130px);
     width: 800px;
     height: 200px;
     right: 25%;
     top: 40%;
-    background-color: var(--color-primary-light) !important;
-    z-index: -5 !important;
+    background-color: var(--color-primary-light);
+    z-index: -5;
 }
 
 .blueGrad {
-    filter: blur(200px) !important;
+    filter: blur(200px);
     width: 600px;
     height: 1000px;
     bottom: -30%;
     right: -10%;
-    z-index: -5 !important;
+    z-index: -5;
 }
 
 .textCont h3 {
@@ -106,34 +96,34 @@
     }
 
     .greenGrad {
-        filter: blur(50px) !important;
-        background-color: var(--color-primary-soft) !important;
+        filter: blur(50px);
+        background-color: var(--color-primary-soft);
         width: 400px;
         height: 400px;
         right: 50%;
         bottom: 20%;
         transform: rotate(283deg);
-        z-index: -5 !important;
+        z-index: -5;
     }
 
     .greenGrad2 {
         /* transform: rotate(-78deg);    */
-        filter: blur(50px) !important;
+        filter: blur(50px);
         width: 400px;
         height: 400px;
         right: -55%;
         top: -30%;
-        background-color: var(--color-primary-light) !important;
-        z-index: -5 !important;
+        background-color: var(--color-primary-light);
+        z-index: -5;
     }
 
     .blueGrad {
-        filter: blur(60px) !important;
+        filter: blur(60px);
         width: 800px;
         height: 150px;
         bottom: -30%;
         right: -10%;
-        z-index: -5 !important;
+        z-index: -5;
     }
 
     .phone {
@@ -176,34 +166,34 @@
     }
 
     .greenGrad {
-        filter: blur(10px) !important;
-        background-color: var(--color-primary-soft) !important;
+        filter: blur(10px);
+        background-color: var(--color-primary-soft);
         width: 200px;
         height: 200px;
         right: 50%;
         bottom: 20%;
         transform: rotate(283deg);
-        z-index: -5 !important;
+        z-index: -5;
     }
 
     .greenGrad2 {
         /* transform: rotate(-78deg);    */
-        filter: blur(70px) !important;
+        filter: blur(70px);
         width: 300px;
         height: 200px;
         right: -5%;
         top: -30%;
-        background-color: var(--color-primary-light) !important;
-        z-index: -5 !important;
+        background-color: var(--color-primary-light);
+        z-index: -5;
     }
 
     .blueGrad {
-        filter: blur(60px) !important;
+        filter: blur(60px);
         width: 700px;
         height: 100px;
         bottom: -30%;
         right: -10%;
-        z-index: -5 !important;
+        z-index: -5;
     }
 
     .phone {
