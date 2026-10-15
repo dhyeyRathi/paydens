@@ -3,7 +3,7 @@
     position: relative;
     flex-direction: column;
     width: 100%;
-    gap: 30px;
+    gap: clamp(16px, 2.5vw, 30px);
 }
 
 .cardCont {
@@ -19,30 +19,27 @@
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
-    border-radius: 16px;
+    border-radius: 1rem;
     gap: 8px;
-    height: 250px;
+    min-height: 15.625rem;
+    height: auto;
     overflow: hidden;
     border: 1px solid white;
 }
 
-
 .card h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
-
-
 .card p {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 
-
 .card svg {
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
 }
 
 @media (min-width: 1440px) {
@@ -51,8 +48,8 @@
     }
 
     .card svg {
-        width: 143px;
-        height: 141px;
+        width: 8.9375rem;
+        height: 8.8125rem;
     }
 
     .card h3 {
@@ -62,8 +59,9 @@
     .card {
         padding: 32px;
         gap: 10px;
-        height: 308px;
-        width: 305px;
+        min-height: 19.25rem;
+        width: 100%;
+        max-width: 19.0625rem;
     }
 
     .cardCont {

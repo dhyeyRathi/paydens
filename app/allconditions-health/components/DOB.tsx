@@ -3,7 +3,7 @@ const DOB = () => {
     return (
         <div className="flex gap-4">
 
-            <select aria-label="select date" className="h-[42px] w-[101px] rounded-xl border border-border bg-white px-4 text-sm text-[#777] outline-none">
+            <select aria-label="select date" className="h-[2.625rem] w-[6.3125rem] rounded-xl border border-border bg-white px-4 text-sm text-[#777] outline-none">
                 <option value="">DD</option>
 
                 {Array.from({ length: 31 }, (_, i) => (
@@ -13,7 +13,7 @@ const DOB = () => {
                 ))}
             </select>
 
-            <select aria-label="select month" className="h-[42px] w-[101px] rounded-xl border border-border bg-white px-4 text-sm text-[#777] outline-none">
+            <select aria-label="select month" className="h-[2.625rem] w-[6.3125rem] rounded-xl border border-border bg-white px-4 text-sm text-[#777] outline-none">
                 <option value="">MM</option>
 
                 {Array.from({ length: 12 }, (_, i) => (
@@ -23,7 +23,7 @@ const DOB = () => {
                 ))}
             </select>
 
-            <select aria-label="select year" className="h-[42px] w-[101px] rounded-xl border border-border  bg-white px-4 text-sm text-[#777] outline-none">
+            <select aria-label="select year" className="h-[2.625rem] w-[6.3125rem] rounded-xl border border-border  bg-white px-4 text-sm text-[#777] outline-none">
                 <option value="">YYYY</option>
 
                 {Array.from({ length: 100 }, (_, i) => {

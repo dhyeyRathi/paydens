@@ -20,7 +20,7 @@
 }
 
 .ratingText svg {
-    height: 18px;
+    height: 1.125rem;
     width: auto;
     padding-bottom: 2px;
 }
@@ -28,7 +28,7 @@
 .rating p {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
 }
 
 .rating em {
@@ -36,27 +36,26 @@
 }
 
 .rating div h3 {
-    font-size: 24px;
-    font-weight: 600
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
     .rating div h3 {
-        font-size: 12px;
-        font-weight: 600
+        font-size: 0.75rem;
+        font-weight: 600;
     }
 
     .rating p {
         display: flex;
         align-items: center;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .googleImage {
-        height: 20px;
+        height: 1.25rem;
         width: auto;
     }
-
 }
 
 @media (max-width: 1440px) {}

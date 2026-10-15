@@ -15,7 +15,7 @@ const InputBar = ({
     return (
         <>
             <div className={`${styles.gradientBorder} ${className} w-full`}>
-                <div className='w-full h-auto flex items-center bg-white rounded-[8px] flex '>
+                <div className='w-full h-auto flex items-center bg-white rounded-lg flex '>
                     <input className={`${styles.inputBar}  text-text font-[500] font-quicksand w-full bg-white`}
                         aria-label={placeholder}
                         id={name + 'search'} placeholder={placeholder} />
@@ -33,7 +33,7 @@ const InputBarVar2 = ({
     return (
 
 
-        <div className={`w-[50%] bg-white rounded-[8px] flex items-center ${styles.inputContVar2} ${divClassName}`}>
+        <div className={`w-[50%] bg-white rounded-lg flex items-center ${styles.inputContVar2} ${divClassName}`}>
             <input aria-label={placeholder} className={`${styles.inputBarVar2} ${className} text-text text-16 font-[500] font-quicksand w-full bg-white`}
                 id='search' placeholder={placeholder} />
             {children}

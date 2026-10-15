@@ -1,4 +1,4 @@
-import styles from "./homepage.css/doctorsection.module.css"
+import styles from "./components.css/doctorsection.module.css"
 import { ArrowButton, Button } from '../ui/Button'
 import DoctorCard from '../ui/DoctorCard'
 import Link from 'next/link'

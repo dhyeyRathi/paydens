@@ -60,12 +60,12 @@ const Footer = () => {
 
                     {footerLinks.map((section) => (
                         <div key={section.title} className={`${styles.linksBox}`}>
-                            <h3 className='font-semibold  text-sm sm:text-base md:text-[20px]'>
+                            <h3 className='font-semibold text-sm sm:text-base md:text-xl'>
                                 {section.title}</h3>
-                            <ul className='gap-[6.5px] flex flex-col '>
+                            <ul className='gap-1.5 flex flex-col '>
                                 {section.links.map((link) => (
                                     <li key={link.label}>
-                                        <Link aria-label={link.label} href={link.href} className='flex gap-4 pb-[7.5px] items-center text-[14px] font-[300]'>
+                                        <Link aria-label={link.label} href={link.href} className='flex gap-4 pb-[7.5px] items-center text-sm font-[300]'>
                                             <IconChevronRight />
                                             {link.label}</Link>
                                     </li>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </div>
                 <div className={`${styles.copyrightText}`}>
                     <div className={`${styles.copyrightTextBox}`}>
-                        <hr className='w-full h-[1px] bg-text-secondary/40 border-none' />
+                        <hr className='w-full h-px bg-text-secondary/40 border-none' />
                         <div className={`${styles.textMain}`}>
                             <p>© 2026 Paydens Limited. All rights reserved. <br />Registered in England & Wales. Company No: 00574716</p>
                             <p className='text-text-secondary text-xs sm:text-base md:text-lg'>Medical Emergency?<br />
@@ -84,7 +84,7 @@ const Footer = () => {
                                     Call 999 or visit A&E</em>
                             </p>
                         </div>
-                        <hr className='w-full h-[1px] bg-text-secondary/40 border-none' />
+                        <hr className='w-full h-px bg-text-secondary/40 border-none' />
                     </div>
                     <p>Powered by healthya | ConX</p>
                 </div>

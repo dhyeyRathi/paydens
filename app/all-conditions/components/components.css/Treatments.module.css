@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: clamp(24px, 4vw, 60px);
 }
 
 .TreatmentsSection h2 {
-    font-size: 42px;
+    font-size: clamp(1.75rem, 3.5vw, 2.625rem);
 }
 
 .card {
@@ -15,7 +15,7 @@
     flex-direction: column;
     gap: 18px;
     padding: 24px 24px;
-    border-radius: 16px;
+    border-radius: 1rem;
     background: linear-gradient(180deg, rgba(146, 255, 173, 0.5) 2.92%, rgba(255, 255, 255, 0.5) 100%);
     flex: 1;
     position: relative;
@@ -28,11 +28,11 @@
 
 .card p {
     text-decoration: underline;
-    text-underline-offset: 8px;
+    text-underline-offset: 0.5rem;
     font-weight: 500;
     margin-left: 30px;
     position: absolute;
-    bottom: -10px;
+    bottom: -0.625rem;
     font-size: var(--font-size-16);
 }
 
@@ -43,25 +43,22 @@
     cursor: pointer;
 }
 
-
 .cardItem {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     width: 100%;
-    max-height: 40px;
+    max-height: 2.5rem;
     background: #ffffffe1;
     padding: 24px 12px;
     font-size: var(--font-size-16);
     font-weight: 300;
 }
 
-
 @media (max-width: 1440px) {
     .card {
         padding: 16px 16px;
-
     }
 
     .card h2 {
@@ -71,10 +68,9 @@
 
     .card p {
         text-decoration: underline;
-        text-underline-offset: 8px;
+        text-underline-offset: 0.5rem;
         font-weight: 500;
-        bottom: 0px;
-
+        bottom: 0;
     }
 
     .cardItem {
@@ -89,11 +85,9 @@
         align-items: center;
         gap: 30px;
     }
-
 }
 
 @media (max-width: 768px) {
-
     .TreatmentsSection {
         display: flex;
         flex-direction: column;
@@ -102,7 +96,6 @@
     }
 
     .TreatmentsSection h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
-
 }

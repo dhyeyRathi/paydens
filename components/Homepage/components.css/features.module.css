@@ -1,7 +1,7 @@
 .sectionCont {
     display: flex;
     width: 100%;
-    gap: 40px;
+    gap: clamp(24px, 3vw, 40px);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -12,60 +12,45 @@
     width: 100%;
     gap: 20px;
     justify-content: center;
-
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 20px;
-    flex: 0 0 288px;
-
-
-
+    flex: 0 0 18rem;
 }
 
 .container3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 20px;
-    flex: 0 0 288px;
-
-
-
+    flex: 0 0 18rem;
 }
 
 .container2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 0px;
+    padding: 0;
     gap: 20px;
-    flex: 0 0 642px;
-
-
-
-
+    flex: 0 0 clamp(20rem, 45vw, 40.125rem);
 }
 
 .boxes {
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 24px 32px;
-    ;
-    gap: 120px;
-
-
+    gap: clamp(56px, 8vw, 120px);
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    /* max-width: 350px; */
-    height: 228px;
+    min-height: 14.25rem;
     position: relative;
     overflow: hidden;
 }
@@ -75,88 +60,74 @@
 }
 
 .fluJab {
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 24px 32px;
-
-    gap: 120px;
+    gap: clamp(56px, 8vw, 120px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 315px;
-    height: 325px;
+    max-width: 19.6875rem;
+    min-height: 20.3125rem;
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #E44747 100%)
+    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #E44747 100%);
 }
 
 .NHSpres {
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 24px 32px;
-    ;
     gap: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 315px;
-    height: 325px;
+    max-width: 19.6875rem;
+    min-height: 20.3125rem;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #37B43D 100%)
+    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #37B43D 100%);
 }
 
 .NHSservices {
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 24px 32px;
-
     gap: 20px;
-
-
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* max-width: 325px; */
-    height: 450px;
+    min-height: 28.125rem;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #56C6EA 100%)
+    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #56C6EA 100%);
 }
 
 .weightLoss {
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 24px 32px;
-    ;
     justify-content: space-between;
-
-
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* max-width: 720px; */
     height: auto;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #ADA3FA 100%)
+    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #ADA3FA 100%);
 }
 
 .shopHealth {
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 24px 32px;
-
     gap: 20px;
-
-
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* max-width: 350px; */
-    height: 150px;
+    min-height: 9.375rem;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #F9B0E9 100%)
+    background: radial-gradient(177.33% 256.3% at 100% 100%, #FFFFFF 0%, #F9B0E9 100%);
 }
 
 .instantHelp {
@@ -165,29 +136,27 @@
 
 .cardCont h3 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
-
-
 
 .cardCont em {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .twinRow {
     display: flex;
-    width: 642px;
+    width: 100%;
+    max-width: 40.125rem;
     align-items: center;
     justify-content: space-between;
-
 }
 
 @media (max-width: 1440px) {
     .cardCont {
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: clamp(24px, 3vw, 40px);
         justify-content: center;
     }
 
@@ -195,9 +164,9 @@
         flex: 0 1 auto;
         flex-direction: row;
         width: 100%;
-        max-width: 670px;
+        max-width: 41.875rem;
         justify-content: center;
-        gap: 40px;
+        gap: clamp(24px, 3vw, 40px);
         align-self: center;
     }
 
@@ -205,18 +174,18 @@
         flex: 0 1 auto;
         flex-direction: row;
         width: 100%;
-        max-width: 670px;
+        max-width: 41.875rem;
         justify-content: center;
-        gap: 40px;
+        gap: clamp(24px, 3vw, 40px);
         align-self: center;
     }
 
     .container2 {
         flex: 0 1 auto;
         width: 100%;
-        max-width: 670px;
+        max-width: 41.875rem;
         align-items: center;
-        gap: 40px;
+        gap: clamp(24px, 3vw, 40px);
         align-self: center;
     }
 
@@ -239,16 +208,13 @@
     .fluJab {
         max-width: none;
     }
-
 }
 
-
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .cardCont {
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: clamp(24px, 3vw, 40px);
         padding: 0 20px;
     }
 
@@ -275,7 +241,6 @@
         justify-content: center;
         width: 100%;
         gap: 20px;
-
     }
 
     .NHSpres,
@@ -284,7 +249,7 @@
     }
 
     .weightLoss {
-        max-width: 375px;
+        max-width: 23.4375rem;
     }
 
     .cardCont h1 {
@@ -297,6 +262,6 @@
 
     .boxes {
         max-width: none;
-        height: 325px;
+        min-height: 20.3125rem;
     }
 }

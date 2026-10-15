@@ -1,4 +1,4 @@
-import styles from "./component.css/ConditionHero.module.css"
+import styles from "./components.css/ConditionHero.module.css"
 import { IconStep1, IconStep2, IconStep3, IconStep4 } from '@/components/Icon/AllConditions'
 
 const ConditionsHero = () => {
@@ -18,7 +18,7 @@ const ConditionsHero = () => {
                     <p>
                         Explore our list of health conditions to find the one that fits your needs.
                     </p>
-                    <IconStep1 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep1 className="absolute right-[-8%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
                 </div>
                 <div className={`${styles.card}`}>
@@ -31,7 +31,7 @@ const ConditionsHero = () => {
                     <p>
                         Browse treatments and select the options that are suitable for you.
                     </p>
-                    <IconStep2 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep2 className="absolute right-[-8%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
 
                 </div>
@@ -45,7 +45,7 @@ const ConditionsHero = () => {
                     <p>
                         Fill out a short online questionnaire so our doctors understand your health.
                     </p>
-                    <IconStep3 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep3 className="absolute right-[-8%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
 
 
@@ -60,7 +60,7 @@ const ConditionsHero = () => {
                     <p>
                         Once approved, your treatment will be safely delivered to your home.
                     </p>
-                    <IconStep4 className="absolute right-[-5%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep4 className="absolute right-[-5%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
 
                 </div>

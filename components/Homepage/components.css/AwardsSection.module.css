@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     max-height: screen;
-    padding: 0px;
-    gap: 30px;
+    padding: 0;
+    gap: clamp(16px, 2.5vw, 30px);
 }
 
 .awardSection button {
@@ -13,38 +13,32 @@
 
 .cardSection {
     display: flex;
-    gap: 30px;
+    gap: clamp(16px, 2.5vw, 30px);
     justify-content: space-evenly;
     padding: 20px 0px 20px 0px;
     align-items: center;
 }
 
 .card {
-    width: 360px;
-    height: 539px;
-    border-radius: 20px;
+    width: 100%;
+    max-width: 22.5rem;
+    height: clamp(21rem, 38vw, 33.6875rem);
+    border-radius: 1.25rem;
     overflow: hidden;
     padding-bottom: 20px;
     position: relative;
-
 }
 
 .card:hover {
-    /* transition: ease-in-out;
-    transition-duration: 300ms; */
     border: 1px solid var(--color-primary);
 }
 
 .images {
     position: absolute;
     inset: 0;
-}
-
-.images {
     width: 100%;
     height: 100%;
 }
-
 
 .hidden {
     display: none;
@@ -86,7 +80,6 @@
     left: 5%;
     position: absolute;
     font-weight: 700;
-
 }
 
 .card p {
@@ -106,13 +99,12 @@
 
 .card p:hover {
     cursor: pointer;
-    gap: 15px
+    gap: 15px;
 }
 
-
 .card p svg {
-    width: 10 px;
-    height: 10px;
+    width: 0.625rem;
+    height: 0.625rem;
 }
 
 @media (max-width: 768px) {
@@ -126,57 +118,51 @@
     }
 
     .card p svg {
-        width: 4px;
-        height: 6px;
+        width: 0.25rem;
+        height: 0.375rem;
     }
 
     .card {
-        width: 220px;
-        min-width: 220px;
-        height: 320px;
-        min-height: 320px;
+        width: 13.75rem;
+        min-width: 13.75rem;
+        height: 20rem;
+        min-height: 20rem;
     }
 
     .card h3 {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .card p {
         gap: 2px;
-        font-size: 10px;
+        font-size: 0.625rem;
     }
-
 }
 
 @media (max-width: 1440px) {
     .card h3 {
-        font-size: 20px;
-
+        font-size: 1.25rem;
     }
 
     .card p {
-
-        font-size: 14px;
+        font-size: 0.875rem;
         gap: 10px;
     }
 
     .card {
-        min-width: 250px;
-        min-height: 350px;
-
+        min-width: 15.625rem;
+        min-height: 21.875rem;
     }
 
     .card p svg {
-        width: 8px;
-        height: 8px;
+        width: 0.5rem;
+        height: 0.5rem;
     }
-
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1440px) {
     .card {
-        min-width: 225px;
-        min-height: 325px;
-
+        min-width: 14.0625rem;
+        min-height: 20.3125rem;
     }
 }

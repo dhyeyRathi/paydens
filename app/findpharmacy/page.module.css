@@ -1,6 +1,6 @@
 .pharmacyCont {
     display: flex;
-    gap: 60px;
+    gap: clamp(24px, 4vw, 60px);
     width: 100%;
     padding: 20px;
     position: relative;
@@ -11,7 +11,7 @@
     flex-direction: column;
     gap: 20px;
     position: relative;
-    max-height: 1000px;
+    max-height: 62.5rem;
     overflow-y: auto;
     overflow-x: visible;
     padding: 30px 20px;
@@ -22,7 +22,6 @@
 
     -ms-overflow-style: none;
     scrollbar-width: none;
-
 }
 
 .pharmacyListCont {}
@@ -38,9 +37,8 @@
 
 .pagination button {
     padding: 7px 15px;
-    height: 30px;
+    height: 1.875rem;
     aspect-ratio: 1/1;
-    /* color: var(--color-border); */
     font-weight: 300;
     font-family: var(--font-quicksand);
     display: flex;
@@ -49,7 +47,7 @@
     gap: 10px;
     font-size: var(--font-size-16);
     border: 1px solid var(--color-border);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .active {
@@ -64,28 +62,24 @@
         gap: 30px;
     }
 
-
     .pagination button {
         padding: 16px 8px;
-        height: 24px;
+        height: 1.5rem;
         aspect-ratio: 1/1;
-        /* color: var(--color-border); */
         font-weight: 300;
         font-family: var(--font-quicksand);
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 4px;
-        font-size: 12px;
+        font-size: 0.75rem;
         border: 1px solid var(--color-border);
-        border-radius: 4px;
+        border-radius: 0.25rem;
     }
 
     .pagination button svg {
-        height: 8px;
+        height: 0.5rem;
     }
-
-
 }
 
 @media (max-width: 1440px) {

@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from "./ui.css/Button.module.css"
 import Link from 'next/link';
 import { Url } from 'next/dist/shared/lib/router/router';
 
@@ -16,9 +15,9 @@ const SquareButton = ({ children, className = '', onclick, type = "Button", href
     if (type === "Link") return (
         <Link href={href}
             className={` ${className} group bg-primary/10
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center aspect-square !w-[44px] !h-[44px] gap-[10px] rounded-lg p-0
-  max-[1440px]:rounded-[10px]
-  max-[768px]:rounded-[10px]`}
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center aspect-square !w-[2.75rem] !h-[2.75rem] gap-2.5 rounded-lg p-0
+  max-[90rem]:rounded-[0.625rem]
+  max-[48rem]:rounded-[0.625rem]`}
             onClick={onclick}
         >
             {children}
@@ -29,9 +28,9 @@ const SquareButton = ({ children, className = '', onclick, type = "Button", href
     else return (
         <button
             className={` ${className} group bg-primary/10
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center aspect-square !w-[44px] !h-[44px] gap-[10px] rounded-lg p-0
-  max-[1440px]:rounded-[10px]
-  max-[768px]:rounded-[10px]`}
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center aspect-square !w-[2.75rem] !h-[2.75rem] gap-2.5 rounded-lg p-0
+  max-[90rem]:rounded-[0.625rem]
+  max-[48rem]:rounded-[0.625rem]`}
             onClick={onclick}
         >
             {children}

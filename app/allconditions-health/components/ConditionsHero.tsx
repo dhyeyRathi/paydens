@@ -1,4 +1,4 @@
-import styles from "./component.css/ConditionHero.module.css"
+import styles from "./components.css/ConditionHero.module.css"
 import { IconStep1, IconStep2, IconStep3, IconStep4 } from '@/components/Icon/AllConditions-health'
 
 
@@ -19,7 +19,7 @@ const ConditionsHero = () => {
                     <p>
                         Choose from a wide range of health conditions that match your needs.
                     </p>
-                    <IconStep1 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep1 className="absolute right-[-8%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
                 </div>
                 <div className={`${styles.card}`}>
@@ -32,7 +32,7 @@ const ConditionsHero = () => {
                     <p>
                         Fill out a short online questionnaire so our doctors understand your health.
                     </p>
-                    <IconStep2 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep2 className="absolute right-[-8%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
 
                 </div>
@@ -46,7 +46,7 @@ const ConditionsHero = () => {
                     <p>
                         Book a convenient time to consult with our healthcare experts.
                     </p>
-                    <IconStep3 className="absolute right-[-8%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep3 className="absolute right-[-8%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
                 </div>
                 <div className={`${styles.card}`}>
                     <h2>
@@ -58,7 +58,7 @@ const ConditionsHero = () => {
                     <p>
                         Once approved, your treatment will be safely delivered to your home.
                     </p>
-                    <IconStep4 className="absolute right-[-5%] bottom-[-8%] w-[143px] h-[141px]" />
+                    <IconStep4 className="absolute right-[-5%] bottom-[-8%] w-[clamp(5.5rem,9vw,8.9375rem)] h-[clamp(5.5rem,9vw,8.8125rem)]" />
 
 
 

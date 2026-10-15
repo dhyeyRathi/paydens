@@ -51,7 +51,7 @@ interface FindPharmacyCardProps {
 
 const FindPharmacyCard = ({ onMouseEnter, onMouseLeave }: FindPharmacyCardProps) => {
     return (
-        <div className={`${styles.pharmacyCard} w-[90%] md:w-[30%] lg:w-[25%] xl:w-[20%] min-w-[280px] max-w-[360px] paydens-shadow`} onMouseEnter={onMouseEnter}
+        <div className={`${styles.pharmacyCard} w-[90%] md:w-[30%] lg:w-[25%] xl:w-[20%] min-w-[17.5rem] max-w-[22.5rem] paydens-shadow`} onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
             <div className={`${styles.pharmacyCardCont} flex flex-col justify-start items-start`}>
                 <h3 className='flex justify-between items-center w-full text-xl font-bold'>A A Beggs <em ><IconChevronRight className="text-[#444444]" />
@@ -66,7 +66,7 @@ const FindPharmacyCard = ({ onMouseEnter, onMouseLeave }: FindPharmacyCardProps)
                     <h2 className='rounded-full bg-primary-soft p-2 text-xs'>9:00 AM - 5:30 PM</h2>
                 </div>
             </div>
-            <hr className={`h-[1px] w-full bg-text-ph/60 ${styles.hr} `} />
+            <hr className={`h-px w-full bg-text-ph/60 ${styles.hr} `} />
             <div className={`${styles.pharmacyCardCont2} `}>
                 <h3 className='flex justify-between items-center w-full group hover:text-primary transition-all duration-200 ease-in-out '>choose another pharmacy <em className={`${styles.hr} `}>
                     <IconChevronRight className="group-hover:text-primary text-text-secondary" />

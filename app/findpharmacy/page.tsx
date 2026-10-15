@@ -50,7 +50,7 @@ const page = () => {
 
     const pagination = [1, 2, 3, 4, "...", 10, "Next"]
     return (
-        <main aria-label='find pharmacy page' className='px-4 md:px-8 lg:px-15 flex flex-col gap-[30px] w-full animationPopUp'>
+        <main aria-label='find pharmacy page' className='px-4 md:px-8 lg:px-15 flex flex-col gap-[clamp(24px,3vw,30px)] w-full animationPopUp'>
             <PageNameDisp PageName={[{
                 label: "Home",
 

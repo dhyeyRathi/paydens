@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './homepage.css/hero.module.css'
+import styles from './components.css/hero.module.css'
 import Image from 'next/image'
 import heroBan from '@/public/assets/images/homepage/herobg.png'
 import { BlueGradient, CyanGradient, GreenGradient } from '../ui/ColorGradient'
@@ -58,8 +58,8 @@ const Hero = () => {
                 </div>
                 <div className={`${styles.contenCont}`}>
                     <div className={`${styles.textCont}`}>
-                        <h1 className='text-3xl sm:text-5xl lg:text-[64px] font-bold'><em className='text-link font-bold'>Healthcare</em> at<br /> your fingertips.</h1>
-                        <p className='text-[16px] font-quicksand font-[300]'>From common ailments to daily medications, our pharmacists provide professional guidance and prescriptions delivered safely to you.</p>
+                        <h1 className='text-3xl sm:text-5xl lg:text-[clamp(2.5rem,5vw,4rem)] font-bold'><em className='text-link font-bold'>Healthcare</em> at<br /> your fingertips.</h1>
+                        <p className='text-base font-quicksand font-[300]'>From common ailments to daily medications, our pharmacists provide professional guidance and prescriptions delivered safely to you.</p>
                         <Button className=' paydens-shadow'>Book Appointment</Button>
                     </div>
                     <div className={`${styles.cardsCont}`}>
@@ -67,7 +67,7 @@ const Hero = () => {
                             cardItems.map((item: carditemProps) => (
                                 <button key={item.id} className={`${styles.card}`} aria-label={item.label} >
                                     <div className='flex gap-4 items-center w-auto '>
-                                        <div className='h-[44px]'>
+                                        <div className='h-[2.75rem]'>
                                             {item.icon}
                                         </div>
                                         <span className='text-xl font-[300] font-quicksand'> {item.label}</span>

@@ -7,7 +7,7 @@ const CoveredIssues = () => {
             <div className='flex flex-col gap-10  max-w-100 md:max-w-160 lg:max-w-160 self-center'>
                 <h2 className='text-2xl md:text-3xl lg:text-heading font-bold '><em className='text-primary'>Responsible</em> Healthcare, Beyond <br /> the Pharmacy</h2>
                 <p className='text-sm md:text-base lg:text-lg text-text-secondary/90 text-justify' >At Paydens, we embrace the evolving role of pharmacy with a strong commitment to providing high-quality, local healthcare services. As a family-run business, we combine the personal care of an independent pharmacy with the strength and resources of the Paydens Group. From small village pharmacies to large high-street branches, our network offers a wide range of pharmacy services.</p>
-                <hr className='w-full h-[2px] bg-border border-0' />
+                <hr className='w-full h-0.5 bg-border border-0' />
 
                 <p className='text-sm md:text-base lg:text-lg text-text-secondary/90'> Paydens Group operates a <em className='underline'>pharmaceutical wholesaler</em>, Sangers (Maidstone) Ltd, co-located at our Head Office in Maidstone, supporting our pharmacy network.</p>
             </div>

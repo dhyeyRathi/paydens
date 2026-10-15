@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react'
-import styles from "./component.css/Treatments.module.css"
+import styles from "./components.css/Treatments.module.css"
 import { InputBarVar2 } from '@/components/ui/InputBar'
 import { Button } from '@/components/ui/Button'
 import IconChevronRight from '@/components/Icon/IconChevronRight'
@@ -120,14 +120,14 @@ const Treatments = () => {
                 <Button>Search</Button>
             </InputBarVar2>
 
-            <div className='flex w-full justify-center md:gap-[10px] flex-wrap'>
+            <div className='flex w-full justify-center md:gap-2.5 flex-wrap'>
 
                 {categories.map((cat) => (
                     <button aria-label={cat} type='button' key={cat} className={` py-2  md:py-5 px-5 relative text-sm md:text-16 text-text-secondary/60
                          ${formType === cat && '!text-info/80 rounded-sm overflow-hidden bg-info/10'}`}
                         onClick={() => setFormType(cat)}>
                         {cat}
-                        {formType === cat && <hr className='w-full absolute bottom-0 left-0 h-[2px] bg-info/40 border-none' />}</button>))}
+                        {formType === cat && <hr className='w-full absolute bottom-0 left-0 h-0.5 bg-info/40 border-none' />}</button>))}
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  gap-y-10 sm:gap-x-5 sm:gap-y-10 lg:gap-x-5 lg:gap-y-10'>

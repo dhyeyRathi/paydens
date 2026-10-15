@@ -15,8 +15,6 @@
     justify-content: space-between;
 }
 
-
-
 @media (max-width: 768px) {
     .Text {
         flex-direction: column;
@@ -26,15 +24,9 @@
     .Text br {
         display: none;
     }
-
-
 }
 
 @media (max-width: 1440px) {
-    /* .Text svg {
-        display: none;
-    } */
-
     .Text {
         padding-bottom: 30px;
     }

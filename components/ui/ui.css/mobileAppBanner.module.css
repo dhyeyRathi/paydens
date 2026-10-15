@@ -4,27 +4,23 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    border-radius: 35px;
+    border-radius: 2.1875rem;
 }
-
 
 .banner {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .imageCont {
     display: flex;
-    width: 100%;
-    gap: 30px;
+    gap: clamp(16px, 2.5vw, 30px);
     justify-content: start;
     align-items: center;
     width: 100%;
     padding: 0px 15px;
 }
-
 
 .textCont {
     display: flex;
@@ -35,10 +31,9 @@
 }
 
 .greenGrad {
-
     background-color: var(--color-primary-soft);
-    width: 1000px;
-    height: 1000px;
+    width: 62.5rem;
+    height: 62.5rem;
     right: 70%;
     bottom: 20%;
     transform: rotate(283deg);
@@ -46,10 +41,9 @@
 }
 
 .greenGrad2 {
-    /* transform: rotate(-78deg);    */
-    filter: blur(130px);
-    width: 800px;
-    height: 200px;
+    filter: blur(8.125rem);
+    width: 50rem;
+    height: 12.5rem;
     right: 25%;
     top: 40%;
     background-color: var(--color-primary-light);
@@ -57,16 +51,16 @@
 }
 
 .blueGrad {
-    filter: blur(200px);
-    width: 600px;
-    height: 1000px;
+    filter: blur(12.5rem);
+    width: 37.5rem;
+    height: 62.5rem;
     bottom: -30%;
     right: -10%;
     z-index: -5;
 }
 
 .textCont h3 {
-    font-size: 31px;
+    font-size: clamp(1.5rem, 2.5vw, 1.9375rem);
 }
 
 .textCont h3 em {
@@ -81,14 +75,13 @@
     top: -50%;
     z-index: 10;
     object-fit: cover;
-    max-width: 480px;
-    padding-right: 1rem;
+    max-width: 30rem;
+    padding-right: 16px;
 }
 
 @media (max-width: 1440px) {
-
     .textCont h3 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .textCont {
@@ -96,10 +89,10 @@
     }
 
     .greenGrad {
-        filter: blur(50px);
+        filter: blur(3.125rem);
         background-color: var(--color-primary-soft);
-        width: 400px;
-        height: 400px;
+        width: 25rem;
+        height: 25rem;
         right: 50%;
         bottom: 20%;
         transform: rotate(283deg);
@@ -107,10 +100,9 @@
     }
 
     .greenGrad2 {
-        /* transform: rotate(-78deg);    */
-        filter: blur(50px);
-        width: 400px;
-        height: 400px;
+        filter: blur(3.125rem);
+        width: 25rem;
+        height: 25rem;
         right: -55%;
         top: -30%;
         background-color: var(--color-primary-light);
@@ -118,9 +110,9 @@
     }
 
     .blueGrad {
-        filter: blur(60px);
-        width: 800px;
-        height: 150px;
+        filter: blur(3.75rem);
+        width: 50rem;
+        height: 9.375rem;
         bottom: -30%;
         right: -10%;
         z-index: -5;
@@ -131,21 +123,16 @@
         z-index: -10;
         top: -50%;
     }
-
 }
 
-
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .banner {
         flex-direction: column;
         align-items: center;
     }
 
-    .bannerCont {}
-
     .imageCont h2 {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .imageCont {
@@ -159,17 +146,16 @@
         justify-content: center;
     }
 
-
     .textCont h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
         text-align: center;
     }
 
     .greenGrad {
-        filter: blur(10px);
+        filter: blur(0.625rem);
         background-color: var(--color-primary-soft);
-        width: 200px;
-        height: 200px;
+        width: 12.5rem;
+        height: 12.5rem;
         right: 50%;
         bottom: 20%;
         transform: rotate(283deg);
@@ -177,10 +163,9 @@
     }
 
     .greenGrad2 {
-        /* transform: rotate(-78deg);    */
-        filter: blur(70px);
-        width: 300px;
-        height: 200px;
+        filter: blur(4.375rem);
+        width: 18.75rem;
+        height: 12.5rem;
         right: -5%;
         top: -30%;
         background-color: var(--color-primary-light);
@@ -188,9 +173,9 @@
     }
 
     .blueGrad {
-        filter: blur(60px);
-        width: 700px;
-        height: 100px;
+        filter: blur(3.75rem);
+        width: 43.75rem;
+        height: 6.25rem;
         bottom: -30%;
         right: -10%;
         z-index: -5;

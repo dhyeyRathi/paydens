@@ -1,50 +1,40 @@
 .inputBar {
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 2px 12px 16px;
     gap: 10px;
-    border-radius: 8px;
-    max-height: 46px;
-
-
+    border-radius: 0.5rem;
+    max-height: 2.875rem;
     outline: none;
 }
 
 .inputBarVar2 {
-
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 2px 12px 16px;
     gap: 10px;
-    height: 0px;
-
-    border-radius: 8px;
-
-
+    height: 0;
+    border-radius: 0.5rem;
     outline: none;
 }
 
 .inputContVar2 {
     border: 1px solid var(--color-border);
-    border-radius: 8px;
+    border-radius: 0.5rem;
     padding: 2px;
 }
 
 .gradientBorder {
-    max-width: 526px;
-    max-height: 48px;
+    max-width: 32.875rem;
+    max-height: 3rem;
     border: 1px solid transparent;
-    border-radius: 8px;
-
+    border-radius: 0.5rem;
     background:
         linear-gradient(transparent, transparent) padding-box,
         radial-gradient(#81FBB8, #28C76F) border-box;
-
     background-clip: padding, border-box;
-
 }
 
 @media (max-width: 768px) {

@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding: 0;
     gap: 10px;
 }
 
@@ -21,8 +21,8 @@
 }
 
 .question svg {
-    height: 50px;
-    width: 50px;
+    height: clamp(2rem, 3.5vw, 3.125rem);
+    width: clamp(2rem, 3.5vw, 3.125rem);
     align-self: start;
     animation: spinCrossInverse 0.2s ease-in-out forwards;
 }
@@ -40,17 +40,10 @@
 }
 
 @keyframes spinCrossInverse {
-
     0% {
         rotate: 0deg;
         opacity: 0;
     }
-
-    /* 
-    50% {
-        rotate: 90deg;
-        opacity: 50;
-    } */
 
     to {
         rotate: 90deg;
@@ -69,25 +62,21 @@
     rotate: 0deg;
 }
 
-
-
 .question div {
     display: flex;
     flex-direction: column;
     flex: 1;
-
 }
 
 .question span {
-    width: 120px;
-    min-height: 120px;
+    width: clamp(5rem, 8vw, 7.5rem);
+    min-height: clamp(5rem, 8vw, 7.5rem);
     font-size: var(--font-size-32);
     align-items: center;
     justify-content: center;
     padding: 24px 32px;
     display: flex;
 }
-
 
 .question p {
     max-height: 0;
@@ -105,7 +94,7 @@
 }
 
 .questionActive p {
-    max-height: 400px;
+    max-height: 25rem;
     opacity: 1;
     padding-bottom: 30px;
 }
@@ -120,13 +109,11 @@
     align-items: start;
 }
 
-
 @media (max-width: 768px) {
     .question span {
-        font-size: 18px;
+        font-size: 1.125rem;
         padding: auto 2px;
         flex: 1;
-
     }
 
     .question button {
@@ -137,10 +124,9 @@
         rotate: 0deg;
     }
 
-
     .question svg {
-        height: 30px;
-        width: 30px;
+        height: 1.875rem;
+        width: 1.875rem;
         align-self: start;
         animation: spinCrossInverse 0.2s ease-in-out forwards;
     }
@@ -151,20 +137,15 @@
         flex: 4;
     }
 
-
     .question p {
-        font-size: 14px;
+        font-size: 0.875rem;
         padding-bottom: 20px;
-
     }
 
     .question h3 {
         padding-top: 30px;
         padding-bottom: 10px;
-        font-size: 20px;
+        font-size: 1.25rem;
         align-items: center;
-
     }
-
-
 }

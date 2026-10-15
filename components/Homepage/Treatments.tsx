@@ -1,4 +1,4 @@
-import styles from "./homepage.css/treatments.module.css"
+import styles from "./components.css/treatments.module.css"
 import { ArrowButton, Button } from '../ui/Button'
 import Link from 'next/link';
 import IconChevronRight from '../Icon/IconChevronRight';
@@ -43,7 +43,7 @@ const Treatments = () => {
     ];
     return (
         <section className={`${styles.treatmentSection} animationPopUp`}>
-            <div className='flex w-full justify-between items-baseline gap-[20px]'>
+            <div className='flex w-full justify-between items-baseline gap-5'>
                 <Heading center={false}>
                     Care and <HeadingHighlight>Treatments </HeadingHighlight>You Can Trust
                 </Heading>

@@ -4,9 +4,10 @@
     margin-top: 30px;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: relative;
-    height: 452px;
+    min-height: clamp(20rem, 35vw, 28.25rem);
+    height: auto;
 }
 
 .blue {
@@ -59,10 +60,7 @@
     }
 }
 
-
-@media (max-width: 767px) {
-
-
+@media (max-width: 768px) {
     .orange {
         right: 0%;
     }

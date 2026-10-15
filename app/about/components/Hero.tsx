@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1 className='w-full text-center px-4 lg:max-w-[50%] md:text-start text-3xl leading-snug lg:text-6xl font-bold'>
                     Your <em className='text-button-hover'>Trusted <br /></em> Healthcare Partner<br /> Since 1969.
                 </h1>
-                <IconHealthcarePartner className="absolute bottom-5 scale-140 left-90 hidden lg:block w-[153px] h-[153px]" />
+                <IconHealthcarePartner className="absolute bottom-5 left-[25%] hidden xl:block w-[clamp(7rem,13vw,12rem)] h-auto" />
 
 
                 <div className={`${styles.CardContainer}`}>

@@ -20,11 +20,11 @@ const JobsCarousel = () => {
                     </div>
                 </div>
 
-                <hr className='w-full h-[1px]' />
+                <hr className='w-full h-px' />
 
                 <div className='py-6 px-6 gap-5 grid gri-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Roles'>
+                        <label className="mb-2 block text-base font-semibold font-quicksand" htmlFor='Roles'>
                             Role
                         </label>
 
@@ -44,7 +44,7 @@ const JobsCarousel = () => {
                     </div>
 
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Region'>
+                        <label className="mb-2 block text-base font-semibold font-quicksand" htmlFor='Region'>
                             Region
                         </label>
 
@@ -64,7 +64,7 @@ const JobsCarousel = () => {
                     </div>
 
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Mode'>
+                        <label className="mb-2 block text-base font-semibold font-quicksand" htmlFor='Mode'>
                             Mode
                         </label>
 
@@ -84,7 +84,7 @@ const JobsCarousel = () => {
                     </div>
 
                     <div className='flex flex-1 flex-col justify-between '>
-                        <label className="mb-2 block text-[16px] font-semibold font-quicksand" htmlFor='Type'>
+                        <label className="mb-2 block text-base font-semibold font-quicksand" htmlFor='Type'>
                             Work Type
                         </label>
 
@@ -105,7 +105,7 @@ const JobsCarousel = () => {
                 </div>
             </div>
 
-            <div className='pt-2 flex gap-2 items-center pl-2 text-[10px] md:text-base'>
+            <div className='pt-2 flex gap-2 items-center pl-2 text-[0.625rem] md:text-base'>
                 <IconGlobe className="w-4 h-4 text-[#666666]" />
 
                 All links below will take you our Teamtailor.com portal, where you will find more information on the job vacancy and can apply directly.
@@ -116,7 +116,7 @@ const JobsCarousel = () => {
                         <div key={job} className='flex flex-col border-border border-1 p-6 rounded-xl gap-4 font-quicksand items-start'>
                             <h2 className='font-semibold lg:text-20'>Pharmacy Accuracy Checker Technician</h2>
                             <div className='flex gap-1 lg:gap-4  justify-center text-16 font-[300]'>
-                                <IconMapPinSolid className="h-[24px] w-[24px] text-[#5E5E5E]" />
+                                <IconMapPinSolid className="h-6 w-6 text-[#5E5E5E]" />
                                 South East - Courts/Kennington Pharmacy (Ashford TN24 9JZ)
                             </div>
 

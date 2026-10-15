@@ -7,10 +7,10 @@ import PageNameDisp from '@/components/ui/PageNameDisp';
 import { ColorGradientBg } from '@/components/ui/ColorGradient';
 import Banner from '../components/Banner';
 import SlugHero from '../components/Hero';
-const page = () => {
+const Page = () => {
     const params = useParams<{ slug: string }>();
     return (
-        <main aria-label={params.slug} className='px-4 md:px-8 lg:px-15 flex flex-col gap-[40px] lg:gap-[80px] w-full'>
+        <main aria-label={params.slug} className='px-4 md:px-8 lg:px-15 flex flex-col gap-[clamp(40px,5vw,80px)] w-full'>
             <PageNameDisp PageName={[
                 {
                     label: "Home",
@@ -37,4 +37,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

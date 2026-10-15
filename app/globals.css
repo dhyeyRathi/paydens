@@ -183,3 +183,13 @@ html {
     opacity: 1;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .animationPopUp {
+    animation: none;
+  }
+
+  .animationPopUp10 {
+    animation: none;
+  }
+}

@@ -24,10 +24,10 @@ const Button = ({ children, className, onClick, link = false, href = "" }: Butto
     if (link) return (
         <>
             <Link href={href} className={` ${className} group bg-primary paydens-shadow self-center
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center gap-[10px] px-6 py-3 max-w-[300px] h-[44px] rounded-lg font-quicksand text-base font-medium text-white 
-  max-[1440px]:rounded max-[1440px]:px-4 max-[1440px]:py-2
-  max-[768px]:px-2 max-[768px]:py-1
-  max-[768px]:text-16`} onClick={onClick} >
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center gap-2.5 px-6 py-3 max-w-[18.75rem] h-[2.75rem] rounded-lg font-quicksand text-base font-medium text-white 
+  max-[90rem]:rounded max-[90rem]:px-4 max-[90rem]:py-2
+  max-[48rem]:px-2 max-[48rem]:py-1
+  max-[48rem]:text-base`} onClick={onClick} >
                 {children}
             </Link>
         </>
@@ -35,10 +35,10 @@ const Button = ({ children, className, onClick, link = false, href = "" }: Butto
     else return (
         <>
             <button className={` ${className} group bg-primary paydens-shadow
-                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center gap-[10px] px-6 py-3 max-w-[300px] h-[44px] rounded-lg font-quicksand text-base font-medium text-white 
-  max-[1440px]:rounded max-[1440px]:px-4 max-[1440px]:py-2
-  max-[768px]:px-2 max-[768px]:py-1
-  max-[768px]:text-16`} onClick={onClick} >
+                    hover:bg-primary-dark transition-all duration-300 ease-in-out flex flex-row items-center justify-center gap-2.5 px-6 py-3 max-w-[18.75rem] h-[2.75rem] rounded-lg font-quicksand text-base font-medium text-white 
+  max-[90rem]:rounded max-[90rem]:px-4 max-[90rem]:py-2
+  max-[48rem]:px-2 max-[48rem]:py-1
+  max-[48rem]:text-base`} onClick={onClick} >
                 {children}
             </button>
         </>

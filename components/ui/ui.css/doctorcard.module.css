@@ -1,36 +1,33 @@
 .Image {
-    max-height: 500px;
+    max-height: 31.25rem;
     width: auto;
 }
 
 .ImageCenter {
-    max-height: 550px;
+    max-height: 34.375rem;
     width: auto;
 }
 
-
-
-
 @media (max-width: 1440px) {
     .Image {
-        max-height: 400px;
+        max-height: 25rem;
         width: auto;
     }
 
     .ImageCenter {
-        max-height: 440px;
+        max-height: 27.5rem;
         width: auto;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .Image {
-        max-height: 300px;
+        max-height: 18.75rem;
         width: auto;
     }
 
     .ImageCenter {
-        max-height: 330px;
+        max-height: 20.625rem;
         width: auto;
     }
 }

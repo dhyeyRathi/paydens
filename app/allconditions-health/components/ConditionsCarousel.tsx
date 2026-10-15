@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect, useMemo } from 'react'
-import styles from './component.css/ConditionsCarousel.module.css'
+import styles from './components.css/ConditionsCarousel.module.css'
 import { InputBarVar2 } from '@/components/ui/InputBar'
 import { Button } from '@/components/ui/Button'
 import conditions from '@/public/assets/data/conditions.json'
@@ -40,8 +40,11 @@ const ConditionsCarousel = () => {
             });
             window.history.pushState(null, "", `#${scrollTarget}`);
         }
-        setScrollTarget(null);
-    }, [loaded, scrollTarget])
+        const timer = setTimeout(() => {
+            setScrollTarget(null);
+        }, 0);
+        return () => clearTimeout(timer);
+    }, [loaded, scrollTarget]);
 
 
     function handleRouting(e: string, index: number) {
@@ -58,7 +61,7 @@ const ConditionsCarousel = () => {
                     What do you need help with?
                 </Heading>
                 <div className='flex w-full flex-col gap-2 md:gap-0 md:flex-row justify-between items-center'>
-                    <InputBarVar2 placeholder='what condition are you looking for?' divClassName='w-[80%] h-[48px] lg:h-[52px] lg:w-[50%]'>
+                    <InputBarVar2 placeholder='what condition are you looking for?' divClassName='w-[80%] h-[3rem] lg:h-[3.25rem] lg:w-[50%]'>
                         <Button >Search</Button></InputBarVar2>
                     <div className='paydens-shadow rounded-4xl flex  gap-2 items-center p-2 font-[300] cursor-pointer'>
                         {filter.map((opt) => (

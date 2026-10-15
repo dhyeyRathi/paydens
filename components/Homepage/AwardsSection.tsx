@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react'
-import styles from "./homepage.css/AwardsSection.module.css"
+import styles from "./components.css/AwardsSection.module.css"
 import { Button } from '../ui/Button'
 import Image from 'next/image'
 import relay from '@/public/assets/images/homepage/ui/relay.png'
@@ -31,7 +31,7 @@ const AwardsSection = () => {
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
-                    <div className='absolute max-w-[60px] rounded-b-[10px] px-[5px] py-[15px]  text-center bg-white left-5 border-t-[2px] border-primary'>
+                    <div className='absolute max-w-[3.75rem] rounded-b-[0.625rem] px-[5px] py-[15px]  text-center bg-white left-5 border-t-2 border-primary'>
 
                         <h4 className='text-25 font-bold'>24</h4>
                         <h4 className='text-16 font-[300]'>May 2025</h4>
@@ -46,7 +46,7 @@ const AwardsSection = () => {
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
-                    <div className='absolute max-w-[60px] rounded-b-[10px] px-[5px] py-[15px]  text-center bg-white left-5 border-t-[2px] border-primary'>
+                    <div className='absolute max-w-[3.75rem] rounded-b-[0.625rem] px-[5px] py-[15px]  text-center bg-white left-5 border-t-2 border-primary'>
 
                         <h4 className='text-25 font-bold'>14</h4>
                         <h4 className='text-16 font-[300]'>May 2025</h4>
@@ -61,7 +61,7 @@ const AwardsSection = () => {
                     <p>Read More
                         <IconChevronRight className="text-primary group-hover:text-white" />
                     </p>
-                    <div className='absolute max-w-[60px] rounded-b-[10px] px-[5px] py-[15px]  text-center bg-white left-5 border-t-[2px] border-primary'>
+                    <div className='absolute max-w-[3.75rem] rounded-b-[0.625rem] px-[5px] py-[15px]  text-center bg-white left-5 border-t-2 border-primary'>
 
                         <h4 className='text-25 font-bold'>13</h4>
                         <h4 className='text-16 font-[300]'>May 2025</h4>

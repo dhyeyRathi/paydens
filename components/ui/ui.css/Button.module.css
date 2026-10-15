@@ -1,5 +1,4 @@
 .button {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,12 +7,11 @@
     gap: 10px;
     font-family: var(--font-quicksand);
     color: #fff;
-    border-radius: 8px;
-    max-width: 300px;
-    height: 44px;
+    border-radius: 0.5rem;
+    max-width: 18.75rem;
+    height: 2.75rem;
     font-weight: 500;
-    font-size: 16px;
-
+    font-size: 1rem;
 }
 
 .buttonVar2 {
@@ -28,9 +26,9 @@
     padding: 0;
     aspect-ratio: 1/1;
     gap: 10px;
-    border-radius: 8px;
-    width: 44px;
-    height: 44px;
+    border-radius: 0.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
 }
 
 .arrowButton {
@@ -38,7 +36,7 @@
     aspect-ratio: 1/1;
     padding: 14px 18px;
     border: 1px solid var(--color-border);
-    border-radius: 8px;
+    border-radius: 0.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -51,32 +49,31 @@
 
 @media (max-width: 1440px) {
     .squareButton {
-        border-radius: 10px;
+        border-radius: 0.625rem;
     }
 
     .button {
         padding: 8px 16px;
-        border-radius: 4px;
+        border-radius: 0.25rem;
     }
 
     .arrowButton {
-        height: 30px;
+        height: 1.875rem;
     }
 }
 
-
 @media (max-width: 768px) {
     .squareButton {
-        border-radius: 10px;
+        border-radius: 0.625rem;
     }
 
     .button {
         padding: 4px 8px;
-        border-radius: 4px;
+        border-radius: 0.25rem;
         font-size: var(--font-size-16);
     }
 
     .arrowButton {
-        height: 30px;
+        height: 1.875rem;
     }
 }

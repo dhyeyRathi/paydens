@@ -28,8 +28,10 @@ const DoctorCard = ({ className, name = 'Sarah Thompson', image = "", center = f
                 />
             )}
             <WhiteGradient className="bg-gradient-to-t from-background via-transparent  to-transparent" />
-            <h3 className=' absolute text-[10px] lg:text-16 font-[600] bottom-[1%] left-[6%]'>{name}</h3>
-            <h3 className=' absolute text-[8px] lg:text-16 font[300] left-[6%]'>Online Doctor</h3>
+            <div className='absolute bottom-2 lg:bottom-4 left-[6%] flex flex-col z-10'>
+                <h3 className='text-[0.625rem] lg:text-16 font-[600]'>{name}</h3>
+                <h4 className='text-[0.5rem] lg:text-16 font-[300]'>Online Doctor</h4>
+            </div>
         </div>
     )
 }
@@ -40,25 +42,25 @@ export default DoctorCard
 
 const DoctorCardVar2 = ({ className = '', name = 'Sarah Thompson', image = "", id, width, height }: doctorcardprops) => {
     return (
-        <div id={id} className={`${className} min-w-[220px] sm:w-[320px]  relative overflow-hidden rounded-2xl paydens-shadow`}>
-            <div className='relative bg-white overflow-hidden w-[220px] lg:h-[320px] lg:w-[320px] '>
-                <GreenGradient className='h-50 w-100 !left-[-30%] top-[-10%] ' />
-                <BlueGradient className='h-50 w-100 !right-[-30%] top-[-10%] ' />
+        <div id={id} className={`${className} min-w-[13.75rem] sm:w-[20rem] relative overflow-hidden rounded-2xl paydens-shadow`}>
+            <div className='relative bg-white overflow-hidden w-full h-[15rem] sm:h-[18rem] lg:h-[20rem] flex items-end justify-center'>
+                <GreenGradient className='h-40 w-40 sm:h-50 sm:w-50 -left-10 -top-10' />
+                <BlueGradient className='h-40 w-40 sm:h-50 sm:w-50 -right-10 -top-10' />
                 {image && (
                     <Image
                         src={image}
                         alt={name + ' image'}
-                        width={width ?? 320}
-                        height={height ?? 320}
-                        className={`!object-fill scale-140 md:scale-100 w-[180px] md:w-[220px] lg:w-[320px] sticky z-20`}
+                        width={width ?? 350}
+                        height={height ?? 350}
+                        className='w-full h-auto top-20 object-fill relative z-20'
                     />
                 )}
             </div>
-            <div className='h-full w-full bg-background p-3 sm:p-[24px] flex flex-col gap-1 sm:gap-2 md:gap-[12px] lg:gap-[16px] items-start justify-start'>
+            <div className='h-full w-full bg-background p-3 sm:p-[24px] flex flex-col gap-1 sm:gap-2 md:gap-3 lg:gap-4 items-start justify-start'>
                 <h3 className='text-sm sm:text-lg lg:text-25 font-[600] flex items-center  gap-1 md:gap-2 '>{name} <IconVerifiedTick /></h3>
                 <div className='flex gap-1 sm:gap-2'>
-                    <h2 className='text-[8px] lg:text-12 p-1 sm:p-2 py-0.5 sm:py-1 bg-primary/20 rounded-[4px] text-primary-dark font-semibold'>Online doctor</h2>
-                    <h2 className='text-[8px] lg:text-12 p-1 sm:p-2 py-0.5 sm:py-1 bg-primary/20 rounded-[4px] text-primary-dark font-semibold'>GPhC Registered</h2>
+                    <h2 className='text-[0.5rem] lg:text-12 p-1 sm:p-2 py-0.5 sm:py-1 bg-primary/20 rounded text-primary-dark font-semibold'>Online doctor</h2>
+                    <h2 className='text-[0.5rem] lg:text-12 p-1 sm:p-2 py-0.5 sm:py-1 bg-primary/20 rounded text-primary-dark font-semibold'>GPhC Registered</h2>
 
                 </div>
                 <p className='max-w-80 text-12 lg:text-16 font-[300]'>Pharmacist Craig doesn&apos;t prescribe for our USA practice, but helps review content across our site to ensure clinical accuracy.</p>

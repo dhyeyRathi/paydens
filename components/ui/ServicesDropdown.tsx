@@ -53,7 +53,7 @@ const ServicesDropdown = ({ onMouseEnter, onMouseLeave, className, onClick }: Se
                                     ))}
 
                                 </div>
-                                {index < 2 && <hr className="hidden lg:block w-[1px] bg-text-secondary/40 self-stretch" />}
+                                {index < 2 && <hr className="hidden lg:block w-px bg-text-secondary/40 self-stretch" />}
                             </div>
 
                         </div>

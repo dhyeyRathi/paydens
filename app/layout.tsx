@@ -26,11 +26,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={` h-full antialiased ${proximaNova.variable} ${quicksand.variable}`}
     >
-      <body className="min-h-full  overflow-x-hidden flex flex-col items-center justify-center 
-       pt-[100px] min-[480px]:pt-[100px] min-[769px]:pt-[180px] lg:pt-[200px] xl:pt-[240px]  bg-white ">
+      <body className="min-h-full overflow-x-hidden flex flex-col items-center justify-center pt-[100px] min-[480px]:pt-[100px] min-[769px]:pt-[180px] lg:pt-[200px] xl:pt-[240px] bg-white">
         <Navbar />
         <SmoothScrollToTop />
-        <div className="w-full xl:max-w-[1440px]">
+        <div className="w-full xl:max-w-[90rem]">
           {children}
         </div>
 

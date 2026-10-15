@@ -1,7 +1,5 @@
 .button {
-
     box-sizing: border-box;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,128 +7,86 @@
     padding: 12px 20px;
     gap: 10px;
     cursor: pointer;
-    max-height: 44px;
-    font-size: 16px;
+    max-height: 2.75rem;
+    font-size: 1rem;
     border: 1px solid #37B43D;
-    border-radius: 8px;
-
+    border-radius: 0.5rem;
     font-family: var(--font-quicksand);
     font-weight: 600;
-
-
-
-
 }
 
 .pharmacyCard {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     position: fixed;
     z-index: 5;
     background: linear-gradient(180deg, #C3FFD2 0%, #FFFFFF 100%);
-    border-radius: 16px;
+    border-radius: 1rem;
     right: 1%;
     top: 11%;
-
     order: 2;
-
-
 }
 
 .pharmacyCardCont {
-
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     padding: 24px 28px;
     gap: 8px;
-
-
-
-
-
     cursor: pointer;
-
 }
 
 .pharmacyCardVar2 {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     background: white;
-    border-radius: 16px;
+    border-radius: 1rem;
     right: 1%;
     top: 11%;
-
-
-
 }
 
 .pharmacyCardVar2Cont2 {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 20px 20px 20px;
-
-
-
     cursor: pointer;
 }
 
-
-
 .pharmacyCardContVar2 {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px 34px;
-
-
-
-
     cursor: pointer;
-
 }
 
 .pharmacyCardCont2 {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 12px 14px;
     gap: 8px;
-
-
-
-
+    justify-content: space-between;
+    width: 100%;
     cursor: pointer;
 }
 
-
 .hr {
-    border: none
+    border: none;
 }
 
 @media (max-width: 768px) {
-
-
     .pharmacyCardVar2Cont2 {
-
         padding: 0px 10px 10px 10px;
     }
-
 
     .pharmacyCardContVar2 {
         padding: 15px 17px;
     }
-
-
-
 }
