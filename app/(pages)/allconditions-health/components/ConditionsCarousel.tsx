@@ -3,31 +3,43 @@ import { useState, useEffect, useMemo } from 'react'
 import styles from './components.css/ConditionsCarousel.module.css'
 import { InputBarVar2 } from '@/components/ui/InputBar'
 import { Button } from '@/components/ui/Button'
-import conditions from '@/public/assets/data/conditions.json'
 import { useRouter } from 'next/navigation'
 import { NHSLeaf } from '@/components/Icon/Logo/NHS'
 import Heading from '@/components/ui/Heading'
+import { getCondition, conditionType } from '@/actions/conditions'
+
+
 const ConditionsCarousel = () => {
     const filter = ["All", "NHS Services", "Private Services"]
     const [selected, setSelected] = useState<string | null>("All")
+    const [conditions, setConditions] = useState<conditionType[]>([])
     const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const [loaded, setLoaded] = useState<number>(2);
     const [scrollTarget, setScrollTarget] = useState<string | null>(null);
     const router = useRouter();
 
-    function handleNavigation() {
-        router.push(`/allconditions-health/sore-throat`);
+    function handleNavigation(slug: string) {
+        router.push(`/allconditions-health/${slug}`);
     }
 
     const activeAlphabets = useMemo(() => {
         return [
             ...new Set(
                 conditions.map((condition) =>
-                    condition.title.charAt(0).toUpperCase()
+                    condition.condition.charAt(0).toUpperCase()
                 )
             )
         ].sort();
-    }, []);
+    }, [conditions]);
+
+    useEffect(() => {
+        async function getConditions() {
+            const data = await getCondition()
+            setConditions(data ?? [])
+        }
+
+        getConditions()
+    }, [])
 
 
     useEffect(() => {
@@ -84,11 +96,12 @@ const ConditionsCarousel = () => {
                                 <div className='w-full flex flex-wrap gap-4 pb-10 justify-center md:justify-normal items-center'>
                                     {conditions.map((cond) => {
                                         if (selected === "NHS Services") {
-                                            return cond.title.charAt(0).toUpperCase() === alphabet && cond.nhs && (
-                                                <button aria-label={cond.title} onClick={handleNavigation} key={cond.title} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
+                                            return cond.condition.charAt(0).toUpperCase() === alphabet && cond.nhs && (
+                                                <button aria-label={cond.condition} onClick={() => handleNavigation(cond.slug)} key={cond._id}
+                                                    className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-80 lg:h-40 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.title}</span>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.condition}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
@@ -97,11 +110,12 @@ const ConditionsCarousel = () => {
 
                                         }
                                         else if (selected === "Private Services") {
-                                            return cond.title.charAt(0).toUpperCase() === alphabet && !cond.nhs && (
-                                                <button aria-label={cond.title} key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
+                                            return cond.condition.charAt(0).toUpperCase() === alphabet && !cond.nhs && (
+                                                <button aria-label={cond.condition} key={cond._id} onClick={() => handleNavigation(cond.slug)}
+                                                    className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-80 lg:h-40 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between'>
-                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.title}</span>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.condition}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
@@ -109,11 +123,12 @@ const ConditionsCarousel = () => {
                                             )
                                         }
                                         else {
-                                            return cond.title.charAt(0).toUpperCase() === alphabet && (
-                                                <button aria-label={cond.title} key={cond.title} onClick={handleNavigation} className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-100 lg:h-50 rounded-xl p-4 
+                                            return cond.condition.charAt(0).toUpperCase() === alphabet && (
+                                                <button aria-label={cond.condition} key={cond.condition} onClick={() => handleNavigation(cond.slug)}
+                                                    className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-80 lg:h-40 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
                                                     <div className='flex justify-between items-center'>
-                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.title}</span>
+                                                        <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.condition}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
                                                     <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
@@ -131,8 +146,8 @@ const ConditionsCarousel = () => {
                 <div className='flex flex-col gap-1 '>
                     {[...alphabets].map((alphabet, index) => (
                         <button aria-label="alphabet filters" key={alphabet} onClick={() => handleRouting(alphabet, index)}
-                            className={`bg-primary text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 self-center 
-                        ${!activeAlphabets.includes(alphabet) && 'bg-border'}`}>
+                            className={`text-background rounded-sm flex w-8 h-8 p-[20 ] items-center justify-center text-16 self-center 
+                        ${!activeAlphabets.includes(alphabet) ? 'bg-border' : 'bg-primary '}`}>
                             {alphabet}
                         </button>
                     ))}

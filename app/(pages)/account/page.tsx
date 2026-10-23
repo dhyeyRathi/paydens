@@ -1,7 +1,7 @@
 import PageNameDisp from '@/components/ui/PageNameDisp'
 import GetInTouch from './components/GetInTouch'
 import LetsConnectSection from '@/components/LetsConnectSection'
-import FaqSection from '../../components/FaqSection'
+import FaqSection from '@/components/FaqSection'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

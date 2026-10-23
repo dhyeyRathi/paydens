@@ -12,7 +12,7 @@ interface ProductCardProps {
     height?: number;
 }
 
-const ProductCards = ({ name, description, img, width = 304, height = 270 }: ProductCardProps) => {
+const ProductCards = ({ name, description, img, width = 304, height = 270, price }: ProductCardProps) => {
     return (
         <div className='flex gap-5 md:h-165 xl:h-auto rounded-xl p-6 border-border border-1 paydens-shadow md:flex-col xl:flex-row'>
             <div className='h-80 bg-gray-100 rounded-xl py-10 flex items-center justify-center'>
@@ -36,7 +36,7 @@ const ProductCards = ({ name, description, img, width = 304, height = 270 }: Pro
                     </div>
 
                     <h4 className='font-[300] font-quicksand'>
-                        20g | £15 per 100g
+                        20g | {price}
                     </h4>
                 </div>
 

@@ -10,9 +10,23 @@ import { ArrowButton } from './ui/Button'
 import IconStarYellow from './Icon/IconStarYellow'
 import IconStarGray from './Icon/IconStarGray'
 import Heading, { HeadingHighlight } from './ui/Heading'
+import { getTestimonials } from '@/actions/testimonial-sanity'
+import { TestimonialType } from '@/actions/testimonial-sanity'
+
 
 const Testimonial = () => {
-    const testimonial = [avatarmale, avatarmale, female, avatarmale, female, avatarmale, female, avatarmale]
+    const [testimonials, setTestimonials] = useState<TestimonialType[]>([]);
+
+    useEffect(() => {
+        async function fetchTestimonials() {
+            const data = await getTestimonials();
+            setTestimonials(data ?? []);
+        }
+
+        fetchTestimonials();
+    }, []);
+
+
 
     const [activeIndex, setActiveIndex] = useState<number>(0);
     const isFirstRender = useRef(true);
@@ -60,15 +74,18 @@ const Testimonial = () => {
             </div>
             <div className={`h-fit w-screen hide-scrollbar flex gap-10 flex-nowrap overflow-x-auto bg-transparent z-[-10] ${activeIndex !== 0 && 'xl:!-ml-0'}  pt-12 pb-15 xl:pb-20  px-[5vw] `}
             >
-                {testimonial.map((customer, index: number) => {
-                    return (<TestimonialCard key={`${customer}-${index}`} id={`${index}`} className={`transition-all duration-300 ease-in-out opacity-50 
+                {testimonials.map((customer, index: number) => {
+                    return (<TestimonialCard key={customer._id} id={`${index}`}
+                        name={customer.author} body={customer.body}
+                        className={`transition-all duration-300 ease-in-out opacity-50 
                      ${index === activeIndex && `!scale-105 opacity-100`}`} >
 
-                        <Image src={customer} alt={`avatar-${index}`} className='h-full w-auto' /></TestimonialCard>)
+                        <Image width={100} height={100}
+                            src={`${customer.avatarUrl}`} alt={`avatar-${index}`} className='h-full w-auto rounded-full' /></TestimonialCard>)
                 })}
             </div >
             <ArrowButton className='!m-0 !p-0'
-                onClickRight={() => setActiveIndex(prev => prev < testimonial.length - 1 ? prev + 1 : 0)}
+                onClickRight={() => setActiveIndex(prev => prev < testimonials.length - 1 ? prev + 1 : 0)}
                 onClickLeft={() => setActiveIndex(prev => prev <= 0 ? 0 : prev - 1)}
             />
 
