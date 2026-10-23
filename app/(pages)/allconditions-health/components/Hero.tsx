@@ -13,10 +13,10 @@ const SlugHero = ({ condition }: slugHeroProps) => {
         <section className='w-full animationPopUp'>
             <h1 className='w-full flex gap-8 items-center pb-4 xl:pb-8 px-4 text-3xl lg:text-5xl font-bold'>
                 {condition?.condition}
-                <NHS className='h-10' />
+                {condition?.nhs && <NHS className='h-10' />}
             </h1>
             <div className='flex flex-col md:flex-row relative bg-white/30 w-full justify-between px-6 md:px-10 py-10  gap-10 md:gap-8 rounded-xl'>
-                {condition?.nhs && <IconSlugHeroBg className='hidden md:block absolute h-60 !bottom-0 !right-[35%] z-[-5]' />}
+                <IconSlugHeroBg className='hidden md:block absolute h-60 !bottom-0 !right-[35%] z-[-5]' />
                 <div className='xl:max-w-[40%] flex flex-col gap-8'>
                     <h2 className='text-xl xl:text-4xl'>
                         A sore throat is irritation or pain in the throat, often caused by infection or dryness.
