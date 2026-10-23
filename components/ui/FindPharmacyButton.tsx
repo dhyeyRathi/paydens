@@ -30,8 +30,9 @@ const FindPharmacyButton = ({ className, card = false }: findPharmacyProps) => {
     return (
         <>
             <button aria-label="find pharmacy button" className={`${className} paydens-shadow border-1 border-primary py-2 px-4 rounded-lg md:py-3 md:px-6 flex gap-4 
-            items-center  relative text-primary font-[600] hover:bg-primary hover:text-white transition-all duration-200 cursor-pointer`} onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
-                <IconMapPin />
+            items-center text-16 text-center flex relative text-primary font-[600] hover:bg-primary hover:text-white transition-all duration-200 cursor-pointer`}
+                onClick={() => router.push('/findpharmacy')} onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
+                <IconMapPin className='h-4' />
 
                 Find Pharmacy
                 {drop && <div className='absolute h-30 w-50 z-2 inset-0' onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}></div>}

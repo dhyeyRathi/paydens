@@ -29,7 +29,7 @@ export const CyanGradient = ({ className }: gradProps) => {
 
 export const ColorGradientBg = ({ className }: gradProps) => {
     return (
-        <div className={`absolute z-[-10] inset-0 overflow-x-clip overflow-y-visible pointer-events-none ${className} `}>
+        <div className={`absolute inset-0 overflow-x-clip overflow-y-visible pointer-events-none ${className} `}>
             <BlueGradient className='w-full h-[12.5rem] blur-[8.75rem] top-[80%]  
             md:left-[-30%] md:top-[40%] md:w-[50rem] 
             lg:h-[25rem] lg:blur-[12.5rem] lg:right-[-5%] lg:top-[25%] lg:left-auto lg:rotate-160' />
