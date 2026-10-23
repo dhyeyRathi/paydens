@@ -35,9 +35,9 @@ export const ColorGradientBg = ({ className }: gradProps) => {
             lg:h-[25rem] lg:blur-[12.5rem] lg:right-[-5%] lg:top-[25%] lg:left-auto lg:rotate-160' />
 
 
-            <GreenGradient className='w-full h-[15.625rem] blur-[10rem] 
+            <GreenGradient className='w-full h-[15.625rem] blur-[8.75rem] 
             md:w-[50rem] md:h-[18.75rem]  
-            lg:blur-[13.75rem] lg:right-[25%] lg:bottom-[15%]' />
+            lg:blur-[12.5rem] lg:right-[25%] lg:bottom-[15%]' />
 
 
             <CyanGradient className='w-full h-[12.5rem] blur-[8.75rem] bottom-[30%] 
