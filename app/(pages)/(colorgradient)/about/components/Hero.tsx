@@ -8,14 +8,14 @@ import Image from 'next/image'
 
 const Hero = () => {
     return (
-        <section className='w-full'>
+        <section className='w-full relative xl:h-[47vw]'>
 
 
             <div className={`${styles.Text} animationPopUp`}>
                 <h1 className='w-full text-center px-4 lg:max-w-[50%] md:text-start text-3xl leading-snug lg:text-6xl font-bold'>
                     Your <em className='text-button-hover'>Trusted <br /></em> Healthcare Partner<br /> Since 1969.
                 </h1>
-                <IconHealthcarePartner className="absolute bottom-5 left-[25%] hidden xl:block w-[clamp(7rem,13vw,12rem)] h-auto" />
+                <IconHealthcarePartner className="absolute bottom-15 left-[25%] hidden xl:block w-[clamp(7rem,13vw,12rem)] h-auto" />
 
 
                 <div className={`${styles.CardContainer}`}>
@@ -44,7 +44,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <Image src="/assets/images/ui/pharmacyphoto.png" width={2560} height={855} sizes="100vw" className='w-full h-auto' alt='pharmacy photo' />
+            <Image src="/assets/images/ui/pharmacyphoto.png" width={2560} height={855} sizes="100vw" className='w-full h-auto z-10 xl:absolute left-0 bottom-0 right-0' alt='pharmacy photo' />
         </section>
     )
 }
