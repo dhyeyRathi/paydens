@@ -1,5 +1,6 @@
 "use server"
 import { client } from "@/sanity/lib/client";
+import { conditionType } from "./conditions";
 
 export type productType = {
     name: string,
@@ -7,6 +8,7 @@ export type productType = {
     desc: string,
     price: string,
     imageUrl: string
+    conditions: conditionType[]
 
 }
 
@@ -15,7 +17,12 @@ const PRODUCT_QUERY = `*[_type == "product"] {
     name,
     description,
     price,
-    "imageUrl": image.asset->url`;
+    "imageUrl": image.asset->url
+    "conditions": conditions[]-> {
+            _id,
+            condition
+    }
+}`;
 
 export async function getProducts() {
     const conditions = await client.fetch<productType[]>(PRODUCT_QUERY);

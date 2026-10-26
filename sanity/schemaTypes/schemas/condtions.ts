@@ -32,15 +32,12 @@ export const conditions = defineType({
             type: "boolean"
         }),
         defineField({
-            name: "products",
-            title: "Products recommended",
-            type: "array",
-            of: [
-                {
-                    type: "reference",
-                    to: [{ type: "product" }]
-                }
-            ]
+            name: "bannerImg",
+            title: "Add banner image",
+            type: "image",
+            options: {
+                hotspot: true
+            }
         })
     ]
 })

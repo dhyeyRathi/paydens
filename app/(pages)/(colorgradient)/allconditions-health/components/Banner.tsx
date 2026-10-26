@@ -2,7 +2,11 @@ import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import IconBannerBg1 from '@/components/Icon/IconBannerBg1'
 import Image from 'next/image'
 
-const Banner = () => {
+interface bannerProps {
+    img: string;
+}
+
+const Banner = ({ img }: bannerProps) => {
     return (
         <section className='w-full flex justify-center gap-10 lg:gap-20 items-center flex-col animationPopUp'>
             <div className='flex w-full py-10 items-center justify-between flex-wrap md:flex-nowrap gap-10 md:gap-0'>
@@ -48,7 +52,7 @@ const Banner = () => {
                 <div className='absolute z-2 inset-0 !top-[100%] '>
                     <ColorGradientBg />
                 </div>
-                <Image src="/assets/images/ui/throatpain.png" alt='throat-pain' width={944} height={1068}
+                <Image src={img} alt='throat-pain' width={944} height={1068}
                     className='h-full w-auto absolute opacity-20 xl:opacity-100 z-[1] xl:z-4 !left-[12%] inset-0' />
                 <IconBannerBg1 className=" absolute opacity-40 xl:opacity-100 z-3 bottom-[0%] left-[0] " />
 

@@ -28,6 +28,18 @@ export const product = defineType({
             options: {
                 hotspot: true
             }
+        }),
+        defineField({
+            name: "conditions",
+            title: "Relevant Conditions",
+            type: "array",
+            of: [
+                {
+                    type: "reference",
+                    to: [{ type: "conditions" }]
+                }
+            ],
+
         })
     ]
 })

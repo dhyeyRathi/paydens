@@ -4,12 +4,12 @@ import Heading, { HeadingHighlight } from '@/components/ui/Heading';
 import { productType } from '@/actions/products';
 
 
-interface sectionProps {
+interface productSectionProps {
     condition?: string;
     products?: productType[];
 }
 
-const ProducstsSection = ({ condition, products = [] }: sectionProps) => {
+const ProducstsSection = ({ condition, products = [] }: productSectionProps) => {
 
     return (
         <section className='flex flex-col gap-10 items-center animationPopUp'>

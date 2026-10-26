@@ -1,14 +1,15 @@
 "use server"
 import { client } from "@/sanity/lib/client";
-import { productType } from "./products";
+
 
 export type conditionType = {
     condition: string,
     _id: string,
-    products: productType[]
+
     slug: string,
     nhs: boolean
-    description: string
+    description: string,
+    bannerImg: string
 }
 
 const CONDITION_QUERY = `*[_type == "conditions"] | order(_createdAt desc) {
@@ -17,7 +18,8 @@ const CONDITION_QUERY = `*[_type == "conditions"] | order(_createdAt desc) {
     description,
     "slug": slug.current ,
     nhs,
-    "products": products[]-> {
+    "bannerImg": bannerImg.asset->url,
+    "products": *[_type == "product" && references(^._id)] {
         _id,
         name,
         "desc": description,

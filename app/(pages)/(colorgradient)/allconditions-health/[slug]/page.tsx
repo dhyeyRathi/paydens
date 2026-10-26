@@ -45,7 +45,7 @@ const Page = () => {
             ]} />
             <ColorGradientBg />
             <SlugHero condition={condition} />
-            <Banner />
+            <Banner img={condition?.bannerImg ?? "/assets/images/ui/throatpain.png"} />
 
             <ProducstsSection condition={condition?.condition} products={condition?.products} />
 
