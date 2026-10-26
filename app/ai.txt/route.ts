@@ -1,4 +1,4 @@
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.paydens.com';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paydens.vercel.app';
 
 export function GET() {
   const content = `# AI Permissions

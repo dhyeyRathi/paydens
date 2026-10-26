@@ -4,7 +4,7 @@ export const siteConfig = {
   shortName: 'Paydens',
   description:
     'Paydens is an independent pharmacy group operating across South East England (Kent, Sussex, Surrey, and London). Offering NHS prescription dispensing, free prescription delivery, healthcare consultations, and pharmacy services.',
-  defaultBaseUrl: 'https://www.paydens.com',
+  defaultBaseUrl: 'https://paydens.vercel.app',
   contact: {
     phone: '01622 754977',
     email: 'contact@paydens.com',

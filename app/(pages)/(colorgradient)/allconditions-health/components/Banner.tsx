@@ -1,12 +1,14 @@
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import IconBannerBg1 from '@/components/Icon/IconBannerBg1'
 import Image from 'next/image'
+import { conditionType } from '@/actions/conditions';
 
 interface bannerProps {
     img: string;
+    condition: conditionType | null;
 }
 
-const Banner = ({ img }: bannerProps) => {
+const Banner = ({ img, condition }: bannerProps) => {
     return (
         <section className='w-full flex justify-center gap-10 lg:gap-20 items-center flex-col animationPopUp'>
             <div className='flex w-full py-10 items-center justify-between flex-wrap md:flex-nowrap gap-10 md:gap-0'>
@@ -70,7 +72,7 @@ const Banner = ({ img }: bannerProps) => {
                     </div>
 
                     <div className='flex flex-col gap-2 md:gap-6  xl:w-[50%]'>
-                        <h2 className='text-xl lg:text-3xl'>How to Treat a Sore Throat</h2>
+                        <h2 className='text-xl lg:text-3xl'>How to Treat a {condition?.condition}</h2>
                         <ul className='lg:!self-start list-disc list-inside text-sm md:text-base '>
                             <li>Gargle with warm, salty water (children should not try this)</li>
                             <li>Drink plenty of water</li>
