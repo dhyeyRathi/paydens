@@ -72,7 +72,8 @@ const Testimonial = () => {
                 <GoogleReviews className={`${styles.googleImage}`} />
 
             </div>
-            <div className={`h-fit w-screen hide-scrollbar flex gap-10 flex-nowrap overflow-x-auto bg-transparent z-[-10] ${activeIndex !== 0 && 'xl:!-ml-0'}  pt-12 pb-15 xl:pb-20  px-[5vw] `}
+            <div className={`h-fit w-screen hide-scrollbar flex gap-10 flex-nowrap overflow-x-auto bg-transparent z-[-10] ${activeIndex !== 0 && 'xl:!-ml-0'} 
+             pt-12 pb-15 xl:pb-25  px-[5vw] `}
             >
                 {testimonials.map((customer, index: number) => {
                     return (<TestimonialCard key={customer._id} id={`${index}`}

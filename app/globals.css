@@ -132,7 +132,7 @@ body {
 }
 
 .paydens-shadow {
-  box-shadow: 0px 65px 250px rgba(0, 0, 0, 0.03), 0px 15px 67px rgba(0, 0, 0, 0.03), 0px 5px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 75px 250px rgba(0, 0, 0, 0.03), 0px 25px 67px rgba(0, 0, 0, 0.03), 0px 15px 20px rgba(0, 0, 0, 0.03);
 }
 
 em {
