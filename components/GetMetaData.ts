@@ -23,7 +23,33 @@ const getMetaData = async ({ PageName, icon = false }: MetaDataProps) => {
                 icon: '/favicon.ico'
             }
         }),
-        keywords: pageMeta?.keywords
+        keywords: pageMeta?.keywords,
+        openGraph: {
+            title: pageMeta.ogTitle || pageMeta.title,
+            description:
+                pageMeta.ogDescription || pageMeta.description,
+            url: pageMeta.ogUrl,
+            type: pageMeta.ogType || "website",
+            images: pageMeta.ogImage
+                ? [pageMeta.ogImage]
+                : [],
+        },
+        twitter: {
+            card: pageMeta.twitterCard || "summary_large_image",
+            title: pageMeta.twitterTitle || pageMeta.ogTitle || pageMeta.title,
+            description:
+                pageMeta.twitterDescription ||
+                pageMeta.ogDescription ||
+                pageMeta.description,
+            images: pageMeta.twitterImage
+                ? [pageMeta.twitterImage]
+                : pageMeta.ogImage
+                    ? [pageMeta.ogImage]
+                    : [],
+            ...(pageMeta.twitterSite && {
+                site: pageMeta.twitterSite,
+            }),
+        },
     };
 
     return metadata
