@@ -16,7 +16,7 @@ const Footer = () => {
                 { label: "Shop Online", href: "#" },
                 { label: "Join Our Team", href: "/joinourteam" },
                 { label: "Contact Us", href: "/account" },
-                { label: "Site Map", href: "#" },
+                { label: "Site Map", href: "/sitemap.xml" },
             ],
         },
         {
