@@ -7,11 +7,10 @@ import Doctors from './components/Doctors'
 import Stats from './components/Stats'
 import Hero from './components/Hero'
 import type { Metadata } from 'next'
+import { createMetadata } from '@/components/GetMetaData';
 
-export const metadata: Metadata = {
-    title: 'Paydens | About Us',
-    description: 'Know everything there is to know about Paydens',
-}
+export const generateMetadata = createMetadata("About Us");
+
 
 const page = () => {
     return (

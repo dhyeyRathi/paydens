@@ -4,12 +4,9 @@ import PageNameDisp from '@/components/ui/PageNameDisp'
 import Treatments from './components/Treatments'
 import ConditionsHero from './components/ConditionsHero'
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
-import type { Metadata } from 'next'
+import { createMetadata } from '@/components/GetMetaData';
 
-export const metadata: Metadata = {
-    title: 'Paydens | Conditions',
-    description: 'Find cure & medications for common conditions',
-}
+export const generateMetadata = createMetadata("All Conditions");
 
 const page = () => {
     return (

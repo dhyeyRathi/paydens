@@ -2,12 +2,9 @@ import PageNameDisp from '@/components/ui/PageNameDisp'
 import GetInTouch from './components/GetInTouch'
 import LetsConnectSection from '@/components/LetsConnectSection'
 import FaqSection from '@/components/FaqSection'
-import type { Metadata } from 'next'
+import { createMetadata } from '@/components/GetMetaData';
 
-export const metadata: Metadata = {
-    title: 'Paydens | Account',
-    description: 'Get in touch and view your account details',
-}
+export const generateMetadata = createMetadata("Account")
 
 const page = () => {
     return (

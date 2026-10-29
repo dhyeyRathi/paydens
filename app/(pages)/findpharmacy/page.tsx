@@ -7,13 +7,9 @@ import { FindPharmacyCardVar2 } from '@/components/ui/FindPharmacyButton';
 import GoogleMapsWrapper from '@/components/GoogleMapWrapper';
 import IconSailorLocation from '@/components/Icon/IconSailorLocation';
 import IconChevronRight from '@/components/Icon/IconChevronRight';
-import type { Metadata } from 'next'
+import { createMetadata } from '@/components/GetMetaData';
 
-export const metadata: Metadata = {
-    title: 'Paydens | Find Nearby Pharmacy',
-    description: 'Find the closest Paydens pharmacy near you',
-}
-
+export const generateMetadata = createMetadata("Find Pharmacy")
 
 const page = () => {
     const pharmacies = [

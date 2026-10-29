@@ -5,13 +5,9 @@ import PageNameDisp from '@/components/ui/PageNameDisp'
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import Working from './components/Working'
 import PresHero from './components/PresHero'
-import type { Metadata } from 'next'
+import { createMetadata } from '@/components/GetMetaData';
 
-export const metadata: Metadata = {
-    title: 'Paydens | Prescriptions',
-    description: 'View your generate prescriptions',
-}
-
+export const generateMetadata = createMetadata("Prescriptions")
 
 const page = () => {
     return (

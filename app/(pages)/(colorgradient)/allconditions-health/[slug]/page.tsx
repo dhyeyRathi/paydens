@@ -1,34 +1,28 @@
-"use client"
-import { useParams } from 'next/navigation'
 import LetsConnectSection from '@/components/LetsConnectSection';
 import FaqSection from '@/components/FaqSection';
 import ProducstsSection from '../components/ProductsSection';
 import PageNameDisp from '@/components/ui/PageNameDisp';
 import { ColorGradientBg } from '@/components/ui/ColorGradient';
-import { useState, useEffect } from 'react';
 import Banner from '../components/Banner';
 import { getCondition, conditionType } from '@/actions/conditions';
 import SlugHero from '../components/Hero';
+import { createMetadata } from '@/components/GetMetaData';
+
+export const generateMetadata = createMetadata("Details");
+
+interface PageProps {
+    params: Promise<{ slug: string }>;
+}
+
+const Page = async ({ params }: PageProps) => {
+    const { slug } = await params;
+    const data = await getCondition();
+    const condition = data.find((e) => e.slug === slug) ?? null;
 
 
-
-
-const Page = () => {
-    const params = useParams<{ slug: string }>();
-    const [condition, setCondition] = useState<conditionType | null>(null)
-
-    useEffect(() => {
-        async function getConditionDetails() {
-            const data = await getCondition();
-            const filteredCondition = data.filter((e) => e.slug == params.slug)
-
-            setCondition(filteredCondition[0] ?? null)
-        }
-        getConditionDetails()
-    }, [params])
 
     return (
-        <main aria-label={params.slug} className='px-4 md:px-8 lg:px-15 flex flex-col gap-[clamp(40px,5vw,80px)] w-full'>
+        <main aria-label={slug} className='px-4 md:px-8 lg:px-15 flex flex-col gap-[clamp(40px,5vw,80px)] w-full'>
             <PageNameDisp PageName={[
                 {
                     label: "Home",

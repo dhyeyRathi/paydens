@@ -2,19 +2,14 @@ import type { Metadata } from "next";
 import { proximaNova } from "./fonts/fonts";
 import "./globals.css";
 import { Quicksand } from "next/font/google";
+import { createMetadata } from "@/components/GetMetaData";
 
 const quicksand = Quicksand({
   subsets: ["latin"],
   variable: "--font-quicksand",
 });
 
-export const metadata: Metadata = {
-  title: "Paydens | Home",
-  description: "Homepage for the official website of Paydens",
-  icons: {
-    icon: '/favicon.ico'
-  }
-};
+export const generateMetadata = createMetadata("Homepage", true);
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -25,6 +20,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full bg-white overflow-x-hidden">
 
         {children}
+
+
 
       </body>
     </html>

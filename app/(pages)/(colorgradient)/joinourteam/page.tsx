@@ -4,12 +4,9 @@ import OurteamHero from './components/OurteamHero'
 import { ColorGradientBg } from '@/components/ui/ColorGradient'
 import PageNameDisp from '@/components/ui/PageNameDisp'
 import JobsCarousel from './components/JobsCarousel'
-import type { Metadata } from 'next'
+import { createMetadata } from '@/components/GetMetaData';
 
-export const metadata: Metadata = {
-    title: 'Paydens | Join Our Team',
-    description: 'Apply to join the Paydens Team',
-}
+export const generateMetadata = createMetadata("Join Our Team");
 
 const page = () => {
     return (
