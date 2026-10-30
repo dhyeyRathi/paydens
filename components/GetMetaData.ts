@@ -30,8 +30,8 @@ const getMetaData = async ({ PageName, icon = false, slug = "" }: MetaDataProps)
         },
         keywords: pageMeta?.keywords,
         alternates: {
-            canonical: slug ? `https://paydens.vercell.app/allconditions-health/${slug}` :
-                `https://paydens.vercell.app${pageMeta.canonUrl}`,
+            canonical: slug ? `https://paydens.vercel.app/allconditions-health/${slug}` :
+                `https://paydens.vercel.app${pageMeta.canonUrl}`,
         },
         openGraph: {
             title: pageMeta?.ogTitle || pageMeta.title,
