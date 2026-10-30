@@ -1,19 +1,20 @@
 // "use server"
 // import React from 'react'
 import type { Metadata } from "next";
+import { conditionType, getConditionMeta } from "@/actions/conditions";
 
-import { getMeta } from '@/actions/meta';
+import { getMeta, metaProps } from '@/actions/meta';
 
 interface MetaDataProps {
-    PageName: string
+    PageName?: string
     icon?: boolean
+    slug?: string
+    temp?: String
 }
 
-const getMetaData = async ({ PageName, icon = false }: MetaDataProps) => {
-    const iconCont = icon ? '/favicon.ico' : ''
-
-    const meta = await getMeta();
-    const pageMeta = meta?.filter((title) => title.page === PageName)[0]
+const getMetaData = async ({ PageName, icon = false, slug = "" }: MetaDataProps) => {
+    const meta = slug ? await getConditionMeta() : await getMeta();
+    const pageMeta: conditionType = meta?.filter((title) => slug ? title.slug === slug : title.page === PageName)[0];
 
     const metadata: Metadata = {
         title: `Paydens | ${pageMeta?.title}`,
@@ -23,9 +24,17 @@ const getMetaData = async ({ PageName, icon = false }: MetaDataProps) => {
                 icon: '/favicon.ico'
             }
         }),
+        robots: {
+            index: !pageMeta.noIndex,
+            follow: !pageMeta.noFollow
+        },
         keywords: pageMeta?.keywords,
+        alternates: {
+            canonical: slug ? `https://paydens.vercell.app/allconditions-health/${slug}` :
+                `https://paydens.vercell.app${pageMeta.canonUrl}`,
+        },
         openGraph: {
-            title: pageMeta.ogTitle || pageMeta.title,
+            title: pageMeta?.ogTitle || pageMeta.title,
             description: pageMeta.ogDescription || pageMeta.description,
             url: pageMeta.ogUrl,
             type: pageMeta.ogType || "website",
@@ -49,7 +58,23 @@ const getMetaData = async ({ PageName, icon = false }: MetaDataProps) => {
 export default getMetaData
 
 export function createMetadata(PageName: string, icon = false) {
-    return async function generateMetadata(): Promise<Metadata> {
-        return await getMetaData({ PageName, icon });
+    return async function generateMetadata({
+        params,
+    }: {
+        params?: Promise<{ slug?: string }>;
+    }): Promise<Metadata> {
+        const { slug } = (await params) ?? {};
+        const temp = slug && PageName
+
+        if (!slug) return getMetaData({
+            PageName,
+            icon,
+            slug,
+        });
+        return getMetaData({
+            temp,
+            icon,
+            slug,
+        });
     };
 }

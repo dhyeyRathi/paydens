@@ -104,7 +104,7 @@ const ConditionsCarousel = () => {
                                                         <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.condition}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.desc}</span>
                                                 </button>
                                             )
 
@@ -118,7 +118,7 @@ const ConditionsCarousel = () => {
                                                         <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.condition}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.desc}</span>
                                                 </button>
                                             )
                                         }
@@ -131,7 +131,7 @@ const ConditionsCarousel = () => {
                                                         <span className='text-lg md:text-xl lg:text-20 max-w-[70%] self-start'>{cond.condition}</span>
                                                         {cond.nhs && <NHSLeaf />}
                                                     </div>
-                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.description}</span>
+                                                    <span className='line-clamp-2 text-sm lg:text-base font-[300] text-start'>{cond.desc}</span>
                                                 </button>
                                             )
                                         }

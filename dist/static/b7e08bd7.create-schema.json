@@ -1,0 +1,391 @@
+[
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "author",
+        "type": "string",
+        "title": "Author Name"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "Avatar",
+        "type": "image",
+        "title": " Author Avatar"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "body",
+        "type": "text",
+        "title": "Testimonial"
+      }
+    ],
+    "name": "testimonials",
+    "type": "document",
+    "title": "Testimonials "
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "condition",
+        "type": "string",
+        "title": "Condition Name"
+      },
+      {
+        "options": {
+          "source": "condition",
+          "maxLength": 36
+        },
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "custom"
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "title": "Condition Description"
+      },
+      {
+        "name": "nhs",
+        "type": "boolean",
+        "title": "NHS Includes"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "bannerImg",
+        "type": "image",
+        "title": "Add banner image"
+      },
+      {
+        "to": [
+          {
+            "type": "meta"
+          }
+        ],
+        "name": "seo",
+        "type": "reference"
+      }
+    ],
+    "name": "conditions",
+    "type": "document",
+    "title": "Condition carousel"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "page",
+        "type": "string",
+        "title": "Page Name"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "keywords",
+        "type": "array"
+      },
+      {
+        "name": "ogTitle",
+        "type": "string",
+        "title": "Open Graph Title"
+      },
+      {
+        "rows": 3,
+        "name": "ogDescription",
+        "type": "text",
+        "title": "Open Graph Description"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "ogImage",
+        "type": "image",
+        "title": "Open Graph Image"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "uri",
+                "constraint": {
+                  "options": {
+                    "scheme": [
+                      "/^http$/",
+                      "/^https$/"
+                    ],
+                    "allowRelative": false,
+                    "relativeOnly": false,
+                    "allowCredentials": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "name": "ogUrl",
+        "type": "url",
+        "title": "Open Graph URL"
+      },
+      {
+        "initialValue": "website",
+        "options": {
+          "list": [
+            {
+              "title": "Website",
+              "value": "website"
+            },
+            {
+              "title": "Article",
+              "value": "article"
+            }
+          ]
+        },
+        "name": "ogType",
+        "type": "string",
+        "title": "Open Graph Type"
+      },
+      {
+        "initialValue": "summary_large_image",
+        "options": {
+          "list": [
+            {
+              "title": "Large Image",
+              "value": "summary_large_image"
+            },
+            {
+              "title": "Summary",
+              "value": "summary"
+            }
+          ]
+        },
+        "name": "twitterCard",
+        "type": "string",
+        "title": "Twitter Card Type"
+      },
+      {
+        "name": "twitterTitle",
+        "type": "string"
+      },
+      {
+        "rows": 3,
+        "name": "twitterDescription",
+        "type": "text"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "twitterImage",
+        "type": "image"
+      },
+      {
+        "name": "twitterSite",
+        "type": "string",
+        "title": "X/Twitter Username"
+      }
+    ],
+    "name": "meta-object",
+    "type": "object",
+    "title": "SEO"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "name",
+        "type": "string",
+        "title": "Product Name"
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "title": "Product description"
+      },
+      {
+        "name": "price",
+        "type": "string",
+        "title": "Product price"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "Product image"
+      },
+      {
+        "of": [
+          {
+            "to": [
+              {
+                "type": "conditions"
+              }
+            ],
+            "type": "reference",
+            "title": "Reference to condition carousel"
+          }
+        ],
+        "name": "conditions",
+        "type": "array",
+        "title": "Relevant Conditions"
+      }
+    ],
+    "name": "product",
+    "type": "document",
+    "title": "Product Carousel"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "question",
+        "type": "text"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "answer",
+        "type": "text"
+      }
+    ],
+    "name": "faqs",
+    "type": "document",
+    "title": "Frequently asked questions"
+  },
+  {
+    "fields": [
+      {
+        "name": "seo",
+        "type": "meta-object",
+        "title": "SEO"
+      }
+    ],
+    "name": "meta",
+    "type": "document",
+    "title": "Metadata"
+  }
+]

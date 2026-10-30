@@ -19,7 +19,7 @@ const SlugHero = ({ condition }: slugHeroProps) => {
                 <IconSlugHeroBg className='hidden md:block absolute h-50 !bottom-0 !right-[35%] z-[-5]' />
                 <div className='xl:max-w-[40%] flex flex-col gap-8'>
                     <h2 className='text-xl xl:text-32'>
-                        {condition?.description}
+                        {condition?.desc}
                     </h2>
 
 

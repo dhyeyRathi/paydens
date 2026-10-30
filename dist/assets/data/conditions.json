@@ -1,0 +1,442 @@
+[
+    {
+        "title": "Acid Reflux & Heartburn",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Acne",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Altitude",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Angina",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Asthma",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Athlete's Foot",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Anxiety",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Bacterial Vaginosis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Bruising",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Chesty Cough",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Chlamydia",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Cold & Flu",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Cold Sores",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Dental Care",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Diabetes (Type 2)",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Diarrhoea",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Dry Scalp",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Dry Eye",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Dry Cough",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Dry Skin",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Earache",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Eczema",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Endometriosis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Eye Infection",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Fever",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Food Poisoning",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Fungal Nail Infection",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Fibromyalgia",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Flu",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Gallstones",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Gastritis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Gout",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Gum Disease",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Hair Loss",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Hay Fever",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Headaches",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Heart Failure",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Hemorrhoids",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Impetigo",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Indigestion",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Insomnia",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Irritable Bowel Syndrome",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Iron Deficiency Anaemia",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Jaundice",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Joint Pain",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Kidney Stones",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Knee Pain",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Laryngitis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Lactose Intolerance",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Migraine",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Motion Sickness",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Mouth Ulcers",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Menopause",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Nail Fungus",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Nasal Congestion",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Neck Pain",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Nosebleed",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Osteoarthritis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Osteoporosis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Oral Thrush",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Piles",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Psoriasis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Panic Attacks",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Period Pain",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Pneumonia",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Rosacea",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Ringworm",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Restless Legs Syndrome",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Sinusitis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Sore Throat",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Shingles",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Sprains and Strains",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Tinnitus",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Tonsillitis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Thrush",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Toothache",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Urinary Tract Infection",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Ulcerative Colitis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Varicose Veins",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Vertigo",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Vomiting",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Warts",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Whooping Cough",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Wisdom Tooth Pain",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Worms",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Yersiniosis",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    },
+    {
+        "title": "Yeast Infection",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": false
+    },
+    {
+        "title": "Yellow Fever",
+        "description": "A burning sensation in the chest caused by stomach acid moving into the esophagus.",
+        "nhs": true
+    }
+]
