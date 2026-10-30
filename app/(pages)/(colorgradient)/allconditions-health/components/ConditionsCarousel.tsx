@@ -26,7 +26,7 @@ const ConditionsCarousel = () => {
         return [
             ...new Set(
                 conditions.map((condition) =>
-                    condition.condition.charAt(0).toUpperCase()
+                    condition.condition?.charAt(0).toUpperCase()
                 )
             )
         ].sort();
@@ -84,7 +84,7 @@ const ConditionsCarousel = () => {
             </div>
             <div className={`${styles.carousel} `}>
                 <div className='w-full flex flex-col gap-2 lg:gap-10 max-h-screen overflow-auto hide-scrollbar'>
-                    {activeAlphabets.slice(0, loaded).map((alphabet: string) => {
+                    {activeAlphabets.slice(0, loaded).map((alphabet: string | undefined) => {
                         return (
                             <section key={alphabet} className='flex flex-col gap-4 lg:gap-10 justify-center' id={alphabet}>
                                 <div className={`flex w-full items-center gap-4 `}>
@@ -96,7 +96,7 @@ const ConditionsCarousel = () => {
                                 <div className='w-full flex flex-wrap gap-4 pb-10 justify-center md:justify-normal items-center'>
                                     {conditions.map((cond) => {
                                         if (selected === "NHS Services") {
-                                            return cond.condition.charAt(0).toUpperCase() === alphabet && cond.nhs && (
+                                            return cond.condition?.charAt(0).toUpperCase() === alphabet && cond.nhs && (
                                                 <button aria-label={cond.condition} onClick={() => handleNavigation(cond.slug)} key={cond._id}
                                                     className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-80 lg:h-40 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
@@ -110,7 +110,7 @@ const ConditionsCarousel = () => {
 
                                         }
                                         else if (selected === "Private Services") {
-                                            return cond.condition.charAt(0).toUpperCase() === alphabet && !cond.nhs && (
+                                            return cond.condition?.charAt(0).toUpperCase() === alphabet && !cond.nhs && (
                                                 <button aria-label={cond.condition} key={cond._id} onClick={() => handleNavigation(cond.slug)}
                                                     className='border-1 font-quicksand  flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-80 lg:h-40 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
@@ -123,7 +123,7 @@ const ConditionsCarousel = () => {
                                             )
                                         }
                                         else {
-                                            return cond.condition.charAt(0).toUpperCase() === alphabet && (
+                                            return cond.condition?.charAt(0).toUpperCase() === alphabet && (
                                                 <button aria-label={cond.condition} key={cond.condition} onClick={() => handleNavigation(cond.slug)}
                                                     className='border-1 font-quicksand flex flex-col gap-2 lg:gap-6 border-border w-60 h-30 lg:w-80 lg:h-40 rounded-xl p-4 
                                             hover:bg-info/10 hover:border-info transition-all duration-300 cursor-pointer' >
