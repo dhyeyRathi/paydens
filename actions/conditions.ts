@@ -35,7 +35,7 @@ const CONDITION_META_QUERY = `*[_type == "conditions"]  {
     "twitterSite": seo.twitterSite,
     "noFollow": seo.nofollow,
     "noIndex" : seo.noindex,
-    "canonUrl" : seo.canonurl
+    "canonUrl" : seo.canonurl,
     "priority": seo.priority
     }`;
 
