@@ -6,10 +6,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paydens.vercel.app'
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = await getMeta();
 
-  const data = routes.filter(item => item.noIndex === false || null)
+  const data = routes.filter(item => item.noIndex === false || item.noIndex === null)
+  console.log(routes)
 
   return data.map((route) => ({
-    url: `${baseUrl}${route}`,
+    url: `${baseUrl}${route.canonUrl}`,
+    priority: route.priority,
     lastModified: new Date(),
   }));
 }

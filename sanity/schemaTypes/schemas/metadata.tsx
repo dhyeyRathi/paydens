@@ -155,6 +155,12 @@ export const metaObject = defineType({
       group: "twitter"
     }),
     defineField({
+      name: "priority",
+      title: "Priority",
+      type: "number",
+      group: "settings"
+    }),
+    defineField({
       name: "canonurl",
       title: "Canonical Url",
       type: "string",

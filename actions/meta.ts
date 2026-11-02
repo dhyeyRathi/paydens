@@ -13,7 +13,7 @@ export interface metaProps {
   ogUrl?: string
   ogType?: "website" | "article"
   desc?: string
-
+  priority?: number
   twitterCard?: "summary" | "summary_large_image"
   twitterTitle?: string
   twitterDescription?: string
@@ -41,6 +41,7 @@ const META_QUERY = `*[_type == "meta"] {
     "noFollow": seo.nofollow,
     "noIndex" : seo.noindex,
     "canonUrl" : seo.canonurl,
+  "priority" : seo.priority
 }`;
 export const getMeta = async () => {
   const data = await client.fetch<metaProps[]>(META_QUERY);

@@ -36,6 +36,7 @@ const CONDITION_META_QUERY = `*[_type == "conditions"]  {
     "noFollow": seo.nofollow,
     "noIndex" : seo.noindex,
     "canonUrl" : seo.canonurl
+    "priority": seo.priority
     }`;
 
 const CONDITION_QUERY = `*[_type == "conditions"] {

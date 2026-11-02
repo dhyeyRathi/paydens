@@ -5,9 +5,10 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://paydens.vercel.app'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const conditions = await getConditionMeta();
-  const data = conditions.filter(item => item.noIndex === false || null)
+  const data = conditions.filter(item => item.noIndex === false || item.noIndex === null)
   return data.map((item) => ({
     url: `${baseUrl}/allconditions-health/${item.slug}`,
     lastModified: new Date(),
+    priority: item.priority
   }));
 }
