@@ -7,7 +7,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = await getMeta();
 
   const data = routes.filter(item => item.noIndex === false || item.noIndex === null)
-  console.log(routes)
 
   return data.map((route) => ({
     url: `${baseUrl}${route.canonUrl}`,

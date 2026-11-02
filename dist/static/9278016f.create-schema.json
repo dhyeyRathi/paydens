@@ -105,13 +105,8 @@
         "title": "Add banner image"
       },
       {
-        "to": [
-          {
-            "type": "meta"
-          }
-        ],
         "name": "seo",
-        "type": "reference"
+        "type": "meta-object"
       }
     ],
     "name": "conditions",
@@ -126,12 +121,12 @@
             "level": "error",
             "rules": [
               {
-                "flag": "presence",
-                "constraint": "required"
+                "flag": "custom"
               }
             ]
           }
         ],
+        "readOnly": "conditional",
         "name": "page",
         "type": "string",
         "title": "Page Name"
@@ -157,8 +152,7 @@
             "level": "error",
             "rules": [
               {
-                "flag": "presence",
-                "constraint": "required"
+                "flag": "custom"
               }
             ]
           }
@@ -276,6 +270,27 @@
         "name": "twitterSite",
         "type": "string",
         "title": "X/Twitter Username"
+      },
+      {
+        "name": "priority",
+        "type": "number"
+      },
+      {
+        "name": "canonurl",
+        "type": "string",
+        "title": "Canonical Url"
+      },
+      {
+        "initialValue": false,
+        "name": "noindex",
+        "type": "boolean",
+        "title": "NoIndex"
+      },
+      {
+        "initialValue": false,
+        "name": "nofollow",
+        "type": "boolean",
+        "title": "NoFollow"
       }
     ],
     "name": "meta-object",
