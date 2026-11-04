@@ -154,8 +154,8 @@ const NavItemsVar2 = ({ onClick }: NavItem2) => {
                         <button aria-label="dropdown" key={item.title} onClick={() => {
                             handleClick(item.dropdown, item.href)
 
-                        }} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}
-                            onMouseEnter={() => handleHover(item.dropdown)} onMouseLeave={() => handleHover(false)}>
+                        }} className={`flex cursor-pointer relative gap-4 h-full hover:text-primary justify-between items-center group transition-all duration-300 ease-in-out ${drop && item.dropdown ? "text-primary" : ""}`}>
+                            {/* // onMouseEnter={() => handleHover(item.dropdown)} onMouseLeave={() => handleHover(false)}> */}
                             {item.title}
                             {item.dropdown && <div>
                                 <IconChevronDown className={`group-hover:rotate-180 transition-all duration-300 ease-in-out ${drop && "rotate-180"} ${drop && item.dropdown ? "text-primary" : "text-text"}`} />
@@ -170,7 +170,7 @@ const NavItemsVar2 = ({ onClick }: NavItem2) => {
             {drop && <ServicesDropdown onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)} onClick={() => handleHover(!drop)} />}
 
 
-        </div>
+        </div >
     )
 }
 
