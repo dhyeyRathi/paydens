@@ -4,6 +4,7 @@ import "./globals.css";
 import { Quicksand } from "next/font/google";
 import { createMetadata } from "@/components/GetMetaData";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
 
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
