@@ -9,7 +9,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const data = routes.filter(item => item.noIndex === false || item.noIndex === null)
 
   return data.map((route) => ({
-    url: `${baseUrl}${route.canonUrl}`,
+    url: route.canonUrl?.toString().startsWith('http') ? route.canonUrl.toString() : `${baseUrl}${route.canonUrl}`,
     priority: route.priority,
     lastModified: new Date(),
   }));

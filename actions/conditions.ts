@@ -16,28 +16,28 @@ export interface conditionType extends metaProps {
 
 };
 
-const CONDITION_META_QUERY = `*[_type == "conditions"]  {
+const CONDITION_META_QUERY = `*[_type == "conditions"] {
     _id,
     condition,
     "slug": slug.current,
-    "title":coalesce(seo.title, condition),
-    "description": coalesce(seo.description, description),
-    "keywords": seo.keywords,
-    "ogTitle": seo.ogTitle,
-    "ogDescription": seo.ogDescription,
-    "ogImage": seo.ogImage,
-    "ogUrl": seo.ogUrl,
-    "ogType": seo.ogType,
-    "twitterCard": seo.twitterCard,
-    "twitterTitle": seo.twitterTitle,
-    "twitterDescription": seo.twitterDescription,
-    "twitterImage": seo.twitterImage,
-    "twitterSite": seo.twitterSite,
-    "noFollow": seo.nofollow,
-    "noIndex" : seo.noindex,
-    "canonUrl" : seo.canonurl,
+    "title": coalesce(seo.seo.title, condition),
+    "description": coalesce(seo.seo.description, description),
+    "keywords": seo.seo.keywords,
+    "ogTitle": seo.seo.openGraph.title,
+    "ogDescription": seo.seo.openGraph.description,
+    "ogImage": coalesce(seo.seo.openGraph.image.asset->url, seo.seo.openGraph.imageUrl),
+    "ogUrl": seo.seo.openGraph.url,
+    "ogType": seo.seo.openGraph.type,
+    "twitterCard": seo.seo.twitter.card,
+    "twitterTitle": seo.seo.twitter.title,
+    "twitterDescription": seo.seo.twitter.description,
+    "twitterImage": coalesce(seo.seo.twitter.image.asset->url, seo.seo.twitter.imageUrl),
+    "twitterSite": seo.seo.twitter.site,
+    "noFollow": coalesce(seo.seo.robots.noFollow, false),
+    "noIndex": coalesce(seo.seo.robots.noIndex, false),
+    "canonUrl": seo.seo.canonicalUrl,
     "priority": seo.priority
-    }`;
+}`;
 
 const CONDITION_QUERY = `*[_type == "conditions"] {
     _id,

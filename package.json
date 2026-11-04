@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "backup:sanity": "node scripts/backup-sanity.mjs",
+    "migrate:seo": "node scripts/migrate-seo.mjs"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",
@@ -19,6 +21,7 @@
     "react-dom": "19.2.8",
     "react-leaflet": "^5.0.0",
     "sanity": "^5.31.2",
+    "sanity-plugin-seofields": "^1.12.0",
     "styled-components": "^6.6.0"
   },
   "devDependencies": {

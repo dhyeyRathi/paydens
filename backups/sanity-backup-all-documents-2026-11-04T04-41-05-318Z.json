@@ -1,0 +1,4791 @@
+[
+  {
+    "_createdAt": "2026-10-29T09:24:07Z",
+    "_id": "073d4562-67fa-4292-8528-1ea519faf913",
+    "_originalId": "073d4562-67fa-4292-8528-1ea519faf913",
+    "_rev": "yAR6Cu4yL3jOzlgwHqeTeG",
+    "_system": {
+      "base": {
+        "id": "073d4562-67fa-4292-8528-1ea519faf913",
+        "rev": "F8u55cnDOKOyICP8jbjE7U"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-10-30T11:54:53Z",
+    "seo": {
+      "canonurl": "/findpharmacy",
+      "description": "This page displays a carousel and map of nearby Paydens pharmacy",
+      "keywords": [
+        "find Paydens pharmacy near me",
+        "pharmacy Kent opening hours",
+        "local chemist Dover",
+        "pharmacy in Margate Kent",
+        "community pharmacy East Sussex",
+        "walk in pharmacy near me UK",
+        "find local NHS chemist",
+        "pharmacy blood pressure check near me"
+      ],
+      "ogDescription": "Find your nearest Paydens pharmacy, explore local pharmacy services, and check nearby locations across Kent and the South East.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Find a Paydens Pharmacy Near You",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/findpharmacy",
+      "page": "Find Pharmacy",
+      "title": "Find nearby Paydens pharmacy"
+    }
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-eeb3553a901e165ef7e86e4a8806ba353c746af8-120x120-png",
+        "_type": "reference"
+      }
+    },
+    "_createdAt": "2026-10-22T11:02:59Z",
+    "_id": "0d1a36a4-2fa4-4b6f-b158-caa00f2ff97a",
+    "_rev": "p85xohhT9NQCm13C02cN4m",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T11:03:01Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-046f20541aac911440e4bc6962d46e1a2e84f901-120x120-png",
+        "_type": "reference"
+      }
+    },
+    "_createdAt": "2026-10-22T10:51:38Z",
+    "_id": "14e60932-5dbc-4d7c-b609-83946894021f",
+    "_rev": "p85xohhT9NQCm13C02Z0Yc",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T10:52:08Z",
+    "author": "Dhyey Rathi",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. Great experience!"
+  },
+  {
+    "_createdAt": "2026-10-22T12:02:51Z",
+    "_id": "14f686c2-2900-433a-986b-96ae7fcff127",
+    "_rev": "53K5NX0UEe1pfpEJKO9h6b",
+    "_type": "product",
+    "_updatedAt": "2026-10-26T07:20:13Z",
+    "conditions": [
+      {
+        "_key": "d9a165a71824",
+        "_ref": "condition-acid-reflux-and-heartburn",
+        "_type": "reference"
+      },
+      {
+        "_key": "cd8ae4924738",
+        "_ref": "condition-angina",
+        "_type": "reference"
+      },
+      {
+        "_key": "3c53370f1297",
+        "_ref": "condition-athlete-s-foot",
+        "_type": "reference"
+      },
+      {
+        "_key": "744e3ac96ee5",
+        "_ref": "condition-anxiety",
+        "_type": "reference"
+      },
+      {
+        "_key": "16f13ee2ebbc",
+        "_ref": "condition-chesty-cough",
+        "_type": "reference"
+      },
+      {
+        "_key": "e27ba49f6f8e",
+        "_ref": "condition-chlamydia",
+        "_type": "reference"
+      },
+      {
+        "_key": "cd4f01504ff0",
+        "_ref": "condition-cold-and-flu",
+        "_type": "reference"
+      },
+      {
+        "_key": "00c1810280aa",
+        "_ref": "condition-diabetes-type-2",
+        "_type": "reference"
+      },
+      {
+        "_key": "e0d3a361f06a",
+        "_ref": "condition-dry-eye",
+        "_type": "reference"
+      },
+      {
+        "_key": "b38b543f7b38",
+        "_ref": "condition-dry-skin",
+        "_type": "reference"
+      },
+      {
+        "_key": "8e50d9cde3cd",
+        "_ref": "condition-eye-infection",
+        "_type": "reference"
+      },
+      {
+        "_key": "d419faed4a0a",
+        "_ref": "condition-fever",
+        "_type": "reference"
+      },
+      {
+        "_key": "efff072f2b3d",
+        "_ref": "condition-fungal-nail-infection",
+        "_type": "reference"
+      },
+      {
+        "_key": "f0cd098cb88b",
+        "_ref": "condition-fibromyalgia",
+        "_type": "reference"
+      },
+      {
+        "_key": "7414adede32f",
+        "_ref": "condition-flu",
+        "_type": "reference"
+      },
+      {
+        "_key": "9343b85b97a0",
+        "_ref": "condition-gout",
+        "_type": "reference"
+      },
+      {
+        "_key": "f3d98cef3ed3",
+        "_ref": "condition-gum-disease",
+        "_type": "reference"
+      },
+      {
+        "_key": "b69ec5e0a5c4",
+        "_ref": "condition-impetigo",
+        "_type": "reference"
+      },
+      {
+        "_key": "a8779a296e8d",
+        "_ref": "condition-indigestion",
+        "_type": "reference"
+      },
+      {
+        "_key": "f2002c8e8ebb",
+        "_ref": "condition-insomnia",
+        "_type": "reference"
+      },
+      {
+        "_key": "128591f00a33",
+        "_ref": "condition-irritable-bowel-syndrome",
+        "_type": "reference"
+      },
+      {
+        "_key": "83d9f6dc2abb",
+        "_ref": "condition-joint-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "41b916bb8f94",
+        "_ref": "condition-lactose-intolerance",
+        "_type": "reference"
+      },
+      {
+        "_key": "18ac5ff6c5fe",
+        "_ref": "condition-motion-sickness",
+        "_type": "reference"
+      },
+      {
+        "_key": "dbfc59be2ded",
+        "_ref": "condition-menopause",
+        "_type": "reference"
+      },
+      {
+        "_key": "8a26789701d2",
+        "_ref": "condition-nail-fungus",
+        "_type": "reference"
+      },
+      {
+        "_key": "4ff7929a1bcc",
+        "_ref": "condition-osteoporosis",
+        "_type": "reference"
+      },
+      {
+        "_key": "4362a4c42fe6",
+        "_ref": "condition-oral-thrush",
+        "_type": "reference"
+      },
+      {
+        "_key": "d6ae66a662be",
+        "_ref": "condition-piles",
+        "_type": "reference"
+      },
+      {
+        "_key": "abc231539144",
+        "_ref": "condition-psoriasis",
+        "_type": "reference"
+      },
+      {
+        "_key": "5b46bb5ceb6c",
+        "_ref": "condition-pneumonia",
+        "_type": "reference"
+      },
+      {
+        "_key": "106d92925f34",
+        "_ref": "condition-rosacea",
+        "_type": "reference"
+      },
+      {
+        "_key": "bba2ece75c38",
+        "_ref": "condition-ringworm",
+        "_type": "reference"
+      },
+      {
+        "_key": "8cdb2aecff10",
+        "_ref": "condition-restless-legs-syndrome",
+        "_type": "reference"
+      },
+      {
+        "_key": "7b9ddc7c70cd",
+        "_ref": "condition-shingles",
+        "_type": "reference"
+      },
+      {
+        "_key": "765efc48b539",
+        "_ref": "condition-sprains-and-strains",
+        "_type": "reference"
+      },
+      {
+        "_key": "a61b3ad9fd53",
+        "_ref": "condition-tinnitus",
+        "_type": "reference"
+      },
+      {
+        "_key": "86af65140cd0",
+        "_ref": "condition-tonsillitis",
+        "_type": "reference"
+      },
+      {
+        "_key": "ed6934c9e2b6",
+        "_ref": "condition-toothache",
+        "_type": "reference"
+      },
+      {
+        "_key": "92b4f46b22b8",
+        "_ref": "condition-urinary-tract-infection",
+        "_type": "reference"
+      },
+      {
+        "_key": "82e2fce19218",
+        "_ref": "condition-varicose-veins",
+        "_type": "reference"
+      },
+      {
+        "_key": "f412ae3db542",
+        "_ref": "condition-vertigo",
+        "_type": "reference"
+      },
+      {
+        "_key": "14117878b4e6",
+        "_ref": "condition-whooping-cough",
+        "_type": "reference"
+      },
+      {
+        "_key": "f06503983a9f",
+        "_ref": "condition-worms",
+        "_type": "reference"
+      },
+      {
+        "_key": "343d2f9799b7",
+        "_ref": "condition-yersiniosis",
+        "_type": "reference"
+      }
+    ],
+    "description": "Fast relief for headaches, fever, and mild pain",
+    "image": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-cf4495321ba0da5be95a509d9ca16f3160db14c9-304x270-png",
+        "_type": "reference"
+      }
+    },
+    "name": "Rehydra Oral Solution",
+    "price": "£9/pack "
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-eeb3553a901e165ef7e86e4a8806ba353c746af8-120x120-png",
+        "_type": "reference"
+      }
+    },
+    "_createdAt": "2026-10-22T11:01:54Z",
+    "_id": "18def6ac-2ca2-4071-8a05-1893a52d8f4d",
+    "_rev": "xFRl2LkqiZzMGL1Z5zLWcD",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T11:02:17Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-046f20541aac911440e4bc6962d46e1a2e84f901-120x120-png",
+        "_type": "reference"
+      },
+      "crop": {
+        "_type": "sanity.imageCrop",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "hotspot": {
+        "_type": "sanity.imageHotspot",
+        "height": 0.7909896951410686,
+        "width": 0.7422078115336491,
+        "x": 0.4836895766851026,
+        "y": 0.3954948475705343
+      }
+    },
+    "_createdAt": "2026-10-22T11:02:40Z",
+    "_id": "1a65659b-e2f6-4845-ab8c-5b1c605b34aa",
+    "_rev": "p85xohhT9NQCm13C02cLCU",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T11:02:42Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-046f20541aac911440e4bc6962d46e1a2e84f901-120x120-png",
+        "_type": "reference"
+      },
+      "crop": {
+        "_type": "sanity.imageCrop",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "hotspot": {
+        "_type": "sanity.imageHotspot",
+        "height": 0.7909896951410686,
+        "width": 0.7422078115336491,
+        "x": 0.4836895766851026,
+        "y": 0.3954948475705343
+      }
+    },
+    "_createdAt": "2026-10-22T10:07:26Z",
+    "_id": "2c2a94ca-6d2d-4dbb-8b02-b35f80636f42",
+    "_rev": "xFRl2LkqiZzMGL1Z5z8O5k",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T10:08:55Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "_createdAt": "2026-10-29T09:05:23Z",
+    "_id": "2e28fbd0-a4c3-4894-912a-4e8e5fc53630",
+    "_originalId": "2e28fbd0-a4c3-4894-912a-4e8e5fc53630",
+    "_rev": "H5LX4pb3dXYuxvEUJOb006",
+    "_system": {
+      "base": {
+        "id": "2e28fbd0-a4c3-4894-912a-4e8e5fc53630",
+        "rev": "F8u55cnDOKOyICP8jbjEZ2"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-10-30T11:54:42Z",
+    "seo": {
+      "canonurl": "/allconditions-health",
+      "description": "This page contains a carousel to number of diseases and conditions (NHS included)",
+      "keywords": [
+        "NHS pharmacy first consultation",
+        "book pharmacist consultation online",
+        "common health conditions treatment",
+        "expert pharmacy clinical care",
+        "online health assessment pharmacy",
+        "pharmacist advice for minor ailments",
+        "private pharmacy health services UK"
+      ],
+      "ogDescription": "Explore health conditions, symptoms, and treatment options, including NHS pharmacy services and private clinical care from Paydens.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Health Conditions and Pharmacy Treatments | Paydens",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/allconditions-health",
+      "page": "All Conditions - Health",
+      "title": "Diseases & Conditions"
+    }
+  },
+  {
+    "_createdAt": "2026-10-26T05:17:50Z",
+    "_id": "3368d265-4718-4df3-9253-4f69792ab773",
+    "_rev": "kQmRpMF0cYh1F1H4NgMXEo",
+    "_type": "faqs",
+    "_updatedAt": "2026-10-26T05:18:09Z",
+    "answer": "Pharmacy First will help you get seen by a healthcare professional quickly. Instead of waiting for a GP appointment, going to A&E or attending out-of-hours NHS services, you can walk into your nearest Well Pharmacy and have a private consultation with one of our pharmacists.",
+    "question": "In what ways can Pharmacy First help me save time compared to visiting a GP?"
+  },
+  {
+    "_createdAt": "2026-10-22T12:04:11Z",
+    "_id": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+    "_rev": "53K5NX0UEe1pfpEJKO9h6b",
+    "_type": "product",
+    "_updatedAt": "2026-10-26T07:20:13Z",
+    "conditions": [
+      {
+        "_key": "331cac8502e5",
+        "_ref": "condition-acid-reflux-and-heartburn",
+        "_type": "reference"
+      },
+      {
+        "_key": "7691a3d64d7c",
+        "_ref": "condition-altitude",
+        "_type": "reference"
+      },
+      {
+        "_key": "9b03038cc72c",
+        "_ref": "condition-asthma",
+        "_type": "reference"
+      },
+      {
+        "_key": "950dd6eae10b",
+        "_ref": "condition-anxiety",
+        "_type": "reference"
+      },
+      {
+        "_key": "fe90058f3587",
+        "_ref": "condition-bruising",
+        "_type": "reference"
+      },
+      {
+        "_key": "ecb6b020414f",
+        "_ref": "condition-chesty-cough",
+        "_type": "reference"
+      },
+      {
+        "_key": "0bd1b72ef535",
+        "_ref": "condition-cold-and-flu",
+        "_type": "reference"
+      },
+      {
+        "_key": "b714e23bfbd9",
+        "_ref": "condition-diabetes-type-2",
+        "_type": "reference"
+      },
+      {
+        "_key": "ca6220e80355",
+        "_ref": "condition-dry-scalp",
+        "_type": "reference"
+      },
+      {
+        "_key": "f0cdf36369d1",
+        "_ref": "condition-dry-eye",
+        "_type": "reference"
+      },
+      {
+        "_key": "feb41ec0503e",
+        "_ref": "condition-dry-skin",
+        "_type": "reference"
+      },
+      {
+        "_key": "43a45625d393",
+        "_ref": "condition-earache",
+        "_type": "reference"
+      },
+      {
+        "_key": "53d58f214f51",
+        "_ref": "condition-eczema",
+        "_type": "reference"
+      },
+      {
+        "_key": "ce9a71db048a",
+        "_ref": "condition-endometriosis",
+        "_type": "reference"
+      },
+      {
+        "_key": "3a3967da6e0e",
+        "_ref": "condition-fever",
+        "_type": "reference"
+      },
+      {
+        "_key": "6b793b2c2271",
+        "_ref": "condition-food-poisoning",
+        "_type": "reference"
+      },
+      {
+        "_key": "f8f32d4e7ae0",
+        "_ref": "condition-fungal-nail-infection",
+        "_type": "reference"
+      },
+      {
+        "_key": "f3bb2e585826",
+        "_ref": "condition-fibromyalgia",
+        "_type": "reference"
+      },
+      {
+        "_key": "1bf86b63f675",
+        "_ref": "condition-flu",
+        "_type": "reference"
+      },
+      {
+        "_key": "0d0e2347cf82",
+        "_ref": "condition-gout",
+        "_type": "reference"
+      },
+      {
+        "_key": "3c31a13883ae",
+        "_ref": "condition-gum-disease",
+        "_type": "reference"
+      },
+      {
+        "_key": "025dd251b759",
+        "_ref": "condition-hair-loss",
+        "_type": "reference"
+      },
+      {
+        "_key": "4f6fca29f2e9",
+        "_ref": "condition-hay-fever",
+        "_type": "reference"
+      },
+      {
+        "_key": "d9f62646058f",
+        "_ref": "condition-headaches",
+        "_type": "reference"
+      },
+      {
+        "_key": "42eccd47fbc5",
+        "_ref": "condition-impetigo",
+        "_type": "reference"
+      },
+      {
+        "_key": "b8dd79ca095d",
+        "_ref": "condition-indigestion",
+        "_type": "reference"
+      },
+      {
+        "_key": "b8e777f97fdf",
+        "_ref": "condition-insomnia",
+        "_type": "reference"
+      },
+      {
+        "_key": "0565e41e13c1",
+        "_ref": "condition-jaundice",
+        "_type": "reference"
+      },
+      {
+        "_key": "e956254e6a9a",
+        "_ref": "condition-joint-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "6b816eeaf11e",
+        "_ref": "condition-kidney-stones",
+        "_type": "reference"
+      },
+      {
+        "_key": "08a4312a10e2",
+        "_ref": "condition-laryngitis",
+        "_type": "reference"
+      },
+      {
+        "_key": "75406a53dbc3",
+        "_ref": "condition-mouth-ulcers",
+        "_type": "reference"
+      },
+      {
+        "_key": "7d92347a2651",
+        "_ref": "condition-menopause",
+        "_type": "reference"
+      },
+      {
+        "_key": "f14cdce65279",
+        "_ref": "condition-nasal-congestion",
+        "_type": "reference"
+      },
+      {
+        "_key": "1be81fc1ba4c",
+        "_ref": "condition-neck-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "ed1bb82c2ba6",
+        "_ref": "condition-osteoarthritis",
+        "_type": "reference"
+      },
+      {
+        "_key": "e633ab2043e3",
+        "_ref": "condition-osteoporosis",
+        "_type": "reference"
+      },
+      {
+        "_key": "34c301c981fe",
+        "_ref": "condition-piles",
+        "_type": "reference"
+      },
+      {
+        "_key": "a65068a44876",
+        "_ref": "condition-psoriasis",
+        "_type": "reference"
+      },
+      {
+        "_key": "f260b28e6995",
+        "_ref": "condition-panic-attacks",
+        "_type": "reference"
+      },
+      {
+        "_key": "7092c6f2e8e9",
+        "_ref": "condition-pneumonia",
+        "_type": "reference"
+      },
+      {
+        "_key": "a48089aa1f58",
+        "_ref": "condition-ringworm",
+        "_type": "reference"
+      },
+      {
+        "_key": "f79297b3bada",
+        "_ref": "condition-restless-legs-syndrome",
+        "_type": "reference"
+      },
+      {
+        "_key": "c1f35f9435a8",
+        "_ref": "condition-sprains-and-strains",
+        "_type": "reference"
+      },
+      {
+        "_key": "78ccdd56b9dd",
+        "_ref": "condition-tinnitus",
+        "_type": "reference"
+      },
+      {
+        "_key": "181aa4ae2a2e",
+        "_ref": "condition-thrush",
+        "_type": "reference"
+      },
+      {
+        "_key": "4dd7522cb0db",
+        "_ref": "condition-urinary-tract-infection",
+        "_type": "reference"
+      },
+      {
+        "_key": "dda331827bea",
+        "_ref": "condition-ulcerative-colitis",
+        "_type": "reference"
+      },
+      {
+        "_key": "e88ab16b670a",
+        "_ref": "condition-varicose-veins",
+        "_type": "reference"
+      },
+      {
+        "_key": "36fb560fde8a",
+        "_ref": "condition-vertigo",
+        "_type": "reference"
+      },
+      {
+        "_key": "8d388e869405",
+        "_ref": "condition-whooping-cough",
+        "_type": "reference"
+      },
+      {
+        "_key": "ffa55a657ff6",
+        "_ref": "condition-wisdom-tooth-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "84a0e53614b9",
+        "_ref": "condition-yeast-infection",
+        "_type": "reference"
+      }
+    ],
+    "description": "Provides fast-acting relief for throat discomfort",
+    "image": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-4945c98232d5bca9d9fc92dfecaa7b71d886cc31-304x270-png",
+        "_type": "reference"
+      }
+    },
+    "name": "IMODIUM® Dual Action Tablet",
+    "price": "£10/pack "
+  },
+  {
+    "_createdAt": "2026-10-29T09:23:07Z",
+    "_id": "59ddfa7c-6b3b-4726-9822-e906ea4435b8",
+    "_originalId": "59ddfa7c-6b3b-4726-9822-e906ea4435b8",
+    "_rev": "1wzJcatyvTHS30d0ptgIFN",
+    "_system": {
+      "base": {
+        "id": "59ddfa7c-6b3b-4726-9822-e906ea4435b8",
+        "rev": "nB36gFlCFIEtikUzwHciWP"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-10-30T11:54:20Z",
+    "seo": {
+      "canonurl": "/account",
+      "description": "This Page helps user connect to Paydens and also manage their account",
+      "keywords": [
+        "contact Paydens pharmacy",
+        "Paydens head office Maidstone address",
+        "Paydens customer service telephone",
+        "Paydens pharmacy complaints procedure",
+        "email Paydens pharmacy",
+        "Paydens Ltd Parkwood contact number"
+      ],
+      "noindex": true,
+      "ogDescription": "Access your Paydens account and find contact information and support for account-related questions.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Paydens Pharmacy Account and Support",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/account",
+      "page": "Account",
+      "title": "Account Details"
+    }
+  },
+  {
+    "_createdAt": "2026-10-29T06:59:10Z",
+    "_id": "63e37a68-67e6-49c1-84ce-6f85c7cd1d01",
+    "_originalId": "63e37a68-67e6-49c1-84ce-6f85c7cd1d01",
+    "_rev": "AsRDe5acXCGNPzh74wQdxw",
+    "_system": {
+      "base": {
+        "id": "63e37a68-67e6-49c1-84ce-6f85c7cd1d01",
+        "rev": "7pVeBVu54NJf6lpILlAXt2"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-11-02T06:08:54Z",
+    "seo": {
+      "canonurl": "/",
+      "description": "This is the Home Page of Paydens Pharmacy.",
+      "keywords": [
+        "Paydens Pharmacy",
+        "independent pharmacy UK",
+        "NHS community pharmacy Kent",
+        "online prescription service UK",
+        "registered GPhC pharmacy",
+        "local chemist South East England",
+        "online doctor consultation UK",
+        "healthcare at your fingertips"
+      ],
+      "ogDescription": "Discover Paydens Pharmacy services, including community pharmacy care, prescriptions, health advice, and online healthcare services.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c881e63730879edae20b6b1e95ec7c1f067fa994-1733x907-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Paydens Pharmacy | Community Pharmacy and Online Healthcare",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/",
+      "page": "Homepage",
+      "priority": 1,
+      "title": "Home"
+    }
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-eeb3553a901e165ef7e86e4a8806ba353c746af8-120x120-png",
+        "_type": "reference"
+      }
+    },
+    "_createdAt": "2026-10-22T11:03:29Z",
+    "_id": "7485d58f-0fc5-44d1-be21-264f681ddfc0",
+    "_rev": "QvrsuE3cZcyUlKHw4nGTFN",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T11:22:54Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "_createdAt": "2026-10-26T05:17:35Z",
+    "_id": "8169b7cb-283f-4149-9347-603921c269d8",
+    "_rev": "sF0ufqfTB3V7TljXzF9zRw",
+    "_type": "faqs",
+    "_updatedAt": "2026-10-26T05:18:04Z",
+    "answer": "Pharmacy First will help you get seen by a healthcare professional quickly. Instead of waiting for a GP appointment, going to A&E or attending out-of-hours NHS services, you can walk into your nearest Well Pharmacy and have a private consultation with one of our pharmacists.",
+    "question": "How long does it usually take for my medicines to be delivered?"
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.access-manager",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [],
+    "members": []
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.administrator",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [
+      {
+        "filter": "_id in path(\"**\")",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      },
+      {
+        "filter": "(_id in path(\"**\")) && (_id in path(\"drafts.**\") || _id in path(\"versions.**\"))",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      }
+    ],
+    "members": [
+      "pWGpEYvhl"
+    ]
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.blueprints-deployer",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [],
+    "members": []
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.create-session",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [],
+    "members": []
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.public",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [
+      {
+        "filter": "_id in path(\"*\")",
+        "permissions": [
+          "read"
+        ]
+      }
+    ],
+    "members": [
+      "everyone"
+    ]
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.read",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [],
+    "members": []
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.sanity.contributor",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [
+      {
+        "filter": "_type == \"sanity.imageAsset\"",
+        "permissions": [
+          "create"
+        ]
+      },
+      {
+        "filter": "_type == \"sanity.fileAsset\"",
+        "permissions": [
+          "create"
+        ]
+      },
+      {
+        "filter": "_id in path(\"**\")",
+        "permissions": [
+          "history",
+          "read"
+        ]
+      },
+      {
+        "filter": "(_id in path(\"**\")) && (_id in path(\"drafts.**\") || _id in path(\"versions.**\"))",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      }
+    ],
+    "members": []
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.sanity.developer",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [
+      {
+        "filter": "_id in path(\"**\")",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      },
+      {
+        "filter": "(_id in path(\"**\")) && (_id in path(\"drafts.**\") || _id in path(\"versions.**\"))",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      }
+    ],
+    "members": [
+      "p1JY0Babz"
+    ]
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.sanity.editor",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [
+      {
+        "filter": "_id in path(\"**\")",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      },
+      {
+        "filter": "(_id in path(\"**\")) && (_id in path(\"drafts.**\") || _id in path(\"versions.**\"))",
+        "permissions": [
+          "history",
+          "read",
+          "update",
+          "create"
+        ]
+      }
+    ],
+    "members": [
+      "pqXVXTXue"
+    ]
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.sanity.viewer",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [
+      {
+        "filter": "_id in path(\"**\")",
+        "permissions": [
+          "history",
+          "read"
+        ]
+      },
+      {
+        "filter": "(_id in path(\"**\")) && (_id in path(\"drafts.**\") || _id in path(\"versions.**\"))",
+        "permissions": [
+          "history",
+          "read"
+        ]
+      }
+    ],
+    "members": []
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.groups.write",
+    "_rev": "nB36gFlCFIEtikUzwHf7L3",
+    "_type": "system.group",
+    "_updatedAt": "2026-10-30T07:00:28Z",
+    "grants": [],
+    "members": [
+      "pqXVXTXue"
+    ]
+  },
+  {
+    "_createdAt": "2026-10-22T08:41:49Z",
+    "_id": "_.retention._maximum_project",
+    "_rev": "nd4xfpn96vIaBNRi6IQuns",
+    "_type": "system.retention",
+    "_updatedAt": "2026-10-22T08:41:49Z",
+    "days": 90,
+    "maximum": true,
+    "preferShorter": true
+  },
+  {
+    "_createdAt": "2026-10-30T06:10:10Z",
+    "_id": "_.schemas.default",
+    "_rev": "W5nTPgGUCxAGj5BFRxHWhZ",
+    "_type": "system.schema",
+    "_updatedAt": "2026-11-02T06:07:53Z",
+    "schema": "[{\"fields\":[{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"author\",\"type\":\"string\",\"title\":\"Author Name\"},{\"options\":{\"hotspot\":true},\"name\":\"Avatar\",\"type\":\"image\",\"title\":\" Author Avatar\"},{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"body\",\"type\":\"text\",\"title\":\"Testimonial\"}],\"name\":\"testimonials\",\"type\":\"document\",\"title\":\"Testimonials \"},{\"fields\":[{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"condition\",\"type\":\"string\",\"title\":\"Condition Name\"},{\"options\":{\"source\":\"condition\",\"maxLength\":36},\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"custom\"},{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"slug\",\"type\":\"slug\"},{\"name\":\"description\",\"type\":\"text\",\"title\":\"Condition Description\"},{\"name\":\"nhs\",\"type\":\"boolean\",\"title\":\"NHS Includes\"},{\"options\":{\"hotspot\":true},\"name\":\"bannerImg\",\"type\":\"image\",\"title\":\"Add banner image\"},{\"name\":\"seo\",\"type\":\"meta-object\"}],\"name\":\"conditions\",\"type\":\"document\",\"title\":\"Condition carousel\"},{\"fields\":[{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"custom\"}]}],\"readOnly\":\"conditional\",\"name\":\"page\",\"type\":\"string\",\"title\":\"Page Name\"},{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"title\",\"type\":\"string\"},{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"custom\"}]}],\"name\":\"description\",\"type\":\"string\"},{\"of\":[{\"type\":\"string\"}],\"name\":\"keywords\",\"type\":\"array\"},{\"name\":\"ogTitle\",\"type\":\"string\",\"title\":\"Open Graph Title\"},{\"rows\":3,\"name\":\"ogDescription\",\"type\":\"text\",\"title\":\"Open Graph Description\"},{\"options\":{\"hotspot\":true},\"name\":\"ogImage\",\"type\":\"image\",\"title\":\"Open Graph Image\"},{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"uri\",\"constraint\":{\"options\":{\"scheme\":[\"/^http$/\",\"/^https$/\"],\"allowRelative\":false,\"relativeOnly\":false,\"allowCredentials\":false}}}]}],\"name\":\"ogUrl\",\"type\":\"url\",\"title\":\"Open Graph URL\"},{\"initialValue\":\"website\",\"options\":{\"list\":[{\"title\":\"Website\",\"value\":\"website\"},{\"title\":\"Article\",\"value\":\"article\"}]},\"name\":\"ogType\",\"type\":\"string\",\"title\":\"Open Graph Type\"},{\"initialValue\":\"summary_large_image\",\"options\":{\"list\":[{\"title\":\"Large Image\",\"value\":\"summary_large_image\"},{\"title\":\"Summary\",\"value\":\"summary\"}]},\"name\":\"twitterCard\",\"type\":\"string\",\"title\":\"Twitter Card Type\"},{\"name\":\"twitterTitle\",\"type\":\"string\"},{\"rows\":3,\"name\":\"twitterDescription\",\"type\":\"text\"},{\"options\":{\"hotspot\":true},\"name\":\"twitterImage\",\"type\":\"image\"},{\"name\":\"twitterSite\",\"type\":\"string\",\"title\":\"X/Twitter Username\"},{\"name\":\"priority\",\"type\":\"number\"},{\"name\":\"canonurl\",\"type\":\"string\",\"title\":\"Canonical Url\"},{\"initialValue\":false,\"name\":\"noindex\",\"type\":\"boolean\",\"title\":\"NoIndex\"},{\"initialValue\":false,\"name\":\"nofollow\",\"type\":\"boolean\",\"title\":\"NoFollow\"}],\"name\":\"meta-object\",\"type\":\"object\",\"title\":\"SEO\"},{\"fields\":[{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"name\",\"type\":\"string\",\"title\":\"Product Name\"},{\"name\":\"description\",\"type\":\"text\",\"title\":\"Product description\"},{\"name\":\"price\",\"type\":\"string\",\"title\":\"Product price\"},{\"options\":{\"hotspot\":true},\"name\":\"image\",\"type\":\"image\",\"title\":\"Product image\"},{\"of\":[{\"to\":[{\"type\":\"conditions\"}],\"type\":\"reference\",\"title\":\"Reference to condition carousel\"}],\"name\":\"conditions\",\"type\":\"array\",\"title\":\"Relevant Conditions\"}],\"name\":\"product\",\"type\":\"document\",\"title\":\"Product Carousel\"},{\"fields\":[{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"question\",\"type\":\"text\"},{\"validation\":[{\"level\":\"error\",\"rules\":[{\"flag\":\"presence\",\"constraint\":\"required\"}]}],\"name\":\"answer\",\"type\":\"text\"}],\"name\":\"faqs\",\"type\":\"document\",\"title\":\"Frequently asked questions\"},{\"fields\":[{\"name\":\"seo\",\"type\":\"meta-object\",\"title\":\"SEO\"}],\"name\":\"meta\",\"type\":\"document\",\"title\":\"Metadata\"}]",
+    "version": "2025-05-01",
+    "workspace": {
+      "name": "default",
+      "title": "Default"
+    }
+  },
+  {
+    "_createdAt": "2026-10-26T04:29:50Z",
+    "_id": "aff6c3f5-c924-4b67-bf9f-5d0e4bc833d6",
+    "_rev": "VOR4w6LnCq3Csj8z3oC7Js",
+    "_type": "faqs",
+    "_updatedAt": "2026-10-26T04:31:30Z",
+    "answer": "Pharmacy First will help you get seen by a healthcare professional quickly. Instead of waiting for a GP appointment, going to A&E or attending out-of-hours NHS services, you can walk into your nearest Well Pharmacy and have a private consultation with one of our pharmacists.",
+    "question": "How can Pharmacy First save time?"
+  },
+  {
+    "_createdAt": "2026-10-30T09:46:27Z",
+    "_id": "b17c732f-ae17-406e-8691-6dd8a345a0ba",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_system": {
+      "base": {
+        "id": "b17c732f-ae17-406e-8691-6dd8a345a0ba",
+        "rev": "6eTOkThuhipAluYOjltTrt"
+      }
+    },
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "bannerImg": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-4695ae1aff23156d2d81b290245f2b71714dce1a-1317x1194-png",
+        "_type": "reference"
+      }
+    },
+    "condition": "Acne",
+    "description": "A common skin condition in which blocked pores cause spots, blackheads, whiteheads, or inflamed pimples, often on the face or back.",
+    "nhs": true,
+    "seo": {
+      "_type": "meta-object",
+      "description": "This is a test description",
+      "nofollow": false,
+      "noindex": false,
+      "ogType": "website",
+      "title": "Acne",
+      "twitterCard": "summary_large_image"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "acne"
+    }
+  },
+  {
+    "_createdAt": "2026-10-26T05:17:07Z",
+    "_id": "b362b3ac-abb5-4a9d-9751-5d0ee3798dc2",
+    "_rev": "kQmRpMF0cYh1F1H4NgLlvC",
+    "_type": "faqs",
+    "_updatedAt": "2026-10-26T05:17:22Z",
+    "answer": "Pharmacy First will help you get seen by a healthcare professional quickly. Instead of waiting for a GP appointment, going to A&E or attending out-of-hours NHS services, you can walk into your nearest Well Pharmacy and have a private consultation with one of our pharmacists.",
+    "question": "Will my personal information and medical details stay private and secure?"
+  },
+  {
+    "_createdAt": "2026-10-29T08:53:56Z",
+    "_id": "b4d70b78-6ed3-4018-a661-b9804dbe0907",
+    "_originalId": "b4d70b78-6ed3-4018-a661-b9804dbe0907",
+    "_rev": "XKVMyCQb1MHZ7q5cODEj7e",
+    "_system": {
+      "base": {
+        "id": "b4d70b78-6ed3-4018-a661-b9804dbe0907",
+        "rev": "nB36gFlCFIEtikUzwHckrf"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-10-30T11:53:58Z",
+    "seo": {
+      "canonurl": "/about",
+      "description": "This is the About Us page of Paydens website.",
+      "keywords": [
+        "about Paydens Pharmacy group",
+        "independent family pharmacy Kent",
+        "Paydens history 55 years of care",
+        "registered community pharmacy group UK",
+        "Paydens pharmacists and clinical team",
+        "independent chemist South East England",
+        "GPhC registered pharmacy chain"
+      ],
+      "ogDescription": "Learn about Paydens Pharmacy, our community pharmacy group, our team, and our commitment to accessible pharmacy and healthcare services.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "About Paydens Pharmacy | Our Team and Community Care",
+      "ogType": "website",
+      "page": "About Us",
+      "title": "About Us"
+    }
+  },
+  {
+    "_createdAt": "2026-10-22T12:00:47Z",
+    "_id": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+    "_rev": "53K5NX0UEe1pfpEJKO9h6b",
+    "_type": "product",
+    "_updatedAt": "2026-10-26T07:20:13Z",
+    "conditions": [
+      {
+        "_key": "aaa3f691b97b",
+        "_ref": "condition-acid-reflux-and-heartburn",
+        "_type": "reference"
+      },
+      {
+        "_key": "26f6bb294031",
+        "_ref": "condition-altitude",
+        "_type": "reference"
+      },
+      {
+        "_key": "9ea43b1f0543",
+        "_ref": "condition-angina",
+        "_type": "reference"
+      },
+      {
+        "_key": "572426aa14a1",
+        "_ref": "condition-anxiety",
+        "_type": "reference"
+      },
+      {
+        "_key": "4e288d7a2413",
+        "_ref": "condition-bruising",
+        "_type": "reference"
+      },
+      {
+        "_key": "271e945c6d2f",
+        "_ref": "condition-chlamydia",
+        "_type": "reference"
+      },
+      {
+        "_key": "332e14d7ff40",
+        "_ref": "condition-cold-and-flu",
+        "_type": "reference"
+      },
+      {
+        "_key": "d3f3a592aead",
+        "_ref": "condition-diabetes-type-2",
+        "_type": "reference"
+      },
+      {
+        "_key": "7b1cc359da7c",
+        "_ref": "condition-dry-eye",
+        "_type": "reference"
+      },
+      {
+        "_key": "91048c7705a5",
+        "_ref": "condition-dry-skin",
+        "_type": "reference"
+      },
+      {
+        "_key": "159dff2c3fb2",
+        "_ref": "condition-earache",
+        "_type": "reference"
+      },
+      {
+        "_key": "e7c9fe7f0f9f",
+        "_ref": "condition-eczema",
+        "_type": "reference"
+      },
+      {
+        "_key": "214abc6349bf",
+        "_ref": "condition-fever",
+        "_type": "reference"
+      },
+      {
+        "_key": "98e8abcf88c9",
+        "_ref": "condition-fungal-nail-infection",
+        "_type": "reference"
+      },
+      {
+        "_key": "4224610e0eb5",
+        "_ref": "condition-fibromyalgia",
+        "_type": "reference"
+      },
+      {
+        "_key": "821e607e28bb",
+        "_ref": "condition-gastritis",
+        "_type": "reference"
+      },
+      {
+        "_key": "fe00088e5968",
+        "_ref": "condition-gum-disease",
+        "_type": "reference"
+      },
+      {
+        "_key": "cece9dfa4fdf",
+        "_ref": "condition-hay-fever",
+        "_type": "reference"
+      },
+      {
+        "_key": "2efcae1eacf3",
+        "_ref": "condition-headaches",
+        "_type": "reference"
+      },
+      {
+        "_key": "a6282df327a6",
+        "_ref": "condition-indigestion",
+        "_type": "reference"
+      },
+      {
+        "_key": "a84652d23077",
+        "_ref": "condition-insomnia",
+        "_type": "reference"
+      },
+      {
+        "_key": "578f5ffd12b8",
+        "_ref": "condition-iron-deficiency-anaemia",
+        "_type": "reference"
+      },
+      {
+        "_key": "51b3987493d8",
+        "_ref": "condition-jaundice",
+        "_type": "reference"
+      },
+      {
+        "_key": "bc2696829351",
+        "_ref": "condition-joint-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "09aa7b9ae8e4",
+        "_ref": "condition-kidney-stones",
+        "_type": "reference"
+      },
+      {
+        "_key": "ffbad8c48614",
+        "_ref": "condition-menopause",
+        "_type": "reference"
+      },
+      {
+        "_key": "7b5ccdaa2817",
+        "_ref": "condition-neck-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "7a2ffb788ca2",
+        "_ref": "condition-osteoporosis",
+        "_type": "reference"
+      },
+      {
+        "_key": "7aed1cfd8d7c",
+        "_ref": "condition-oral-thrush",
+        "_type": "reference"
+      },
+      {
+        "_key": "2a0db4ea5d4e",
+        "_ref": "condition-piles",
+        "_type": "reference"
+      },
+      {
+        "_key": "0cf350b555d8",
+        "_ref": "condition-psoriasis",
+        "_type": "reference"
+      },
+      {
+        "_key": "7c6966282789",
+        "_ref": "condition-panic-attacks",
+        "_type": "reference"
+      },
+      {
+        "_key": "38c676f33d4f",
+        "_ref": "condition-pneumonia",
+        "_type": "reference"
+      },
+      {
+        "_key": "1d5b51097634",
+        "_ref": "condition-ringworm",
+        "_type": "reference"
+      },
+      {
+        "_key": "2e41d2018d3a",
+        "_ref": "condition-restless-legs-syndrome",
+        "_type": "reference"
+      },
+      {
+        "_key": "c5847698aad5",
+        "_ref": "condition-sinusitis",
+        "_type": "reference"
+      },
+      {
+        "_key": "3a328e055e8e",
+        "_ref": "condition-shingles",
+        "_type": "reference"
+      },
+      {
+        "_key": "315ada068a0f",
+        "_ref": "condition-sprains-and-strains",
+        "_type": "reference"
+      },
+      {
+        "_key": "b515ed0c74a5",
+        "_ref": "condition-tinnitus",
+        "_type": "reference"
+      },
+      {
+        "_key": "3a2cbb797ff0",
+        "_ref": "condition-toothache",
+        "_type": "reference"
+      },
+      {
+        "_key": "32cd1b6593a7",
+        "_ref": "condition-ulcerative-colitis",
+        "_type": "reference"
+      },
+      {
+        "_key": "ffdf134322bd",
+        "_ref": "condition-varicose-veins",
+        "_type": "reference"
+      },
+      {
+        "_key": "0afdf5a1fbbf",
+        "_ref": "condition-vertigo",
+        "_type": "reference"
+      },
+      {
+        "_key": "789c22c06d86",
+        "_ref": "condition-whooping-cough",
+        "_type": "reference"
+      },
+      {
+        "_key": "e7072b5f24f3",
+        "_ref": "condition-wisdom-tooth-pain",
+        "_type": "reference"
+      },
+      {
+        "_key": "615c9cdb3ab7",
+        "_ref": "condition-worms",
+        "_type": "reference"
+      }
+    ],
+    "description": "Soothes sore throats and relieves irritation",
+    "image": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-93a7d632b3987371f9759e0b8186d898c5904b79-304x270-png",
+        "_type": "reference"
+      }
+    },
+    "name": "Electrolyte Plus Solution",
+    "price": "£13/pack"
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-acid-reflux-and-heartburn",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Acid Reflux & Heartburn",
+    "description": "A burning feeling in the chest or throat when stomach acid flows back into the food pipe, often after eating.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "d801a37a149c",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "055857e0af18",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "435c9f07f688",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "acid-reflux-and-heartburn"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-altitude",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Altitude",
+    "description": "Altitude sickness can occur after ascending to high elevations too quickly, causing headache, nausea, dizziness, and fatigue.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "21da4fa90a98",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "dfca66feea5a",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "altitude"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-angina",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Angina",
+    "description": "Chest discomfort caused by reduced blood flow to the heart muscle, often triggered by physical activity or stress.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "a94d72f2cfb0",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "85c8c7cdb9c0",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "angina"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-anxiety",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Anxiety",
+    "description": "Feelings of persistent worry, nervousness, or fear that may also cause restlessness, a racing heartbeat, or trouble concentrating.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "63ae7602e879",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "f189f2a4b155",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "15c663141fb7",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "anxiety"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-asthma",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_system": {
+      "base": {
+        "id": "condition-asthma",
+        "rev": "XKVMyCQb1MHZ7q5cODBee8"
+      }
+    },
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "bannerImg": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-70b705ee0f62277215aa3ee71342ff64af508028-1317x1194-png",
+        "_type": "reference"
+      }
+    },
+    "condition": "Asthma",
+    "description": "A long-term condition affecting the airways that can cause wheezing, coughing, chest tightness, and difficulty breathing.",
+    "nhs": true,
+    "seo": {
+      "_type": "meta-object",
+      "nofollow": false,
+      "noindex": true,
+      "title": "Asthama"
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "asthma"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-athlete-s-foot",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Athlete's Foot",
+    "description": "A contagious fungal infection of the feet that commonly causes itching, peeling, cracking, or redness between the toes.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "7c3e68c4e345",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "athlete-s-foot"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-bacterial-vaginosis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Bacterial Vaginosis",
+    "description": "An imbalance of bacteria in the vagina that may cause thin discharge and a noticeable fishy odour, although some people have no symptoms.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "bacterial-vaginosis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-bruising",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Bruising",
+    "description": "Skin discolouration caused by small blood vessels breaking beneath the surface, usually after a bump or minor injury.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "9afe4b3d5f59",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "144c5282cde2",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "bruising"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-chesty-cough",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Chesty Cough",
+    "description": "A cough that brings up mucus or phlegm, often occurring when the airways are irritated or infected.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "e783fa285ac6",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "f84594abc8fb",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "chesty-cough"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-chlamydia",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Chlamydia",
+    "description": "A common sexually transmitted bacterial infection that often causes no symptoms but can lead to complications if untreated.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "c71339c22ad8",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "51ba16d237a3",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "chlamydia"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-cold-and-flu",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Cold & Flu",
+    "description": "Respiratory viral illnesses that can cause congestion, sore throat, coughing, tiredness, and sometimes fever or body aches.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "3a6fd4de1e0c",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "dfbe49db4e7f",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "6f6069e324d2",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "cold-and-flu"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-cold-sores",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Cold Sores",
+    "description": "Small, painful blisters around the lips or mouth caused by the herpes simplex virus, which can recur over time.",
+    "nhs": false,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "cold-sores"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-dental-care",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Dental Care",
+    "description": "Daily care of teeth and gums, including brushing, flossing, and dental check-ups, to help prevent decay and gum problems.",
+    "nhs": false,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "dental-care"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-diabetes-type-2",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Diabetes (Type 2)",
+    "description": "A long-term condition in which the body does not use insulin effectively, leading to elevated blood sugar levels.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "bf33ef61d277",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "ba366a9811d3",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "8f55f256e6a8",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "diabetes-type-2"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-diarrhoea",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Diarrhoea",
+    "description": "Passing loose or watery stools more often than usual, sometimes accompanied by stomach cramps and a risk of dehydration.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "diarrhoea"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-dry-cough",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Dry Cough",
+    "description": "A cough that does not produce mucus, often caused by viral infections, allergies, irritants, or other airway conditions.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "dry-cough"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-dry-eye",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Dry Eye",
+    "description": "A condition in which the eyes do not produce enough tears or tears evaporate too quickly, causing grittiness or irritation.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "ac4e82f4ea8d",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "3f3b9230dd37",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "f71388612f84",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "dry-eye"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-dry-scalp",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Dry Scalp",
+    "description": "A scalp condition marked by tightness, itching, or small flakes, sometimes linked to dry skin or irritating hair products.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "286eaec43bb7",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "dry-scalp"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-dry-skin",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Dry Skin",
+    "description": "Skin that lacks sufficient moisture and may feel rough, tight, itchy, or flaky, especially in cold or dry weather.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "babaf1dc2563",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "b6aa2b10d3a3",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "571505a378ec",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "dry-skin"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-earache",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Earache",
+    "description": "Pain in or around the ear that may be associated with infection, pressure changes, earwax, or referred pain from nearby areas.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "cb48494d808f",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "647fdbb90f51",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "earache"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-eczema",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Eczema",
+    "description": "An inflammatory skin condition that causes itchy, dry, irritated patches and may flare up repeatedly.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "a7d326722a58",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "6700294aed52",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "eczema"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-endometriosis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Endometriosis",
+    "description": "A condition in which tissue similar to the lining of the womb grows outside it, potentially causing pelvic pain and painful periods.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "7f2cd601fb56",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "endometriosis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-eye-infection",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Eye Infection",
+    "description": "An infection affecting the eye or surrounding tissues that may cause redness, discharge, discomfort, or swollen eyelids.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "e55337823ba4",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "eye-infection"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-fever",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Fever",
+    "description": "A higher-than-normal body temperature, often indicating that the immune system is responding to an infection or inflammation.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "f4a709c5f3ed",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "65ef3eb0e4e8",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "cb9a4474590e",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "fever"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-fibromyalgia",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Fibromyalgia",
+    "description": "A long-term condition associated with widespread pain, fatigue, sleep disturbances, and difficulty concentrating.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "240b4ada96cc",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "624fc229aa52",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "e17ae31dd0e2",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "fibromyalgia"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-flu",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Flu",
+    "description": "Influenza is a contagious viral respiratory illness that can cause sudden fever, muscle aches, exhaustion, and a cough.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "a8b3a26acc7e",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "0c84a6c0e398",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "flu"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-food-poisoning",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Food Poisoning",
+    "description": "Illness caused by contaminated food or drink, commonly leading to nausea, vomiting, diarrhoea, and abdominal cramps.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "99752ee29f0b",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "food-poisoning"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-fungal-nail-infection",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Fungal Nail Infection",
+    "description": "A fungal infection that can make fingernails or toenails thickened, brittle, discoloured, or crumbly.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "2393ac2a2c6d",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "7fc4ea18c183",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "455d77e0cea7",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "fungal-nail-infection"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-gallstones",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Gallstones",
+    "description": "Hardened deposits that form in the gallbladder and may cause sudden upper abdominal pain if they block a bile duct.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "gallstones"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-gastritis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Gastritis",
+    "description": "Inflammation of the stomach lining that may cause upper abdominal discomfort, nausea, or a feeling of fullness.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "97548fed283d",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "gastritis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-gout",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Gout",
+    "description": "A type of inflammatory arthritis caused by urate crystals in joints, often producing sudden, severe pain and swelling.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "adfe0f25fa81",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "97a17b51389d",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "gout"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-gum-disease",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Gum Disease",
+    "description": "Inflammation or infection of the gums that can cause bleeding, tenderness, bad breath, and eventually damage to supporting tissues.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "d300e25bfcea",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "08b6ee20de3a",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "50918790d98d",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "gum-disease"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-hair-loss",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Hair Loss",
+    "description": "Thinning or shedding of hair that may be related to genetics, hormones, illness, medication, or nutritional factors.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "7f4d375ccdae",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "hair-loss"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-hay-fever",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Hay Fever",
+    "description": "An allergic reaction to pollen that can cause sneezing, itchy eyes, a runny nose, and nasal congestion.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "bcd3b61edcfa",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "bd8730403a5b",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "hay-fever"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-headaches",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Headaches",
+    "description": "Pain or pressure in the head that can have many causes, including tension, dehydration, illness, or migraine.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "365a2352d115",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "83397882ee6d",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "headaches"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-heart-failure",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Heart Failure",
+    "description": "A long-term condition in which the heart cannot pump blood as effectively as the body needs, often causing breathlessness and swelling.",
+    "nhs": false,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "heart-failure"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-hemorrhoids",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Hemorrhoids",
+    "description": "Swollen blood vessels in or around the anus and lower rectum that may cause itching, discomfort, or bleeding.",
+    "nhs": false,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "hemorrhoids"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-impetigo",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Impetigo",
+    "description": "A contagious bacterial skin infection that typically causes sores or blisters which develop honey-coloured crusts.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "9cf7f1a7e74d",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "659094a73704",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "impetigo"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-indigestion",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Indigestion",
+    "description": "Discomfort or burning in the upper abdomen, sometimes accompanied by bloating, nausea, or feeling overly full after meals.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "fefc7e70d91d",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "33e5eea951af",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "066a455fd6ee",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "indigestion"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-insomnia",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Insomnia",
+    "description": "Difficulty falling asleep, staying asleep, or getting restorative sleep, often affecting daytime energy and concentration.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "c0bbd5a715f7",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "94ad0bfc5df2",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "1a11ba2b2936",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "insomnia"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-iron-deficiency-anaemia",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Iron Deficiency Anaemia",
+    "description": "A condition caused by insufficient iron to make healthy red blood cells, often resulting in fatigue, weakness, or breathlessness.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "98900c32d72d",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "iron-deficiency-anaemia"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-irritable-bowel-syndrome",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Irritable Bowel Syndrome",
+    "description": "A digestive condition associated with recurring abdominal pain, bloating, and changes in bowel habits such as diarrhoea or constipation.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "259f191d1d51",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "irritable-bowel-syndrome"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-jaundice",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Jaundice",
+    "description": "Yellowing of the skin or whites of the eyes caused by a build-up of bilirubin, which requires assessment of the underlying cause.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "6d65d8b16fe5",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "ecc98e2f46dd",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "jaundice"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-joint-pain",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Joint Pain",
+    "description": "Aching, stiffness, or discomfort in one or more joints, potentially related to injury, inflammation, or arthritis.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "c803c16f72aa",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "419aefd5d49a",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "0fa164ba584d",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "joint-pain"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-kidney-stones",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Kidney Stones",
+    "description": "Hard mineral deposits that form in the urinary tract and may cause severe side or back pain, nausea, or blood in urine.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "bd4cf0ea9470",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "36bb6918135e",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "kidney-stones"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-knee-pain",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Knee Pain",
+    "description": "Pain around the knee joint that may result from overuse, injury, inflammation, or degenerative joint changes.",
+    "nhs": false,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "knee-pain"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-lactose-intolerance",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Lactose Intolerance",
+    "description": "Difficulty digesting lactose, the sugar in dairy products, which can lead to bloating, gas, cramps, or diarrhoea.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "804e79ecc4bf",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "lactose-intolerance"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-laryngitis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Laryngitis",
+    "description": "Inflammation of the voice box that commonly causes a hoarse voice, voice loss, throat irritation, or a dry cough.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "d2d3bc4264c6",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "laryngitis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-menopause",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Menopause",
+    "description": "The stage of life when menstrual periods stop permanently, often accompanied by hot flushes, sleep changes, or vaginal dryness.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "6e653ca1e049",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "6befc94ae3c8",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "25cccdd89cd7",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "menopause"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-migraine",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Migraine",
+    "description": "A neurological condition causing recurring attacks of moderate to severe headache, often with nausea or sensitivity to light and sound.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "migraine"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-motion-sickness",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Motion Sickness",
+    "description": "Nausea, dizziness, or sweating triggered by conflicting motion signals while travelling in a vehicle, boat, or aircraft.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "7248fecdf145",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "motion-sickness"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-mouth-ulcers",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Mouth Ulcers",
+    "description": "Small, painful sores inside the mouth that can make eating or speaking uncomfortable and usually heal on their own.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "0ce598e8dd81",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "mouth-ulcers"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-nail-fungus",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Nail Fungus",
+    "description": "A fungal infection of the nails that may cause yellowing, thickening, splitting, or changes in nail shape.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "45ab82fbbb00",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "nail-fungus"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-nasal-congestion",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Nasal Congestion",
+    "description": "A blocked or stuffy nose caused by swelling of nasal tissues or excess mucus, commonly linked to colds or allergies.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "4f8152c03072",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "nasal-congestion"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-neck-pain",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Neck Pain",
+    "description": "Pain or stiffness in the neck that may arise from muscle strain, posture, injury, or problems involving the cervical spine.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "35b3eca37853",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "b2a3692a2eb4",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "neck-pain"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-nosebleed",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Nosebleed",
+    "description": "Bleeding from the nose, often due to dryness, irritation, minor injury, or fragile blood vessels inside the nostrils.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "nosebleed"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-oral-thrush",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Oral Thrush",
+    "description": "A fungal infection in the mouth caused by Candida, often producing creamy white patches, soreness, or altered taste.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "2279ecb475a6",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "589d73fb7f14",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "oral-thrush"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-osteoarthritis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Osteoarthritis",
+    "description": "A joint condition involving changes to cartilage and surrounding tissues, commonly causing pain, stiffness, and reduced movement.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "b9c0430d6e07",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "osteoarthritis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-osteoporosis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Osteoporosis",
+    "description": "A condition that weakens bones and increases the risk of fractures, often without noticeable symptoms until a bone breaks.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "b0b13bcc7b27",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "ecdc566a2894",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "3fe32160b962",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "osteoporosis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-panic-attacks",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Panic Attacks",
+    "description": "Sudden episodes of intense fear or discomfort that may cause palpitations, trembling, dizziness, and shortness of breath.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "4b745907d5ad",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "051a68426ebd",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "panic-attacks"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-period-pain",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Period Pain",
+    "description": "Cramping or aching in the lower abdomen around menstruation, caused partly by contractions of the uterus.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "period-pain"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-piles",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Piles",
+    "description": "Another name for haemorrhoids: swollen veins in or around the anus that may cause itching, pain, or bright red bleeding.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "e16f1adbb7fa",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "679d068a48e5",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "942a79e06709",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "piles"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-pneumonia",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Pneumonia",
+    "description": "An infection that inflames the air sacs in the lungs and can cause cough, fever, chest pain, and difficulty breathing.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "d52bee02230d",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "b6bf0aacd584",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "9d79b862f94a",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "pneumonia"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-psoriasis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Psoriasis",
+    "description": "A long-term immune-mediated skin condition that causes raised, scaly patches and may also affect the nails or joints.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "aeb65b81c2a4",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "06af0c7c17d4",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "43223db0c5af",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "psoriasis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-restless-legs-syndrome",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Restless Legs Syndrome",
+    "description": "A neurological condition causing an uncomfortable urge to move the legs, typically worse during rest or at night.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "31c52f077f3e",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "6d9689b6e7a0",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "fd449e999173",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "restless-legs-syndrome"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-ringworm",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Ringworm",
+    "description": "A contagious fungal skin infection that often appears as an itchy, circular or ring-shaped rash with a scaly edge.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "5a80a5de6443",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "5ea9cdf2e680",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "be1efa213423",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "ringworm"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-rosacea",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Rosacea",
+    "description": "A chronic facial skin condition that can cause persistent redness, flushing, visible blood vessels, and sometimes acne-like bumps.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "de80aca4ef11",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "rosacea"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-shingles",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Shingles",
+    "description": "A painful blistering rash caused by reactivation of the chickenpox virus, usually affecting one side of the body.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "dbc770e3d4c6",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "2265ad80c8f0",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "shingles"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-sinusitis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Sinusitis",
+    "description": "Inflammation of the sinuses that may cause facial pressure, nasal blockage, thick mucus, and reduced sense of smell.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "9bd2ba9f0914",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "sinusitis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-sore-throat",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Sore Throat",
+    "description": "Pain, scratchiness, or irritation in the throat, commonly caused by a viral infection but sometimes by bacteria or other irritants.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "sore-throat"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-sprains-and-strains",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Sprains and Strains",
+    "description": "Soft-tissue injuries involving stretched or torn ligaments (sprains) or muscles and tendons (strains), often causing pain and swelling.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "4e3104d5952d",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      },
+      {
+        "_key": "82b5a37809e4",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "897d7b17371d",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "sprains-and-strains"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-thrush",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Thrush",
+    "description": "A Candida yeast infection that may cause itching, irritation, and discharge, depending on the part of the body affected.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "07a72e24e662",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "thrush"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-tinnitus",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Tinnitus",
+    "description": "Hearing ringing, buzzing, hissing, or other sounds when no external sound is present, sometimes associated with hearing changes.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "aed0656770fc",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "f24afed7cb78",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "601c130f8a5d",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "tinnitus"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-tonsillitis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Tonsillitis",
+    "description": "Inflammation of the tonsils, usually due to infection, which can cause a painful throat, fever, and difficulty swallowing.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "1f4ea7d4dcee",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "tonsillitis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-toothache",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Toothache",
+    "description": "Pain in or around a tooth that may result from decay, infection, gum problems, or a cracked tooth.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "ffb8cbbb46e9",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "23176264d399",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "toothache"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-ulcerative-colitis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Ulcerative Colitis",
+    "description": "A long-term inflammatory bowel disease affecting the large intestine, often causing bloody diarrhoea, urgency, and abdominal pain.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "aba72de59f4d",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "70631bc1a2ac",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "ulcerative-colitis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-urinary-tract-infection",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Urinary Tract Infection",
+    "description": "An infection of part of the urinary system that may cause burning when urinating, frequent urges to urinate, or lower abdominal pain.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "794861281633",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "f54258ecccc2",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "urinary-tract-infection"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-varicose-veins",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Varicose Veins",
+    "description": "Enlarged, twisted veins, usually in the legs, that can cause aching, heaviness, itching, or swelling.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "03ade7e250a2",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "c51d50bd6d7a",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "d3fc1b0dfaba",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "varicose-veins"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-vertigo",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Vertigo",
+    "description": "A sensation that you or your surroundings are spinning or moving, often related to a problem in the inner ear.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "09ce1493bae6",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "3382b3fafdce",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "28ab571710f2",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "vertigo"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-vomiting",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Vomiting",
+    "description": "Forceful emptying of stomach contents through the mouth, which can have many causes and may lead to dehydration.",
+    "nhs": false,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "vomiting"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-warts",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Warts",
+    "description": "Small skin growths caused by certain human papillomaviruses, often appearing on the hands or feet.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "warts"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-whooping-cough",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Whooping Cough",
+    "description": "A highly contagious bacterial respiratory infection causing prolonged coughing fits, sometimes followed by a characteristic whoop.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "9723fcb4587f",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "20e0e4ee11cd",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "a27597ad4992",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "whooping-cough"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-wisdom-tooth-pain",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Wisdom Tooth Pain",
+    "description": "Discomfort around a wisdom tooth, sometimes caused by eruption, trapped food, gum inflammation, or infection.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "37c4bf1849f4",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      },
+      {
+        "_key": "eb11537d1559",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "wisdom-tooth-pain"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-worms",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Worms",
+    "description": "Parasitic worm infections that may affect the intestines and cause symptoms such as itching, abdominal discomfort, or digestive changes.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "6b53f33fad60",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      },
+      {
+        "_key": "bb313ca8ab43",
+        "_ref": "c5288c7d-787d-4e30-8cfe-ff02f891d0f4",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "worms"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-yeast-infection",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Yeast Infection",
+    "description": "An overgrowth of yeast, commonly Candida, that may cause itching, redness, irritation, or discharge in affected areas.",
+    "nhs": false,
+    "products": [
+      {
+        "_key": "2b5a129b8eef",
+        "_ref": "44830b81-3fb0-49fa-ade9-88d225802cfb",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "yeast-infection"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-yellow-fever",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Yellow Fever",
+    "description": "A mosquito-borne viral illness that can cause fever, headache, and muscle pain, with severe cases involving jaundice or bleeding.",
+    "nhs": true,
+    "products": [],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "yellow-fever"
+    }
+  },
+  {
+    "_createdAt": "2026-10-23T05:24:42Z",
+    "_id": "condition-yersiniosis",
+    "_rev": "t8eOsGuKfKg5n1bfRrcoaQ",
+    "_type": "conditions",
+    "_updatedAt": "2026-10-30T11:14:07Z",
+    "condition": "Yersiniosis",
+    "description": "A bacterial intestinal infection, usually acquired from contaminated food, that can cause fever, diarrhoea, and abdominal pain.",
+    "nhs": true,
+    "products": [
+      {
+        "_key": "38824ebba421",
+        "_ref": "14f686c2-2900-433a-986b-96ae7fcff127",
+        "_type": "reference"
+      }
+    ],
+    "seo": {
+      "nofollow": false,
+      "noindex": false
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "yersiniosis"
+    }
+  },
+  {
+    "_createdAt": "2026-10-29T09:20:53Z",
+    "_id": "d6408f08-c5d8-4020-a4de-4a52e3b38aa2",
+    "_originalId": "d6408f08-c5d8-4020-a4de-4a52e3b38aa2",
+    "_rev": "ufVcvDo7yYwVOXlJbiDWpX",
+    "_system": {
+      "base": {
+        "id": "d6408f08-c5d8-4020-a4de-4a52e3b38aa2",
+        "rev": "F8u55cnDOKOyICP8jbjFOC"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-10-30T11:53:45Z",
+    "seo": {
+      "canonurl": "/joinourteam",
+      "description": "This Page contains carousel of jobs available at the Paydens phamacy",
+      "keywords": [
+        "Paydens pharmacy jobs",
+        "pharmacist vacancies Kent",
+        "pharmacy dispenser jobs South East",
+        "healthcare assistant pharmacy careers",
+        "trainee pharmacy technician Kent",
+        "careers at Paydens",
+        "community pharmacy jobs Maidstone"
+      ],
+      "ogDescription": "Explore career opportunities at Paydens Pharmacy, including pharmacy, dispensing, healthcare assistant, and other team roles.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Careers at Paydens Pharmacy | Join Our Team",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/joinourteam",
+      "page": "Join Our Team",
+      "title": "Join Our Team"
+    }
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-046f20541aac911440e4bc6962d46e1a2e84f901-120x120-png",
+        "_type": "reference"
+      },
+      "crop": {
+        "_type": "sanity.imageCrop",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "hotspot": {
+        "_type": "sanity.imageHotspot",
+        "height": 0.7909896951410686,
+        "width": 0.7422078115336491,
+        "x": 0.4836895766851026,
+        "y": 0.3954948475705343
+      }
+    },
+    "_createdAt": "2026-10-22T11:03:17Z",
+    "_id": "d96612b0-13f6-4f2f-ba29-0aa6c7c66a15",
+    "_rev": "xFRl2LkqiZzMGL1Z5zLe42",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T11:03:18Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "_createdAt": "2026-10-29T09:22:10Z",
+    "_id": "dce5e8e2-dac1-4312-9eb4-d88bc104d1cb",
+    "_originalId": "dce5e8e2-dac1-4312-9eb4-d88bc104d1cb",
+    "_rev": "kn3xGGeeOWenxjJKXGP1Vp",
+    "_system": {
+      "base": {
+        "id": "dce5e8e2-dac1-4312-9eb4-d88bc104d1cb",
+        "rev": "nB36gFlCFIEtikUzwHcmHv"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-10-30T11:53:31Z",
+    "seo": {
+      "canonurl": "/prescriptions",
+      "description": "This Page Shows the Prescription assigned to you",
+      "keywords": [
+        "NHS repeat prescriptions online",
+        "free NHS prescription delivery",
+        "electronic prescription service EPS",
+        "order NHS medication online",
+        "manage repeat prescriptions UK",
+        "GP prescription delivery",
+        "NHS pharmacy dispensing service",
+        "nominate Paydens pharmacy"
+      ],
+      "ogDescription": "View and manage your prescriptions with Paydens Pharmacy, including repeat prescription services and pharmacy nomination information.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Manage Your Prescriptions | Paydens Pharmacy",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/prescriptions",
+      "page": "Prescriptions",
+      "title": "View Pescriptions"
+    }
+  },
+  {
+    "Avatar": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-046f20541aac911440e4bc6962d46e1a2e84f901-120x120-png",
+        "_type": "reference"
+      },
+      "crop": {
+        "_type": "sanity.imageCrop",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "hotspot": {
+        "_type": "sanity.imageHotspot",
+        "height": 0.7909896951410686,
+        "width": 0.7422078115336491,
+        "x": 0.4836895766851026,
+        "y": 0.3954948475705343
+      }
+    },
+    "_createdAt": "2026-10-22T11:03:45Z",
+    "_id": "eeb1d8b2-a0e5-4b81-bf35-065e72c69cba",
+    "_rev": "QvrsuE3cZcyUlKHw4nE024",
+    "_type": "testimonials",
+    "_updatedAt": "2026-10-22T11:03:47Z",
+    "author": "Marina Lewis",
+    "body": "I’ve been using their services for a few months now, and I can honestly say it’s changed the way I manage my health. The team is always helpful, and I feel supported every step of the way! I was nervous at first, but the process was smooth and well-explained. The team answered all my questions and made sure I was comfortable throughout. Great experience!"
+  },
+  {
+    "_createdAt": "2026-10-29T08:58:42Z",
+    "_id": "fa5ddca8-6719-4114-9218-bb2f78fed51c",
+    "_originalId": "fa5ddca8-6719-4114-9218-bb2f78fed51c",
+    "_rev": "AsRDe5acXCGNPzh74w4kTQ",
+    "_system": {
+      "base": {
+        "id": "fa5ddca8-6719-4114-9218-bb2f78fed51c",
+        "rev": "CJmK0O50pm08AzsRG5gIwe"
+      }
+    },
+    "_type": "meta",
+    "_updatedAt": "2026-11-02T04:44:34Z",
+    "seo": {
+      "canonurl": "/all-conditions",
+      "description": "This page displays different health conditions and their treatments.",
+      "keywords": [
+        "online pharmacy treatments UK",
+        "prescription treatments next day delivery",
+        "men's health clinic online UK",
+        "weight management treatment online",
+        "prescription acne treatments UK",
+        "online questionnaire prescription",
+        "sexual health treatment discreet delivery",
+        "asthma and COPD medication online"
+      ],
+      "noindex": false,
+      "ogDescription": "Explore health conditions and treatment services available through Paydens Pharmacy, and learn more about relevant care options.",
+      "ogImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+          "_type": "reference"
+        }
+      },
+      "ogTitle": "Online Treatments and Health Services | Paydens Pharmacy",
+      "ogType": "website",
+      "ogUrl": "https://paydens.vercel.app/all-conditions",
+      "page": "All Conditions",
+      "priority": 0.6,
+      "title": "Conditions & Treatments"
+    }
+  },
+  {
+    "_createdAt": "2026-10-22T10:07:41Z",
+    "_id": "image-046f20541aac911440e4bc6962d46e1a2e84f901-120x120-png",
+    "_rev": "xFRl2LkqiZzMGL1Z5z88Qu",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-22T10:07:41Z",
+    "assetId": "046f20541aac911440e4bc6962d46e1a2e84f901",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eoPOxFx]~Vs:NH?aR*NHjYRj%1jZNGfkWBf7WVaet6ofIqjsxZWVof",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1,
+        "height": 120,
+        "width": 120
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAEbUlEQVQ4jU3T+1NSaRjA8fOHbLOzW22JkGba2hqmw7o5Y67WpmmTt7SaiBglL7mambcwb6Qw3lBTJLpoxUW0AycUBAU1IZCbgaBlmybaWqZw3tPOsVmnmc+8v33f9/nheSHMOYqb+3aqcE6V1zHiMcsW9QMe4+CWTQbscmCTo1YZaoGBFUYtMGrFQZhLg7k0wI2fmEuNudVbDuWcul/YWtVSzpB2MN9r+1Drc7DDJgM2/C7MJoOAexzMj4P5sR0eEwx31zDpKQXnYlmMVH1/4xeDCJ0ZAGYpsAwCG4wPYpdjdjmEzWu3je94/1Ii51aKa/Ik1TkPijPV3NLVcYHX8MxnEKImybces8uwWeT/eGEctx2vGqQzfY3G7tv69ltINV3XVvxB0fFl8sHm1GOv/ikwSTDrELDDYPa7l3fG3rAib+CumW6mrrEIuU1/2V60DHM+qe99Hu/dmnrseyUE5gGA98+h7zLNN17HyIKiV8UpEZbS7hdkDLNy3ojr1hSt66rODS3fO92HGkXAIgW2IQjP3BrgVmPzGsyt8bnVq2a5YaBDWJPbdS215UoCrzBdWn9tmlexONj4UdnxRXffq+9HTSLMIoUw1+iOLYdyfkIywOOwSgqaC6mCGxfbcs7lJcenx8UWXUgRNeS7RPXrqs7NCYHP8ASYRBC+FS4VmFOhTuWCTtx9905KUmpU5Ilzcaevn0+lJSdGkaMCDhwNDYmknU1EOIXLcNMnzb3NyYc+/ZPteE4FXKoNu0LZ35mVknUwiEI8EBF0iBL66/HDIVGkgIj9hLC9+4/8Ef57R/El1xPmmqLl8xhvc+oR9NWpxBxKMKf0mGSC5vrjUad+IRz1PxBBDIggkI4RSBH+xPDAgPDQ4Mg4SjSbkWbmlSwPsT4quRtaPvTVoQCvFahzeEkv7WYxY6JPEUlkP3/yPsLRbWQCISwmPLokI42dndF/M9PAzX8rrPYgnHV1J4TNImAWAa+RNb1Y2dtQm0s9fzKefPhYICmMSAzz8zsSRDrCSEwYbSi0thfoGi5PN2c7H5UtDbHWhlshbBZfVGCXbxqEy0irTVAhqqBWZp7JO3uadjo+Ky4mNym+7yZ1gV/+tqdwsv6S9i7N3lvyTlLrQTgQsMtwNtj7SrihbP8oqXH3FBs4eRN3GaO1dFUt/SUnd55futJX4eTmaqqzNA1Ua0/xoqhmRcaGgPU5tv3XfK9EnxRcz9PqJcGtha7rNjZdX3dZV3tZW3dlgkXXN+VM1FGHqzI1LKqVh8cfYDYELEP4R7EM+oyidWW3g185cufqs7/T7mcnsrPibpyJpsVSrv5JYabHPspPhssztE10O79kUVy7IuPgMWoeRE1S1Cj+d+zBi5YyRtLJk+HkE7+FRQSHBhFD9u09SNwXmEwJa6OdklVlTjUzHIJb7yT1K0gzhM4MojMDPqPEZxSvah/3NZZFU2J+2hvy4+7gXbuDd+0J+eHnQ7v3BP0VSW6jJ7yovjjdlud8WP6PlLWCtPwHvsIZdcijy04AAAAASUVORK5CYII=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#644335",
+          "foreground": "#fff",
+          "population": 1.31,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#27120b",
+          "foreground": "#fff",
+          "population": 1.81,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fcdcbc",
+          "foreground": "#000",
+          "population": 12.26,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d3beb5",
+          "foreground": "#000",
+          "population": 0.07,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fcdcbc",
+          "foreground": "#000",
+          "population": 12.26,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#be8568",
+          "foreground": "#fff",
+          "population": 7.89,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ac7351",
+          "foreground": "#fff",
+          "population": 1.09,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "akkOFwL5Z3d8dod6hnd3WJiKSI/I4IUN"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "avatarman.png",
+    "path": "images/exm0v8dd/production/046f20541aac911440e4bc6962d46e1a2e84f901-120x120.png",
+    "sha1hash": "046f20541aac911440e4bc6962d46e1a2e84f901",
+    "size": 16576,
+    "uploadId": "7384cb09094b100b643a099d8162d3701a3ebb52",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/046f20541aac911440e4bc6962d46e1a2e84f901-120x120.png"
+  },
+  {
+    "_createdAt": "2026-10-26T05:52:48Z",
+    "_id": "image-4695ae1aff23156d2d81b290245f2b71714dce1a-1317x1194-png",
+    "_rev": "5z4BptIL09pPMqSliUelOI",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-26T05:52:48Z",
+    "assetId": "4695ae1aff23156d2d81b290245f2b71714dce1a",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eKF#5Y9t0f~BMx01bI$%WBtR%L$*={ELIo4:t6NHNH-o={WBofnjV@",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.1030150753768844,
+        "height": 1194,
+        "width": 1317
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAEjElEQVQ4jYWRe0yTZxTGPwhGpdraUvq15dIC5a51UJySuTVeyJw1Khi2qTh1OBiDsQpWpAU+BCqFcqsrFIoy5GJnJ1KqAkOEiIMxQQxiJyAMEAtFEc02cfC9b7qUxT+WCXuS88+bc37veZ6DIP+WFRdFCd6MNe97MchF6xzsu3gs+qXNHIdQvg+LzuPxliEIYm1GECtLL/I/suIhyDIvlLzWnUbK9KSv6eM6ojPrndBRP2ealutMDefQqXw3BtWfhaJsBoNhuxTUCkMQa76P/SpvBmkvm0JoY5MJr91RCu5Bp8670cjP3GjkLk8mtYHHcdbw13smBfG8NwZxUcJi0AWgpcGbRtrLIq+8zVi94i8GaRXOJBMBk0LEOXTKHN/XbfbYR++9TDm0y3D68C7Z8dDt6yL+ieHtUD6C2KylEwPcqLaVDiTb57TVBNyeSMCd7Igg0MMJHN/9AbiCRYFfSlJf31KKO6pTIg9mHhCQzWbz24GWCmDbeXrRSQq2HWnSkUIEThQi4LJQGL4tAFaLDoGe4hQwqMkDA5q8R53qVJEuK5ppxrA3h/qv7Q0uVA8vBjXH15Fm5Hs5gyAfFvg00BcUR4XAztw40J6XAG7nJ+J3VSljbQUn02uxSDaGYdaL2uY6oy4eDvbpge5OY8IgHsgM2Qxy9m+FNyRH4WCRBPaq0sBdVRq4X5I63iqLk1WfOuq6lGXrQK4rzZtpH7XBlXn/m6CAuYpIAdDF7oN3Th2BppwEMFNZAJ7WFOOPq+RjD4qwjHv5CezFLC9AN21yXOnrYLfFh0m9HOzPeaE4tA00iPbD3uQI+OxMHPxdLQWmilx8WJU2/EiJicfVMselgBZZb2ShbD9n+5N7/Fx6svbzZxvEYfBBbjwwKhLBVFES/psy6XWvVNTZIz1xYCQfW7NUhgtb7niXQwz2d916QhBQWh4lmGxJD4d9hSfhgDJxbliZMD1aLOkfUEgKH2SL3zG3YjaLgRBLuJbf4sO4BMVh/qbyL3eo9AkfT3ZkRwFDiRj0F4un+/KFTb9+e0I6XHJa8OTCGbu3HcTK8mjJoV6hWF4nDUf1yaGBtaI9Yq1w95060b7Zdlkk6D8nAaNV6aahCqyi/9yp0KGyNHdjt952IT/L/BvLGJ9v0y2LIP2sErl3l2dt6SzPiGnPj6m6mfaZoSY+5I+L0QLYmPgJ7FUKwcj30lfG2py+CZ28dLyhJHK0SbPtcY187ch3GH2w/uvlC8BayRGnjuzo4PtqkfyhRna9v7bIYNDIn3cq4uavisNA+Rcfwh9idsIOeQQcvCiFRr1i7ml94dTEzaq+J62Xfpy4Vqie0hd8NVNfwDW3YiuQxtTPD3adFV4ZqkgeH70sezVWr8ZHblSCh9o88FOuEGhjg+Gl6J2wPScSDmuz4cR1FZxqOg8m22qAqV03O91c9uxF8/mul82lkqlGJQe5kXGs4F5h/OCwJmPeWJeLG+uVcLxNC8eaq6HhQgZoTDoCdXEhsOtsLBzXKeBkgxqamsqAqUMPprob8elblfhMS9mfL1rKrpquFW3/Gw+qLP9FPqRGAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#583a2e",
+          "foreground": "#fff",
+          "population": 1.51,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#62240a",
+          "foreground": "#fff",
+          "population": 0.05,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b17551",
+          "foreground": "#fff",
+          "population": 1.9,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c4bcc4",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f5ac92",
+          "foreground": "#000",
+          "population": 1.11,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b17551",
+          "foreground": "#fff",
+          "population": 1.9,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e96250",
+          "foreground": "#fff",
+          "population": 0.31,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "XlmKDYJHpG1wm4lpuIZgVwc2B4iFd4hJiA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Concerned Woman Touching Inflamed Cheek.png",
+    "path": "images/exm0v8dd/production/4695ae1aff23156d2d81b290245f2b71714dce1a-1317x1194.png",
+    "sha1hash": "4695ae1aff23156d2d81b290245f2b71714dce1a",
+    "size": 1542014,
+    "uploadId": "f028c34dfc265043b482879a2e07476ca123902e",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/4695ae1aff23156d2d81b290245f2b71714dce1a-1317x1194.png"
+  },
+  {
+    "_createdAt": "2026-10-22T12:04:33Z",
+    "_id": "image-4945c98232d5bca9d9fc92dfecaa7b71d886cc31-304x270-png",
+    "_rev": "nJIRX2npmW61kAJ6EYxyNk",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-22T12:04:33Z",
+    "assetId": "4945c98232d5bca9d9fc92dfecaa7b71d886cc31",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "e79u{Qv%D4AB00MHR6X,tRxI00pa-txa?wL%xZozRjk;_OIBQ5xGpJ",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.125925925925926,
+        "height": 270,
+        "width": 304
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAEU0lEQVQ4jbWUf0yUdRjAX0/pJIfA2QAdWEe0NUx0lCKBmWVJDRhgN2WG6CQt85ILDpMRx88XGr/iQielEhx0+B736+XueOF+vXcHHIegaDrwJlvxthVbm83V1uZ9v0974Qxbba0/erbPnu9fnz3f5/t9HoL4PwMAVj2C+C/8U1AUtbrdYhG2tFChPLIgkhYqNLalJQgVuotaIZaiQhPa24WEQiH4iyxD2i6UNFHi3AbqtQOkJpMnS9Gb+bqiNzOpuTdz02V15qae/qw4FZX9J30DWVEqKjtcpX41VKWKJTo7Q5ZkCgUI4pu0UYkXjIXbOwz6lzoM47s6jGPpfD6vH0/4Sj8uUhvHIzW0N5KiJyIHlonQ0N51Gtor1Az2PzFA5xCUNZwAEPCNE0Srh57ZqLdXx+kc3z9vYB+mmT0Pc22+QJ7dF9hpdgdidNZApG4EiWjrEpF8NtkCG4bsAdEwOydi3NIomy2aoKjVhAJA8O7MjDjDM1OfZp7k9tJedGTkOqr0zuKa6bv46PA0Tul24qReB07WuvA2jQsnD7jxPpsPvTN1Cx28Nes/dHOuWHL7doyEFwKAwPjdj2Ll2D2yRDPDnbjiRcVXvLhKPQX1+htQopqAw0onHOxgIf+iC/I73VDYPQY17jtY+8Mist3/xW/9+b7MubgYQwEsC6meCfGliz6y9Qsf19g2iuqbXbiuiYX6NhfUtbqgotEB8morlFRZoazBDh+fd0KFeRp3z3No7MED//xvv8t+BYgBXsg/StHuL8VyyVXyszNDnLLcij4/x+BmuQVazzGgVFihpXwYqk7TUFakA/kJHUilOsivo3GeYRRJv/X7ldxPyxVSQeEbSUpxQUYXWXJcz1UWD6IKqQGfPamFCqkBauQmqJaboexDPXxQ0A/HJb1wJLcb8g5341dIA0ozj/nfvnZTVugL9pAXJp3uEb9cqiFzqs3csQYGHaodxPsrDfBWjRFyG0yQ02iGjDoa9nyqg9SzFOyUqeFFWR9OIXXoTbXLf8AyLSt0BoX8twnvGRZv1bJkgWmKqxm8jk4ZfGiH1om36hw4lWbxDiOLn9PacczVYRzxzRAO6zPjiD4T2qIaQpJul/+jrydkpV2+GOqRUGh0iVM90/WV1+4taD3zgVbPbGAPO4m2uMZRiseHXmC9aKPVjcIYJ1pjsSOByYbWm2yB3QZn4GTP6N0zbZ7iQoVzRbiWtm5O9Ex9UuSbm2r3zi+Ueu5w29hJLs4xzj3Lerlo2xj35LCbC2FcnIBhOcGgg4ugRri9PbaFoxfYUUmt/b2k97VRy1fmB5thROtHXPu3OybLs903yHSHj3yKcZPrGJYMY1gyxMKShMVBrrI4ljJhsJGhXTSZUKslk2U6eeIpXfqG7EthK0vC6VxDUIwowmR/OspkjechBkzxwiD8+W+0DsQLj12OX7uvczMh6QwnJHx1jwdvBxDwo8izNOj/hiLIYzvxD2Zcz+rFUzw2AAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#24393b",
+          "foreground": "#fff",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#042c9c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#06b3ba",
+          "foreground": "#fff",
+          "population": 16.23,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9788c4",
+          "foreground": "#fff",
+          "population": 1.66,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6df3f6",
+          "foreground": "#000",
+          "population": 0.07,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5f6ca6",
+          "foreground": "#fff",
+          "population": 1.52,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#06b3ba",
+          "foreground": "#fff",
+          "population": 16.23,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "41WBDIY3ykBapqImqasGioiAgmSHB6eIBA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "imodium.png",
+    "path": "images/exm0v8dd/production/4945c98232d5bca9d9fc92dfecaa7b71d886cc31-304x270.png",
+    "sha1hash": "4945c98232d5bca9d9fc92dfecaa7b71d886cc31",
+    "size": 50120,
+    "uploadId": "2b3e10a74c0b817de260b2c98f8060b87a73e816",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/4945c98232d5bca9d9fc92dfecaa7b71d886cc31-304x270.png"
+  },
+  {
+    "_createdAt": "2026-10-26T05:54:54Z",
+    "_id": "image-70b705ee0f62277215aa3ee71342ff64af508028-1317x1194-png",
+    "_rev": "kQmRpMF0cYh1F1H4NgZ3tu",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-26T05:54:54Z",
+    "assetId": "70b705ee0f62277215aa3ee71342ff64af508028",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "e8GQ;I0h0k=d:400RO{d^kBs2f}@-r9t-;,^xbTC0ymj0xxW+wXATf",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.1030150753768844,
+        "height": 1194,
+        "width": 1317
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAE3UlEQVQ4jY2Se0yTdxSGP5yY6ZSLhKtFZKIiiGM2TiS6OmGJUWTO23QZSr1USgErl0qh9pNLLQgt9GLbDy200DItWGGiWBAKUstQBOxYZOhkihWRiG4qCP2ddCHZkpnNzPfvk5Pnfc7BsH/EjmEOFD9nl8hF7lsjF3tpNwT5Xo8KWWCMXr6AuyF0flAYiTSTgmHTp+aw94gDjmHTKAFzSeHzXVlr/N16IgJ9RtYvmTf0eYDX1fAAb9bqYP+o8KCg0DUh810xDPvgvZaGkZwCyN6zC0O951hX+M61LSe5TQaT3J+vDPDt27QyxBS3iaJI2fnlZsaWCDcMw6b978JwX6eFIZ6zCwPdP7IGuDshfw8XtGSeO1CCP0bJ0ZSJyjTq4AVunFxE30Gm0ciOdrt9qv47FTh8Nm8uKdTbib3EY/bdRZ4utqU+bojs7w0xa5ZBafxW9GNhyhuzINWoO0r9+jKb6m4l8Fl2HH83aaQr5vypj9M3S72c28gLPMajQ/wgZtViyNu+Fpq5+1CXIBWZ85jdNccT0q6Js7f8osxa9Stx1Nlu/29KBzKGOZI956xa6uWqWbvIZ5S5bhkq3rYaVdOjoVfAhAGCa7txMrn/h6zkc2ZFbtVAOS97RIsH2u3voJy69FTtIC/X5PCFnl3M9cvG1LFfoOa0XXBPnAL9kozJ2gzGwwrWodudkvSHjytzLo7qeZReHT7jL59vE+I4Pm1HWNjM1f5uK78K9ZNwo1ZYNQciUGPKNtTDO/imPZc+JKLHmgRxe4xt/ATrA1Vmy7AO32DE9374L5cE0elYVGZ00ZzR+JWl7F+niF0nrDgY8VstYyNcSdw82Xhk60h9+p4mIomWLqbvZRmzaaY7RFrDIy0e2YvvmPHWwxNE56zKqu7gynNdu89qWvBLElGlMYdmaWJ9+9J0eDfcTNpla2XtHa7JzjBopBpOpVh5pEWQeaGvlNM4pOPtspvOzPmb0AHHdTPkyqZPyjS3eLrzP5v1esuAobxutKuYP9GXHg/3GVR4lBQL9ziHx1oLxUNawtCrLGu5flGpuflTRUHvSG2BYKJeGmzvJByxKZEFMoNHSZkpTqnpvFVxtmf8nM5ia1S3oX6+BI0yqPAybju8StwOL47EoD5OLqopqkWKktYxrcrw3Fxx+sWj6oKOZ3VC2oMaiQ+G48bpIpmBTChNqhL1jWfy0nabqtSM2k43Iys7H/6g7oRXcVvgdVIUeknfCMMJdHQtRw2yIgMSSy6jGkWpzaIuGL2rV+jNtQ07MT6/zlVENMXIlG03CVXHhEjRik4TrdCuaIBhdg6MJHwHw6z98IRNRYPMbWCNp0IPRwqK3CrgHCsHQdYpdFZYPFmv1T8wNPRVY4XiK4FiwiiQl7U/VqhuoJPiRiQSN8JVohnunRDA43wmPFGwYUCcCpbMfXCHSYdujgRkmeWQmChESYx84GbKQK5oGD9/6f5TTFJijDqlNNUT6s7X0jNm4PCqIYevBz1xBSwyKQwqj8FgBRd6FWxo4bHgGicP2nI1tlMc7e+HDuU9O3CQN344WQr5RZdArbMgTEK0psrVHbeJ8m6bUNYCyZnlcDxLDXUlauhXn4QBFQd6FBlgEB6H7wukUFVcg+okxjE5r7YvPl7YcYDGf8pIEkHWCR3IlCb4E7aakDZmTLCjAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2f334f",
+          "foreground": "#fff",
+          "population": 0.48,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6a150c",
+          "foreground": "#fff",
+          "population": 0.11,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b1b3db",
+          "foreground": "#000",
+          "population": 6.57,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b1b3db",
+          "foreground": "#000",
+          "population": 6.57,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f4b792",
+          "foreground": "#000",
+          "population": 2.06,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#946650",
+          "foreground": "#fff",
+          "population": 0.33,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#da1513",
+          "foreground": "#fff",
+          "population": 0.16,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "oViKFYQ5tmpgu4eYiAaMYoA3BneBdplpaA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Asthma Relief with Glowing Lung Overlay.png",
+    "path": "images/exm0v8dd/production/70b705ee0f62277215aa3ee71342ff64af508028-1317x1194.png",
+    "sha1hash": "70b705ee0f62277215aa3ee71342ff64af508028",
+    "size": 2034874,
+    "uploadId": "3ef27551cced4ac2e75ad5c254d34f5d826012da",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/70b705ee0f62277215aa3ee71342ff64af508028-1317x1194.png"
+  },
+  {
+    "_createdAt": "2026-10-22T12:01:29Z",
+    "_id": "image-93a7d632b3987371f9759e0b8186d898c5904b79-304x270-png",
+    "_rev": "VZymn1fNZj1SG1duiITFFc",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-22T12:01:29Z",
+    "assetId": "93a7d632b3987371f9759e0b8186d898c5904b79",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eJKnPK.A00Ri00I]D$xZ%NjX00RO?aae-p$vXAIps+kX00V?-;f-xs",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.125925925925926,
+        "height": 270,
+        "width": 304
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAEO0lEQVQ4jXWUW2gcVRjH0zTa2toHsVKVUmvUWBMFwReDPqmIBUXog+hDHtRSfdEXRUHQoCiKRXARpCULYpLGdtrcdpuYZAObpsma+22z2Uv2muzuzM7MmTlnZueyl3M+2a3dJho/+J9hzuH7zX/mnPnX1e1d+yoCgJoqkzvu6++ovX5Pws7m9vb2+op2N9bWGyIscoBfGT0cnHIe8XE/3VNZ3wvW4PV6D3Icd+/165fuGx8fPLY64z2+tjbXKEnpJ3Vdfxpj/JyiKC9iLL8qZ/1n0tHpt7dCk6/lUguPsUjkwE7gYZ7nW0KhwOlQYPmtaHD53Xh47aPN8OoXyXj4eyRJv2ia9hshhMMYD6tIviHysXkpG1rGudiwhlMfQD73YNVpZVBV9aSqqp9JYs4j59KLci69JvBbISG7FZdEPk2wmtMIURQF6bIsWel0uhTc8NNIaJ0iMZspGPi8ZeHHa0BN05pN07xo5PNSTsiWw6ENGgxu0EgkTKObm9XrxkaALi0v0dnZGTY5Ocn6+/vYoGuA+teWeIySPwOIT9SACKEWwzA6dF2XA4F1OjDQz65e5Zjb7WJut5v19l5jHHeZXerpZt3dXdDZ+Ts4nR2M467QpXmPIKWGHSD+0VQDVr4fxtiZz+dROBKmvX29rLOrC1xuF3g8YzAyMgxDQ24Y/nMIPGOj4HYNQOWhvukJmt4cEXDoRweZbWva5ZAQ4rRME0m5LA34l5h/dR7i4VXIJtYgE1uEZNAHqfAM8KkViIYWwDd9k834PDS9fkFQ59oc4tCppuqZ3Am0TR0ZKEZxaoqRhBe0+BjoFcVGgITdoEXdYGQGQU2PwcriFBsdukJXPJ8KuRsvOIjnSBNA3W0gf8uhoSFL2qDappuRQA/gQE8VZmzdBGN7GszMBJhbTtAi5yGxdJn5xrvo8uhZQfC2OOzZHUBdRy26rjsLloGKWpZaop9Z/DyYGR9Y4irYagwKJMEKOMTMzDWGlz8H3vcVjf/1XXl7+nVB9T3qsGcf3v3KlU2pAg2ZWjjJTCXG8vIm0+UYM3CGFS2Flm2RFpQJqod+oGjxkxKaeyePZ56JGL7j31o3TzTWHMqy3Iwx7rAsQ7YMXNbULMWIp1jJUaxIVNdwqWjnDWonpRLiklbi64Dm/9Cn+l4aRN4mhzzWeCbjeugoQN2+KpAQ0qRh7DBNQ8jregFjVdf1vGjbdsK2i/5CqTRVLpCBguK9YCe/aS9GPz6nrba9iSZebpVGWk9lh599YOFi3V23/+N6QRCOybL8vqZhl6qiSVEU+wghvxaLxS/L5fLZUqn0RtEUWrVsV7Oy+N4j2sK5o5mF9kPAcftvBUs17u7U+vr63TzPn8QYv4IQOr29vf28LMtPmaZ5ghByfyaTOQQA/zRXYq0abdXM/J88rTrdn0gkDlbk9Xob/pWFtbyruPmPox31N8Xr6+WqGUmWAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#64533b",
+          "foreground": "#fff",
+          "population": 0.12,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4a2507",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#edc20d",
+          "foreground": "#000",
+          "population": 1.98,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4cbbc",
+          "foreground": "#000",
+          "population": 1.57,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f7e48e",
+          "foreground": "#000",
+          "population": 1.01,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7a7a87",
+          "foreground": "#fff",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#edc20d",
+          "foreground": "#000",
+          "population": 1.98,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9RiGDIA4f7VVmky2CiproLGEcnSHCKiHBA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "strepsils.png",
+    "path": "images/exm0v8dd/production/93a7d632b3987371f9759e0b8186d898c5904b79-304x270.png",
+    "sha1hash": "93a7d632b3987371f9759e0b8186d898c5904b79",
+    "size": 65648,
+    "uploadId": "7df86aa622f4ac71622d27183c496406dc639a0d",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/93a7d632b3987371f9759e0b8186d898c5904b79-304x270.png"
+  },
+  {
+    "_createdAt": "2026-10-29T10:42:50Z",
+    "_id": "image-a53608bf4e187a3a343a78e514ccd99699d95822-1672x941-png",
+    "_rev": "HO2SucSJbR946sC1S9OUmG",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-29T10:42:50Z",
+    "assetId": "a53608bf4e187a3a343a78e514ccd99699d95822",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MCRM#ZEdo{xu0c_3~EoM%3WU%Mxb0df8=}",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.7768331562167907,
+        "height": 941,
+        "width": 1672
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAB70lEQVQokUWRW2/TQBCF/bcRz4h/AI8gwUMFL1Q8QYVoK0iqpCFpkyZ17BA78SX2Zn3Z6+zFCK3DRZqH3ZG+M2fOeMIwabi0QlmpLZhOmU7ZTttOG6ttZ7pfRlmgQBBDKUm3deQf1/NyMS3uPKYJ17SX+MPrntdWSS1Bg3EqSmreyPpAD3G7C6pweVwt0INHVEtVy3oe/vJg5ZHjx2ztZwHm+NQUmtWyymkeNVFQhT5ee42sW6gJtEwRod0KYCQCdJUOXgxfvRy8vkwGJSDnpQNpeAsN4mVGs4QkHubHWuLG8c2JF5rHbH8WfHhy8ezpl+dnm/Md32urnP9OKSuF4UwTqoi3b5OcZoiXtawINBRII5qkTYfx+M3Nu7ej96NkWjIEWpyyPEnozkXrrZAf4DBu4gM9VALXokpwsoiXk2B2Nf/29e56urnf5NuKVm7znvlX3o9sdl88+Md1VEfOAit3eH8fLUb+7XA1Gq5Gt8F0uXtELQIjtZvpxvYq4H2Pb8bJZF48BDiM6jinecnKoi2yKktxmteHsikxxQwoWKncIUG5h8vf+xxeXkeDSTpblo8h/rlr9gUr+v1bCoQrl580Aow4wX1JsO7rffQ/XYSXw9347jD3UbCtopRkR4HcCaXLjynK3QmYMP9Velj8BnRpXz2dZ/zBAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#405d45",
+          "foreground": "#fff",
+          "population": 0.2,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#235331",
+          "foreground": "#fff",
+          "population": 1.41,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#235331",
+          "foreground": "#fff",
+          "population": 1.41,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b5d6b3",
+          "foreground": "#000",
+          "population": 0.2,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#acfacc",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6e9b7f",
+          "foreground": "#fff",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2dbf46",
+          "foreground": "#fff",
+          "population": 0.71,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "OugFBIK0B7famIeLgYicBzSZvw=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Paydens Healthcare Logo on Soft Mint Background.png",
+    "path": "images/exm0v8dd/production/a53608bf4e187a3a343a78e514ccd99699d95822-1672x941.png",
+    "sha1hash": "a53608bf4e187a3a343a78e514ccd99699d95822",
+    "size": 1427926,
+    "uploadId": "f1d5b66afea2d8576aab26d8fd2d2468acfa0483",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/a53608bf4e187a3a343a78e514ccd99699d95822-1672x941.png"
+  },
+  {
+    "_createdAt": "2026-10-29T10:46:03Z",
+    "_id": "image-c881e63730879edae20b6b1e95ec7c1f067fa994-1733x907-png",
+    "_rev": "5HSV4Is281AeZLOsLe3RJx",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-29T10:46:03Z",
+    "assetId": "c881e63730879edae20b6b1e95ec7c1f067fa994",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MMPst*?w9YV=g4xVxvt6xut7-qD%RkE1Ri",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.9106945975744212,
+        "height": 907,
+        "width": 1733
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACL0lEQVQokRXKyW7aQAAAUP9PP6RS1S/Iobf20GNPXS9VLz1FVaOoWdQlakSSFhJCQkIIITIBA7bxAsYGvI3XmfHYjBNzryq942M0IIF4nmVhQdEqR6t7tMrxKsdFjgoa59hMfTWyBFO6NIZlU6zO+ZPZoGKNzm2lwSACosSyoeZBA2I3JQHN4mUaZWlIs4Biexnp0JF0sS6y+wp3NBlUDKHmam1H7zI5jSW/d6D8qMglVmkNxz1Z54VJf6B2R9PBbCHGgRa7ynRU5zslpV8eD49VvixKVVasMnQZ9azWZm99b7jdHNWv+pf17vlZ56zWqTW4C06+tR3Vs0YyX+O7h8qgKnFH7fbXvdrrz6XnTJEjD84Fszt2h3YwNRxVnYvjhahZkm7LpqsEnuYshkL/mGP3+c6fu5ufhydv32w8XvvwiClyTLOYkGCZhWkaEOIniQexS4hHiIegiYKpY3SH7D7b2GUbe1dnm7/L7z9+e/by01PmgaL/G7mE+BA5CAGS+BF0MAYYuYFvxN7Ymtyyja3Lk/Xm6c7V6XbreveaLZ03D5iFO3GDWQztlPgYgSTxMhJgDEjiJRiEgR4BxdLYXutX+2KLuzkQ2PJMbgJLdUydWf+7UWYr8pyPkJWlQb6MHyi8X8b/ZVGG7STUI0d1ppyp3QGj7xv90ByF7gxYBvPk3dqLL692Lr4L836ELZpFBYUFhQ8UFss4J4DCRQbtDAUEhSQG2J9Dz4g903dm/wC3fusV+iwNzQAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#426f47",
+          "foreground": "#fff",
+          "population": 3.48,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3e660c",
+          "foreground": "#fff",
+          "population": 1.21,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#426f47",
+          "foreground": "#fff",
+          "population": 3.48,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a2c4d0",
+          "foreground": "#000",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bff199",
+          "foreground": "#000",
+          "population": 0.07,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#66869e",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4fc23b",
+          "foreground": "#fff",
+          "population": 0.18,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "tPgFDIIOhmenqZkdN9ywawWDtw=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Paydens Pharmacy_ Your Health Priority.png",
+    "path": "images/exm0v8dd/production/c881e63730879edae20b6b1e95ec7c1f067fa994-1733x907.png",
+    "sha1hash": "c881e63730879edae20b6b1e95ec7c1f067fa994",
+    "size": 1703081,
+    "uploadId": "9ef953394886e04dce78c575057f72c35ff7920c",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/c881e63730879edae20b6b1e95ec7c1f067fa994-1733x907.png"
+  },
+  {
+    "_createdAt": "2026-10-22T12:03:23Z",
+    "_id": "image-cf4495321ba0da5be95a509d9ca16f3160db14c9-304x270-png",
+    "_rev": "Do34aLCKi86vh09ZZNVy1Z",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-22T12:03:23Z",
+    "assetId": "cf4495321ba0da5be95a509d9ca16f3160db14c9",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "e6Kd#p?bGZ%L004:ofIAjaoJ00IUmRRj~q00RPyDW;%g00ay.SoL-;",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.125925925925926,
+        "height": 270,
+        "width": 304
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAEjUlEQVQ4jZ3UW2xTdRwH8DOCAmrw2agJaLgksvHmiyYm+qAv+mCIifrgJfHBxMQYNRjEVJMRIWOw0u6GwDpYxwChG91Gt66s7co6YGO32svp6fW0PT2XnktPz6Vb//+f6ST64Bu/5Jtv/v/8/5/HH0E8HiCIFgCihXiCAYCW/12AxbINoBloeYJs+xd9fNgpCMLuZgDgWQDYlclkdkYikacBYPvs7Oz2ZgPAUxjjHQD5XQBM891zzT+iKD5fLBafaVoEFoTdmia/bprmkXpd/9g0tSObpvaBYdTeMwz1HV3X39rY0N/Qdf1NVVXfNozau5qmvG+a1Q91Xf1IV+VPmt00mhZhSNJeU68er5tawNDVZV2rLtVNfWGzbgQbG+bMRt30GLo6Lgr8hCzyXkOrBQy9Fq4qlUWBLz9S5Mpy3dR9pqn/oOuVl4kqzx+sqWKvoSmcWhUbqiIiraYgXVM3q7JU59mSyZZoPZVMGNk0VZdEYVOtKohjSzibTqJyiW7UVLmgqcpJSWL2EjxfPKhIXK+mipxU4ZBc4bBY4TCVjOPw/Bz2z3hwKODDQb8P+7wePB/y43h0HeezKUzGIziXSSJF4mlVqZyQGGbPY1Do0WoiJwplJHAMzlAJGL3mhLMnfgXbqXa41G2FP7pOw9lfjkLXsR/htnMQopEViMfWcSYVb4J5TZXaJYnZQyg8f0CvKna9JrEsQ6NcKoFXFkJw1XYGTn/7NXR+9w10Hz8KPT99D9YvP4Xurz4DV+85eBjyw/JiGCcTESRLHK2plRNbIM8XDtQUyV5TRLaUSqD0vQCOjrtg/kIPzJxqB0+7Bbwdv4P/zCnw/fYzeC3HINRjhUc3hmF5egJTsTUkiWxBFssnc7ncK1ugIgl2WeTYQmwd5e64MT08CPmB85A+bweyxwpknw2oi32QvNALZL8NqD4bJC/2QWzsJs5GV5FUKRcFjunI5chXt8CKULYLXJHNxCOICgdxLjADWd8URMZuQtjpgNDQAMw5HTB/3Qmr7ltATk9AwjsJ0eBdnI5HkMAVGZ4pnKUpah9RSKcPcGXazpXzLBlfR/fnA8g3PYE97lE8MuTA/d1duMd2BndbT+P+bisecTrw+NifeNJ9CwdnvSgeXUMcQ5fZUt5aSKX2E1yhsJ/nCjZRKJUzqXhjLuBrjFy9jC5d7Ef9vTZkt3Yia1cHOtfVgfp7z6ErjgtoeMiBRpyDaGZ6skHG1xs8S7N8mbZxhdR+gqapfQJf7JRFNlUqZsTYXyvi/XBQDsx6FZ93QrnjdsmjN6/Kt0evSTPT41I4dFcKh/zNFpcXw2I2FZcEvpgW2GInR1P7CC6bfYFl8l+wTL4vmyUd8ejawPrqwyvLSwvOB2H/0F3vnStTk6OXpyZdg0Gfx/HgXnBw8cE9x+L90KWVpYUBioxeZorZPqaQ+zybjb5AkCS5gybJl3K55Gux2Grr4ry/NRycaZvzeQ77PO7Dk2M32sZuDLe5rg+1ulzXW70Trq1MTbkP+f3e1rW1pTaKih7K5xMvNq3/9uE/a+yJY7FYtjWtvwFbqR3lfUU8hgAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6c392f",
+          "foreground": "#fff",
+          "population": 0.05,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b61711",
+          "foreground": "#fff",
+          "population": 0.51,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e63233",
+          "foreground": "#fff",
+          "population": 1.19,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d0cc9c",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fc6c94",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b6775f",
+          "foreground": "#fff",
+          "population": 0.08,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e63233",
+          "foreground": "#fff",
+          "population": 1.19,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "cRiGBII5+EeLdXkzd1AHF3aAhVWICJd4BA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "rehydra.png",
+    "path": "images/exm0v8dd/production/cf4495321ba0da5be95a509d9ca16f3160db14c9-304x270.png",
+    "sha1hash": "cf4495321ba0da5be95a509d9ca16f3160db14c9",
+    "size": 74390,
+    "uploadId": "038654fb6f47ce2185429e9dd5e88d29b80418f4",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/cf4495321ba0da5be95a509d9ca16f3160db14c9-304x270.png"
+  },
+  {
+    "_createdAt": "2026-10-22T11:02:15Z",
+    "_id": "image-eeb3553a901e165ef7e86e4a8806ba353c746af8-120x120-png",
+    "_rev": "xFRl2LkqiZzMGL1Z5zLVgu",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-10-22T11:02:15Z",
+    "assetId": "eeb3553a901e165ef7e86e4a8806ba353c746af8",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eIIFlBo}22%1#RFMt7-9V@i^01f6?HWVRj~pV@8_o}X.KQoev}NGWB",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1,
+        "height": 120,
+        "width": 120
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAD/0lEQVQ4jV3T21MaVxwH8P0/+tiZzuSp7+1DJpNexrQdWycmqU21idRLYsxERS67wAIrCgKKqLl4iSjsLgssl70DC+wSbE205jLOlEmNYrUVBTX+BR0Wk2k785kz5+V7fuf8zjmAEWWNAdZUV5+jdYwRZYwBxuCnDX4K8tPgEq1bSmh8iYHH8b756L1ZErASgjWoIAQrwVuDvJUQEEIwY6x+LjQw6VPfDxgW4zDGwcrSYIDW+SnNYkK9EAdskZQiPUwqlIktktLP4N16c1fPnZ5BnXp8BkYZhBAsQcGE8xDGgiij89OAPZapc8Syjni2PiI4c8tou33jB0//Tbfm1gBkBGfxoXAKCSXNRNIYFOp5YDSR+x8nlTPMB9u7uq2qy5lxreCBRiC13jszFBJskbQlnIJDSVOQN2As4KSkd2QnJbmonJPKaryzqtYWT/eVwoSuMG18aB6AnB4rztpI0RJJWSJpOJQ0BnnAReVraNlFy25acjOSM5G5ax9vafrGpfpOGu2X3JoxdVefCTEHqJFoxhpJWyJpczhlIgTATecVtZibkcZY2U4KP4OWhovn9Vc+Z+Eu0tDZ+31jW889o48ciWaR/4QZ+SzGyGOM7OXyE/EU6HD3dqk8d3/ikB4U7GhvutTcekP7YMkWFa21nYvvw2c13Yw0zsiPxV+4X9ek5eVCTvwtGdug/SvkwiP3sMkMj/pwVyKLRDP/3vZZZRcjeViZLKwV32xVDvaPKwdH5b+qu1uV3a03xY31tWdP1tYD0tOReNasNLzeMNmlHNhF5yZZmVtZ39nZOa4cnFQPT0+OTt8eK45OT472ywfJ9Q0nJcHvw87a3UhOKjdK5bwJkRWzW6/WDrZfV/b3To4qb4+rdafVcnm3lFl97qKyJiUJYRxQe1XvjBF02D+3EZ/7s8DsFV8d/r1bPSxXD8uV/b3KHy9LqyKb4u2kYFCSIMoBw9FMTSwzHMs60JjP61h5aNyMTZWWub3ii3Jpc7+0uff7i91CvMjOhyMYEmQgnDsLI9EMQoo1UXEoEJtwINRQz/M5U5Gcfp3EtvNUaZnbyoS2E9MvwxNLeMCMM1Dtb/AgxgMW5dJryLQFY2wu18xgOwurZGdv3t2XH1c/8WqXJ7WrD3TivH3Kj5lwzoALEMbrUQ4wEUmYSMIhRZCHHy1ZocHhjubJjm99vc0Lvc33Oxs97V9P3WmZHLXaFsMGpawe47QoC4AoB6EshNVxOl/spsH+2VeXv7zwRVtT0+2Wq+1NjdcuNbReb+t3TBgCFIjzOpzTYuwgygI6P6P302cCbP9ctLFv6MPzVz/45Nq5ho6PG1TnLv740YXrn7ZqOj0BEOd0OK/FOA3Kqv3cP/xA8+RD7EovAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#202a35",
+          "foreground": "#fff",
+          "population": 6.02,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5d3827",
+          "foreground": "#fff",
+          "population": 2.01,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8cb4c2",
+          "foreground": "#000",
+          "population": 15.94,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8cb4c2",
+          "foreground": "#000",
+          "population": 15.94,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e0aa8a",
+          "foreground": "#000",
+          "population": 4.06,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#56809e",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cb8d72",
+          "foreground": "#000",
+          "population": 1.66,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "aNcFHwiYaHiHeIdxe/cneYiFd1BoB4UG"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "avatarwoman.png",
+    "path": "images/exm0v8dd/production/eeb3553a901e165ef7e86e4a8806ba353c746af8-120x120.png",
+    "sha1hash": "eeb3553a901e165ef7e86e4a8806ba353c746af8",
+    "size": 14055,
+    "uploadId": "e9897a3f24851e6f20eb24266e1e3f8ce0d8bfae",
+    "url": "https://cdn.sanity.io/images/exm0v8dd/production/eeb3553a901e165ef7e86e4a8806ba353c746af8-120x120.png"
+  }
+]
